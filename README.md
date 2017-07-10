@@ -28,6 +28,8 @@ To include projects, preprocessing scripts are necessary to clone project repos 
 bundle exec ruby _scripts/update-and-preprocess.rb
 ```
 
+> Note that you need to create a .netrc file to allow the ruby script to pull data using the github api.
+
 Then `bundle exec jekyll build` works as normal.
 
 ## Updating
