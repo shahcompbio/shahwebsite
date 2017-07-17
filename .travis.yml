@@ -8,6 +8,6 @@ deploy:
   on:
     branch: master
   local_dir: _site
-  repo: https://github.com/shahcompbio/shahcompbio.github.io.git
+  repo: shahcompbio/shahcompbio.github.io
   target_branch: master
   fqdn: shahlab.ca
