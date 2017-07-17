@@ -14,3 +14,6 @@ gem 'jekyll-press'
 # octokit
 gem 'octokit'
 gem 'netrc'
+
+gem 'rake'
+
