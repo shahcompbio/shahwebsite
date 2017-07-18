@@ -11,3 +11,10 @@ deploy:
   repo: shahcompbio/shahcompbio.github.io
   target_branch: master
   fqdn: shahlab.ca
+notifications:
+  email:
+    recipients:
+      - andrew.mcpherson@gmail.com
+      - jmaanaki@bccrc.ca
+    on_success: always
+    on_failure: always
