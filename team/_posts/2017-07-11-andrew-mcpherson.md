@@ -14,7 +14,7 @@ cv: /pdfs/team/andrew-mcpherson-cv.pdf
 - cancer genomics
 - machine learning
 
-![my pic](/images/team/andrew-mcpherson.jpg)
+![my pic]: https://github.com/shahcompbio/shahwebsite/blob/master/images/team/andrew-mcpherson.jpg
 
 # Bio
 
