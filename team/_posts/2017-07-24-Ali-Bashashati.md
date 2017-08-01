@@ -2,8 +2,7 @@
 layout: member
 title: Ali Bashashati
 position: Staff Scientist
-email: alibs@ece.ubc.ca
-email: abashash@bccrc.ca
+email: alibs@ece.ubc.ca/abashash@bccrc.ca
 ---
 
 I received my B.Sc. degree in Electrical Engineering from [Sharif University of Technology (SUT)]( http://www.sharif.edu/), Iran in 2000, the M.Sc. degree in Biomedical Engineering from [Amirkabir University of Technology (Tehran polytechnic)]( http://www.aut.ac.ir/), Iran in 2002, and the Ph.D. degree in Electrical & Computer Engineering from [University of British Columbia](https://www.ubc.ca), Canada in 2007.
