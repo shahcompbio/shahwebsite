@@ -3,7 +3,8 @@
 # permalink: /:categories/:year/:month/:day/:title 
 permalink: /:categories/:title 
 
-exclude: ["Gemfile", "*.rb", "README.md", "Rakefile"]
+exclude: ["Gemfile", "*.rb", "README.md", "Rakefile", "vendor/bundle"]
+
 highlighter: rouge
 
 markdown: kramdown
@@ -12,7 +13,6 @@ repository: shahcompbio/shahcompbio.github.io
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
-#
 title : Shah Lab
 tagline: Understanding the evolutionary principles by which cancers proliferate and metastasize
 institution:
@@ -35,11 +35,9 @@ author :
 # If you have set a CNAME (pages.github.com) set your custom domain here.
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
-#
 production_url : http://shahlab.ca
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
-#
 JB :
   version : 0.3.0
 
@@ -112,13 +110,13 @@ JB :
     provider : google
     google : 
       tracking_id : 'UA-103919622-1'
-    getclicky :
-      site_id : 
-    mixpanel :
-      token : '_MIXPANEL_TOKEN_'
-    piwik :
-      baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-      idsite : '1'                   # the id of the site on Piwik
+    #getclicky :
+      #site_id : 
+    #mixpanel :
+      #token : '_MIXPANEL_TOKEN_'
+    #piwik :
+      #baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+      #idsite : '1'                   # the id of the site on Piwik
 
   # Settings for sharing 
   # Sharing is for things like tweet, plusone, hn upvotes, like, linkedin
@@ -129,7 +127,6 @@ JB :
   # Add them all (i.e. hn + tweet + plusone + like) => provider : all
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
-  #
   sharing :
    provider : tweet
    twitter :
