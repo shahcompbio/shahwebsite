@@ -1,0 +1,15 @@
+---
+layout: default
+title: The Shah Lab
+categories:
+ - home
+---
+{% include JB/setup %}
+{% for page in site.categories.misc %}
+{% if page.contact %}
+	{% assign contactpage = page %}
+{% endif %}
+{% endfor %}
+
+<div class="bigspacer"></div>
+{{ contactpage.content }}

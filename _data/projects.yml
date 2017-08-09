@@ -1,0 +1,36 @@
+---
+- repo: amcpherson/remixt
+  title: remixt
+  owner: amcpherson
+  description: Clone-specific genomic structure estimation in cancer
+  url: "/projects/remixt/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  commits:
+  - date: 2017-06-26 18:33:29.000000000 Z
+    message: 'meta: added license to conda, bumped version'
+    url: https://github.com/amcpherson/remixt/commit/2867efa73c7217ad9262381cb6ed8488e608a1ea
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-06-26 18:28:58.000000000 Z
+    message: 'meta: MIT License'
+    url: https://github.com/amcpherson/remixt/commit/8b34d5a60ea95b9cb4f4535ed51b47396de09f8a
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-06-01 19:32:13.000000000 Z
+    message: 'build: conda version bump'
+    url: https://github.com/amcpherson/remixt/commit/8939ba87f94e6f4717e9046cc5f353ba0b5e3fb9
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-05-19 22:07:45.000000000 Z
+    message: 'minor: optionally dont update h'
+    url: https://github.com/amcpherson/remixt/commit/6310e6aaf88e2e49b423e149ffac00617b8e71c0
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-05-19 22:07:15.000000000 Z
+    message: 'minor: plot label'
+    url: https://github.com/amcpherson/remixt/commit/6402986372a239f118e72d6476c4205dbadb9097
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
