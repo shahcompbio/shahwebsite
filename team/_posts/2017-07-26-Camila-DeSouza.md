@@ -3,6 +3,8 @@ layout: member
 title: Camila de Souza
 position: Post-Doctoral fellow
 email: cdesouza@bccrc.ca
+image: /assets/images/team/default-member.png
+alum: false
 ---
 
 I am a postdoctoral fellow at the department of Pathology and Laboratory Medicine and the department of Statistics, UBC. I work at the Shah Lab for Computational Cancer Biologyat the BC Cancer Agency Research Centre under the supervision of Sohrab Shah.  

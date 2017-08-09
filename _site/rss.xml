@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>Shah Lab</title>
+        <description>Shah Lab - Sohrab P. Shah</description>
+        <link>http://shahlab.ca</link>
+        <link>http://shahlab.ca</link>
+        <lastBuildDate>2017-08-08T17:14:15-07:00</lastBuildDate>
+        <pubDate>2017-08-08T17:14:15-07:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>Research</title>
+                <description>
+&lt;h1 id=&quot;research&quot;&gt;Research&lt;/h1&gt;
+
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Why do some cancer patients respond to treatment, while others succumb to their disease?  Why are some treatments effective initially, but fail over time?  How do cancer cells acquire the ability to spread from one part of the body to another?  These are the fundamental and unresolved questions which motivate cancer research worldwide.  Viewing cancer progression through the lens of evolutionary theory, our approach to addressing these problems centers on studying the genomes of cancer cells as fundamental units of information encoding biological properties.  We have an active research program across several interrelated major topics including: Cancer evolution, single cell genomics, mutational signatures and prediction of drug response. The primary activities in the lab consist of experimental design, large-scale cancer (epi)genomics/transcriptome data analytics, development of machine learning and Bayesian statistics methods and biological study of ovarian, breast and lymphoid cancers.&lt;/p&gt;
+
+&lt;h2 id=&quot;cancer-evolution&quot;&gt;Cancer evolution&lt;/h2&gt;
+
+&lt;p&gt;Our lab is motivated by studying cancer through the lens of evolution.  We are engaged in several studies that span both temporal and spatial multi-sample studies of our cancers of interest.  Observing the dynamics of genomically-defined clones reflected in timeseries biopsies of patient tumours, patient-derived xenografts, or through spreading of clones across anatomical sites is a key area of interest for our lab.  For example in recent work, we have identified clonal expansion patterns underpinning histological transformation in follicular lymphoma, mapped the spread of clones within the peritoneal cavity of ovarian cancers and identified reproducible clonal dynamics in patient derived breast cancer xenografts.   Our current questions relate to drug selection and the interplay between malignant cells and the tumour microenvironment.&lt;/p&gt;
+
+&lt;p&gt;Relevant recent work: [link] [link] [link] [link]&lt;/p&gt;
+
+&lt;h2 id=&quot;single-cell-genomics-of-cancer&quot;&gt;Single cell genomics of cancer&lt;/h2&gt;
+
+&lt;p&gt;The unit of evolutionary selection in cancer is the cell.  Extraordinary progress in measurement technologies has made it possible to reliably and accurately sequence the genomes of individual cancer cells at scale.  We have recently optimized biophysical techniques and hidden Markov model approaches to ascertain highly accurate copy number profiles of thousands of cancer cells.  As such, studying the ‘population genetics’ of cancer cells is a tractable goal.  We are developing phylogenetics and fitness computational models through measuring the population dynamics of thousands of individual cancer cells across timeseries, spatial samples and in the presence of genetic and pharmacologic intervention.  These experiments and computational methods are improving our knowledge of background mutation rates, properties of positive and negative selection (not observable in bulk samples) and how phylogenetic topologies reflect the relative fitness of clones. Furthermore, as we integrate multi-modal measurements, profiling the evolving malignant population in the context of its tumour microenvironment will be a strong interest of the lab.&lt;/p&gt;
+
+&lt;p&gt;Relevant recent work: [link] [link] [link] [link]&lt;/p&gt;
+
+&lt;h2 id=&quot;mutational-signatures-in-dna-repair-deficient-cancers&quot;&gt;Mutational signatures in DNA repair deficient cancers&lt;/h2&gt;
+
+&lt;p&gt;We recently published a landmark study showing how the genomes of ovarian cancer histotypes reflect the DNA repair abnormalities they harbour.  We are interested in how to optimize the computational discovery of genome-wide structural and point mutational signatures and how signatures can identify treatment opportunities for ovarian and breast cancers.  This work is being carried out at bulk and single cell resolution.  In addition, we are working in translation capacity to develop a robust genome-wide test to stratify ovarian cancers in the clinic.&lt;/p&gt;
+
+&lt;p&gt;Relevant recent work: [link] [link] [link] [link]&lt;/p&gt;
+
+&lt;h2 id=&quot;selection-and-drug-response&quot;&gt;Selection and drug response&lt;/h2&gt;
+
+&lt;p&gt;“Making predictions is hard, especially about the future” - Nils Bohr (and many other variants attributed to other famous people: Mark Twain, Nostradamus, Yogi Berra, etc…) .  We have a keen interest in learning fitness trajectories from timeseries study of cancer populations within controlled interventions such as CRISPR or pharmacologic methods as a means to predict response to drugs.  Using extensions of population genetics theory, we are interested in predicting how cell populations will respond in the presence of a perturbation.  This is indeed ‘hard’ and entails the need to decipher stochastic drift, clonal interaction and positive selection.  Furthermore, drug response may not be encoded in the genome, requiring dynamic state switching through the epigenome and reflected in the transcriptome.  What proportion of drug response can be explained through encoded mutations in the genome?  This remains unknown. We are pursuing integrative, multimodal molecular views over time in bulk tissues and single cells as  substrate to address this question.&lt;/p&gt;
+
+&lt;h2 id=&quot;bioinformatics-and-software-development&quot;&gt;Bioinformatics and software development&lt;/h2&gt;
+
+&lt;p&gt;We invest heavily in developing robust analytical software for both internal and external use with broad distribution through open source repositories.&lt;/p&gt;
+
+&lt;h1 id=&quot;key-collaborators&quot;&gt;Key Collaborators:&lt;/h1&gt;
+
+&lt;p&gt;Vancouver: Sam Aparicio, David Huntsman, Jessica McAlpine, Carl Hansen, Alexandre Cote-Bouchard, Marco Marra
+Canada: Lincoln Stein, Paul Boutros, Anne-Marie Mes-Masson, Morag Park, Amit Oza
+International: Greg Hannon, Carlos Caldas, Ravi Pandya&lt;/p&gt;
+
+&lt;h1 id=&quot;funding-sources&quot;&gt;Funding sources:&lt;/h1&gt;
+
+&lt;p&gt;BC Cancer Foundation, CIHR, CCSRI, TFRI, CRUK, SU2C, CFI, Genome Canada, Genome BC, CANARIE, Microsoft, Canada Research Chairs, Michael Smith Foundation for Health Research&lt;/p&gt;
+
+</description>
+                <link>http://shahlab.ca/misc/research</link>
+                <guid>http://shahlab.ca/misc/research</guid>
+                <pubDate>2017-08-08T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>The Shah Lab</title>
+                <description>&lt;p&gt;The Shah Lab at BC Cancer focuses on understanding the evolutionary principles by which cancers proliferate and metastasize.&lt;/p&gt;
+</description>
+                <link>http://shahlab.ca/misc/home/home</link>
+                <guid>http://shahlab.ca/misc/home/home</guid>
+                <pubDate>2017-08-08T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>About</title>
+                <description>
+&lt;h1 id=&quot;about-this-site&quot;&gt;About this site&lt;/h1&gt;
+
+&lt;p&gt;This website uses Jekyll, among other technologies and is based off &lt;a href=&quot;http://bedford.io&quot;&gt;Trevor Bedford’s&lt;/a&gt; and &lt;a href=&quot;http://drummondlab.org/about.html&quot;&gt;D. Allan Drummond’s&lt;/a&gt; website templates.&lt;/p&gt;
+</description>
+                <link>http://shahlab.ca/misc/about</link>
+                <guid>http://shahlab.ca/misc/about</guid>
+                <pubDate>2017-08-08T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Welcome</title>
+                <description>&lt;p&gt;Welcome! This is the new Sohrab P. Shah Lab website, based off &lt;a href=&quot;http://bedford.io&quot;&gt;Trevor Bedford’s&lt;/a&gt; and &lt;a href=&quot;http://drummondlab.org/about.html&quot;&gt;D. Allan Drummond’s&lt;/a&gt; website template.&lt;/p&gt;
+</description>
+                <link>http://shahlab.ca/blog/welcome</link>
+                <guid>http://shahlab.ca/blog/welcome</guid>
+                <pubDate>2017-08-08T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Jessica Huebner</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Jessica-Ngo</link>
+                <guid>http://shahlab.ca/team/Jessica-Ngo</guid>
+                <pubDate>2017-08-04T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Curtis Huebner</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Curtis-Huebner</link>
+                <guid>http://shahlab.ca/team/Curtis-Huebner</guid>
+                <pubDate>2017-08-04T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Saeed Saberi</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Saeed-Saberi</link>
+                <guid>http://shahlab.ca/team/Saeed-Saberi</guid>
+                <pubDate>2017-08-03T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Daniel Lai</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Daniel-Lai</link>
+                <guid>http://shahlab.ca/team/Daniel-Lai</guid>
+                <pubDate>2017-08-03T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Samantha Leung</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Samantha-Leung</link>
+                <guid>http://shahlab.ca/team/Samantha-Leung</guid>
+                <pubDate>2017-08-02T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Diljot Grewal</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Diljot-Grewal</link>
+                <guid>http://shahlab.ca/team/Diljot-Grewal</guid>
+                <pubDate>2017-08-02T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Mirela Andronescu</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Mirela-Andronescu</link>
+                <guid>http://shahlab.ca/team/Mirela-Andronescu</guid>
+                <pubDate>2017-08-01T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Sohrab Salehi</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Sohrab-Salehi</link>
+                <guid>http://shahlab.ca/team/Sohrab-Salehi</guid>
+                <pubDate>2017-07-31T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Rebecca Asiimwe</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Rebecca-Asiimwe</link>
+                <guid>http://shahlab.ca/team/Rebecca-Asiimwe</guid>
+                <pubDate>2017-07-31T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Allen Zhang</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Allen-Zhang</link>
+                <guid>http://shahlab.ca/team/Allen-Zhang</guid>
+                <pubDate>2017-07-31T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Adi Steif</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Adi-Steif</link>
+                <guid>http://shahlab.ca/team/Adi-Steif</guid>
+                <pubDate>2017-07-31T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Alborz Mazloomian</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Alborz-Mazloomian</link>
+                <guid>http://shahlab.ca/team/Alborz-Mazloomian</guid>
+                <pubDate>2017-07-29T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Tyler Funnell</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Tyler-Funnell</link>
+                <guid>http://shahlab.ca/team/Tyler-Funnell</guid>
+                <pubDate>2017-07-28T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Fatemeh Dorri</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Fatemeh-Dorri</link>
+                <guid>http://shahlab.ca/team/Fatemeh-Dorri</guid>
+                <pubDate>2017-07-27T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Yikan Wang</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Yikan-Wang</link>
+                <guid>http://shahlab.ca/team/Yikan-Wang</guid>
+                <pubDate>2017-07-26T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Hossein Farahani</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/team/Hossein-Farahani</link>
+                <guid>http://shahlab.ca/team/Hossein-Farahani</guid>
+                <pubDate>2017-07-26T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Camila de Souza</title>
+                <description>&lt;p&gt;I am a postdoctoral fellow at the department of Pathology and Laboratory Medicine and the department of Statistics, UBC. I work at the Shah Lab for Computational Cancer Biologyat the BC Cancer Agency Research Centre under the supervision of Sohrab Shah.&lt;br /&gt;
+I completed my PhD in &lt;a href=&quot;https://www.stat.ubc.ca/&quot;&gt;Statistics at the University of British Columbia (UBC)&lt;/a&gt; under the supervision of Nancy Heckman. I received my Master’s Degree in Statistics at the University of Campinas (UNICAMP), Brazil, under the supervision of Ronaldo Dias. I also obtained my Bachelor’s Degree in Statistics from UNICAMP.&lt;/p&gt;
+</description>
+                <link>http://shahlab.ca/team/Camila-DeSouza</link>
+                <guid>http://shahlab.ca/team/Camila-DeSouza</guid>
+                <pubDate>2017-07-26T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Cydney Nielsen</title>
+                <description>&lt;p&gt;I am a Research Associate at the &lt;a href=&quot;http://www.ubc.ca/&quot;&gt;University of British Columbia&lt;/a&gt; working in the &lt;a href=&quot;http://compbio.bccrc.ca/&quot;&gt;Shah Lab for Computational Cancer Biology&lt;/a&gt; based at the &lt;a href=&quot;http://www.bccancer.bc.ca/&quot;&gt;British Columbia Cancer Agency&lt;/a&gt;.
+I completed my PhD in computational biology at &lt;a href=&quot;http://www.mit.edu/&quot;&gt;MIT&lt;/a&gt; and postdoctoral fellowship at the &lt;a href=&quot;http://www.bcgsc.ca/&quot;&gt;Michael Smith Genome Sciences Centre&lt;/a&gt;. My current work focuses on developing data visualization techniques and collaboratively applying them to answer pressing questions in genomics.&lt;/p&gt;
+</description>
+                <link>http://shahlab.ca/team/Cydney-Nielsen</link>
+                <guid>http://shahlab.ca/team/Cydney-Nielsen</guid>
+                <pubDate>2017-07-25T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Ali Bashashati</title>
+                <description>&lt;p&gt;I received my B.Sc. degree in Electrical Engineering from &lt;a href=&quot;http://www.sharif.edu/&quot;&gt;Sharif University of Technology (SUT)&lt;/a&gt;, Iran in 2000, the M.Sc. degree in Biomedical Engineering from &lt;a href=&quot;http://www.aut.ac.ir/&quot;&gt;Amirkabir University of Technology (Tehran polytechnic)&lt;/a&gt;, Iran in 2002, and the Ph.D. degree in Electrical &amp;amp; Computer Engineering from &lt;a href=&quot;https://www.ubc.ca&quot;&gt;University of British Columbia&lt;/a&gt;, Canada in 2007.
+Currently, I am a Staff Scientist and Director of Operation of Computational Biology Group at the Molecular Oncology Department of the &lt;a href=&quot;http://www.bccancer.bc.ca/&quot;&gt;British Columbia Cancer Agency&lt;/a&gt; Previous to this, I was an Eli-Lilly Canada research fellow and used to hold both the NSERC &amp;amp; MSFHR post-doctoral fellowships in the Molecular Oncology and Terry Fox Laboratory of the &lt;a href=&quot;http://www.bccrc.ca&quot;&gt;British Columbia Cancer Research Center&lt;/a&gt; in Vancouver, Canada.&lt;/p&gt;
+</description>
+                <link>http://shahlab.ca/team/Ali-Bashashati</link>
+                <guid>http://shahlab.ca/team/Ali-Bashashati</guid>
+                <pubDate>2017-07-24T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Contact</title>
+                <description>&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-6&quot;&gt;
+        &lt;address&gt;
+            BC Cancer Agency Research Centre&lt;br /&gt;
+            675 West 10th Avenue&lt;br /&gt;
+            Rm 4.108&lt;br /&gt;
+            Vancouver, BC&lt;br /&gt;
+            V5Z 1L3&lt;br /&gt;
+            &lt;br /&gt;
+            Phone: +1 604.675.8252&lt;br /&gt;
+            Email: sshah [at] bccrc [dot] ca&lt;br /&gt;
+            Twitter: @SohrabShah
+        &lt;/address&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-6&quot;&gt;
+        &lt;iframe class=&quot;pull-right&quot; src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.7237273648043!2d-123.12166164812054!3d49.26268218000623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673c2cb8966bf%3A0x8120a7e52adbc3f2!2sBC+Cancer+Research+Centre!5e0!3m2!1sen!2sca!4v1499907753719&quot; width=&quot;450&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;bigspacer&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-12&quot;&gt;
+        &lt;img class=&quot;pull-left&quot; src=&quot;/assets/images/BCCRC.jpg&quot; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+                <link>http://shahlab.ca/misc/contact</link>
+                <guid>http://shahlab.ca/misc/contact</guid>
+                <pubDate>2017-07-12T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Karey Shumansky</title>
+                <description>&lt;p&gt;Karey worked in the development team from 2008 until 2016.&lt;/p&gt;
+</description>
+                <link>http://shahlab.ca/team/karey-shumansky</link>
+                <guid>http://shahlab.ca/team/karey-shumansky</guid>
+                <pubDate>2017-07-11T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Andrew McPherson</title>
+                <description>&lt;p&gt;I am a Postdoctoral Fellow at the &lt;a href=&quot;http://pathology.ubc.ca&quot;&gt;Department of Pathology and Laboratory Medicine&lt;/a&gt; at &lt;a href=&quot;https://www.ubc.ca&quot;&gt;University of British Columbia&lt;/a&gt;.  I am interested in understanding how tumour cells evolve in response to the immune system and cancer treatment, with the aim of improving treatment options.  I currently work on the development of computational methods and infrastructure for single cell genome sequencing, with the intention of applying these methods to patient samples and derived xenografts.&lt;/p&gt;
+</description>
+                <link>http://shahlab.ca/team/andrew-mcpherson</link>
+                <guid>http://shahlab.ca/team/andrew-mcpherson</guid>
+                <pubDate>2017-07-11T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Sohrab Shah</title>
+                <description>&lt;p&gt;Dr. Sohrab Shah is an Associate Professor in the Departments of Pathology and Computer Science, University of British Columbia and is a Scientist at the BC Cancer Agency. He is the recipient of a Canada Research Chair in Computational Cancer Genomics, a Terry Fox New Investigator Award, and is a Michael Smith Foundation for Health Research Career Investigator. Dr. Shah’s work focuses on characterization of cancer genomes for determination of pathogenic driver mutations in cancer subtypes and measuring and quantifying tumour evolution. His work is in the field of computational cancer genomics and involves development of statistical models and machine learning algorithms to interpret next generation sequence data for defining mutational landscapes and quantifying clonal evolution in ovarian and breast cancers. His recent work describing new cancer genes in ovarian cancer has been published in the New England Journal of Medicine and his work describing mutational evolution in breast cancer has been featured in Nature.&lt;/p&gt;
+
+</description>
+                <link>http://shahlab.ca/team/Sohrab-Shah</link>
+                <guid>http://shahlab.ca/team/Sohrab-Shah</guid>
+                <pubDate>2017-07-10T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>ReMixT: clone-specific genomic structure estimation in cancer</title>
+                <description>&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Somatic evolution of malignant cells produces tumors composed of multiple clonal populations, distinguished in part by rearrangements and copy number changes affecting chromosomal segments. Whole-genome sequencing mixes the signals of sampled populations, diluting the signal of clone-specific aberrations, and complicating estimation of clone-specific genotypes. We introduce ReMixT, a method to unmix tumor and contaminating normal signals and jointly predict mixture proportions, clone-specific segment copy number, and clone specificity of breakpoints. ReMixT is free, open-source software, and is available at http://bitbucket.org/dranew/remixt.&lt;/p&gt;
+</description>
+                <link>http://shahlab.ca/papers/remixt</link>
+                <guid>http://shahlab.ca/papers/remixt</guid>
+                <pubDate>2017-07-08T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>E-scape: interactive visualization of single-cell phylogenetics and cancer evolution</title>
+                <description>
+</description>
+                <link>http://shahlab.ca/papers/escape</link>
+                <guid>http://shahlab.ca/papers/escape</guid>
+                <pubDate>2017-05-30T00:00:00-07:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>

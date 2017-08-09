@@ -4,6 +4,8 @@ title: Cydney Nielsen
 position: Research Associate
 email: cnielsen@bccrc.ca
 scholar: JavACE0AAAAJ
+image: /assets/images/team/default-member.png
+alum: false
 ---
 
 I am a Research Associate at the [University of British Columbia](http://www.ubc.ca/) working in the [Shah Lab for Computational Cancer Biology](http://compbio.bccrc.ca/) based at the [British Columbia Cancer Agency](http://www.bccancer.bc.ca/).
