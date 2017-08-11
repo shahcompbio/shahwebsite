@@ -5,7 +5,7 @@ position: Principal Investigator
 email: sshah@bccrc.ca
 scholar: qsWPRtsAAAAJ
 image: /assets/images/team/Sohrab-shah.jpg
-cv: /assets/pdfs/team/Sohrab-Shah-CV.docx
+cv: /assets/pdfs/team/Sohrab-Shah-CV.pdf
 alum: false
 ---
 
