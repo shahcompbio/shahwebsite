@@ -5,7 +5,7 @@ position: Research Associate
 email: cnielsen@bccrc.ca
 scholar: JavACE0AAAAJ
 image: /assets/images/team/default-member.png
-cv: /assets/pdfs/cydney_nielsen_cv
+cv: /assets/pdfs/team/cydney_nielsen_cv.pdf
 alum: false
 ---
 
