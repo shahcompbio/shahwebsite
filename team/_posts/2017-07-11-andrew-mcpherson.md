@@ -5,7 +5,7 @@ position: Postdoc
 email: andrew.mcpherson@gmail.com
 github: amcpherson
 scholar: _-vDPMQAAAAJ
-image: /assets/images/team/andrew-mcpherson.jpg
+image: /assets/images/team/McPherson-Andrew.jpg
 cv: /assets/pdfs/team/andrew-mcpherson-cv.pdf
 alum: false
 ---
