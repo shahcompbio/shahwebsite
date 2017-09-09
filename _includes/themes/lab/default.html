@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} | {{ site.title}}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
@@ -127,10 +127,12 @@
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="jb-bottom-collapse">
-        <ul class="nav navbar-nav navbar-left navbar-small">
-          <li><a href={{ site.department.url }}>{{ site.department.name }}</a></li>
-          <li><a href={{ site.institution.url }}>{{ site.institution.name }}</a></li>
-        </ul>
+        <a href={{ site.department.url }}>
+          <img class="logo" alt="{{ site.department.name }}" src={{ site.department.logo }}>
+        </a>
+        <a href={{ site.institution.url }}>
+          <img class="logo" alt="{{ site.institution.name }}" src={{ site.institution.logo }}>
+        </a>
         <ul class="nav navbar-nav navbar-right navbar-small">
           <li><a href='/about.html'>About</a></li>
           <li><a href='/about.html#join'>Join</a></li>
@@ -139,11 +141,8 @@
       </div><!-- /.navbar-collapse -->
     </div>
   </nav>
- 
-
 
     {% include JB/analytics %}
-
 
     <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
     <!-- Placed at the end of the document so the pages load faster -->
