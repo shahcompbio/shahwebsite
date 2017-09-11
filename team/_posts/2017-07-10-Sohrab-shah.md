@@ -11,3 +11,9 @@ alum: false
 
 Dr. Sohrab Shah is an Associate Professor in the Departments of Pathology and Computer Science, University of British Columbia and is a Scientist at the BC Cancer Agency. He is the recipient of a Canada Research Chair in Computational Cancer Genomics, a Terry Fox New Investigator Award, and is a Michael Smith Foundation for Health Research Career Investigator. Dr. Shah’s work focuses on characterization of cancer genomes for determination of pathogenic driver mutations in cancer subtypes and measuring and quantifying tumour evolution. His work is in the field of computational cancer genomics and involves development of statistical models and machine learning algorithms to interpret next generation sequence data for defining mutational landscapes and quantifying clonal evolution in ovarian and breast cancers. His recent work describing new cancer genes in ovarian cancer has been published in the New England Journal of Medicine and his work describing mutational evolution in breast cancer has been featured in Nature.
 
+<p><strong>Other affiliations:</strong><br />
+Faculty member, <a href="http://bcbioinformaticsgrad.ca/" target="_blank">CIHR/MSFHR Bioinformatics Program</a><br />
+Faculty member, UBC <a href="http://gsat.ubc.ca" target="_blank">Genome Science and Technology Graduate Program</a><br />
+Associate member, UBC <a href="http://cs.ubc.ca" target="_blank">Department of Computer Science</a><br />
+Associate member, <a href="http://www.bcgsc.ca/" target="_blank">Michael Smith Genome Sciences Centre</a><br />
+Adjunct Professor, SFU <a href="http://www.sfu.ca/computing.html" target="_blank">School of Computing Science</a></p>
