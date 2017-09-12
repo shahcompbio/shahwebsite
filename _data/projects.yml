@@ -1,4 +1,172 @@
 ---
+- repo: gavinha/TitanCNA
+  title: TitanCNA
+  owner: gavinha
+  description: Analysis of subclonal copy number alterations (CNA) and loss of heterozygosity
+    (LOH) in cancer
+  url: "/projects/TitanCNA/"
+  contributors:
+  - login: gavinha
+    avatar: https://avatars1.githubusercontent.com/u/9221688?v=4&s=50
+    url: https://github.com/gavinha
+  - login: lbeltrame
+    avatar: https://avatars0.githubusercontent.com/u/25192?v=4&s=50
+    url: https://github.com/lbeltrame
+  - login: dtenenba
+    avatar: https://avatars0.githubusercontent.com/u/2286826?v=4&s=50
+    url: https://github.com/dtenenba
+  - login: hpages
+    avatar: https://avatars1.githubusercontent.com/u/8810451?v=4&s=50
+    url: https://github.com/hpages
+  - login: mrjc42
+    avatar: https://avatars3.githubusercontent.com/u/2029097?v=4&s=50
+    url: https://github.com/mrjc42
+  commits:
+  - date: 2017-09-09 12:19:42.000000000 Z
+    message: |-
+      Merge pull request #9 from lbeltrame/simplify-scripts
+
+      Make titanCNA.R less verbose and clean the script up
+    url: https://github.com/gavinha/TitanCNA/commit/c45cc746a73f20967542f70584ca69d8b032394b
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2017-09-08 17:53:48.000000000 Z
+    message: resolve conflicts
+    url: https://github.com/gavinha/TitanCNA/commit/99c26541e01950fc646183445099634e9a8d89bc
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2017-09-08 17:41:10.000000000 Z
+    message: conflict with bioc - using ours
+    url: https://github.com/gavinha/TitanCNA/commit/992e3df1e00f317015eb2ff9508b7c97c2f69f40
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2017-09-08 17:35:18.000000000 Z
+    message: correctIntegerCN chrX call fix
+    url: https://github.com/gavinha/TitanCNA/commit/176a187e6bd5f40cd431b52ccc732e64f1346961
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2017-09-06 12:29:38.000000000 Z
+    message: Try harder to remove not useful noise when loading packages
+    url: https://github.com/gavinha/TitanCNA/commit/448fe7f19b6a58c3a3535a61d394181ffbafe9a0
+    author_login: lbeltrame
+    author_url: https://github.com/lbeltrame
+- repo: amcpherson/destruct
+  title: destruct
+  owner: amcpherson
+  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
+  url: "/projects/destruct/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  commits:
+  - date: 2017-08-01 23:55:09.000000000 Z
+    message: 'build: conda version bump'
+    url: https://github.com/amcpherson/destruct/commit/506d1d11e9ffb5285528bc7b8d4c2b01de28e8cc
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-08-01 23:52:57.000000000 Z
+    message: 'minor: pandas sort is deprecated, sort -> sort_values'
+    url: https://github.com/amcpherson/destruct/commit/6ff0b9a516b57914ffd6c2770ea5c15a0c1c63d9
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-05-04 22:44:23.000000000 Z
+    message: 'config: updated to latest dgv'
+    url: https://github.com/amcpherson/destruct/commit/62b573bdf3b7d27b19e6067f3fa759874fd91b2a
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-03-20 19:51:46.000000000 Z
+    message: 'minor: sim setup'
+    url: https://github.com/amcpherson/destruct/commit/698dc3ec274629d303896c681b2dd01acac01746
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-03-20 19:47:41.000000000 Z
+    message: 'build: added dependency'
+    url: https://github.com/amcpherson/destruct/commit/12e3aec02322358382c53bca3b0fe6fec0a2ebfd
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+- repo: amcpherson/defuse
+  title: defuse
+  owner: amcpherson
+  description: An Algorithm for Gene Fusion Discovery in Tumor RNA-Seq Data
+  url: "/projects/defuse/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  - login: duxan
+    avatar: https://avatars0.githubusercontent.com/u/3861912?v=4&s=50
+    url: https://github.com/duxan
+  - login: dfornika
+    avatar: https://avatars1.githubusercontent.com/u/145659?v=4&s=50
+    url: https://github.com/dfornika
+  commits:
+  - date: 2017-07-20 21:19:31.000000000 Z
+    message: 'build: remove perl from dependencies'
+    url: https://github.com/amcpherson/defuse/commit/0f198c242b823a0308008a13c4f15149a842fafa
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-07-19 23:51:37.000000000 Z
+    message: 'build: makefile builds libraries'
+    url: https://github.com/amcpherson/defuse/commit/3544e2b082b64e001a9201f6a2d739f3bd6d2a6f
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-07-20 20:45:06.000000000 Z
+    message: 'bugfix: default config file path, all scripts'
+    url: https://github.com/amcpherson/defuse/commit/874e8826039ae2e02ecefc5b428bff6527c22b61
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-07-18 22:52:34.000000000 Z
+    message: 'build: conda version bump'
+    url: https://github.com/amcpherson/defuse/commit/c1bc6ba85c109ba7b42c87003e682a97f3162e5e
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-07-18 22:49:42.000000000 Z
+    message: 'bugfix: default config file path'
+    url: https://github.com/amcpherson/defuse/commit/28fd9580ca39f6f53e489d1a9c3c32aa0fd37e27
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+- repo: shahcompbio/hmmcopy_utils
+  title: hmmcopy_utils
+  owner: shahcompbio
+  description: 
+  url: "/projects/hmmcopy_utils/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  - login: MO-BCCRC
+    avatar: https://avatars1.githubusercontent.com/u/16584712?v=4&s=50
+    url: https://github.com/MO-BCCRC
+  - login: jujubix
+    avatar: https://avatars3.githubusercontent.com/u/940516?v=4&s=50
+    url: https://github.com/jujubix
+  commits:
+  - date: 2017-07-18 20:22:26.000000000 Z
+    message: links in readme
+    url: https://github.com/shahcompbio/hmmcopy_utils/commit/5911bf69f11d8d185f7054098d39799d2c6894cc
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-07-18 20:18:09.000000000 Z
+    message: README.md edited online with Bitbucket
+    url: https://github.com/shahcompbio/hmmcopy_utils/commit/5ff06a37185f23ea00f95f6925e2561fa8702f0e
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-07-18 20:16:05.000000000 Z
+    message: README.md edited online with Bitbucket
+    url: https://github.com/shahcompbio/hmmcopy_utils/commit/b8f5936b824303e3e707ac48b702ab54217f814a
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-07-18 19:05:28.000000000 Z
+    message: renamed license
+    url: https://github.com/shahcompbio/hmmcopy_utils/commit/12d174ca728af5bc4f00199771a4d683ac35f034
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-07-18 19:05:10.000000000 Z
+    message: markdown readme
+    url: https://github.com/shahcompbio/hmmcopy_utils/commit/c9785fc97b06c0099e4e8c3b9b0ac500cef547f0
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
 - repo: amcpherson/remixt
   title: remixt
   owner: amcpherson
@@ -34,3 +202,409 @@
     url: https://github.com/amcpherson/remixt/commit/6402986372a239f118e72d6476c4205dbadb9097
     author_login: amcpherson
     author_url: https://github.com/amcpherson
+- repo: aroth85/pyclone
+  title: pyclone
+  owner: aroth85
+  description: Probabilistic model for inferring clonal population structure from
+    deep NGS sequencing.
+  url: "/projects/pyclone/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  commits:
+  - date: 2017-04-04 20:56:35.000000000 Z
+    message: 'bugfix: arguments for plotting functions'
+    url: https://github.com/aroth85/pyclone/commit/02dc951cf5934c473b7ae98939f7ec69f0f1745e
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-04-04 20:55:59.000000000 Z
+    message: 'feature: option to provide yaml file with override config paramaters
+      for run_analysis_pipeline'
+    url: https://github.com/aroth85/pyclone/commit/f67ab51285e803c517f12fd9c587d019505cd996
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-03-23 18:14:40.000000000 Z
+    message: "- ignore python compiled files"
+    url: https://github.com/aroth85/pyclone/commit/e8ece46b360d58f3c402c01f84a596e5c3505410
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-03-23 18:13:37.000000000 Z
+    message: |-
+      - markdown for license and readme
+      - move lib/pyclone to pyclone to work with setup.py
+    url: https://github.com/aroth85/pyclone/commit/2540d1c5f68649b881b0b0b73751124ffc0e02e0
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2017-03-15 13:59:02.000000000 Z
+    message: "- printing more info for run_analysis"
+    url: https://github.com/aroth85/pyclone/commit/b97e497c517ea1efaf4b8bd4c540066aae6ff676
+    author_login: 
+    author_url: 
+- repo: shahcompbio/timescape
+  title: timescape
+  owner: shahcompbio
+  description: 
+  url: "/projects/timescape/"
+  contributors:
+  - login: mas29
+    avatar: https://avatars2.githubusercontent.com/u/10438233?v=4&s=50
+    url: https://github.com/mas29
+  - login: maiasmith
+    avatar: https://avatars0.githubusercontent.com/u/18253994?v=4&s=50
+    url: https://github.com/maiasmith
+  - login: tinyheero
+    avatar: https://avatars0.githubusercontent.com/u/3268173?v=4&s=50
+    url: https://github.com/tinyheero
+  commits:
+  - date: 2017-02-04 19:58:59.000000000 Z
+    message: version bump
+    url: https://github.com/shahcompbio/timescape/commit/6eeebd2946e405fcb67612926fe95f6a69384b2d
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+  - date: 2017-02-04 19:55:55.000000000 Z
+    message: updated readme - redirect to vignettes
+    url: https://github.com/shahcompbio/timescape/commit/f1faf97ff0d91b643f8aa1e085c976b9944d3382
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+  - date: 2017-02-04 19:46:46.000000000 Z
+    message: updated README
+    url: https://github.com/shahcompbio/timescape/commit/5e70bd763ab41f2b7cc704ff2c8cf2d81d8f8097
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+  - date: 2017-02-04 19:37:16.000000000 Z
+    message: updated vignette with obtaining data section
+    url: https://github.com/shahcompbio/timescape/commit/8d53914b01f61a9ba00a15653fbc4c590712cfee
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+  - date: 2017-01-14 21:32:06.000000000 Z
+    message: updates to vignette and man pages; deleted unnecessary files
+    url: https://github.com/shahcompbio/timescape/commit/3783d20d5ad9486f50700ecb1bc641b6757a3031
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+- repo: shahcompbio/cellscape
+  title: cellscape
+  owner: shahcompbio
+  description: 
+  url: "/projects/cellscape/"
+  contributors:
+  - login: mas29
+    avatar: https://avatars2.githubusercontent.com/u/10438233?v=4&s=50
+    url: https://github.com/mas29
+  - login: maiasmith
+    avatar: https://avatars0.githubusercontent.com/u/18253994?v=4&s=50
+    url: https://github.com/maiasmith
+  commits:
+  - date: 2017-02-04 19:58:13.000000000 Z
+    message: version bump
+    url: https://github.com/shahcompbio/cellscape/commit/511a8b6a2d7c6eb28fddb83f1b29c2c1092d5bae
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+  - date: 2017-02-04 19:55:42.000000000 Z
+    message: updated readme - redirect to vignettes
+    url: https://github.com/shahcompbio/cellscape/commit/5f9991c03b9012e230abbf87756be44eb9bb20bb
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+  - date: 2017-02-04 19:50:41.000000000 Z
+    message: updated cellscape readme
+    url: https://github.com/shahcompbio/cellscape/commit/ebb7161821a171d8813d80c84fa5f3f0ad00620b
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+  - date: 2017-02-04 19:34:59.000000000 Z
+    message: vignette updated with clonal composition data process
+    url: https://github.com/shahcompbio/cellscape/commit/541cc2ac0605e112d9bd9d5b41f6afa166add69d
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+  - date: 2017-01-25 19:47:30.000000000 Z
+    message: readme modified
+    url: https://github.com/shahcompbio/cellscape/commit/163f35000d0f6dee99339e699e60f1d38fb19f7c
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+- repo: shahcompbio/mapscape
+  title: mapscape
+  owner: shahcompbio
+  description: 
+  url: "/projects/mapscape/"
+  contributors:
+  - login: mas29
+    avatar: https://avatars2.githubusercontent.com/u/10438233?v=4&s=50
+    url: https://github.com/mas29
+  - login: maiasmith
+    avatar: https://avatars0.githubusercontent.com/u/18253994?v=4&s=50
+    url: https://github.com/maiasmith
+  commits:
+  - date: 2017-02-04 19:57:18.000000000 Z
+    message: version bump
+    url: https://github.com/shahcompbio/mapscape/commit/3797d838f24b9acb08a696bdbf8bd385076b8f2d
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+  - date: 2017-02-04 19:56:04.000000000 Z
+    message: updated readme - redirect to vignettes
+    url: https://github.com/shahcompbio/mapscape/commit/a450b22bf74b7809217eb397e08077aa1495a955
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+  - date: 2017-02-04 19:49:10.000000000 Z
+    message: updated readme
+    url: https://github.com/shahcompbio/mapscape/commit/db88066280e7a3cc12b5720668988829b94d416a
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+  - date: 2017-02-04 19:36:30.000000000 Z
+    message: updated vignette with obtaining data info
+    url: https://github.com/shahcompbio/mapscape/commit/e63780733a3bf3227faea3c4845cc5aa10f46926
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+  - date: 2017-01-14 22:00:02.000000000 Z
+    message: update to vignette
+    url: https://github.com/shahcompbio/mapscape/commit/58f954abc05c217a3dc51976dc7de8bfa57b5aa4
+    author_login: maiasmith
+    author_url: https://github.com/maiasmith
+- repo: aroth85/JointSNVMix
+  title: JointSNVMix
+  owner: aroth85
+  description: Automatically exported from code.google.com/p/joint-snv-mix
+  url: "/projects/JointSNVMix/"
+  contributors:
+  - login: aroth85
+    avatar: https://avatars3.githubusercontent.com/u/369899?v=4&s=50
+    url: https://github.com/aroth85
+  commits:
+  - date: 2017-01-04 15:08:10.000000000 Z
+    message: added readme
+    url: https://github.com/aroth85/JointSNVMix/commit/a83cda57912c6f859fd8c42f6646575c0f8a753e
+    author_login: aroth85
+    author_url: https://github.com/aroth85
+  - date: 2017-01-04 14:52:30.000000000 Z
+    message: Add files via upload
+    url: https://github.com/aroth85/JointSNVMix/commit/9491127675d460917bb8e2d1bb3276d8cbde0725
+    author_login: aroth85
+    author_url: https://github.com/aroth85
+  - date: 2012-01-27 00:06:35.000000000 Z
+    message: Trying to merge dev and 0.8
+    url: https://github.com/aroth85/JointSNVMix/commit/1344e5f467ced6264a840ad1c26d294d1b0e8fe9
+    author_login: 
+    author_url: 
+  - date: 2012-01-27 00:06:09.000000000 Z
+    message: Merge with a4068a9f19ab5d29dd014518885c7d1a1d3568b3
+    url: https://github.com/aroth85/JointSNVMix/commit/4cb70b971f807e87202806cb4533304dff35be18
+    author_login: 
+    author_url: 
+  - date: 2012-01-27 00:04:28.000000000 Z
+    message: Merge with 62570e0a43eaf7b42323fe0a41c632b5be56bf75
+    url: https://github.com/aroth85/JointSNVMix/commit/98f43a205740ae668f4f6d8c63e2e64ec673b85c
+    author_login: 
+    author_url: 
+- repo: sohrabsa/ddclone
+  title: ddclone
+  owner: sohrabsa
+  description: ddClone -- Joint clustering of single cell and bulk data
+  url: "/projects/ddclone/"
+  contributors:
+  - login: sohrabsa
+    avatar: https://avatars0.githubusercontent.com/u/4334009?v=4&s=50
+    url: https://github.com/sohrabsa
+  commits:
+  - date: 2016-12-23 20:22:44.000000000 Z
+    message: SS adds modified Jaccard distance.
+    url: https://github.com/sohrabsa/ddclone/commit/19fb2f6aa7c9554f4414c20942df739830c89342
+    author_login: 
+    author_url: 
+  - date: 2016-12-19 03:14:29.000000000 Z
+    message: SS adds missing file.
+    url: https://github.com/sohrabsa/ddclone/commit/ea67e097cf5cec11a8ce1b4240976cacf085d890
+    author_login: 
+    author_url: 
+  - date: 2016-12-19 03:12:08.000000000 Z
+    message: SS adds missing file.
+    url: https://github.com/sohrabsa/ddclone/commit/c143c25003c77f17ae79e150e30225004f9af919
+    author_login: 
+    author_url: 
+  - date: 2016-12-19 02:58:57.000000000 Z
+    message: SS adds missing file.
+    url: https://github.com/sohrabsa/ddclone/commit/afc1857e5c4b78a951e345747539aaaf5159a00f
+    author_login: 
+    author_url: 
+  - date: 2016-12-19 02:50:03.000000000 Z
+    message: SS adds missing file.
+    url: https://github.com/sohrabsa/ddclone/commit/7a9964a7450613c51b0f3f4675b8fef5bc2435a6
+    author_login: 
+    author_url: 
+- repo: shahcompbio/snvmix
+  title: snvmix
+  owner: shahcompbio
+  description: 
+  url: "/projects/snvmix/"
+  contributors: []
+  commits:
+  - date: 2016-04-26 19:45:11.000000000 Z
+    message: initial commit
+    url: https://github.com/shahcompbio/snvmix/commit/99d9fecbc52b52ea5ed9c4124e07632af58c8bfb
+    author_login: 
+    author_url: 
+- repo: amcpherson/citup
+  title: citup
+  owner: amcpherson
+  description: Clonality inference in multiple tumor samples using phylogeny
+  url: "/projects/citup/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  - login: tinyheero
+    avatar: https://avatars0.githubusercontent.com/u/3268173?v=4&s=50
+    url: https://github.com/tinyheero
+  commits:
+  - date: 2016-03-29 21:21:08.000000000 Z
+    message: minor README fixes
+    url: https://github.com/amcpherson/citup/commit/71744ee22c8aec2ed507b1e49da5a78a10937965
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2016-03-29 21:20:04.000000000 Z
+    message: README changes
+    url: https://github.com/amcpherson/citup/commit/ad8cb5c8324eb30691b60b4745a348e4137a3102
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2016-03-29 20:56:08.000000000 Z
+    message: url fix in conda recipe
+    url: https://github.com/amcpherson/citup/commit/6b348eddc8b3f844a3541eaad7d633874769eead
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2016-03-29 20:49:02.000000000 Z
+    message: build number bump
+    url: https://github.com/amcpherson/citup/commit/0dc77e7123968877c93b476c74cb5c852bba83e3
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2016-03-29 20:48:06.000000000 Z
+    message: conda build scripts
+    url: https://github.com/amcpherson/citup/commit/10df60c3cfbfd21eb2ba8c96da183af4414b85b5
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+- repo: shahcompbio/postpy
+  title: postpy
+  owner: shahcompbio
+  description: 
+  url: "/projects/postpy/"
+  contributors:
+  - login: MO-BCCRC
+    avatar: https://avatars1.githubusercontent.com/u/16584712?v=4&s=50
+    url: https://github.com/MO-BCCRC
+  commits:
+  - date: 2016-03-04 20:42:26.000000000 Z
+    message: README.md edited online with Bitbucket
+    url: https://github.com/shahcompbio/postpy/commit/606620a9a263a9c8a9d70c46f663f50c3586225c
+    author_login: MO-BCCRC
+    author_url: https://github.com/MO-BCCRC
+  - date: 2016-03-04 20:29:19.000000000 Z
+    message: postpy
+    url: https://github.com/shahcompbio/postpy/commit/40faa759137fcec578353bf1cf207c419af293a1
+    author_login: 
+    author_url: 
+- repo: shahcompbio/jointsnvmix
+  title: jointsnvmix
+  owner: shahcompbio
+  description: 
+  url: "/projects/jointsnvmix/"
+  contributors: []
+  commits:
+  - date: 2016-03-04 20:18:28.000000000 Z
+    message: joinSVN commit
+    url: https://github.com/shahcompbio/jointsnvmix/commit/5ff451b8ef732dda7948609b96d53fbb31a3ef36
+    author_login: 
+    author_url: 
+- repo: shahcompbio/drivernet
+  title: drivernet
+  owner: shahcompbio
+  description: 
+  url: "/projects/drivernet/"
+  contributors:
+  - login: MO-BCCRC
+    avatar: https://avatars1.githubusercontent.com/u/16584712?v=4&s=50
+    url: https://github.com/MO-BCCRC
+  commits:
+  - date: 2016-03-04 19:39:34.000000000 Z
+    message: README.md edited online with Bitbucket
+    url: https://github.com/shahcompbio/drivernet/commit/90e1a2ddabba7e79398ac7ee43ca6703afebc5d5
+    author_login: MO-BCCRC
+    author_url: https://github.com/MO-BCCRC
+  - date: 2016-03-04 19:30:02.000000000 Z
+    message: DriverNet
+    url: https://github.com/shahcompbio/drivernet/commit/c36afbb06e09f15f22e90a74d568b4f136f4a099
+    author_login: 
+    author_url: 
+- repo: shahcompbio/apolloh
+  title: apolloh
+  owner: shahcompbio
+  description: 
+  url: "/projects/apolloh/"
+  contributors:
+  - login: MO-BCCRC
+    avatar: https://avatars1.githubusercontent.com/u/16584712?v=4&s=50
+    url: https://github.com/MO-BCCRC
+  commits:
+  - date: 2016-03-04 19:25:44.000000000 Z
+    message: README.md edited online with Bitbucket
+    url: https://github.com/shahcompbio/apolloh/commit/cc7d05003907d9746ff4e9f4627f871946165193
+    author_login: MO-BCCRC
+    author_url: https://github.com/MO-BCCRC
+  - date: 2016-03-04 18:39:14.000000000 Z
+    message: APOLLOH
+    url: https://github.com/shahcompbio/apolloh/commit/8c77facde7f8c7cde2414d34a2c665ecce5fd701
+    author_login: 
+    author_url: 
+- repo: shahcompbio/xseq
+  title: xseq
+  owner: shahcompbio
+  description: 
+  url: "/projects/xseq/"
+  contributors:
+  - login: Jerry001
+    avatar: https://avatars2.githubusercontent.com/u/4073376?v=4&s=50
+    url: https://github.com/Jerry001
+  commits:
+  - date: 2016-02-01 21:12:27.000000000 Z
+    message: trim connections
+    url: https://github.com/shahcompbio/xseq/commit/32b5e70abb61b34d69124e9d6008db80b9b42cef
+    author_login: Jerry001
+    author_url: https://github.com/Jerry001
+  - date: 2015-10-05 05:29:34.000000000 Z
+    message: v0.2.2
+    url: https://github.com/shahcompbio/xseq/commit/ead37378b8768e454c37eac6beb0bd7d1c4af0eb
+    author_login: Jerry001
+    author_url: https://github.com/Jerry001
+  - date: 2015-10-05 05:21:31.000000000 Z
+    message: Init
+    url: https://github.com/shahcompbio/xseq/commit/b55375a860e5c8785bad9008b64f81af94f7c12d
+    author_login: Jerry001
+    author_url: https://github.com/Jerry001
+- repo: aroth85/scg
+  title: scg
+  owner: aroth85
+  description: Software for inference of clonal genotypes using targeted single cell
+    (nucleus) sequencing.
+  url: "/projects/scg/"
+  contributors: []
+  commits:
+  - date: 2015-07-29 20:16:39.000000000 Z
+    message: Updated distribution files.
+    url: https://github.com/aroth85/scg/commit/fca49296289f2c9a0d981258d318dcb1ae6053ee
+    author_login: aroth85
+    author_url: https://github.com/aroth85
+  - date: 2015-07-21 18:29:29.000000000 Z
+    message: Updated install readme
+    url: https://github.com/aroth85/scg/commit/d1c758b301bc927a153df8f254ebd6209bcc0eeb
+    author_login: aroth85
+    author_url: https://github.com/aroth85
+  - date: 2015-06-11 19:15:56.000000000 Z
+    message: WS
+    url: https://github.com/aroth85/scg/commit/1a358f922ed99bd80388bfb9aff92c7b7f5fbf58
+    author_login: aroth85
+    author_url: https://github.com/aroth85
+  - date: 2015-05-01 23:42:27.000000000 Z
+    message: Updated to support initial labels file
+    url: https://github.com/aroth85/scg/commit/671ef9d62731705c3fe4ef747e75339d3d4989e1
+    author_login: aroth85
+    author_url: https://github.com/aroth85
+  - date: 2015-04-10 02:22:37.000000000 Z
+    message: Added tag 0.3.0 for changeset b9f7d3a7a2c5
+    url: https://github.com/aroth85/scg/commit/0489d5fa230d65313973c2daba28f32e8fbfc44f
+    author_login: aroth85
+    author_url: https://github.com/aroth85
