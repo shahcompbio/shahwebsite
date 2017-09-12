@@ -4,7 +4,7 @@ title: Cydney Nielsen
 position: Research Associate
 email: cnielsen@bccrc.ca
 scholar: JavACE0AAAAJ
-image: /assets/images/team/Nielsen-Cydney.jpg
+image: /assets/images/team/Nielsen-Cydney.JPG
 cv: /assets/pdfs/team/cydney_nielsen_cv.pdf
 alum: false
 ---
