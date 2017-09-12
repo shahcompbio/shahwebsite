@@ -8,5 +8,5 @@ cv: /assets/pdfs/team/CV_CamiladeSouza.pdf
 alum: false
 ---
 
-I am a postdoctoral fellow at the department of Pathology and Laboratory Medicine and the department of Statistics, UBC. I work at the Shah Lab for Computational Cancer Biologyat the BC Cancer Agency Research Centre under the supervision of Sohrab Shah.  
-I completed my PhD in [Statistics at the University of British Columbia (UBC)](https://www.stat.ubc.ca/) under the supervision of Nancy Heckman. I received my Master's Degree in Statistics at the University of Campinas (UNICAMP), Brazil, under the supervision of Ronaldo Dias. I also obtained my Bachelor's Degree in Statistics from UNICAMP.
+I am a Statistician and currently a postdoctoral research fellow at the Shah Lab for Computational Cancer Biology at the [BC Cancer Agency Research Centre](http://www.bccrc.ca/). I completed my PhD in Statistics at the [University of British Columbia (UBC)](https://www.stat.ubc.ca/) under the supervision of Nancy Heckman. I am originally from Brazil where I received my Master's and Bachelor's Degrees both in Statistics at the University of Campinas. My main research areas of interest include method development and analysis of  genomic data, nonparametric regression, functional data analysis, density estimation, machine learning, latent variable modelling and applications to energy consumption data.
+
