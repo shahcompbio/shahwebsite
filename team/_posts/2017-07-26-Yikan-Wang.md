@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Yikan Wang
-position: Post-Doctoral fellow
+position: Postdoctoral Fellow
 email: ywang@bccrc.ca
 image: /assets/images/team/default-member.png
 alum: false

@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Alborz Mazloomian
-position: Graduate student
+position: Graduate Student
 email: amazloomian@bccrc.ca
 image: /assets/images/team/Mazloomian-Alborz.jpg
 alum: true
