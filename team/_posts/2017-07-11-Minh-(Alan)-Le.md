@@ -1,9 +1,7 @@
 ---
 layout: member
-title: Spencer Vatrt-Watts
+title: Minh (Alan) Le
 position: Co-op Student
-email: svatrt@bccrc.ca
-github: Spenca
 image: /assets/images/team/default-member.png
-alum: false
+alum: true
 ---

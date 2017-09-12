@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Andrew McPherson
-position: Postdoc
+position: Postdoctoral Fellow
 email: andrew.mcpherson@gmail.com
 github: amcpherson
 scholar: _-vDPMQAAAAJ

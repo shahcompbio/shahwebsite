@@ -1,9 +1,7 @@
 ---
 layout: member
-title: Hossein Farahani
+title: Yifei Huang
 position: Postdoctoral Fellow
-email: hfarahani@bccrc.ca
 image: /assets/images/team/default-member.png
-alum: false
+alum: true
 ---
-
