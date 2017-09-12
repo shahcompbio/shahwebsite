@@ -70,18 +70,23 @@ module Projects
 					commit_date = commit.commit.author.date
 					commit_message = commit.commit.message
 					commit_url = commit.rels[:html].href
+					
+					commit_author_login = nil
+					commit_author_url = nil
+
 					if commit.author != nil then
 						commit_author_login = commit.author.login
 						commit_author_url = commit.author.rels[:html].href				
-						project_commits = project_commits.push(
-							"date" => commit_date,
-							"message" => commit_message,
-							"url" => commit_url,
-							"author_login" => commit_author_login,							
-							"author_url" => commit_author_url					
-						)
 					end
-				
+					
+					project_commits = project_commits.push(
+						"date" => commit_date,
+						"message" => commit_message,
+						"url" => commit_url,
+						"author_login" => commit_author_login,							
+						"author_url" => commit_author_url					
+					)
+					
 				end
 			
 				# assemble metadata
