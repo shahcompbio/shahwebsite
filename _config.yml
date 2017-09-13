@@ -177,10 +177,8 @@ projects:
   - shahcompbio/cellscape
   - shahcompbio/drivernet
   - shahcompbio/hmmcopy_utils
-  - shahcompbio/jointsnvmix
   - shahcompbio/mapscape
-  # mutationseq is currently not included because its repo exceeds the size allowed on GitHub
-  # - shahcompbio/mutationseq
+  - shahcompbio/mutationseq
   - shahcompbio/postpy
   - shahcompbio/snvmix
   - shahcompbio/timescape

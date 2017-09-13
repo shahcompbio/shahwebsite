@@ -1,4 +1,40 @@
 ---
+- repo: shahcompbio/mutationseq
+  title: mutationseq
+  owner: shahcompbio
+  description: Software for somatic SNV detection using next generation sequencing
+    (NGS) data.
+  url: "/projects/mutationseq/"
+  contributors:
+  - login: MO-BCCRC
+    avatar: https://avatars1.githubusercontent.com/u/16584712?v=4&s=50
+    url: https://github.com/MO-BCCRC
+  commits:
+  - date: 2017-09-13 18:31:23.000000000 Z
+    message: Update README
+    url: https://github.com/shahcompbio/mutationseq/commit/7833b030fa65dc1a49f8bb1fd2db99fb9f8ee4d3
+    author_login: Spenca
+    author_url: https://github.com/Spenca
+  - date: 2017-03-15 18:35:20.000000000 Z
+    message: updated README
+    url: https://github.com/shahcompbio/mutationseq/commit/e743fb28dc195558c4f9c88621e0509f39f4b4a4
+    author_login: 
+    author_url: 
+  - date: 2017-03-15 18:16:50.000000000 Z
+    message: updated to v4.3.8
+    url: https://github.com/shahcompbio/mutationseq/commit/7bf5e00a84bd6d0f8422f11725f20dbb93aff7f0
+    author_login: 
+    author_url: 
+  - date: 2016-03-04 20:27:35.000000000 Z
+    message: readme.txt edited online with Bitbucket
+    url: https://github.com/shahcompbio/mutationseq/commit/9cff87f73f9e54f0258217cfde416ddc041167f1
+    author_login: MO-BCCRC
+    author_url: https://github.com/MO-BCCRC
+  - date: 2016-03-04 20:22:17.000000000 Z
+    message: museq commit
+    url: https://github.com/shahcompbio/mutationseq/commit/3436a0614a8618f91129fe57d73c146a08712dee
+    author_login: 
+    author_url: 
 - repo: gavinha/TitanCNA
   title: TitanCNA
   owner: gavinha
@@ -129,7 +165,8 @@
 - repo: shahcompbio/hmmcopy_utils
   title: hmmcopy_utils
   owner: shahcompbio
-  description: 
+  description: Tools for extracting read counts and gc and mappability statistics
+    in preparation for running HMMCopy.
   url: "/projects/hmmcopy_utils/"
   contributors:
   - login: amcpherson
@@ -244,7 +281,7 @@
 - repo: shahcompbio/timescape
   title: timescape
   owner: shahcompbio
-  description: 
+  description: Visualization tool for temporal clonal evolution.
   url: "/projects/timescape/"
   contributors:
   - login: mas29
@@ -285,7 +322,8 @@
 - repo: shahcompbio/cellscape
   title: cellscape
   owner: shahcompbio
-  description: 
+  description: Visualization tool for integrating single cell phylogeny with genomic
+    content to clearly display evolutionary progression and tumour heterogeneity.
   url: "/projects/cellscape/"
   contributors:
   - login: mas29
@@ -323,7 +361,7 @@
 - repo: shahcompbio/mapscape
   title: mapscape
   owner: shahcompbio
-  description: 
+  description: Visualization tool for spatial clonal evolution.
   url: "/projects/mapscape/"
   contributors:
   - login: mas29
@@ -431,7 +469,8 @@
 - repo: shahcompbio/snvmix
   title: snvmix
   owner: shahcompbio
-  description: 
+  description: Software to detect single nucleotide variants from next generation
+    sequencing data.
   url: "/projects/snvmix/"
   contributors: []
   commits:
@@ -481,7 +520,7 @@
 - repo: shahcompbio/postpy
   title: postpy
   owner: shahcompbio
-  description: 
+  description: Set of tools to help with post-processing PyClone results.
   url: "/projects/postpy/"
   contributors:
   - login: MO-BCCRC
@@ -498,22 +537,11 @@
     url: https://github.com/shahcompbio/postpy/commit/40faa759137fcec578353bf1cf207c419af293a1
     author_login: 
     author_url: 
-- repo: shahcompbio/jointsnvmix
-  title: jointsnvmix
-  owner: shahcompbio
-  description: 
-  url: "/projects/jointsnvmix/"
-  contributors: []
-  commits:
-  - date: 2016-03-04 20:18:28.000000000 Z
-    message: joinSVN commit
-    url: https://github.com/shahcompbio/jointsnvmix/commit/5ff451b8ef732dda7948609b96d53fbb31a3ef36
-    author_login: 
-    author_url: 
 - repo: shahcompbio/drivernet
   title: drivernet
   owner: shahcompbio
-  description: 
+  description: Package to predict functional important driver genes in cancer by integrating
+    genome data and transcriptome data.
   url: "/projects/drivernet/"
   contributors:
   - login: MO-BCCRC
@@ -533,7 +561,8 @@
 - repo: shahcompbio/apolloh
   title: apolloh
   owner: shahcompbio
-  description: 
+  description: Hidden Markov model (HMM) for predicting somatic loss of heterozygosity
+    and allelic imbalance in whole tumour genome sequencing data.
   url: "/projects/apolloh/"
   contributors:
   - login: MO-BCCRC
@@ -553,7 +582,8 @@
 - repo: shahcompbio/xseq
   title: xseq
   owner: shahcompbio
-  description: 
+  description: A hierarchical Bayesian approach to assess functional impact of mutations
+    on gene expression in cancer.
   url: "/projects/xseq/"
   contributors:
   - login: Jerry001
