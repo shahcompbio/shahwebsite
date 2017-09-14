@@ -6,6 +6,7 @@ email: sshah@bccrc.ca
 scholar: qsWPRtsAAAAJ
 image: /assets/images/team/Sohrab-Shah.jpg
 cv: /assets/pdfs/team/Sohrab-Shah-CV.pdf
+BioSketch: /assets/pdfs/team/Shah-Biosketch.pdf
 alum: false
 ---
 
