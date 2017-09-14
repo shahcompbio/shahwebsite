@@ -9,6 +9,9 @@
   - login: MO-BCCRC
     avatar: https://avatars1.githubusercontent.com/u/16584712?v=4&s=50
     url: https://github.com/MO-BCCRC
+  - login: Spenca
+    avatar: https://avatars0.githubusercontent.com/u/16676440?v=4&s=50
+    url: https://github.com/Spenca
   commits:
   - date: 2017-09-13 18:31:23.000000000 Z
     message: Update README
@@ -466,6 +469,43 @@
     url: https://github.com/sohrabsa/ddclone/commit/7a9964a7450613c51b0f3f4675b8fef5bc2435a6
     author_login: 
     author_url: 
+- repo: jtaghiyar/kronos
+  title: kronos
+  owner: jtaghiyar
+  description: " A workflow assembler for cancer genome analytics and informatics"
+  url: "/projects/kronos/"
+  contributors:
+  - login: jtaghiyar
+    avatar: https://avatars0.githubusercontent.com/u/1679815?v=4&s=50
+    url: https://github.com/jtaghiyar
+  commits:
+  - date: 2016-10-06 18:04:54.000000000 Z
+    message: updated the version to 2.3.0.
+    url: https://github.com/jtaghiyar/kronos/commit/6cc3665f43b5868ad98def762c533eb74dd501e1
+    author_login: jtaghiyar
+    author_url: https://github.com/jtaghiyar
+  - date: 2016-10-06 18:04:28.000000000 Z
+    message: updated README.md.
+    url: https://github.com/jtaghiyar/kronos/commit/d2c9eb03c950e0c18c96e0b6101d9fe682d54d6e
+    author_login: jtaghiyar
+    author_url: https://github.com/jtaghiyar
+  - date: 2016-10-06 17:35:09.000000000 Z
+    message: added a mechanism to update the requirements of the implicit merge via
+      General section, KRONOS-82.
+    url: https://github.com/jtaghiyar/kronos/commit/e9f4259768c8b64fd11358894bfe8349ccf61422
+    author_login: jtaghiyar
+    author_url: https://github.com/jtaghiyar
+  - date: 2016-08-02 21:36:56.000000000 Z
+    message: bug fix, KRONOS-81.
+    url: https://github.com/jtaghiyar/kronos/commit/799e1dd96c74d6ead2aec3471862610d2753cae0
+    author_login: jtaghiyar
+    author_url: https://github.com/jtaghiyar
+  - date: 2016-07-25 23:40:57.000000000 Z
+    message: fixed the problem where multiple similar merges could happen. Now, each
+      required implicit merge happens only once.
+    url: https://github.com/jtaghiyar/kronos/commit/b5932f5b5c1abc26d2cdc9571dedb0fc42c52f30
+    author_login: jtaghiyar
+    author_url: https://github.com/jtaghiyar
 - repo: shahcompbio/snvmix
   title: snvmix
   owner: shahcompbio

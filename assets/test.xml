@@ -1,0 +1,806 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2017//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_170101.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">12835277</PMID>
+        <DateCreated>
+            <Year>2003</Year>
+            <Month>07</Month>
+            <Day>01</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2004</Year>
+            <Month>04</Month>
+            <Day>08</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2013</Year>
+            <Month>05</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1367-4803</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>19</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2003</Year>
+                        <Month>Jul</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>GeneComber: combining outputs of gene prediction programs for improved results.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1296-7</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="UNLABELLED">We recently demonstrated that combining the output from Genscan and HMMgene can provide increased accuracy of gene predictions. We have created a robust software system that runs algorithms previously described on DNA sequences and provides a public web interface to the system for use by the biological community worldwide. The GeneComber system performs ab initio gene prediction by first taking a user inputted DNA sequence and running Genscan and HMMgene. The outputs of Genscan and HMMgene are then integrated using the EUI, GI and EUI_frame algorithms. All results are then stored into a relational database management system (RDBMS) and can then be retrieved through a web interface. The web interface provides a unified view of the GeneComber predictions by graphically overlaying outputs from Genscan, HMMgene, EUI, GI and EUI_frame. Outputs can also be retrieved in general feature format (GFF) or FASTA format. The software is written in the Perl programming language and is both dependent on and interoperable with the Bioperl toolkit. It includes high-level application programming interfaces (APIs) to run Genscan, HMMgene and a database API to insert prediction results into an RDBMS. The APIs are assembled into the genecomber script which is executed by the web interface or can be run directly from the Unix command line. The web interface is written in PHP and is structured so as to be easily modified for viewing data from any database that stores gene structures.</AbstractText>
+                <AbstractText Label="AVAILABILITY" NlmCategory="BACKGROUND">The GeneComber public web interface and supplementary information is located at http://bioinformatics.ubc.ca/genecomber The source code is released under the GNU General Public License and is available at ftp://ftp.bioinformatics.ubc.ca/pub/genecomber/software.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Sohrab P</ForeName>
+                    <Initials>SP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>UBC Bioinformatics Centre, University of British Columbia, 950 28th Ave W, Vancouver, BC V5Z4H4 Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McVicker</LastName>
+                    <ForeName>Graham P</ForeName>
+                    <Initials>GP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mackworth</LastName>
+                    <ForeName>Alan K</ForeName>
+                    <Initials>AK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rogic</LastName>
+                    <ForeName>Sanja</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ouellette</LastName>
+                    <ForeName>B F Francis</ForeName>
+                    <Initials>BF</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003628" MajorTopicYN="Y">Database Management Systems</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D030541" MajorTopicYN="Y">Databases, Genetic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020869" MajorTopicYN="N">Gene Expression Profiling</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019146" MajorTopicYN="N">Hypermedia</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="Y">Software</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018511" MajorTopicYN="N">Systems Integration</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014584" MajorTopicYN="Y">User-Computer Interface</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2003</Year>
+                <Month>7</Month>
+                <Day>2</Day>
+                <Hour>5</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2004</Year>
+                <Month>4</Month>
+                <Day>9</Day>
+                <Hour>5</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2003</Year>
+                <Month>7</Month>
+                <Day>2</Day>
+                <Hour>5</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">12835277</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">15096276</PMID>
+        <DateCreated>
+            <Year>2004</Year>
+            <Month>05</Month>
+            <Day>11</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2004</Year>
+            <Month>06</Month>
+            <Day>07</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2014</Year>
+            <Month>06</Month>
+            <Day>09</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>5</Volume>
+                    <PubDate>
+                        <Year>2004</Year>
+                        <Month>Apr</Month>
+                        <Day>19</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Pegasys: software for executing and integrating analyses of biological sequences.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>40</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">We present Pegasys--a flexible, modular and customizable software system that facilitates the execution and data integration from heterogeneous biological sequence analysis tools.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The Pegasys system includes numerous tools for pair-wise and multiple sequence alignment, ab initio gene prediction, RNA gene detection, masking repetitive sequences in genomic DNA as well as filters for database formatting and processing raw output from various analysis tools. We introduce a novel data structure for creating workflows of sequence analyses and a unified data model to store its results. The software allows users to dynamically create analysis workflows at run-time by manipulating a graphical user interface. All non-serial dependent analyses are executed in parallel on a compute cluster for efficiency of data generation. The uniform data model and backend relational database management system of Pegasys allow for results of heterogeneous programs included in the workflow to be integrated and exported into General Feature Format for further analyses in GFF-dependent tools, or GAME XML for import into the Apollo genome editor. The modularity of the design allows for new tools to be added to the system with little programmer overhead. The database application programming interface allows programmatic access to the data stored in the backend through SQL queries.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The Pegasys system enables biologists and bioinformaticians to create and manage sequence analysis workflows. The software is released under the Open Source GNU General Public License. All source code and documentation is available for download at http://bioinformatics.ubc.ca/pegasys/.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Sohrab P</ForeName>
+                    <Initials>SP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>UBC Bioinformatics Centre, University of British Columbia, Vancouver, British Columbia, Canada. sohrab@bioinformatics.ubc.ca</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>He</LastName>
+                    <ForeName>David Y M</ForeName>
+                    <Initials>DY</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sawkins</LastName>
+                    <ForeName>Jessica N</ForeName>
+                    <Initials>JN</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Druce</LastName>
+                    <ForeName>Jeffrey C</ForeName>
+                    <Initials>JC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Quon</LastName>
+                    <ForeName>Gerald</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lett</LastName>
+                    <ForeName>Drew</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zheng</LastName>
+                    <ForeName>Grace X Y</ForeName>
+                    <Initials>GX</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>Tao</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ouellette</LastName>
+                    <ForeName>B F Francis</ForeName>
+                    <Initials>BF</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D003160">Comparative Study</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2004</Year>
+                <Month>04</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>9007-49-2</RegistryNumber>
+                <NameOfSubstance UI="D004247">DNA</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2002 Oct;12(10):1599-610</RefSource>
+                <PMID Version="1">12368253</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2002 Aug;18(8):1034-45</RefSource>
+                <PMID Version="1">12176826</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2003 Jan 1;31(1):439-41</RefSource>
+                <PMID Version="1">12520045</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2002;3(12):RESEARCH0081</RefSource>
+                <PMID Version="1">12537570</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2002;3(12):RESEARCH0082</RefSource>
+                <PMID Version="1">12537571</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2003 Apr;13(4):721-31</RefSource>
+                <PMID Version="1">12654723</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2003 Apr 15;31(8):2187-95</RefSource>
+                <PMID Version="1">12682369</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2003;19 Suppl 1:i225-31</RefSource>
+                <PMID Version="1">12855463</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2003 Aug;13(8):1904-15</RefSource>
+                <PMID Version="1">12869579</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2001;2:7</RefSource>
+                <PMID Version="1">11667947</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 1981 Mar 25;147(1):195-7</RefSource>
+                <PMID Version="1">7265238</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 1990 Oct 5;215(3):403-10</RefSource>
+                <PMID Version="1">2231712</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 1997 Mar 1;25(5):955-64</RefSource>
+                <PMID Version="1">9023104</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 1997 Apr 25;268(1):78-94</RefSource>
+                <PMID Version="1">9149143</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 1997 Sep 1;25(17):3389-402</RefSource>
+                <PMID Version="1">9254694</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Int Conf Intell Syst Mol Biol. 1997;5:179-86</RefSource>
+                <PMID Version="1">9322033</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 1998 Jan 15;26(2):544-8</RefSource>
+                <PMID Version="1">9421513</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 1998 Sep;8(9):967-74</RefSource>
+                <PMID Version="1">9750195</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 1999 Dec 1;27(23):4636-41</RefSource>
+                <PMID Version="1">10556321</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biotechnol. 2000 Mar 31;78(3):293-9</RefSource>
+                <PMID Version="1">10751690</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Genet. 2000 Jun;16(6):276-7</RefSource>
+                <PMID Version="1">10827456</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2000 Nov;16(11):1040-1</RefSource>
+                <PMID Version="1">11159316</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2001 Mar 1;29(5):1185-90</RefSource>
+                <PMID Version="1">11222768</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2001 May;11(5):803-16</RefSource>
+                <PMID Version="1">11337476</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2001;17 Suppl 1:S140-8</RefSource>
+                <PMID Version="1">11473003</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2002 Jan 1;30(1):38-41</RefSource>
+                <PMID Version="1">11752248</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2003 Jan 1;31(1):229-33</RefSource>
+                <PMID Version="1">12519988</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D019295" MajorTopicYN="N">Computational Biology</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+                <QualifierName UI="Q000639" MajorTopicYN="N">trends</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003196" MajorTopicYN="N">Computer Graphics</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004247" MajorTopicYN="N">DNA</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D030541" MajorTopicYN="N">Databases, Genetic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005716" MajorTopicYN="N">Game Theory</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018740" MajorTopicYN="N">Genetic Heterogeneity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011381" MajorTopicYN="N">Programming Languages</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016415" MajorTopicYN="N">Sequence Alignment</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+                <QualifierName UI="Q000639" MajorTopicYN="N">trends</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017422" MajorTopicYN="N">Sequence Analysis, DNA</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="Y">Software</DescriptorName>
+                <QualifierName UI="Q000639" MajorTopicYN="N">trends</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012985" MajorTopicYN="N">Software Design</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014584" MajorTopicYN="N">User-Computer Interface</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC406494</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2004</Year>
+                <Month>02</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2004</Year>
+                <Month>04</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2004</Year>
+                <Month>4</Month>
+                <Day>21</Day>
+                <Hour>5</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2004</Year>
+                <Month>6</Month>
+                <Day>21</Day>
+                <Hour>10</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2004</Year>
+                <Month>4</Month>
+                <Day>21</Day>
+                <Hour>5</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">15096276</ArticleId>
+            <ArticleId IdType="doi">10.1186/1471-2105-5-40</ArticleId>
+            <ArticleId IdType="pii">1471-2105-5-40</ArticleId>
+            <ArticleId IdType="pmc">PMC406494</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">15723693</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>03</Month>
+            <Day>17</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2006</Year>
+            <Month>01</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2014</Year>
+            <Month>06</Month>
+            <Day>08</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>6</Volume>
+                    <PubDate>
+                        <Year>2005</Year>
+                        <Month>Feb</Month>
+                        <Day>21</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC bioinformatics</Title>
+                <ISOAbbreviation>BMC Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Atlas - a data warehouse for integrative bioinformatics.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>34</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">We present a biological data warehouse called Atlas that locally stores and integrates biological sequences, molecular interactions, homology information, functional annotations of genes, and biological ontologies. The goal of the system is to provide data, as well as a software infrastructure for bioinformatics research and development.</AbstractText>
+                <AbstractText Label="DESCRIPTION" NlmCategory="METHODS">The Atlas system is based on relational data models that we developed for each of the source data types. Data stored within these relational models are managed through Structured Query Language (SQL) calls that are implemented in a set of Application Programming Interfaces (APIs). The APIs include three languages: C++, Java, and Perl. The methods in these API libraries are used to construct a set of loader applications, which parse and load the source datasets into the Atlas database, and a set of toolbox applications which facilitate data retrieval. Atlas stores and integrates local instances of GenBank, RefSeq, UniProt, Human Protein Reference Database (HPRD), Biomolecular Interaction Network Database (BIND), Database of Interacting Proteins (DIP), Molecular Interactions Database (MINT), IntAct, NCBI Taxonomy, Gene Ontology (GO), Online Mendelian Inheritance in Man (OMIM), LocusLink, Entrez Gene and HomoloGene. The retrieval APIs and toolbox applications are critical components that offer end-users flexible, easy, integrated access to this data. We present use cases that use Atlas to integrate these sources for genome annotation, inference of molecular interactions across species, and gene-disease associations.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The Atlas biological data warehouse serves as data infrastructure for bioinformatics research and development. It forms the backbone of the research activities in our laboratory and facilitates the integration of disparate, heterogeneous biological sources of data enabling new scientific inferences. Atlas achieves integration of diverse data sets at two levels. First, Atlas stores data of similar types using common data models, enforcing the relationships between data types. Second, integration is achieved through a combination of APIs, ontology, and tools. The Atlas software is freely available under the GNU General Public License at: http://bioinformatics.ubc.ca/atlas/</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Sohrab P</ForeName>
+                    <Initials>SP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>UBC Bioinformatics Centre, University of British Columbia, Vancouver, BC, Canada. sohrab@bioinformatics.ubc.ca &lt;sohrab@bioinformatics.ubc.ca&gt;</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huang</LastName>
+                    <ForeName>Yong</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>Tao</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yuen</LastName>
+                    <ForeName>Macaire M S</ForeName>
+                    <Initials>MM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ling</LastName>
+                    <ForeName>John</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ouellette</LastName>
+                    <ForeName>B F Francis</ForeName>
+                    <Initials>BF</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2005</Year>
+                <Month>02</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Bioinformatics</MedlineTA>
+            <NlmUniqueID>100965194</NlmUniqueID>
+            <ISSNLinking>1471-2105</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D012333">RNA, Messenger</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2003 Jan 21;100(2):605-10</RefSource>
+                <PMID Version="1">12529507</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2002;3(12):RESEARCH0082</RefSource>
+                <PMID Version="1">12537571</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2002 Oct 25;3:32</RefSource>
+                <PMID Version="1">12401134</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2003 Dec 12;19(18):2351-8</RefSource>
+                <PMID Version="1">14668218</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2004 Jan 1;32(Database issue):D23-6</RefSource>
+                <PMID Version="1">14681350</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2004 Jan 1;32(Database issue):D27-30</RefSource>
+                <PMID Version="1">14681351</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2004 Jan 1;32(Database issue):D31-4</RefSource>
+                <PMID Version="1">14681352</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2004 Jan 1;32(Database issue):D35-40</RefSource>
+                <PMID Version="1">14681353</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2004 Jan 1;32(Database issue):D115-9</RefSource>
+                <PMID Version="1">14681372</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2004 Jan 1;32(Database issue):D258-61</RefSource>
+                <PMID Version="1">14681407</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2004 Jan 1;32(Database issue):D449-51</RefSource>
+                <PMID Version="1">14681454</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2004 Jan 1;32(Database issue):D452-5</RefSource>
+                <PMID Version="1">14681455</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2004 Jan 1;32(Database issue):D497-501</RefSource>
+                <PMID Version="1">14681466</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Res. 2004 Jan;14(1):160-9</RefSource>
+                <PMID Version="1">14707178</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Biotechnol. 2004 Feb;22(2):177-83</RefSource>
+                <PMID Version="1">14755292</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2004 Apr 19;5:40</RefSource>
+                <PMID Version="1">15096276</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pac Symp Biocomput. 1998;:683-94</RefSource>
+                <PMID Version="1">9697222</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 1999 Jun;15(6):510-20</RefSource>
+                <PMID Version="1">10383475</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Chem. 1999 Sep 24;274(39):27975-80</RefSource>
+                <PMID Version="1">10488147</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Leukoc Biol. 2000 Mar;67(3):441-7</RefSource>
+                <PMID Version="1">10733106</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2000 May;25(1):25-9</RefSource>
+                <PMID Version="1">10802651</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2000 Feb;16(2):184-5</RefSource>
+                <PMID Version="1">10842744</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2000 May;16(5):465-77</RefSource>
+                <PMID Version="1">10871269</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2001 Jan 1;29(1):11-6</RefSource>
+                <PMID Version="1">11125038</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2001 Jan 1;29(1):137-40</RefSource>
+                <PMID Version="1">11125071</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2001 Jan 1;29(1):242-5</RefSource>
+                <PMID Version="1">11125103</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Genet. 2002 Dec;32 Suppl:469-73</RefSource>
+                <PMID Version="1">12454640</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brief Bioinform. 2002 Dec;3(4):331-41</RefSource>
+                <PMID Version="1">12511062</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2003 Jan 1;31(1):51-4</RefSource>
+                <PMID Version="1">12519945</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2003 Jan 1;31(1):94-6</RefSource>
+                <PMID Version="1">12519956</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2003 Jan 1;31(1):248-50</RefSource>
+                <PMID Version="1">12519993</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2003 Oct 10;302(5643):249-55</RefSource>
+                <PMID Version="1">12934013</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D019295" MajorTopicYN="N">Computational Biology</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="Y">instrumentation</QualifierName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003196" MajorTopicYN="N">Computer Graphics</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003628" MajorTopicYN="N">Database Management Systems</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019992" MajorTopicYN="N">Databases as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016208" MajorTopicYN="N">Databases, Factual</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D030541" MajorTopicYN="Y">Databases, Genetic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020869" MajorTopicYN="N">Gene Expression Profiling</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016678" MajorTopicYN="N">Genome</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015894" MajorTopicYN="N">Genome, Human</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D023281" MajorTopicYN="N">Genomics</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016247" MajorTopicYN="N">Information Storage and Retrieval</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020407" MajorTopicYN="N">Internet</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008957" MajorTopicYN="N">Models, Genetic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011381" MajorTopicYN="N">Programming Languages</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D025941" MajorTopicYN="N">Protein Interaction Mapping</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012333" MajorTopicYN="N">RNA, Messenger</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012984" MajorTopicYN="N">Software</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014584" MajorTopicYN="N">User-Computer Interface</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC554782</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2004</Year>
+                <Month>09</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2005</Year>
+                <Month>02</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>2</Month>
+                <Day>23</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2006</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2005</Year>
+                <Month>2</Month>
+                <Day>23</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">15723693</ArticleId>
+            <ArticleId IdType="pii">1471-2105-6-34</ArticleId>
+            <ArticleId IdType="doi">10.1186/1471-2105-6-34</ArticleId>
+            <ArticleId IdType="pmc">PMC554782</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+</PubmedArticleSet>

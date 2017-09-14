@@ -18,5 +18,7 @@ config["projects"].each do |repo|
 end
 
 Dir.chdir($basedir)
+
 `ruby _scripts/preprocess-markdown.rb`
 `ruby _scripts/generate-project-data.rb`
+`ruby _scripts/add-papers.rb`

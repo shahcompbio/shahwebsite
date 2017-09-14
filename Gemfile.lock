@@ -201,6 +201,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   netrc
+  nokogiri
   rake
 
 BUNDLED WITH
