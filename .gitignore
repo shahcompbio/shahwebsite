@@ -16,3 +16,7 @@ _site
 # Projects
 projects/*
 !projects/index.html
+
+# Duplicate papers
+papers/_posts/2017-05-30-escape.md
+paper/_posts/2017-07-08-remixt.md
