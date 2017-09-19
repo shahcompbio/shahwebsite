@@ -39,14 +39,16 @@ xml.xpath('//PubmedArticle').each do |article|
 	file.puts("doi: " + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="doi"]').text)
 	file.puts("---")
 	file.puts("")
-	file.puts("# Abstract")
-	file.puts("")
-	
-	abstracts = article.xpath('MedlineCitation/Article/Abstract/AbstractText')
-	abstracts.each do |abstract|
-		file.puts(abstract.text)
-		file.puts("")	
+	if article.at_xpath('MedlineCitation/Article/Abstract/AbstractText') then
+		file.puts("# Abstract")
+		file.puts("")
+		
+		abstracts = article.xpath('MedlineCitation/Article/Abstract/AbstractText')
+		abstracts.each do |abstract|
+			file.puts(abstract.text)
+			file.puts("")	
+		end
 	end
-	
+
 	file.close
 end
