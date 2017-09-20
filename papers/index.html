@@ -33,12 +33,12 @@ navorder: 3
         </div>
       </div>
       {% endif %}
-      <div class="smallspacer"></div>
+      <!-- <div class="smallspacer"></div> -->
       <div class="note">
         {{ paper.journal }}
       </div>
     </div>
-    {% cycle 'close rows': '', '', '</div><div class="bigspacer"></div>' %}
+    {% cycle 'close rows': '', '', '</div><div class="bigspacer"></div><div class="spacer"></div>' %}
 {% endfor %}
 <!--{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}-->
 
