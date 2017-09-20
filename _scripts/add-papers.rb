@@ -28,12 +28,11 @@ xml.xpath('//PubmedArticle').each do |article|
 	
 	file.puts("")
 
-	file.puts("year: " + article.xpath('MedlineCitation/Article/Journal/JournalIssue/PubDate/Year').text)
 	file.puts("ref: " + article.xpath('MedlineCitation/Article/AuthorList/Author/LastName')[0].text + " et al. " + article.xpath('MedlineCitation/Article/Journal/JournalIssue/PubDate/Year').text + ". " + article.xpath('MedlineCitation/Article/Journal/ISOAbbreviation').text + ".")
 	if article.at_xpath('MedlineCitation/Article/Journal/JournalIssue/Volume') then
-		file.puts("journal: " + "\"" + article.xpath('MedlineCitation/Article/Journal/Title').text + " " + "<b>" + article.xpath('MedlineCitation/Article/Journal/JournalIssue/Volume').text + "</b>" + ", " + article.xpath('MedlineCitation/Article/Pagination/MedlinePgn').text + "\"")
+		file.puts("journal: " + "\"" + article.xpath('MedlineCitation/Article/Journal/Title').text + " " + "<b>" + article.xpath('MedlineCitation/Article/Journal/JournalIssue/Volume').text + "</b>" + ", " + article.xpath('MedlineCitation/Article/Pagination/MedlinePgn').text + " (" + article.xpath('MedlineCitation/Article/Journal/JournalIssue/PubDate/Year').text + ")\"")
 	else
-		file.puts("journal: " + "\"" + article.xpath('MedlineCitation/Article/Journal/Title').text + " " + article.xpath('MedlineCitation/Article/Pagination/MedlinePgn').text + "\"")
+		file.puts("journal: " + "\"" + article.xpath('MedlineCitation/Article/Journal/Title').text + " " + article.xpath('MedlineCitation/Article/Pagination/MedlinePgn').text + " (" + article.xpath('MedlineCitation/Article/Journal/JournalIssue/PubDate/Year').text + ")\"")
 	end
 	file.puts("pdf: /assets/pdfs/papers/" + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="pubmed"]').text + ".pdf")
 	file.puts("doi: " + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="doi"]').text)
