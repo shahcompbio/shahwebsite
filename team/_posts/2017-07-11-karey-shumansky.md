@@ -2,7 +2,7 @@
 layout: member
 title: Karey Shumansky
 position: Research Assistant
-image: /assets/images/team/default-member.png
+image: /assets/images/team/Shumansky-Karey.jpg
 alum: true
 ---
 

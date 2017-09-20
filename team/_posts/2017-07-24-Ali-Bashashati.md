@@ -3,7 +3,7 @@ layout: member
 title: Ali Bashashati
 position: Staff Scientist
 email: abashash@bccrc.ca
-image: /assets/images/team/default-member.png
+image: /assets/images/team/Bashahati-Ali.jpg
 alum: false
 ---
 

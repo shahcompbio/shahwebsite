@@ -3,7 +3,7 @@ layout: member
 title: Hossein Farahani
 position: Postdoctoral Fellow
 email: hfarahani@bccrc.ca
-image: /assets/images/team/default-member.png
+image: /assets/images/team/Farahani-Hossein.jpg
 alum: false
 ---
 
