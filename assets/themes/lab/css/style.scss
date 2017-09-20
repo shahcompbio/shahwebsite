@@ -242,6 +242,13 @@ strong {
 .carousel-indicators {
   bottom:0px;
 }
+.carousel-indicators li {
+  background-color: #D3D3D3;
+  box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+  background-color: #ffff99;
+}
 
 .carousel-overlay { 
 	position:absolute;
