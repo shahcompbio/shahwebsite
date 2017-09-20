@@ -34,7 +34,9 @@ xml.xpath('//PubmedArticle').each do |article|
 	else
 		file.puts("journal: " + "\"" + article.xpath('MedlineCitation/Article/Journal/Title').text + " " + article.xpath('MedlineCitation/Article/Pagination/MedlinePgn').text + " (" + article.xpath('MedlineCitation/Article/Journal/JournalIssue/PubDate/Year').text + ")\"")
 	end
-	file.puts("pdf: /assets/pdfs/papers/" + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="pubmed"]').text + ".pdf")
+	if File.exists? File.expand_path("", "assets/pdfs/papers/" + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="pubmed"]').text + ".pdf") then
+		file.puts("pdf: /assets/pdfs/papers/" + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="pubmed"]').text + ".pdf")
+	end
 	file.puts("doi: " + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="doi"]').text)
 	file.puts("---")
 	file.puts("")
