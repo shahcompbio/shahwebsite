@@ -23,7 +23,9 @@ navorder: 4
                 <a class="off" href="{{ project.commits.first.url }}">
                 {{ project.commits.first.date | date: "%-d %b %Y" }}
                 </a>
-                by
+                {% if project.commits.first.author_url %}
+                    by
+                {% endif %}
                 <a class="off" href="{{ project.commits.first.author_url }}">                
                 {{ project.commits.first.author_login }}
                 </a>
