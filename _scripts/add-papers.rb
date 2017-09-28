@@ -38,6 +38,11 @@ xml.xpath('//PubmedArticle').each do |article|
 		file.puts("pdf: /assets/pdfs/papers/" + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="pubmed"]').text + ".pdf")
 	end
 	file.puts("doi: " + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="doi"]').text)
+	if article.at_xpath('MedlineCitation/Article/Journal/JournalIssue/Volume') then
+		file.puts("abbrev: " + "\"" + article.xpath('MedlineCitation/Article/Journal/ISOAbbreviation').text + " " + "<b>" + article.xpath('MedlineCitation/Article/Journal/JournalIssue/Volume').text + "</b>" + ", " + article.xpath('MedlineCitation/Article/Pagination/MedlinePgn').text + " (" + article.xpath('MedlineCitation/Article/Journal/JournalIssue/PubDate/Year').text + ")\"")
+	else
+		file.puts("abbrev: " + "\"" + article.xpath('MedlineCitation/Article/Journal/ISOAbbreviation').text + " " + article.xpath('MedlineCitation/Article/Pagination/MedlinePgn').text + " (" + article.xpath('MedlineCitation/Article/Journal/JournalIssue/PubDate/Year').text + ")\"")
+	end
 	file.puts("---")
 	file.puts("")
 	if article.at_xpath('MedlineCitation/Article/Abstract/AbstractText') then
