@@ -101,7 +101,7 @@ title: Home
 					<!--Posted-->
 					<!--{{ news.date | date_to_string }}-->
 					<!--{% if author %}-->
-					<!--by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>-->
+					<!--by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>-->
 					<!--{% endif %}						-->
 				<!--</div>-->
 				<!--<div class="spacer"></div>	-->
@@ -135,7 +135,7 @@ title: Home
 					Posted
 					{{ post.date | date_to_string }}
 					{% if author %}
-					by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
+					by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
 					{% endif %}						
 				</div>
 				<div class="spacer"></div>	
