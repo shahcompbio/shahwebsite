@@ -43,6 +43,7 @@ xml.xpath('//PubmedArticle').each do |article|
 	else
 		file.puts("abbrev: " + "\"" + article.xpath('MedlineCitation/Article/Journal/ISOAbbreviation').text + " " + article.xpath('MedlineCitation/Article/Pagination/MedlinePgn').text + " (" + article.xpath('MedlineCitation/Article/Journal/JournalIssue/PubDate/Year').text + ")\"")
 	end
+	file.puts("year: " + article.xpath('MedlineCitation/Article/Journal/JournalIssue/PubDate/Year').text)
 	file.puts("---")
 	file.puts("")
 	if article.at_xpath('MedlineCitation/Article/Abstract/AbstractText') then
