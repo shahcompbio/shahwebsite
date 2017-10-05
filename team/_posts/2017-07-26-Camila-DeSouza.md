@@ -4,7 +4,7 @@ title: Camila de Souza
 position: Postdoctoral Fellow
 email: cdesouza@bccrc.ca
 image: /assets/images/team/De-Souza-Camila.jpg
-cv: /assets/pdfs/team/CV_CamiladeSouza_2017.pdf
+cv: /assets/pdfs/team/CV_CamiladeSouza.pdf
 alum: false
 ---
 
