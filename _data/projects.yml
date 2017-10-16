@@ -1,4 +1,92 @@
 ---
+- repo: gavinha/TitanCNA
+  title: TitanCNA
+  owner: gavinha
+  description: Analysis of subclonal copy number alterations (CNA) and loss of heterozygosity
+    (LOH) in cancer
+  url: "/projects/TitanCNA/"
+  contributors:
+  - login: gavinha
+    avatar: https://avatars1.githubusercontent.com/u/9221688?v=4&s=50
+    url: https://github.com/gavinha
+  - login: lbeltrame
+    avatar: https://avatars0.githubusercontent.com/u/25192?v=4&s=50
+    url: https://github.com/lbeltrame
+  - login: dtenenba
+    avatar: https://avatars0.githubusercontent.com/u/2286826?v=4&s=50
+    url: https://github.com/dtenenba
+  - login: hpages
+    avatar: https://avatars1.githubusercontent.com/u/8810451?v=4&s=50
+    url: https://github.com/hpages
+  - login: mrjc42
+    avatar: https://avatars3.githubusercontent.com/u/2029097?v=4&s=50
+    url: https://github.com/mrjc42
+  commits:
+  - date: 2017-10-16 12:21:11.000000000 Z
+    message: |-
+      Merge pull request #13 from lbeltrame/fix-cluster-display
+
+      Fix plotClonalFrequency on genome and region plots
+    url: https://github.com/gavinha/TitanCNA/commit/179aa80906a14704f6ca79352ee0dde12d05316f
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2017-09-11 15:26:43.000000000 Z
+    message: |-
+      Fix plotClonalFrequency on genome and region plots
+
+      As told in issue #12:
+
+       In the code for the function, clusters expands to
+
+      ```r
+      > clusters
+         ClonalCluster CellularPrevalence
+      1:             2          0.7714099
+      2:             3          0.6370672
+      3:             1          1.0000000
+      4:             4          0.5077241
+      ```
+
+      When plotting, the code does
+
+      ```r
+      if (nrow(clusters) > 0) {
+                  for (j in 1:length(clusters[, 1])) {
+      ```
+
+      However:
+
+      ```r
+      > 1:length(clusters[, 1])
+      [1] 1
+      ```
+
+      This PR fixes it by iterating on the actual data.table instead of using
+      `length()`. Notice that the diff may show a much larger change than
+      expected because I also fixed part of the indentation.
+
+      This fixes issue #12.
+    url: https://github.com/gavinha/TitanCNA/commit/9c8020bc86bd9b9ad695887c6fd96091d3e712da
+    author_login: lbeltrame
+    author_url: https://github.com/lbeltrame
+  - date: 2017-09-09 12:19:42.000000000 Z
+    message: |-
+      Merge pull request #9 from lbeltrame/simplify-scripts
+
+      Make titanCNA.R less verbose and clean the script up
+    url: https://github.com/gavinha/TitanCNA/commit/c45cc746a73f20967542f70584ca69d8b032394b
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2017-09-08 17:53:48.000000000 Z
+    message: resolve conflicts
+    url: https://github.com/gavinha/TitanCNA/commit/99c26541e01950fc646183445099634e9a8d89bc
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2017-09-08 17:41:10.000000000 Z
+    message: conflict with bioc - using ours
+    url: https://github.com/gavinha/TitanCNA/commit/992e3df1e00f317015eb2ff9508b7c97c2f69f40
+    author_login: gavinha
+    author_url: https://github.com/gavinha
 - repo: shahcompbio/mutationseq
   title: mutationseq
   owner: shahcompbio
@@ -38,57 +126,6 @@
     url: https://github.com/shahcompbio/mutationseq/commit/3436a0614a8618f91129fe57d73c146a08712dee
     author_login: 
     author_url: 
-- repo: gavinha/TitanCNA
-  title: TitanCNA
-  owner: gavinha
-  description: Analysis of subclonal copy number alterations (CNA) and loss of heterozygosity
-    (LOH) in cancer
-  url: "/projects/TitanCNA/"
-  contributors:
-  - login: gavinha
-    avatar: https://avatars1.githubusercontent.com/u/9221688?v=4&s=50
-    url: https://github.com/gavinha
-  - login: lbeltrame
-    avatar: https://avatars0.githubusercontent.com/u/25192?v=4&s=50
-    url: https://github.com/lbeltrame
-  - login: dtenenba
-    avatar: https://avatars0.githubusercontent.com/u/2286826?v=4&s=50
-    url: https://github.com/dtenenba
-  - login: hpages
-    avatar: https://avatars1.githubusercontent.com/u/8810451?v=4&s=50
-    url: https://github.com/hpages
-  - login: mrjc42
-    avatar: https://avatars3.githubusercontent.com/u/2029097?v=4&s=50
-    url: https://github.com/mrjc42
-  commits:
-  - date: 2017-09-09 12:19:42.000000000 Z
-    message: |-
-      Merge pull request #9 from lbeltrame/simplify-scripts
-
-      Make titanCNA.R less verbose and clean the script up
-    url: https://github.com/gavinha/TitanCNA/commit/c45cc746a73f20967542f70584ca69d8b032394b
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2017-09-08 17:53:48.000000000 Z
-    message: resolve conflicts
-    url: https://github.com/gavinha/TitanCNA/commit/99c26541e01950fc646183445099634e9a8d89bc
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2017-09-08 17:41:10.000000000 Z
-    message: conflict with bioc - using ours
-    url: https://github.com/gavinha/TitanCNA/commit/992e3df1e00f317015eb2ff9508b7c97c2f69f40
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2017-09-08 17:35:18.000000000 Z
-    message: correctIntegerCN chrX call fix
-    url: https://github.com/gavinha/TitanCNA/commit/176a187e6bd5f40cd431b52ccc732e64f1346961
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2017-09-06 12:29:38.000000000 Z
-    message: Try harder to remove not useful noise when loading packages
-    url: https://github.com/gavinha/TitanCNA/commit/448fe7f19b6a58c3a3535a61d394181ffbafe9a0
-    author_login: lbeltrame
-    author_url: https://github.com/lbeltrame
 - repo: amcpherson/destruct
   title: destruct
   owner: amcpherson
