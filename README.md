@@ -1,4 +1,4 @@
-# shah lab research website
+# Shah Lab research website
 
 The shah lab website is be a jekyll website based on the bedford lab's website: http://bedford.io/.  The bedford jekyll website contains a few nice features including a front page summarizing recent blog posts, papers, and project.  Projects are auto populated using a ruby script from meta data extracted from github repos, and are thus referring to software projects specifically.
 
