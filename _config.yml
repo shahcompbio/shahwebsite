@@ -14,7 +14,7 @@ repository: shahcompbio/shahcompbio.github.io
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 title: "Shah Lab"
-tagline: Understanding the evolutionary principles by which cancers proliferate and metastasize
+tagline: Understanding the evolutionary principles by which cancers proliferate.
 institution:
   url: http://www.ubc.ca/
   name: UBC
