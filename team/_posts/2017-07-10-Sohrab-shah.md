@@ -19,3 +19,5 @@ Faculty member, UBC <a href="http://gsat.ubc.ca" target="_blank">Genome Science 
 Associate member, UBC <a href="http://cs.ubc.ca" target="_blank">Department of Computer Science</a><br />
 Associate member, <a href="http://www.bcgsc.ca/" target="_blank">Michael Smith Genome Sciences Centre</a><br />
 Adjunct Professor, SFU <a href="http://www.sfu.ca/computing.html" target="_blank">School of Computing Science</a></p>
+
+<a href="https://www.ncbi.nlm.nih.gov/sites/myncbi/10i_ekwU-qiAU/bibliography/42630740/public/?sort=date&direction=descending">View my collection, "My Bibliography" from NCBI</a>
