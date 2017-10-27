@@ -39063,4 +39063,285 @@
     </PubmedData>
 </PubmedArticle>
 
+
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">29044127</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>18</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2045-2322</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>7</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                        <Day>18</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Scientific reports</Title>
+                <ISOAbbreviation>Sci Rep</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Engineered in-vitro cell line mixtures and robust evaluation of computational methods for clonal decomposition and longitudinal dynamics in cancer.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>13467</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1038/s41598-017-13338-8</ELocationID>
+            <Abstract>
+                <AbstractText>Characterization and quantification of tumour clonal populations over time via longitudinal sampling are essential components in understanding and predicting the response to therapeutic interventions. Computational methods for inferring tumour clonal composition from deep-targeted sequencing data are ubiquitous, however due to the lack of a ground truth biological data, evaluating their performance is difficult. In this work, we generate a benchmark data set that simulates tumour longitudinal growth and heterogeneity by in vitro mixing of cancer cell lines with known proportions. We apply four different algorithms to our ground truth data set and assess their performance in inferring clonal composition using different metrics. We also analyse the performance of these algorithms on breast tumour xenograft samples. We conclude that methods that can simultaneously analyse multiple samples while accounting for copy number alterations as a factor in allelic measurements exhibit the most accurate predictions. These results will inform future functional genomics oriented studies of model systems where time series measurements in the context of therapeutic interventions are becoming increasingly common. These studies will need computational models which accurately reflect the multi-factorial nature of allele measurement in cancer including, as we show here, segmental aneuploidies.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Farahani</LastName>
+                    <ForeName>Hossein</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>BC Cancer Agency, Department of Molecular Oncology, Vancouver, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>University of British Columbia, Department of Pathology and Laboratory Medicine, Vancouver, V6T 2B5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>de Souza</LastName>
+                    <ForeName>Camila P E</ForeName>
+                    <Initials>CPE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>BC Cancer Agency, Department of Molecular Oncology, Vancouver, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>University of British Columbia, Department of Pathology and Laboratory Medicine, Vancouver, V6T 2B5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Billings</LastName>
+                    <ForeName>Raewyn</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>BC Cancer Agency, Department of Molecular Oncology, Vancouver, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yap</LastName>
+                    <ForeName>Damian</ForeName>
+                    <Initials>D</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-5370-4592</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>BC Cancer Agency, Department of Molecular Oncology, Vancouver, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shumansky</LastName>
+                    <ForeName>Karey</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>BC Cancer Agency, Department of Molecular Oncology, Vancouver, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wan</LastName>
+                    <ForeName>Adrian</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>BC Cancer Agency, Department of Molecular Oncology, Vancouver, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lai</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>BC Cancer Agency, Department of Molecular Oncology, Vancouver, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mes-Masson</LastName>
+                    <ForeName>Anne-Marie</ForeName>
+                    <Initials>AM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre de recherche du Centre hospitalier de l' Université de Montréal (CRCHUM), Montreal, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Institut du cancer de Montréal, Montreal, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Université de Montréal, Montreal, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Aparicio</LastName>
+                    <ForeName>Samuel</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>BC Cancer Agency, Department of Molecular Oncology, Vancouver, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>University of British Columbia, Department of Pathology and Laboratory Medicine, Vancouver, V6T 2B5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>P Shah</LastName>
+                    <ForeName>Sohrab</ForeName>
+                    <Initials>S</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-6402-523X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>BC Cancer Agency, Department of Molecular Oncology, Vancouver, V5Z 1L3, Canada. sshah@bccrc.ca.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>University of British Columbia, Department of Pathology and Laboratory Medicine, Vancouver, V6T 2B5, Canada. sshah@bccrc.ca.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>BC Cancer Agency, Michael Smith Genome Sciences Centre, Vancouver, V5Z 1L3, Canada. sshah@bccrc.ca.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Sci Rep</MedlineTA>
+            <NlmUniqueID>101563288</NlmUniqueID>
+            <ISSNLinking>2045-2322</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2015 Feb 19;518(7539):422-6</RefSource>
+                <PMID Version="1">25470049</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2012 Jan 15;28(2):167-75</RefSource>
+                <PMID Version="1">22084253</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Med. 2016 Dec 13;13(12 ):e1002197</RefSource>
+                <PMID Version="1">27959929</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2014 Feb 01;15:35</RefSource>
+                <PMID Version="1">24484323</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2015 Feb 13;16:35</RefSource>
+                <PMID Version="1">25786235</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2014 Jul 10;10(7):e1003703</RefSource>
+                <PMID Version="1">25010360</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2013 Sep;41(17):e165</RefSource>
+                <PMID Version="1">23892400</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2014 Jun 15;30(12):i78-86</RefSource>
+                <PMID Version="1">24932008</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2014 Aug 26;15(8):443</RefSource>
+                <PMID Version="1">25160522</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Breast Cancer Res. 2015 Jan 09;17:4</RefSource>
+                <PMID Version="1">25572802</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2012 Jan 11;481(7382):506-10</RefSource>
+                <PMID Version="1">22237025</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Cancer. 2012 Aug 29;12:379</RefSource>
+                <PMID Version="1">22931248</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS Comput Biol. 2014 Aug 07;10(8):e1003665</RefSource>
+                <PMID Version="1">25102416</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Genome Biol. 2015 May 06;16:91</RefSource>
+                <PMID Version="1">25944252</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Res. 1981 May;41(5):1751-6</RefSource>
+                <PMID Version="1">7214343</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2015 May 1;31(9):1349-56</RefSource>
+                <PMID Version="1">25568283</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Oct 1;29(19):2482-4</RefSource>
+                <PMID Version="1">23926227</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Methods. 2014 Apr;11(4):396-8</RefSource>
+                <PMID Version="1">24633410</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Rep. 2014 Jun 12;7(5):1740-1752</RefSource>
+                <PMID Version="1">24882004</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>02</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29044127</ArticleId>
+            <ArticleId IdType="doi">10.1038/s41598-017-13338-8</ArticleId>
+            <ArticleId IdType="pii">10.1038/s41598-017-13338-8</ArticleId>
+            <ArticleId IdType="pmc">PMC5647443</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
 </PubmedArticleSet>
