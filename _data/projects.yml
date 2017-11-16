@@ -1,4 +1,92 @@
 ---
+- repo: shahcompbio/scg
+  title: scg
+  owner: shahcompbio
+  description: Software for inference of clonal genotypes using targeted single cell
+    (nucleus) sequencing.
+  url: "/projects/scg/"
+  contributors: []
+  commits:
+  - date: 2017-11-16 00:01:38.000000000 Z
+    message: Rename README.txt to README.md
+    url: https://github.com/shahcompbio/scg/commit/69896fe5bf3a5437da0249e5c2bff852c93d1ad0
+    author_login: Spenca
+    author_url: https://github.com/Spenca
+  - date: 2015-07-29 20:16:39.000000000 Z
+    message: Updated distribution files.
+    url: https://github.com/shahcompbio/scg/commit/fca49296289f2c9a0d981258d318dcb1ae6053ee
+    author_login: aroth85
+    author_url: https://github.com/aroth85
+  - date: 2015-07-21 18:29:29.000000000 Z
+    message: Updated install readme
+    url: https://github.com/shahcompbio/scg/commit/d1c758b301bc927a153df8f254ebd6209bcc0eeb
+    author_login: aroth85
+    author_url: https://github.com/aroth85
+  - date: 2015-06-11 19:15:56.000000000 Z
+    message: WS
+    url: https://github.com/shahcompbio/scg/commit/1a358f922ed99bd80388bfb9aff92c7b7f5fbf58
+    author_login: aroth85
+    author_url: https://github.com/aroth85
+  - date: 2015-05-01 23:42:27.000000000 Z
+    message: Updated to support initial labels file
+    url: https://github.com/shahcompbio/scg/commit/671ef9d62731705c3fe4ef747e75339d3d4989e1
+    author_login: aroth85
+    author_url: https://github.com/aroth85
+- repo: shahcompbio/xseq
+  title: xseq
+  owner: shahcompbio
+  description: A hierarchical Bayesian approach to assess functional impact of mutations
+    on gene expression in cancer.
+  url: "/projects/xseq/"
+  contributors:
+  - login: Jerry001
+    avatar: https://avatars2.githubusercontent.com/u/4073376?v=4&s=50
+    url: https://github.com/Jerry001
+  - login: Spenca
+    avatar: https://avatars0.githubusercontent.com/u/16676440?v=4&s=50
+    url: https://github.com/Spenca
+  commits:
+  - date: 2017-11-15 23:56:35.000000000 Z
+    message: Create README.md
+    url: https://github.com/shahcompbio/xseq/commit/6b72784370d2324791c8bb47f49c3d608432066a
+    author_login: Spenca
+    author_url: https://github.com/Spenca
+  - date: 2016-02-01 21:12:27.000000000 Z
+    message: trim connections
+    url: https://github.com/shahcompbio/xseq/commit/32b5e70abb61b34d69124e9d6008db80b9b42cef
+    author_login: Jerry001
+    author_url: https://github.com/Jerry001
+  - date: 2015-10-05 05:29:34.000000000 Z
+    message: v0.2.2
+    url: https://github.com/shahcompbio/xseq/commit/ead37378b8768e454c37eac6beb0bd7d1c4af0eb
+    author_login: Jerry001
+    author_url: https://github.com/Jerry001
+  - date: 2015-10-05 05:21:31.000000000 Z
+    message: Init
+    url: https://github.com/shahcompbio/xseq/commit/b55375a860e5c8785bad9008b64f81af94f7c12d
+    author_login: Jerry001
+    author_url: https://github.com/Jerry001
+- repo: shahcompbio/snvmix
+  title: snvmix
+  owner: shahcompbio
+  description: Software to detect single nucleotide variants from next generation
+    sequencing data.
+  url: "/projects/snvmix/"
+  contributors:
+  - login: Spenca
+    avatar: https://avatars0.githubusercontent.com/u/16676440?v=4&s=50
+    url: https://github.com/Spenca
+  commits:
+  - date: 2017-11-15 23:48:27.000000000 Z
+    message: Rename README to README.md
+    url: https://github.com/shahcompbio/snvmix/commit/12f97bf198c53e4fd2ebe87c4f285adfec6222b3
+    author_login: Spenca
+    author_url: https://github.com/Spenca
+  - date: 2016-04-26 19:45:11.000000000 Z
+    message: initial commit
+    url: https://github.com/shahcompbio/snvmix/commit/99d9fecbc52b52ea5ed9c4124e07632af58c8bfb
+    author_login: 
+    author_url: 
 - repo: gavinha/TitanCNA
   title: TitanCNA
   owner: gavinha
@@ -543,19 +631,6 @@
     url: https://github.com/jtaghiyar/kronos/commit/b5932f5b5c1abc26d2cdc9571dedb0fc42c52f30
     author_login: jtaghiyar
     author_url: https://github.com/jtaghiyar
-- repo: shahcompbio/snvmix
-  title: snvmix
-  owner: shahcompbio
-  description: Software to detect single nucleotide variants from next generation
-    sequencing data.
-  url: "/projects/snvmix/"
-  contributors: []
-  commits:
-  - date: 2016-04-26 19:45:11.000000000 Z
-    message: initial commit
-    url: https://github.com/shahcompbio/snvmix/commit/99d9fecbc52b52ea5ed9c4124e07632af58c8bfb
-    author_login: 
-    author_url: 
 - repo: amcpherson/citup
   title: citup
   owner: amcpherson
@@ -656,62 +731,3 @@
     url: https://github.com/shahcompbio/apolloh/commit/8c77facde7f8c7cde2414d34a2c665ecce5fd701
     author_login: 
     author_url: 
-- repo: shahcompbio/xseq
-  title: xseq
-  owner: shahcompbio
-  description: A hierarchical Bayesian approach to assess functional impact of mutations
-    on gene expression in cancer.
-  url: "/projects/xseq/"
-  contributors:
-  - login: Jerry001
-    avatar: https://avatars2.githubusercontent.com/u/4073376?v=4&s=50
-    url: https://github.com/Jerry001
-  commits:
-  - date: 2016-02-01 21:12:27.000000000 Z
-    message: trim connections
-    url: https://github.com/shahcompbio/xseq/commit/32b5e70abb61b34d69124e9d6008db80b9b42cef
-    author_login: Jerry001
-    author_url: https://github.com/Jerry001
-  - date: 2015-10-05 05:29:34.000000000 Z
-    message: v0.2.2
-    url: https://github.com/shahcompbio/xseq/commit/ead37378b8768e454c37eac6beb0bd7d1c4af0eb
-    author_login: Jerry001
-    author_url: https://github.com/Jerry001
-  - date: 2015-10-05 05:21:31.000000000 Z
-    message: Init
-    url: https://github.com/shahcompbio/xseq/commit/b55375a860e5c8785bad9008b64f81af94f7c12d
-    author_login: Jerry001
-    author_url: https://github.com/Jerry001
-- repo: aroth85/scg
-  title: scg
-  owner: aroth85
-  description: Software for inference of clonal genotypes using targeted single cell
-    (nucleus) sequencing.
-  url: "/projects/scg/"
-  contributors: []
-  commits:
-  - date: 2015-07-29 20:16:39.000000000 Z
-    message: Updated distribution files.
-    url: https://github.com/aroth85/scg/commit/fca49296289f2c9a0d981258d318dcb1ae6053ee
-    author_login: aroth85
-    author_url: https://github.com/aroth85
-  - date: 2015-07-21 18:29:29.000000000 Z
-    message: Updated install readme
-    url: https://github.com/aroth85/scg/commit/d1c758b301bc927a153df8f254ebd6209bcc0eeb
-    author_login: aroth85
-    author_url: https://github.com/aroth85
-  - date: 2015-06-11 19:15:56.000000000 Z
-    message: WS
-    url: https://github.com/aroth85/scg/commit/1a358f922ed99bd80388bfb9aff92c7b7f5fbf58
-    author_login: aroth85
-    author_url: https://github.com/aroth85
-  - date: 2015-05-01 23:42:27.000000000 Z
-    message: Updated to support initial labels file
-    url: https://github.com/aroth85/scg/commit/671ef9d62731705c3fe4ef747e75339d3d4989e1
-    author_login: aroth85
-    author_url: https://github.com/aroth85
-  - date: 2015-04-10 02:22:37.000000000 Z
-    message: Added tag 0.3.0 for changeset b9f7d3a7a2c5
-    url: https://github.com/aroth85/scg/commit/0489d5fa230d65313973c2daba28f32e8fbfc44f
-    author_login: aroth85
-    author_url: https://github.com/aroth85

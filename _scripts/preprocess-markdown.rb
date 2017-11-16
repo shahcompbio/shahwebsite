@@ -50,7 +50,7 @@ mdarray.each { |md|
 		out.puts "---"
 		out.puts "layout: project"
 		if project_name != nil
-			title = md.sub(/^.*projects\//, '').sub(/.md$/, '').sub(/index$/, '')
+			title = md.sub(/^.*projects\//, '').sub(/.md$/, '').sub(/\/index$/, '')
 			out.puts "title: #{title}"		
 			out.puts "project: #{project_name}"
 			out.puts "repo: #{repo}"
@@ -58,6 +58,8 @@ mdarray.each { |md|
 		end
 		out.puts "---"
 		out.puts	
+		out.puts "[Fork me on GitHub!](https://github.com/#{repo})"
+		out.puts
 	end
 
 	# go through file and replace all links that point to .md files with the equivalent .html file
