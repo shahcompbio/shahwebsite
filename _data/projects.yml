@@ -1,4 +1,43 @@
 ---
+- repo: shahcompbio/xseq
+  title: xseq
+  owner: shahcompbio
+  description: A hierarchical Bayesian approach to assess functional impact of mutations
+    on gene expression in cancer.
+  url: "/projects/xseq/"
+  contributors:
+  - login: Jerry001
+    avatar: https://avatars2.githubusercontent.com/u/4073376?v=4&s=50
+    url: https://github.com/Jerry001
+  - login: Spenca
+    avatar: https://avatars0.githubusercontent.com/u/16676440?v=4&s=50
+    url: https://github.com/Spenca
+  commits:
+  - date: 2017-11-16 00:41:11.000000000 Z
+    message: Update README.md
+    url: https://github.com/shahcompbio/xseq/commit/4290a6a1f0b533f1a514616b5a781a916c5f3993
+    author_login: Spenca
+    author_url: https://github.com/Spenca
+  - date: 2017-11-15 23:56:35.000000000 Z
+    message: Create README.md
+    url: https://github.com/shahcompbio/xseq/commit/6b72784370d2324791c8bb47f49c3d608432066a
+    author_login: Spenca
+    author_url: https://github.com/Spenca
+  - date: 2016-02-01 21:12:27.000000000 Z
+    message: trim connections
+    url: https://github.com/shahcompbio/xseq/commit/32b5e70abb61b34d69124e9d6008db80b9b42cef
+    author_login: Jerry001
+    author_url: https://github.com/Jerry001
+  - date: 2015-10-05 05:29:34.000000000 Z
+    message: v0.2.2
+    url: https://github.com/shahcompbio/xseq/commit/ead37378b8768e454c37eac6beb0bd7d1c4af0eb
+    author_login: Jerry001
+    author_url: https://github.com/Jerry001
+  - date: 2015-10-05 05:21:31.000000000 Z
+    message: Init
+    url: https://github.com/shahcompbio/xseq/commit/b55375a860e5c8785bad9008b64f81af94f7c12d
+    author_login: Jerry001
+    author_url: https://github.com/Jerry001
 - repo: shahcompbio/scg
   title: scg
   owner: shahcompbio
@@ -32,40 +71,6 @@
     url: https://github.com/shahcompbio/scg/commit/671ef9d62731705c3fe4ef747e75339d3d4989e1
     author_login: aroth85
     author_url: https://github.com/aroth85
-- repo: shahcompbio/xseq
-  title: xseq
-  owner: shahcompbio
-  description: A hierarchical Bayesian approach to assess functional impact of mutations
-    on gene expression in cancer.
-  url: "/projects/xseq/"
-  contributors:
-  - login: Jerry001
-    avatar: https://avatars2.githubusercontent.com/u/4073376?v=4&s=50
-    url: https://github.com/Jerry001
-  - login: Spenca
-    avatar: https://avatars0.githubusercontent.com/u/16676440?v=4&s=50
-    url: https://github.com/Spenca
-  commits:
-  - date: 2017-11-15 23:56:35.000000000 Z
-    message: Create README.md
-    url: https://github.com/shahcompbio/xseq/commit/6b72784370d2324791c8bb47f49c3d608432066a
-    author_login: Spenca
-    author_url: https://github.com/Spenca
-  - date: 2016-02-01 21:12:27.000000000 Z
-    message: trim connections
-    url: https://github.com/shahcompbio/xseq/commit/32b5e70abb61b34d69124e9d6008db80b9b42cef
-    author_login: Jerry001
-    author_url: https://github.com/Jerry001
-  - date: 2015-10-05 05:29:34.000000000 Z
-    message: v0.2.2
-    url: https://github.com/shahcompbio/xseq/commit/ead37378b8768e454c37eac6beb0bd7d1c4af0eb
-    author_login: Jerry001
-    author_url: https://github.com/Jerry001
-  - date: 2015-10-05 05:21:31.000000000 Z
-    message: Init
-    url: https://github.com/shahcompbio/xseq/commit/b55375a860e5c8785bad9008b64f81af94f7c12d
-    author_login: Jerry001
-    author_url: https://github.com/Jerry001
 - repo: shahcompbio/snvmix
   title: snvmix
   owner: shahcompbio
