@@ -44,7 +44,10 @@
   description: Software for inference of clonal genotypes using targeted single cell
     (nucleus) sequencing.
   url: "/projects/scg/"
-  contributors: []
+  contributors:
+  - login: Spenca
+    avatar: https://avatars0.githubusercontent.com/u/16676440?v=4&s=50
+    url: https://github.com/Spenca
   commits:
   - date: 2017-11-16 00:01:38.000000000 Z
     message: Rename README.txt to README.md
