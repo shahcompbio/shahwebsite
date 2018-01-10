@@ -1,100 +1,43 @@
 ---
-- repo: shahcompbio/xseq
-  title: xseq
-  owner: shahcompbio
-  description: A hierarchical Bayesian approach to assess functional impact of mutations
-    on gene expression in cancer.
-  url: "/projects/xseq/"
+- repo: aroth85/pyclone
+  title: pyclone
+  owner: aroth85
+  description: Probabilistic model for inferring clonal population structure from
+    deep NGS sequencing.
+  url: "/projects/pyclone/"
   contributors:
-  - login: Jerry001
-    avatar: https://avatars2.githubusercontent.com/u/4073376?v=4&s=50
-    url: https://github.com/Jerry001
-  - login: Spenca
-    avatar: https://avatars0.githubusercontent.com/u/16676440?v=4&s=50
-    url: https://github.com/Spenca
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  - login: aroth85
+    avatar: https://avatars3.githubusercontent.com/u/369899?v=4&s=50
+    url: https://github.com/aroth85
   commits:
-  - date: 2017-11-16 00:41:11.000000000 Z
-    message: Update README.md
-    url: https://github.com/shahcompbio/xseq/commit/4290a6a1f0b533f1a514616b5a781a916c5f3993
-    author_login: Spenca
-    author_url: https://github.com/Spenca
-  - date: 2017-11-15 23:56:35.000000000 Z
-    message: Create README.md
-    url: https://github.com/shahcompbio/xseq/commit/6b72784370d2324791c8bb47f49c3d608432066a
-    author_login: Spenca
-    author_url: https://github.com/Spenca
-  - date: 2016-02-01 21:12:27.000000000 Z
-    message: trim connections
-    url: https://github.com/shahcompbio/xseq/commit/32b5e70abb61b34d69124e9d6008db80b9b42cef
-    author_login: Jerry001
-    author_url: https://github.com/Jerry001
-  - date: 2015-10-05 05:29:34.000000000 Z
-    message: v0.2.2
-    url: https://github.com/shahcompbio/xseq/commit/ead37378b8768e454c37eac6beb0bd7d1c4af0eb
-    author_login: Jerry001
-    author_url: https://github.com/Jerry001
-  - date: 2015-10-05 05:21:31.000000000 Z
-    message: Init
-    url: https://github.com/shahcompbio/xseq/commit/b55375a860e5c8785bad9008b64f81af94f7c12d
-    author_login: Jerry001
-    author_url: https://github.com/Jerry001
-- repo: shahcompbio/scg
-  title: scg
-  owner: shahcompbio
-  description: Software for inference of clonal genotypes using targeted single cell
-    (nucleus) sequencing.
-  url: "/projects/scg/"
-  contributors:
-  - login: Spenca
-    avatar: https://avatars0.githubusercontent.com/u/16676440?v=4&s=50
-    url: https://github.com/Spenca
-  commits:
-  - date: 2017-11-16 00:01:38.000000000 Z
-    message: Rename README.txt to README.md
-    url: https://github.com/shahcompbio/scg/commit/69896fe5bf3a5437da0249e5c2bff852c93d1ad0
-    author_login: Spenca
-    author_url: https://github.com/Spenca
-  - date: 2015-07-29 20:16:39.000000000 Z
-    message: Updated distribution files.
-    url: https://github.com/shahcompbio/scg/commit/fca49296289f2c9a0d981258d318dcb1ae6053ee
+  - date: 2018-01-06 17:04:58.000000000 Z
+    message: 'minor: conda test error'
+    url: https://github.com/aroth85/pyclone/commit/d98f579bd123b4af3467d27fa68f14feefe18f0a
     author_login: aroth85
     author_url: https://github.com/aroth85
-  - date: 2015-07-21 18:29:29.000000000 Z
-    message: Updated install readme
-    url: https://github.com/shahcompbio/scg/commit/d1c758b301bc927a153df8f254ebd6209bcc0eeb
+  - date: 2018-01-06 16:59:34.000000000 Z
+    message: 'minor: bumping version'
+    url: https://github.com/aroth85/pyclone/commit/d7e3ea1ec9ec3fddd13fad91b7064e7445b2c706
     author_login: aroth85
     author_url: https://github.com/aroth85
-  - date: 2015-06-11 19:15:56.000000000 Z
-    message: WS
-    url: https://github.com/shahcompbio/scg/commit/1a358f922ed99bd80388bfb9aff92c7b7f5fbf58
+  - date: 2018-01-06 16:55:44.000000000 Z
+    message: 'packaging: updating conda recipe'
+    url: https://github.com/aroth85/pyclone/commit/b65d9874a3d0c16e7301f2b9a5e07dbd03a35ac4
     author_login: aroth85
     author_url: https://github.com/aroth85
-  - date: 2015-05-01 23:42:27.000000000 Z
-    message: Updated to support initial labels file
-    url: https://github.com/shahcompbio/scg/commit/671ef9d62731705c3fe4ef747e75339d3d4989e1
+  - date: 2018-01-06 16:42:57.000000000 Z
+    message: 'bugfix: setup analysis broken by config extras'
+    url: https://github.com/aroth85/pyclone/commit/704857611890b157b37597b3d9d108a206ff8fc5
     author_login: aroth85
     author_url: https://github.com/aroth85
-- repo: shahcompbio/snvmix
-  title: snvmix
-  owner: shahcompbio
-  description: Software to detect single nucleotide variants from next generation
-    sequencing data.
-  url: "/projects/snvmix/"
-  contributors:
-  - login: Spenca
-    avatar: https://avatars0.githubusercontent.com/u/16676440?v=4&s=50
-    url: https://github.com/Spenca
-  commits:
-  - date: 2017-11-15 23:48:27.000000000 Z
-    message: Rename README to README.md
-    url: https://github.com/shahcompbio/snvmix/commit/12f97bf198c53e4fd2ebe87c4f285adfec6222b3
-    author_login: Spenca
-    author_url: https://github.com/Spenca
-  - date: 2016-04-26 19:45:11.000000000 Z
-    message: initial commit
-    url: https://github.com/shahcompbio/snvmix/commit/99d9fecbc52b52ea5ed9c4124e07632af58c8bfb
-    author_login: 
-    author_url: 
+  - date: 2017-04-04 20:56:35.000000000 Z
+    message: 'bugfix: arguments for plotting functions'
+    url: https://github.com/aroth85/pyclone/commit/02dc951cf5934c473b7ae98939f7ec69f0f1745e
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
 - repo: gavinha/TitanCNA
   title: TitanCNA
   owner: gavinha
@@ -118,6 +61,25 @@
     avatar: https://avatars3.githubusercontent.com/u/2029097?v=4&s=50
     url: https://github.com/mrjc42
   commits:
+  - date: 2017-12-01 22:51:41.000000000 Z
+    message: |-
+      Merge pull request #14 from chapmanb/master
+
+      Sychronize to `.params.txt` for run scripts
+    url: https://github.com/gavinha/TitanCNA/commit/93602ea1a9c2b0dfe6bef7c31f798a3c3a79570f
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2017-11-20 11:33:48.000000000 Z
+    message: |-
+      Sychronize to `.params.txt` for run scripts
+
+      `selectSolutions.R` expects parameter scripts to end with `.params.txt`
+      which is the default in the snakemake scripts but not the base
+      `titanCNA.R` script which uses `.param.txt`. This swaps over to use
+      `params.txt` consistently throughout. Fixes gavinha/TitanCNA#7
+    url: https://github.com/gavinha/TitanCNA/commit/ebd73fd642c11909e13b085d6d67162279d44b01
+    author_login: chapmanb
+    author_url: https://github.com/chapmanb
   - date: 2017-10-16 12:21:11.000000000 Z
     message: |-
       Merge pull request #13 from lbeltrame/fix-cluster-display
@@ -173,16 +135,105 @@
     url: https://github.com/gavinha/TitanCNA/commit/c45cc746a73f20967542f70584ca69d8b032394b
     author_login: gavinha
     author_url: https://github.com/gavinha
-  - date: 2017-09-08 17:53:48.000000000 Z
-    message: resolve conflicts
-    url: https://github.com/gavinha/TitanCNA/commit/99c26541e01950fc646183445099634e9a8d89bc
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2017-09-08 17:41:10.000000000 Z
-    message: conflict with bioc - using ours
-    url: https://github.com/gavinha/TitanCNA/commit/992e3df1e00f317015eb2ff9508b7c97c2f69f40
-    author_login: gavinha
-    author_url: https://github.com/gavinha
+- repo: shahcompbio/xseq
+  title: xseq
+  owner: shahcompbio
+  description: A hierarchical Bayesian approach to assess functional impact of mutations
+    on gene expression in cancer.
+  url: "/projects/xseq/"
+  contributors:
+  - login: Jerry001
+    avatar: https://avatars2.githubusercontent.com/u/4073376?v=4&s=50
+    url: https://github.com/Jerry001
+  - login: Spenca
+    avatar: https://avatars0.githubusercontent.com/u/16676440?v=4&s=50
+    url: https://github.com/Spenca
+  commits:
+  - date: 2017-11-16 00:41:11.000000000 Z
+    message: Update README.md
+    url: https://github.com/shahcompbio/xseq/commit/4290a6a1f0b533f1a514616b5a781a916c5f3993
+    author_login: Spenca
+    author_url: https://github.com/Spenca
+  - date: 2017-11-15 23:56:35.000000000 Z
+    message: Create README.md
+    url: https://github.com/shahcompbio/xseq/commit/6b72784370d2324791c8bb47f49c3d608432066a
+    author_login: Spenca
+    author_url: https://github.com/Spenca
+  - date: 2016-02-01 21:12:27.000000000 Z
+    message: trim connections
+    url: https://github.com/shahcompbio/xseq/commit/32b5e70abb61b34d69124e9d6008db80b9b42cef
+    author_login: Jerry001
+    author_url: https://github.com/Jerry001
+  - date: 2015-10-05 05:29:34.000000000 Z
+    message: v0.2.2
+    url: https://github.com/shahcompbio/xseq/commit/ead37378b8768e454c37eac6beb0bd7d1c4af0eb
+    author_login: Jerry001
+    author_url: https://github.com/Jerry001
+  - date: 2015-10-05 05:21:31.000000000 Z
+    message: Init
+    url: https://github.com/shahcompbio/xseq/commit/b55375a860e5c8785bad9008b64f81af94f7c12d
+    author_login: Jerry001
+    author_url: https://github.com/Jerry001
+- repo: shahcompbio/scg
+  title: scg
+  owner: shahcompbio
+  description: Software for inference of clonal genotypes using targeted single cell
+    (nucleus) sequencing.
+  url: "/projects/scg/"
+  contributors:
+  - login: aroth85
+    avatar: https://avatars3.githubusercontent.com/u/369899?v=4&s=50
+    url: https://github.com/aroth85
+  - login: Spenca
+    avatar: https://avatars0.githubusercontent.com/u/16676440?v=4&s=50
+    url: https://github.com/Spenca
+  commits:
+  - date: 2017-11-16 00:01:38.000000000 Z
+    message: Rename README.txt to README.md
+    url: https://github.com/shahcompbio/scg/commit/69896fe5bf3a5437da0249e5c2bff852c93d1ad0
+    author_login: Spenca
+    author_url: https://github.com/Spenca
+  - date: 2015-07-29 20:16:39.000000000 Z
+    message: Updated distribution files.
+    url: https://github.com/shahcompbio/scg/commit/fca49296289f2c9a0d981258d318dcb1ae6053ee
+    author_login: aroth85
+    author_url: https://github.com/aroth85
+  - date: 2015-07-21 18:29:29.000000000 Z
+    message: Updated install readme
+    url: https://github.com/shahcompbio/scg/commit/d1c758b301bc927a153df8f254ebd6209bcc0eeb
+    author_login: aroth85
+    author_url: https://github.com/aroth85
+  - date: 2015-06-11 19:15:56.000000000 Z
+    message: WS
+    url: https://github.com/shahcompbio/scg/commit/1a358f922ed99bd80388bfb9aff92c7b7f5fbf58
+    author_login: aroth85
+    author_url: https://github.com/aroth85
+  - date: 2015-05-01 23:42:27.000000000 Z
+    message: Updated to support initial labels file
+    url: https://github.com/shahcompbio/scg/commit/671ef9d62731705c3fe4ef747e75339d3d4989e1
+    author_login: aroth85
+    author_url: https://github.com/aroth85
+- repo: shahcompbio/snvmix
+  title: snvmix
+  owner: shahcompbio
+  description: Software to detect single nucleotide variants from next generation
+    sequencing data.
+  url: "/projects/snvmix/"
+  contributors:
+  - login: Spenca
+    avatar: https://avatars0.githubusercontent.com/u/16676440?v=4&s=50
+    url: https://github.com/Spenca
+  commits:
+  - date: 2017-11-15 23:48:27.000000000 Z
+    message: Rename README to README.md
+    url: https://github.com/shahcompbio/snvmix/commit/12f97bf198c53e4fd2ebe87c4f285adfec6222b3
+    author_login: Spenca
+    author_url: https://github.com/Spenca
+  - date: 2016-04-26 19:45:11.000000000 Z
+    message: initial commit
+    url: https://github.com/shahcompbio/snvmix/commit/99d9fecbc52b52ea5ed9c4124e07632af58c8bfb
+    author_login: 
+    author_url: 
 - repo: shahcompbio/mutationseq
   title: mutationseq
   owner: shahcompbio
@@ -375,45 +426,6 @@
     url: https://github.com/amcpherson/remixt/commit/6402986372a239f118e72d6476c4205dbadb9097
     author_login: amcpherson
     author_url: https://github.com/amcpherson
-- repo: aroth85/pyclone
-  title: pyclone
-  owner: aroth85
-  description: Probabilistic model for inferring clonal population structure from
-    deep NGS sequencing.
-  url: "/projects/pyclone/"
-  contributors:
-  - login: amcpherson
-    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
-    url: https://github.com/amcpherson
-  commits:
-  - date: 2017-04-04 20:56:35.000000000 Z
-    message: 'bugfix: arguments for plotting functions'
-    url: https://github.com/aroth85/pyclone/commit/02dc951cf5934c473b7ae98939f7ec69f0f1745e
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2017-04-04 20:55:59.000000000 Z
-    message: 'feature: option to provide yaml file with override config paramaters
-      for run_analysis_pipeline'
-    url: https://github.com/aroth85/pyclone/commit/f67ab51285e803c517f12fd9c587d019505cd996
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2017-03-23 18:14:40.000000000 Z
-    message: "- ignore python compiled files"
-    url: https://github.com/aroth85/pyclone/commit/e8ece46b360d58f3c402c01f84a596e5c3505410
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2017-03-23 18:13:37.000000000 Z
-    message: |-
-      - markdown for license and readme
-      - move lib/pyclone to pyclone to work with setup.py
-    url: https://github.com/aroth85/pyclone/commit/2540d1c5f68649b881b0b0b73751124ffc0e02e0
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2017-03-15 13:59:02.000000000 Z
-    message: "- printing more info for run_analysis"
-    url: https://github.com/aroth85/pyclone/commit/b97e497c517ea1efaf4b8bd4c540066aae6ff676
-    author_login: 
-    author_url: 
 - repo: shahcompbio/timescape
   title: timescape
   owner: shahcompbio
