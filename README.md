@@ -64,6 +64,22 @@ image: /images/blog/transmission.png
 
 The `layout`, `title` and `author_handle` tags are required, while `link` and `image` tags are optional. Just save a Markdown file with this top matter as something like `blog/_posts/2013-08-27-newton-institute.md`, where `2013-08-27` is the date of the post and `newton-institute` is the short title. The `author_handle` tag on the blog post must match the `handle` tag in the `.md` file of the team member authoring the post (team member `.md` files can be found in `team/_posts`). This short title is used in the URL of the post, so this becomes `blog/newton-institute/`, so the short title should be long enough and unique enough not to cause conflicts with other posts.
 
+## Adding a new publication
+
+Specific to the Shah Lab, for each new paper added
+
+1) Find the relevant entry on Pubmed, note the numerical pubmed ID
+    e.g.: https://www.ncbi.nlm.nih.gov/pubmed/29449679
+2) Obtain the metadata XML from Pubmed:
+    - From the link found in 1) click the Send to in the top right
+    - Select File radio button, Format XML drop down, then Create File
+    - Insert the PubmedArticle entry into ./assets/pubmed_results.xml
+3) Download the PDF, rename and place into the assets directory:
+    e.g.: ./assets/pdfs/papers/29449679.pdf
+4) Create a image for the paper, preferably a square .png file, name and place:
+    e.g.: ./assets/images/papers/29449679.png
+5) Commit changes and push, the website will do the rest automatically
+
 ## For more information
 
 * Look over the [metadata format guide](http://bedford.io/guide/format/)
