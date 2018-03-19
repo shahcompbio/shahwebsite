@@ -6,7 +6,7 @@ require 'nokogiri'
 xml = File.open("assets/pubmed_result.xml") { |f| Nokogiri::XML(f) }
 xml.xpath('//PubmedArticle').each do |article|
 	
-	file_name = article.xpath('MedlineCitation/DateCreated/Year').text + "-" + article.xpath('MedlineCitation/DateCreated/Month').text + "-" + article.xpath('MedlineCitation/DateCreated/Day').text + "-" + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="pubmed"]').text
+	file_name = article.xpath('PubmedData/History/PubMedPubDate[@PubStatus="pubmed"]/Year').text + "-" + article.xpath('PubmedData/History/PubMedPubDate[@PubStatus="pubmed"]/Month').text + "-" + article.xpath('PubmedData/History/PubMedPubDate[@PubStatus="pubmed"]/Day').text + "-" + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="pubmed"]').text
 	
 	file = File.new("papers/_posts/" + file_name + ".md", "w")
 	

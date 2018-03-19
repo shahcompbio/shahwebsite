@@ -1,4 +1,53 @@
 ---
+- repo: gavinha/TitanCNA
+  title: TitanCNA
+  owner: gavinha
+  description: Analysis of subclonal copy number alterations (CNA) and loss of heterozygosity
+    (LOH) in cancer
+  url: "/projects/TitanCNA/"
+  contributors:
+  - login: gavinha
+    avatar: https://avatars1.githubusercontent.com/u/9221688?v=4&s=50
+    url: https://github.com/gavinha
+  - login: lbeltrame
+    avatar: https://avatars0.githubusercontent.com/u/25192?v=4&s=50
+    url: https://github.com/lbeltrame
+  - login: dtenenba
+    avatar: https://avatars0.githubusercontent.com/u/2286826?v=4&s=50
+    url: https://github.com/dtenenba
+  - login: hpages
+    avatar: https://avatars1.githubusercontent.com/u/8810451?v=4&s=50
+    url: https://github.com/hpages
+  - login: mrjc42
+    avatar: https://avatars3.githubusercontent.com/u/2029097?v=4&s=50
+    url: https://github.com/mrjc42
+  commits:
+  - date: 2018-02-12 17:10:32.000000000 Z
+    message: updated hmmcopy link [ci skip]
+    url: https://github.com/gavinha/TitanCNA/commit/022ceed11d94c2df13755a8c771a22997cf4c452
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-01-14 18:53:12.000000000 Z
+    message: "updated usage for getMoleculeCoverage.R #16 [ci skip]\n\nMatches new
+      ichorCNA analysis\r\nhttps://github.com/broadinstitute/ichorCNA/tree/master/scripts/runIchorCNA.R"
+    url: https://github.com/gavinha/TitanCNA/commit/4094f520b17234e5d27eff8039a7155dc6b5f853
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-01-14 18:39:05.000000000 Z
+    message: 'update analysis using latest ichorCNA #16'
+    url: https://github.com/gavinha/TitanCNA/commit/6807e68c6caf428933a8ca2d623830771b8170d8
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-01-11 22:05:24.000000000 Z
+    message: 'add loadBXcountsFromBEDDir to namespace #16'
+    url: https://github.com/gavinha/TitanCNA/commit/c0ebe0199a98f43953735cd55266ebace2f2d787
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-01-11 21:22:26.000000000 Z
+    message: 'load custom R file using --libdir [ci skip] #16'
+    url: https://github.com/gavinha/TitanCNA/commit/7d1150ffafb172c6733165773fec1aa783a1099a
+    author_login: gavinha
+    author_url: https://github.com/gavinha
 - repo: aroth85/pyclone
   title: pyclone
   owner: aroth85
@@ -38,103 +87,6 @@
     url: https://github.com/aroth85/pyclone/commit/02dc951cf5934c473b7ae98939f7ec69f0f1745e
     author_login: amcpherson
     author_url: https://github.com/amcpherson
-- repo: gavinha/TitanCNA
-  title: TitanCNA
-  owner: gavinha
-  description: Analysis of subclonal copy number alterations (CNA) and loss of heterozygosity
-    (LOH) in cancer
-  url: "/projects/TitanCNA/"
-  contributors:
-  - login: gavinha
-    avatar: https://avatars1.githubusercontent.com/u/9221688?v=4&s=50
-    url: https://github.com/gavinha
-  - login: lbeltrame
-    avatar: https://avatars0.githubusercontent.com/u/25192?v=4&s=50
-    url: https://github.com/lbeltrame
-  - login: dtenenba
-    avatar: https://avatars0.githubusercontent.com/u/2286826?v=4&s=50
-    url: https://github.com/dtenenba
-  - login: hpages
-    avatar: https://avatars1.githubusercontent.com/u/8810451?v=4&s=50
-    url: https://github.com/hpages
-  - login: mrjc42
-    avatar: https://avatars3.githubusercontent.com/u/2029097?v=4&s=50
-    url: https://github.com/mrjc42
-  commits:
-  - date: 2017-12-01 22:51:41.000000000 Z
-    message: |-
-      Merge pull request #14 from chapmanb/master
-
-      Sychronize to `.params.txt` for run scripts
-    url: https://github.com/gavinha/TitanCNA/commit/93602ea1a9c2b0dfe6bef7c31f798a3c3a79570f
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2017-11-20 11:33:48.000000000 Z
-    message: |-
-      Sychronize to `.params.txt` for run scripts
-
-      `selectSolutions.R` expects parameter scripts to end with `.params.txt`
-      which is the default in the snakemake scripts but not the base
-      `titanCNA.R` script which uses `.param.txt`. This swaps over to use
-      `params.txt` consistently throughout. Fixes gavinha/TitanCNA#7
-    url: https://github.com/gavinha/TitanCNA/commit/ebd73fd642c11909e13b085d6d67162279d44b01
-    author_login: chapmanb
-    author_url: https://github.com/chapmanb
-  - date: 2017-10-16 12:21:11.000000000 Z
-    message: |-
-      Merge pull request #13 from lbeltrame/fix-cluster-display
-
-      Fix plotClonalFrequency on genome and region plots
-    url: https://github.com/gavinha/TitanCNA/commit/179aa80906a14704f6ca79352ee0dde12d05316f
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2017-09-11 15:26:43.000000000 Z
-    message: |-
-      Fix plotClonalFrequency on genome and region plots
-
-      As told in issue #12:
-
-       In the code for the function, clusters expands to
-
-      ```r
-      > clusters
-         ClonalCluster CellularPrevalence
-      1:             2          0.7714099
-      2:             3          0.6370672
-      3:             1          1.0000000
-      4:             4          0.5077241
-      ```
-
-      When plotting, the code does
-
-      ```r
-      if (nrow(clusters) > 0) {
-                  for (j in 1:length(clusters[, 1])) {
-      ```
-
-      However:
-
-      ```r
-      > 1:length(clusters[, 1])
-      [1] 1
-      ```
-
-      This PR fixes it by iterating on the actual data.table instead of using
-      `length()`. Notice that the diff may show a much larger change than
-      expected because I also fixed part of the indentation.
-
-      This fixes issue #12.
-    url: https://github.com/gavinha/TitanCNA/commit/9c8020bc86bd9b9ad695887c6fd96091d3e712da
-    author_login: lbeltrame
-    author_url: https://github.com/lbeltrame
-  - date: 2017-09-09 12:19:42.000000000 Z
-    message: |-
-      Merge pull request #9 from lbeltrame/simplify-scripts
-
-      Make titanCNA.R less verbose and clean the script up
-    url: https://github.com/gavinha/TitanCNA/commit/c45cc746a73f20967542f70584ca69d8b032394b
-    author_login: gavinha
-    author_url: https://github.com/gavinha
 - repo: shahcompbio/xseq
   title: xseq
   owner: shahcompbio
