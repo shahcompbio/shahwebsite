@@ -39344,4 +39344,317 @@
     </PubmedData>
 </PubmedArticle>
 
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29449679</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>02</Month>
+            <Day>16</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1530-0285</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Feb</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Modern pathology : an official journal of the United States and Canadian Academy of Pathology, Inc</Title>
+                <ISOAbbreviation>Mod. Pathol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>TERT promoter mutation in adult granulosa cell tumor of the ovary.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1038/s41379-018-0007-9</ELocationID>
+            <Abstract>
+                <AbstractText>The telomerase reverse transcriptase (TERT) gene is highly expressed in stem cells and silenced upon differentiation. Cancer cells can attain immortality by activating TERT to maintain telomere length and telomerase activity, which is a crucial step of tumorigenesis. Two somatic mutations in the TERT promoter (C228T; C250T) have been identified as gain-of-function mutations that promote transcriptional activation of TERT in multiple cancers, such as melanoma and glioblastoma. A recent study investigating TERT promoter mutations in ovarian carcinomas found C228T and C250T mutations in 15.9% of clear cell carcinomas. However, it is unknown whether these mutations are frequent in other ovarian cancer subtypes, in particular, sex cord-stromal tumors including adult granulosa cell tumors. We performed whole-genome sequencing on ten adult granulosa cell tumors with matched normal blood and identified a TERT C228T promoter mutation in 50% of tumors. We found that adult granulosa cell tumors with mutated TERT promoter have increased expression of TERT mRNA and exhibited significantly longer telomeres compared to those with wild-type TERT promoter. Extension cohort analysis using allelic discrimination revealed the TERT C228T mutation in 51 of 229 primary adult granulosa cell tumors (22%), 24 of 58 recurrent adult granulosa cell tumors (41%), and 1 of 22 other sex cord-stromal tumors (5%). There was a significant difference in overall survival between patients with TERT C228T promoter mutation in the primary tumors and those without it (p = 0.00253, log-rank test). In seven adult granulosa cell tumors, we found the TERT C228T mutation present in recurrent tumors and absent in the corresponding primary tumor. Our data suggest that TERT C228T promoter mutations may have an important role in progression of adult granulosa cell tumors.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Pilsworth</LastName>
+                    <ForeName>Jessica A</ForeName>
+                    <Initials>JA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Genetics, University of British Columbia, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Agency, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cochrane</LastName>
+                    <ForeName>Dawn R</ForeName>
+                    <Initials>DR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Agency, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xia</LastName>
+                    <ForeName>Zhouchunyang</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Agency, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Aubert</LastName>
+                    <ForeName>Geraldine</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Terry Fox Laboratory, British Columbia Cancer Agency, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Färkkilä</LastName>
+                    <ForeName>Anniina E M</ForeName>
+                    <Initials>AEM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Children's Hospital and Department of Obstetrics and Gynecology, University of Helsinki and Helsinki University Hospital, Helsinki, Finland.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiation Oncology, Harvard Medical School, Dana-Farber Cancer Institute, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Horlings</LastName>
+                    <ForeName>Hugo M</ForeName>
+                    <Initials>HM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Agency, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yanagida</LastName>
+                    <ForeName>Satoshi</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Obstetrics and Gynecology, The Jikei University School of Medicine, Tokyo, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Winnie</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Agency, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lim</LastName>
+                    <ForeName>Jamie L P</ForeName>
+                    <Initials>JLP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Agency, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Yi Kan</ForeName>
+                    <Initials>YK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Agency, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bashashati</LastName>
+                    <ForeName>Ali</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Agency, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Keul</LastName>
+                    <ForeName>Jacqueline</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Women's Health, Tübingen University Hospital, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wong</LastName>
+                    <ForeName>Adele</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology, Massachusetts General Hospital, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Norris</LastName>
+                    <ForeName>Kevin</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cancer and Genetics, School of Medicine, Cardiff University, Cardiff, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Brucker</LastName>
+                    <ForeName>Sara Y</ForeName>
+                    <Initials>SY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Women's Health, Tübingen University Hospital, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Taran</LastName>
+                    <ForeName>Florin-Andrei</ForeName>
+                    <Initials>FA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Women's Health, Tübingen University Hospital, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Krämer</LastName>
+                    <ForeName>Bernhard</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Women's Health, Tübingen University Hospital, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Staebler</LastName>
+                    <ForeName>Annette</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Tübingen University Hospital, Institute of Pathology, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Oliva</LastName>
+                    <ForeName>Esther</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology, Massachusetts General Hospital, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Sohrab P</ForeName>
+                    <Initials>SP</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-6402-523X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Agency, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, University of British Columbia, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kommoss</LastName>
+                    <ForeName>Stefan</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Women's Health, Tübingen University Hospital, Tübingen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kommoss</LastName>
+                    <ForeName>Friedrich</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Pathology, Campus Bodensee, Friedrichshafen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gilks</LastName>
+                    <ForeName>C Blake</ForeName>
+                    <Initials>CB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Baird</LastName>
+                    <ForeName>Duncan M</ForeName>
+                    <Initials>DM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cancer and Genetics, School of Medicine, Cardiff University, Cardiff, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huntsman</LastName>
+                    <ForeName>David G</ForeName>
+                    <Initials>DG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Agency, Vancouver, BC, Canada. dhuntsma@bccancer.bc.ca.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC, Canada. dhuntsma@bccancer.bc.ca.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2018</Year>
+                <Month>02</Month>
+                <Day>15</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Mod Pathol</MedlineTA>
+            <NlmUniqueID>8806605</NlmUniqueID>
+            <ISSNLinking>0893-3952</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>2</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>2</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>2</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29449679</ArticleId>
+            <ArticleId IdType="doi">10.1038/s41379-018-0007-9</ArticleId>
+            <ArticleId IdType="pii">10.1038/s41379-018-0007-9</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
 </PubmedArticleSet>
