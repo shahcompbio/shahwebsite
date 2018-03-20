@@ -50,7 +50,8 @@ xml.xpath('//PubmedArticle').each do |article|
 	file.puts("---")
 	file.puts("")
 
-	file.puts("<div data-badge-popover=\"right\" data-badge-type=\"medium-donut\" data-doi=\"" + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="doi"]').text + "\" data-hide-no-mentions=\"true\" class=\"altmetric-embed\"></div>")
+	file.puts("<br />")
+	file.puts("<div data-badge-popover=\"right\" data-badge-type=\"donut\" data-pmid=\"" + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="pubmed"]').text + "\" data-hide-no-mentions=\"true\" class=\"altmetric-embed\"></div>")
 	file.puts("")
 	
 	if article.at_xpath('MedlineCitation/Article/Abstract/AbstractText') then
