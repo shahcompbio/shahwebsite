@@ -44,6 +44,8 @@ bundle exec ruby _scripts/update-and-preprocess.rb
 
 Then `bundle exec jekyll build` works as normal.
 
+In short, running `bundle install && bundle exec ruby _scripts/update-and-preprocess.rb && bundle exec jekyll build && bundle exec jekyll serve` will do everything you need.
+
 ## Updating
 
 The website is built using Travis, with builds triggered for each commit.  If you commit your changes to a branch and do a pull request, Travis will build your branch and you will be able to check your changes build correctly before going live.  Commit your changes to master and they will go live in a few minutes.
@@ -78,7 +80,8 @@ Specific to the Shah Lab, for each new paper added
     e.g.: ./assets/pdfs/papers/29449679.pdf
 4) Create a image for the paper, preferably a square .png file, name and place:
     e.g.: ./assets/images/papers/29449679.png
-5) Commit changes and push, the website will do the rest automatically
+5) Run the following command `bundle exec ruby _scripts/update-and-preprocess.rb` to generate a page for your paper, and then make sure it appears on the website when the site is hosted locally (use `bundle exec jekyll build && bundle exec jekyll serve` to host a local server)
+6) If the local server's website looks okay, commit your changes and push to production
 
 ## For more information
 
@@ -87,7 +90,7 @@ Specific to the Shah Lab, for each new paper added
 
 ## License
 
-All source code in this repository, consisting of files with extensions `.html`, `.css`, `.less`, `.rb` or `.js`, is freely available under an MIT license, unless otherwise noted within a file. You're welcome to borrow / repurpose code to build your own site, but I would very much appreciate attribution and a link back to [bedford.io](http://bedford.io) from your `about` page.
+All source code in this repository, consisting of files with extensions `.html`, `.css`, `.less`, `.rb` or `.js`, is freely available under an MIT license, unless otherwise noted within a file.
 
 **The MIT License (MIT)**
 
