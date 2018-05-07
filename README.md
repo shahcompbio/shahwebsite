@@ -9,7 +9,7 @@ The new website will lives on github pages.  Because the bedford lab website use
 To build the website locally, clone the repo with:
 
 ```
-git clone --recursive https://github.com/shahcompbio/shahwebsite.git
+git clone --recurse-submodules https://github.com/shahcompbio/shahwebsite.git
 ```
 
 Then install necessary Ruby dependencies by running:
