@@ -1,8 +1,8 @@
 # Shah Lab research website
 
-The Shah Lab website is be a Jekyll website based on the Bedford Lab's website: http://bedford.io/.  The Bedford Jekyll website contains a few nice features including a front page summarizing recent blog posts, papers, and project.  Projects are auto populated using a Ruby script from meta data extracted from Github repos, and are thus referring to software projects specifically.
+The Shah Lab website is a Jekyll website based on the Bedford Lab's website ([bedford.io](http://bedford.io)). The Bedford Jekyll website contains a few nice features, one of which is a front page summarizing recent blog posts, papers, and projects. Projects are auto populated using a Ruby script from metadata extracted from the lab's Github repositories, and thus refer to software projects exclusively.
 
-The new website will lives on Github pages.  Because the Bedford lab website uses some preprocessing and plugins not supported by Github Pages, we will not use the feature provided by Github Pages to automatically generate a Jekyll website from Jekyll source.  Instead, the Jekyll source will be here: https://github.com/shahcompbio/shahwebsite, and the built website here: https://github.com/shahcompbio/shahcompbio.github.io.
+The Shah Lab website lives on Github Pages. Because the Bedford lab website uses some preprocessing and plugins not supported by Github Pages, the feature provided by Github Pages to automatically generate a Jekyll website from the Jekyll source is not being used. Instead, the Jekyll source will be here: https://github.com/shahcompbio/shahwebsite, and the built website here: https://github.com/shahcompbio/shahcompbio.github.io.
 
 ## Build site
 
@@ -18,7 +18,7 @@ Then install necessary Ruby dependencies by running:
 bundle install
 ```
 
-from within the `shahwebsite` directory.  If you do not have root permissions you may need to run:
+from within the `shahwebsite` directory. If you do not have root permissions you may need to run:
 
 ```
 bundle install --path vendor/bundle
@@ -32,7 +32,7 @@ bundle exec jekyll build
 
 (If you are getting errors at this stage, it may be due to your version of `bundle`. Try `gem uninstall bundler` + `gem install bundler -v 1.13.1`.)
 
-To view the site, run `bundle exec jekyll serve` and point a browser to `http://localhost:4000/`.  More information on Jekyll can be found [here](http://jekyllrb.com/).
+To view the site, run `bundle exec jekyll serve` and point a browser to `http://localhost:4000/`. More information on Jekyll can be found [here](http://jekyllrb.com/).
 
 To include projects, preprocessing scripts are necessary to clone project repos and update Jekyll metadata. This can be accomplished with:
 
@@ -48,7 +48,7 @@ In short, running `bundle install && bundle exec ruby _scripts/update-and-prepro
 
 ## Updating
 
-The website is built using Travis, with builds triggered for each commit.  If you commit your changes to a branch and do a pull request, Travis will build your branch and you will be able to check your changes build correctly before going live.  Commit your changes to master and they will go live in a few minutes.
+The website is built using Travis, with builds triggered for each commit. If you commit your changes to a branch and do a pull request, Travis will build your branch and you will be able to check your changes build correctly before going live. Commit your changes to master and they will go live in a few minutes.
 
 ## Contribute
 
