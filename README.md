@@ -1,8 +1,8 @@
 # Shah Lab research website
 
-The shah lab website is be a jekyll website based on the bedford lab's website: http://bedford.io/.  The bedford jekyll website contains a few nice features including a front page summarizing recent blog posts, papers, and project.  Projects are auto populated using a ruby script from meta data extracted from github repos, and are thus referring to software projects specifically.
+The Shah Lab website is be a Jekyll website based on the Bedford Lab's website: http://bedford.io/.  The Bedford Jekyll website contains a few nice features including a front page summarizing recent blog posts, papers, and project.  Projects are auto populated using a Ruby script from meta data extracted from Github repos, and are thus referring to software projects specifically.
 
-The new website will lives on github pages.  Because the bedford lab website uses some preprocessing and plugins not supported by github pages, we will not use the feature provided by github pages to automatically generate a jekyll website from jekyll source.  Instead, the jekyll source will be here: https://github.com/shahcompbio/shahwebsite, and the built website here: https://github.com/shahcompbio/shahcompbio.github.io.
+The new website will lives on Github pages.  Because the Bedford lab website uses some preprocessing and plugins not supported by Github Pages, we will not use the feature provided by Github Pages to automatically generate a Jekyll website from Jekyll source.  Instead, the Jekyll source will be here: https://github.com/shahcompbio/shahwebsite, and the built website here: https://github.com/shahcompbio/shahcompbio.github.io.
 
 ## Build site
 
