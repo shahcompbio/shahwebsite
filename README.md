@@ -1,15 +1,15 @@
 # Shah Lab research website
 
-The shah lab website is be a jekyll website based on the bedford lab's website: http://bedford.io/.  The bedford jekyll website contains a few nice features including a front page summarizing recent blog posts, papers, and project.  Projects are auto populated using a ruby script from meta data extracted from github repos, and are thus referring to software projects specifically.
+The Shah Lab website is a Jekyll website based on the Bedford Lab's website ([bedford.io](http://bedford.io)). The Bedford Jekyll website contains a few nice features, one of which is a front page summarizing recent blog posts, papers, and projects. Projects are auto populated using a Ruby script from metadata extracted from the lab's Github repositories, and thus refer to software projects exclusively.
 
-The new website will lives on github pages.  Because the bedford lab website uses some preprocessing and plugins not supported by github pages, we will not use the feature provided by github pages to automatically generate a jekyll website from jekyll source.  Instead, the jekyll source will be here: https://github.com/shahcompbio/shahwebsite, and the built website here: https://github.com/shahcompbio/shahcompbio.github.io.
+The Shah Lab website lives on Github Pages. Because the Bedford lab website uses some preprocessing and plugins not supported by Github Pages, the feature provided by Github Pages to automatically generate a Jekyll website from the Jekyll source is not being used. Instead, the Jekyll source will be here: https://github.com/shahcompbio/shahwebsite, and the built website here: https://github.com/shahcompbio/shahcompbio.github.io.
 
 ## Build site
 
 To build the website locally, clone the repo with:
 
 ```
-git clone --recursive https://github.com/shahcompbio/shahwebsite.git
+git clone --recurse-submodules https://github.com/shahcompbio/shahwebsite.git
 ```
 
 Then install necessary Ruby dependencies by running:
@@ -18,7 +18,7 @@ Then install necessary Ruby dependencies by running:
 bundle install
 ```
 
-from within the `shahwebsite` directory.  If you do not have root permissions you may need to run:
+from within the `shahwebsite` directory. If you do not have root permissions you may need to run:
 
 ```
 bundle install --path vendor/bundle
@@ -32,7 +32,7 @@ bundle exec jekyll build
 
 (If you are getting errors at this stage, it may be due to your version of `bundle`. Try `gem uninstall bundler` + `gem install bundler -v 1.13.1`.)
 
-To view the site, run `bundle exec jekyll serve` and point a browser to `http://localhost:4000/`.  More information on Jekyll can be found [here](http://jekyllrb.com/).
+To view the site, run `bundle exec jekyll serve` and point a browser to `http://localhost:4000/`. More information on Jekyll can be found [here](http://jekyllrb.com/).
 
 To include projects, preprocessing scripts are necessary to clone project repos and update Jekyll metadata. This can be accomplished with:
 
@@ -44,9 +44,11 @@ bundle exec ruby _scripts/update-and-preprocess.rb
 
 Then `bundle exec jekyll build` works as normal.
 
+In short, running `bundle install && bundle exec ruby _scripts/update-and-preprocess.rb && bundle exec jekyll build && bundle exec jekyll serve` will do everything you need.
+
 ## Updating
 
-The website is built using Travis, with builds triggered for each commit.  If you commit your changes to a branch and do a pull request, Travis will build your branch and you will be able to check your changes build correctly before going live.  Commit your changes to master and they will go live in a few minutes.
+The website is built using Travis, with builds triggered for each commit. If you commit your changes to a branch and do a pull request, Travis will build your branch and you will be able to check your changes build correctly before going live. Commit your changes to master and they will go live in a few minutes.
 
 ## Contribute
 
@@ -78,7 +80,8 @@ Specific to the Shah Lab, for each new paper added
     e.g.: ./assets/pdfs/papers/29449679.pdf
 4) Create a image for the paper, preferably a square .png file, name and place:
     e.g.: ./assets/images/papers/29449679.png
-5) Commit changes and push, the website will do the rest automatically
+5) Run the following command `bundle exec ruby _scripts/update-and-preprocess.rb` to generate a page for your paper, and then make sure it appears on the website when the site is hosted locally (use `bundle exec jekyll build && bundle exec jekyll serve` to host a local server)
+6) If the local server's website looks okay, commit your changes and push to production
 
 ## For more information
 
@@ -87,7 +90,7 @@ Specific to the Shah Lab, for each new paper added
 
 ## License
 
-All source code in this repository, consisting of files with extensions `.html`, `.css`, `.less`, `.rb` or `.js`, is freely available under an MIT license, unless otherwise noted within a file. You're welcome to borrow / repurpose code to build your own site, but I would very much appreciate attribution and a link back to [bedford.io](http://bedford.io) from your `about` page.
+All source code in this repository, consisting of files with extensions `.html`, `.css`, `.less`, `.rb` or `.js`, is freely available under an MIT license, unless otherwise noted within a file.
 
 **The MIT License (MIT)**
 

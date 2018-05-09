@@ -19,6 +19,7 @@ years:
   - 2015
   - 2016
   - 2017
+  - 2018
 ---
 {% include JB/setup %}
 <div class="bigspacer"></div> 
@@ -28,7 +29,7 @@ years:
   <div class="bigtitle">{{ year }}</div>
   <div class="spacer"></div>
   {% for paper in site.categories.papers %}
-    {% if paper.year == year %}  
+    {% if paper.pub_year == year %}  
       {% assign counter = counter | plus: 1 %}
       {% cycle rows: '<div class="row">', '', '' %}
         <div class="col-md-4 paperbox">
