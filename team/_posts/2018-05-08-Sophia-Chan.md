@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Sofia Chan
+title: Sophia Chan
 position: Co-op Student
 email: sochan@bccrc.ca
 image: /assets/images/team/default-member.png
