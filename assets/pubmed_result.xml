@@ -39657,4 +39657,474 @@
 </PubmedArticle>
 
 
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">29754820</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>05</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1097-4172</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>May</Month>
+                        <Day>07</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Cell</Title>
+                <ISOAbbreviation>Cell</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Interfaces of Malignant and Immunologic Clonal Dynamics in Ovarian Cancer.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">S0092-8674(18)30445-8</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.cell.2018.03.073</ELocationID>
+            <Abstract>
+                <AbstractText>High-grade serous ovarian cancer (HGSC) exhibits extensive malignant clonal diversity with widespread but non-random patterns of disease dissemination. We investigated whether local immune microenvironment factors shape tumor progression properties at the interface of tumor-infiltrating lymphocytes (TILs) and cancer cells. Through multi-region study of 212 samples from 38 patients with whole-genome sequencing, immunohistochemistry, histologic image analysis, gene expression profiling, and T and B cell receptor sequencing, we identified three immunologic subtypes across samples and extensive within-patient diversity. Epithelial CD8+ TILs negatively associated with malignant diversity, reflecting immunological pruning of tumor clones inferred by neoantigen depletion, HLA I loss of heterozygosity, and spatial tracking between T cell and tumor clones. In addition, combinatorial prognostic effects of mutational processes and immune properties were observed, illuminating how specific genomic aberration types associate with immune response and impact survival. We conclude that within-patient spatial immune microenvironment variation shapes intraperitoneal malignant spread, provoking new evolutionary perspectives on HGSC clonal dispersion.</AbstractText>
+                <CopyrightInformation>Copyright © 2018 Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Allen W</ForeName>
+                    <Initials>AW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada; BC Children's Hospital Research, Vancouver, BC V5Z 4H4, Canada; Graduate Bioinformatics Training Program, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McPherson</LastName>
+                    <ForeName>Andrew</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Milne</LastName>
+                    <ForeName>Katy</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Deeley Research Centre, BC Cancer, Victoria, BC V8R 6V5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kroeger</LastName>
+                    <ForeName>David R</ForeName>
+                    <Initials>DR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Deeley Research Centre, BC Cancer, Victoria, BC V8R 6V5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hamilton</LastName>
+                    <ForeName>Phineas T</ForeName>
+                    <Initials>PT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Deeley Research Centre, BC Cancer, Victoria, BC V8R 6V5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Miranda</LastName>
+                    <ForeName>Alex</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Deeley Research Centre, BC Cancer, Victoria, BC V8R 6V5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Funnell</LastName>
+                    <ForeName>Tyler</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada; Graduate Bioinformatics Training Program, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Little</LastName>
+                    <ForeName>Nicole</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Deeley Research Centre, BC Cancer, Victoria, BC V8R 6V5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>de Souza</LastName>
+                    <ForeName>Camila P E</ForeName>
+                    <Initials>CPE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada; Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Laan</LastName>
+                    <ForeName>Sonya</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Deeley Research Centre, BC Cancer, Victoria, BC V8R 6V5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>LeDoux</LastName>
+                    <ForeName>Stacey</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Deeley Research Centre, BC Cancer, Victoria, BC V8R 6V5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cochrane</LastName>
+                    <ForeName>Dawn R</ForeName>
+                    <Initials>DR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lim</LastName>
+                    <ForeName>Jamie L P</ForeName>
+                    <Initials>JLP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Winnie</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Roth</LastName>
+                    <ForeName>Andrew</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics, University of Oxford, Oxford OX1 2JD, UK; Ludwig Institute for Cancer Research, University of Oxford, Oxford OX1 2JD, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Smith</LastName>
+                    <ForeName>Maia A</ForeName>
+                    <Initials>MA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ho</LastName>
+                    <ForeName>Julie</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Anatomical Pathology, Vancouver General Hospital, Vancouver, BC V5Z 1M9, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tse</LastName>
+                    <ForeName>Kane</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zeng</LastName>
+                    <ForeName>Thomas</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shlafman</LastName>
+                    <ForeName>Inna</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mayo</LastName>
+                    <ForeName>Michael R</ForeName>
+                    <Initials>MR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Moore</LastName>
+                    <ForeName>Richard</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Failmezger</LastName>
+                    <ForeName>Henrik</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Evolution and Cancer, The Institute of Cancer Research, London SM2 5NG, UK; Division of Molecular Pathology, The Institute of Cancer Research, London SM2 5NG, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Heindl</LastName>
+                    <ForeName>Andreas</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Evolution and Cancer, The Institute of Cancer Research, London SM2 5NG, UK; Division of Molecular Pathology, The Institute of Cancer Research, London SM2 5NG, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Yi Kan</ForeName>
+                    <Initials>YK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bashashati</LastName>
+                    <ForeName>Ali</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Grewal</LastName>
+                    <ForeName>Diljot S</ForeName>
+                    <Initials>DS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Brown</LastName>
+                    <ForeName>Scott D</ForeName>
+                    <Initials>SD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC V5Z 4E6, Canada; Genome Science and Technology Program, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lai</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wan</LastName>
+                    <ForeName>Adrian N C</ForeName>
+                    <Initials>ANC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nielsen</LastName>
+                    <ForeName>Cydney B</ForeName>
+                    <Initials>CB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huebner</LastName>
+                    <ForeName>Curtis</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tessier-Cloutier</LastName>
+                    <ForeName>Basile</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Anglesio</LastName>
+                    <ForeName>Michael S</ForeName>
+                    <Initials>MS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC V6T 1Z3, Canada; Department of Gynecology and Obstetrics, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bouchard-Côté</LastName>
+                    <ForeName>Alexandre</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yuan</LastName>
+                    <ForeName>Yinyin</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Evolution and Cancer, The Institute of Cancer Research, London SM2 5NG, UK; Division of Molecular Pathology, The Institute of Cancer Research, London SM2 5NG, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wasserman</LastName>
+                    <ForeName>Wyeth W</ForeName>
+                    <Initials>WW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>BC Children's Hospital Research, Vancouver, BC V5Z 4H4, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gilks</LastName>
+                    <ForeName>C Blake</ForeName>
+                    <Initials>CB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Karnezis</LastName>
+                    <ForeName>Anthony N</ForeName>
+                    <Initials>AN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Aparicio</LastName>
+                    <ForeName>Samuel</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada; Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McAlpine</LastName>
+                    <ForeName>Jessica N</ForeName>
+                    <Initials>JN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Gynecology and Obstetrics, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huntsman</LastName>
+                    <ForeName>David G</ForeName>
+                    <Initials>DG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada; Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Holt</LastName>
+                    <ForeName>Robert A</ForeName>
+                    <Initials>RA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nelson</LastName>
+                    <ForeName>Brad H</ForeName>
+                    <Initials>BH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Deeley Research Centre, BC Cancer, Victoria, BC V8R 6V5, Canada; Department of Biochemistry and Microbiology, University of Victoria, Victoria, BC V8P 3E6, Canada; Department of Medical Genetics, University of British Columbia, Vancouver, BC V6T 1Z3, Canada. Electronic address: bnelson@bccrc.ca.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Sohrab P</ForeName>
+                    <Initials>SP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer, Vancouver, BC V5Z 4E6, Canada; Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, BC V6T 1Z3, Canada. Electronic address: sshah@bccrc.ca.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2018</Year>
+                <Month>05</Month>
+                <Day>07</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Cell</MedlineTA>
+            <NlmUniqueID>0413066</NlmUniqueID>
+            <ISSNLinking>0092-8674</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">HGSC</Keyword>
+            <Keyword MajorTopicYN="N">HLA</Keyword>
+            <Keyword MajorTopicYN="N">clonal evolution</Keyword>
+            <Keyword MajorTopicYN="N">clone</Keyword>
+            <Keyword MajorTopicYN="N">foldback inversion</Keyword>
+            <Keyword MajorTopicYN="N">high-grade serous ovarian cancer</Keyword>
+            <Keyword MajorTopicYN="N">human leukocyte antigen</Keyword>
+            <Keyword MajorTopicYN="N">immunoediting</Keyword>
+            <Keyword MajorTopicYN="N">intratumoral heterogeneity</Keyword>
+            <Keyword MajorTopicYN="N">metastatic</Keyword>
+            <Keyword MajorTopicYN="N">mutation signature</Keyword>
+            <Keyword MajorTopicYN="N">tumor-infiltrating lymphocyte</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2018</Year>
+                <Month>02</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2018</Year>
+                <Month>03</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>5</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>5</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>5</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29754820</ArticleId>
+            <ArticleId IdType="pii">S0092-8674(18)30445-8</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cell.2018.03.073</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
 </PubmedArticleSet>
