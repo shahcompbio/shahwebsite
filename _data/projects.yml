@@ -22,30 +22,29 @@
     avatar: https://avatars3.githubusercontent.com/u/2029097?v=4&s=50
     url: https://github.com/mrjc42
   commits:
-  - date: 2018-02-12 17:10:32.000000000 Z
-    message: updated hmmcopy link [ci skip]
-    url: https://github.com/gavinha/TitanCNA/commit/022ceed11d94c2df13755a8c771a22997cf4c452
+  - date: 2018-04-11 18:06:09.000000000 Z
+    message: version bump v1.17.2
+    url: https://github.com/gavinha/TitanCNA/commit/1b0d954293435c0fdd51fce769eba01b3164928c
     author_login: gavinha
     author_url: https://github.com/gavinha
-  - date: 2018-01-14 18:53:12.000000000 Z
-    message: "updated usage for getMoleculeCoverage.R #16 [ci skip]\n\nMatches new
-      ichorCNA analysis\r\nhttps://github.com/broadinstitute/ichorCNA/tree/master/scripts/runIchorCNA.R"
-    url: https://github.com/gavinha/TitanCNA/commit/4094f520b17234e5d27eff8039a7155dc6b5f853
+  - date: 2018-04-11 18:04:34.000000000 Z
+    message: include function getHaplotypesFromVCF [ci skip]
+    url: https://github.com/gavinha/TitanCNA/commit/7fc4fcc3192aa975a480ed360db0db36d46a6ae6
     author_login: gavinha
     author_url: https://github.com/gavinha
-  - date: 2018-01-14 18:39:05.000000000 Z
-    message: 'update analysis using latest ichorCNA #16'
-    url: https://github.com/gavinha/TitanCNA/commit/6807e68c6caf428933a8ca2d623830771b8170d8
+  - date: 2018-04-05 16:57:06.000000000 Z
+    message: remove redundant ichorCNA options [ci skip]
+    url: https://github.com/gavinha/TitanCNA/commit/635e89acd2fa1b75adca3c7438aa71c8ef0e8586
     author_login: gavinha
     author_url: https://github.com/gavinha
-  - date: 2018-01-11 22:05:24.000000000 Z
-    message: 'add loadBXcountsFromBEDDir to namespace #16'
-    url: https://github.com/gavinha/TitanCNA/commit/c0ebe0199a98f43953735cd55266ebace2f2d787
+  - date: 2018-04-03 16:27:42.000000000 Z
+    message: updated cluster for Broad qsub settings [ci skip]
+    url: https://github.com/gavinha/TitanCNA/commit/a55b553e01884a42ea663abae83578ba149fc869
     author_login: gavinha
     author_url: https://github.com/gavinha
-  - date: 2018-01-11 21:22:26.000000000 Z
-    message: 'load custom R file using --libdir [ci skip] #16'
-    url: https://github.com/gavinha/TitanCNA/commit/7d1150ffafb172c6733165773fec1aa783a1099a
+  - date: 2018-03-22 17:01:25.000000000 Z
+    message: licensing text
+    url: https://github.com/gavinha/TitanCNA/commit/f5b2181210f8ff40864d2107db4a853735d1f533
     author_login: gavinha
     author_url: https://github.com/gavinha
 - repo: aroth85/pyclone
