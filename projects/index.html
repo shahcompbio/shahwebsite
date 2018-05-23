@@ -7,7 +7,8 @@ navorder: 4
 ---
 {% include JB/setup %}
 <div class="bigspacer"></div>
-{% for project in site.data.projects %}
+{% assign sorted_projects = site.data.projects | sort_natural: 'title' %}
+{% for project in sorted_projects %}
     {% cycle 'add rows': '<div class="row">', '', '' %}  
         <div class="col-md-4 projectbox">
             <div class="head">
