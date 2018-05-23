@@ -47,6 +47,42 @@
     url: https://github.com/gavinha/TitanCNA/commit/f5b2181210f8ff40864d2107db4a853735d1f533
     author_login: gavinha
     author_url: https://github.com/gavinha
+- repo: shahcompbio/scvis
+  title: scvis
+  owner: shahcompbio
+  description: Python package for dimension reduction of high-dimensional biological
+    data.
+  url: "/projects/scvis/"
+  contributors:
+  - login: Jerry001
+    avatar: https://avatars2.githubusercontent.com/u/4073376?v=4&s=50
+    url: https://github.com/Jerry001
+  commits:
+  - date: 2018-02-04 20:56:59.000000000 Z
+    message: bug fix
+    url: https://github.com/shahcompbio/scvis/commit/af73849679e8f84d80e4418d0badf5ea9d9a87af
+    author_login: 
+    author_url: 
+  - date: 2018-02-03 01:39:57.000000000 Z
+    message: v0.1.0
+    url: https://github.com/shahcompbio/scvis/commit/a05c4ce1c480f5ef253b89ada67197c369db3bae
+    author_login: 
+    author_url: 
+  - date: 2017-12-17 19:25:24.000000000 Z
+    message: normalization
+    url: https://github.com/shahcompbio/scvis/commit/c4d759f062a8d0a49663c3b5928f13b878f8e6f1
+    author_login: 
+    author_url: 
+  - date: 2017-10-23 02:26:21.000000000 Z
+    message: revised README.md and init file added
+    url: https://github.com/shahcompbio/scvis/commit/ff7fd7f1b22d0bc4629bd5b41016ef1abdc185b2
+    author_login: 
+    author_url: 
+  - date: 2017-08-28 00:33:57.000000000 Z
+    message: fixing small bugs
+    url: https://github.com/shahcompbio/scvis/commit/fe42d424714c6b65c9f6e22981749439f43202fb
+    author_login: 
+    author_url: 
 - repo: aroth85/pyclone
   title: pyclone
   owner: aroth85

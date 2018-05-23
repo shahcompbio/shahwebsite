@@ -180,6 +180,7 @@ projects:
   - shahcompbio/mapscape
   - shahcompbio/mutationseq
   - shahcompbio/postpy
+  - shahcompbio/scvis
   - shahcompbio/snvmix
   - shahcompbio/timescape
   - shahcompbio/xseq
