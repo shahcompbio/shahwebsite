@@ -3,8 +3,7 @@ layout: member
 title: Alborz Mazloomian
 position: 2017 PhD Graduate
 current: Minted Bioinformatics Doctorate
-link: http://shahlab.ca/team/Alborz-Mazloomian
-email: amazloomian@bccrc.ca
+link: https://www.researchgate.net/scientific-contributions/2094415684_Alborz_Mazloomian
 image: /assets/images/team/Mazloomian-Alborz.jpg
 alum: true
 ---
