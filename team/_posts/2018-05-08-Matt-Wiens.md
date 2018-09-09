@@ -4,7 +4,7 @@ title: Matt Wiens
 position: Co-op Student
 email: mwiens@bccrc.ca
 github: mwiens91
-image: /assets/images/team/default-member.png
+image: /assets/images/team/Wiens-Matt.jpg
 alum: false
 ---
 
