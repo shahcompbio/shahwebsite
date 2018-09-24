@@ -122,12 +122,6 @@
 			{% endfor %}
 		{% endif %}
 
-		{% for post in site.categories.blog %}
-			{% if member.handle == post.author_handle %}
-				{% assign postsq = true %}
-			{% endif %}
-		{% endfor %}
-
 		{% if postsq == true %}
 			<div class="bigspacer"></div>
 			<div class="head">Posts</div>
