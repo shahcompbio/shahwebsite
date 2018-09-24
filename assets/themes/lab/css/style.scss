@@ -240,14 +240,14 @@ strong {
 }
 
 .carousel-indicators {
-  bottom:0px;
+  bottom: 0px;
 }
 .carousel-indicators li {
-  background-color: #D3D3D3;
-  box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+  height: 10px;
+  width: 10px;
 }
 .carousel-indicators .active {
-  background-color: #ffff99;
+  background-color: #00CBDF;
 }
 
 .carousel-overlay { 
