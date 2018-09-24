@@ -61,28 +61,28 @@
   - date: 2018-02-04 20:56:59.000000000 Z
     message: bug fix
     url: https://github.com/shahcompbio/scvis/commit/af73849679e8f84d80e4418d0badf5ea9d9a87af
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
   - date: 2018-02-03 01:39:57.000000000 Z
     message: v0.1.0
     url: https://github.com/shahcompbio/scvis/commit/a05c4ce1c480f5ef253b89ada67197c369db3bae
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
   - date: 2017-12-17 19:25:24.000000000 Z
     message: normalization
     url: https://github.com/shahcompbio/scvis/commit/c4d759f062a8d0a49663c3b5928f13b878f8e6f1
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
   - date: 2017-10-23 02:26:21.000000000 Z
     message: revised README.md and init file added
     url: https://github.com/shahcompbio/scvis/commit/ff7fd7f1b22d0bc4629bd5b41016ef1abdc185b2
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
   - date: 2017-08-28 00:33:57.000000000 Z
     message: fixing small bugs
     url: https://github.com/shahcompbio/scvis/commit/fe42d424714c6b65c9f6e22981749439f43202fb
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
 - repo: aroth85/pyclone
   title: pyclone
   owner: aroth85
@@ -219,8 +219,8 @@
   - date: 2016-04-26 19:45:11.000000000 Z
     message: initial commit
     url: https://github.com/shahcompbio/snvmix/commit/99d9fecbc52b52ea5ed9c4124e07632af58c8bfb
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
 - repo: shahcompbio/mutationseq
   title: mutationseq
   owner: shahcompbio
@@ -243,13 +243,13 @@
   - date: 2017-03-15 18:35:20.000000000 Z
     message: updated README
     url: https://github.com/shahcompbio/mutationseq/commit/e743fb28dc195558c4f9c88621e0509f39f4b4a4
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
   - date: 2017-03-15 18:16:50.000000000 Z
     message: updated to v4.3.8
     url: https://github.com/shahcompbio/mutationseq/commit/7bf5e00a84bd6d0f8422f11725f20dbb93aff7f0
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
   - date: 2016-03-04 20:27:35.000000000 Z
     message: readme.txt edited online with Bitbucket
     url: https://github.com/shahcompbio/mutationseq/commit/9cff87f73f9e54f0258217cfde416ddc041167f1
@@ -258,8 +258,8 @@
   - date: 2016-03-04 20:22:17.000000000 Z
     message: museq commit
     url: https://github.com/shahcompbio/mutationseq/commit/3436a0614a8618f91129fe57d73c146a08712dee
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
 - repo: amcpherson/destruct
   title: destruct
   owner: amcpherson
@@ -554,18 +554,18 @@
   - date: 2012-01-27 00:06:35.000000000 Z
     message: Trying to merge dev and 0.8
     url: https://github.com/aroth85/JointSNVMix/commit/1344e5f467ced6264a840ad1c26d294d1b0e8fe9
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
   - date: 2012-01-27 00:06:09.000000000 Z
     message: Merge with a4068a9f19ab5d29dd014518885c7d1a1d3568b3
     url: https://github.com/aroth85/JointSNVMix/commit/4cb70b971f807e87202806cb4533304dff35be18
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
   - date: 2012-01-27 00:04:28.000000000 Z
     message: Merge with 62570e0a43eaf7b42323fe0a41c632b5be56bf75
     url: https://github.com/aroth85/JointSNVMix/commit/98f43a205740ae668f4f6d8c63e2e64ec673b85c
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
 - repo: sohrabsa/ddclone
   title: ddclone
   owner: sohrabsa
@@ -579,28 +579,28 @@
   - date: 2016-12-23 20:22:44.000000000 Z
     message: SS adds modified Jaccard distance.
     url: https://github.com/sohrabsa/ddclone/commit/19fb2f6aa7c9554f4414c20942df739830c89342
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
   - date: 2016-12-19 03:14:29.000000000 Z
     message: SS adds missing file.
     url: https://github.com/sohrabsa/ddclone/commit/ea67e097cf5cec11a8ce1b4240976cacf085d890
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
   - date: 2016-12-19 03:12:08.000000000 Z
     message: SS adds missing file.
     url: https://github.com/sohrabsa/ddclone/commit/c143c25003c77f17ae79e150e30225004f9af919
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
   - date: 2016-12-19 02:58:57.000000000 Z
     message: SS adds missing file.
     url: https://github.com/sohrabsa/ddclone/commit/afc1857e5c4b78a951e345747539aaaf5159a00f
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
   - date: 2016-12-19 02:50:03.000000000 Z
     message: SS adds missing file.
     url: https://github.com/sohrabsa/ddclone/commit/7a9964a7450613c51b0f3f4675b8fef5bc2435a6
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
 - repo: jtaghiyar/kronos
   title: kronos
   owner: jtaghiyar
@@ -694,8 +694,8 @@
   - date: 2016-03-04 20:29:19.000000000 Z
     message: postpy
     url: https://github.com/shahcompbio/postpy/commit/40faa759137fcec578353bf1cf207c419af293a1
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
 - repo: shahcompbio/drivernet
   title: drivernet
   owner: shahcompbio
@@ -715,8 +715,8 @@
   - date: 2016-03-04 19:30:02.000000000 Z
     message: DriverNet
     url: https://github.com/shahcompbio/drivernet/commit/c36afbb06e09f15f22e90a74d568b4f136f4a099
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:
 - repo: shahcompbio/apolloh
   title: apolloh
   owner: shahcompbio
@@ -736,5 +736,5 @@
   - date: 2016-03-04 18:39:14.000000000 Z
     message: APOLLOH
     url: https://github.com/shahcompbio/apolloh/commit/8c77facde7f8c7cde2414d34a2c665ecce5fd701
-    author_login: 
-    author_url: 
+    author_login:
+    author_url:

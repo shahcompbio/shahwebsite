@@ -15,7 +15,7 @@
 #  - commits:
 #      - date: 2013-10-19T04:12:06Z
 #      - message: Update readme.
-#      - url: https://github.com/trvrb/coaltrace/commit/ebb95806f989d8fd6ecbf6aa8308647298dd21ad 
+#      - url: https://github.com/trvrb/coaltrace/commit/ebb95806f989d8fd6ecbf6aa8308647298dd21ad
 
 require 'octokit'
 require 'yaml'
@@ -101,7 +101,7 @@ module Projects
 				)
 			
 				# sort by date
-				project_data.sort! { |x, y| y["commits"].first["date"] <=> x["commits"].first["date"] } 
+				project_data.sort! { |x, y| y["commits"].first["date"] <=> x["commits"].first["date"] }
 			
 			end
 		end

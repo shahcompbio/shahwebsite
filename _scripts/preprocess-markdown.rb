@@ -12,7 +12,7 @@ config["projects"].each do |repo|
 	name_to_repo[name] = repo
 end
 
-# collect all markdown files 
+# collect all markdown files
 mdarray = Dir.glob("projects/**/*.md")
 
 # go through each markdown file

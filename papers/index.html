@@ -22,14 +22,14 @@ years:
   - 2018
 ---
 {% include JB/setup %}
-<div class="bigspacer"></div> 
+<div class="bigspacer"></div>
 {% for year in page.years reversed %}
   {% assign counter = 0 %}
   {% assign rows = year %}
   <div class="bigtitle">{{ year }}</div>
   <div class="spacer"></div>
   {% for paper in site.categories.papers %}
-    {% if paper.pub_year == year %}  
+    {% if paper.pub_year == year %}
       {% assign counter = counter | plus: 1 %}
       {% cycle rows: '<div class="row">', '', '' %}
         <div class="col-md-4 paperbox">
@@ -66,7 +66,7 @@ years:
   {% endfor %}
   {% assign value = counter | modulo:3 %}
   {% if value == 0 %}
-  {% else %}  
+  {% else %}
     </div>
   {% endif %}
   <div class="row"></div>

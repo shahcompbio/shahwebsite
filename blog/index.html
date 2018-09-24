@@ -9,7 +9,7 @@ navorder: 2
 
 
 <div class="pager">
-  
+
 	{% if paginator.previous_page %}
 		{% if paginator.previous_page == 1 %}
 		<a class="prev" href="/{{ page.category }}/">
@@ -20,14 +20,14 @@ navorder: 2
 			<i class="fa fa-chevron-left fa-lg"></i>
 		</a>
 		{% endif %}  		
-	{% endif %}  
-  
-	{% if paginator.next_page %}  
+	{% endif %}
+
+	{% if paginator.next_page %}
 	<a class="next" href="/{{ page.category }}/page{{ paginator.next_page }}">
 		<i class="fa fa-chevron-right fa-lg"></i>
 	</a>	
 	{% endif %}  	
-    
+
 </div>
 
 {% for post in site.categories.blog %}
