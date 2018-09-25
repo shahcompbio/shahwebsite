@@ -2,7 +2,7 @@
 layout: member
 title: Sohrab Shah
 position: Principal Investigator
-email: sshah@bccrc.ca
+email: shahs3@mskcc.org
 scholar: qsWPRtsAAAAJ
 image: /assets/images/team/Sohrab-Shah.jpg
 cv: /assets/pdfs/team/Sohrab-Shah-CV.pdf
