@@ -15,14 +15,18 @@ repository: shahcompbio/shahcompbio.github.io
 # so be sure to set them if your theme uses them.
 title: "Shah Lab"
 tagline: Understanding the evolutionary principles by which cancers proliferate.
-institution:
+ubc:
   url: http://www.ubc.ca/
   name: UBC
-  logo: /assets/images/4_2016_UBCLogo_BlueRGB72.png
-department:
-  url: http://molonc.bccrc.ca
-  name: BCCA Molecular Oncology
-  logo: /assets/images/bcca_logo.png
+  logo: /assets/images/logos/ubc.png
+bc_cancer:
+  url: http://www.bccancer.bc.ca/
+  name: BC Cancer
+  logo: /assets/images/logos/bc_cancer.png
+msk:
+  url: https://www.mskcc.org/
+  name: Memorial Sloan Kettering Cancer Center
+  logo: /assets/images/logos/msk.png
 author :
   name : Sohrab P. Shah
   email : sshah@bccrc.ca
