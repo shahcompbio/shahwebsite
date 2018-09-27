@@ -148,9 +148,12 @@ strong {
 
 .logo {
 	// width: 50px;
-	text-decoration: none;
 	height: 50px;
 	padding: 5px;
+}
+
+.logo-anchor:hover {
+	text-decoration: none;
 }
 
 .biglogo {
