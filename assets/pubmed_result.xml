@@ -40264,5 +40264,86 @@
     </PubmedData>
 </PubmedArticle>
 
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">30158680</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>08</Month>
+            <Day>31</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1546-1718</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>50</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Nature genetics</Title>
+                <ISOAbbreviation>Nat. Genet.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Copy number signatures in ovarian cancer.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1208-1209</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1038/s41588-018-0212-y</ELocationID>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Sohrab P</ForeName>
+                    <Initials>SP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Oncology, Department of Epidemiology and Biostatistics, Memorial Sloan Kettering Cancer Center, New York, NY, USA. shahs3@mskcc.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Nat Genet</MedlineTA>
+            <NlmUniqueID>9216904</NlmUniqueID>
+            <ISSNLinking>1061-4036</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>8</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>8</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>8</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30158680</ArticleId>
+            <ArticleId IdType="doi">10.1038/s41588-018-0212-y</ArticleId>
+            <ArticleId IdType="pii">10.1038/s41588-018-0212-y</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
 
 </PubmedArticleSet>
