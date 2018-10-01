@@ -1,4 +1,39 @@
 ---
+- repo: amcpherson/remixt
+  title: remixt
+  owner: amcpherson
+  description: Clone-specific genomic structure estimation in cancer
+  url: "/projects/remixt/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  commits:
+  - date: 2018-10-01 23:12:17.000000000 Z
+    message: 'build: deploy script'
+    url: https://github.com/amcpherson/remixt/commit/3deb9e5f967bfae967d09283c692d26529ad3db7
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-01 21:59:06.000000000 Z
+    message: 'minor: optional bwa indexing'
+    url: https://github.com/amcpherson/remixt/commit/32dddd4574242f818271c2fa1675e5b850749afa
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-01 21:52:55.000000000 Z
+    message: 'build: conda token'
+    url: https://github.com/amcpherson/remixt/commit/c09577faa7c81bc58ef235fe943dfcd8579ff75f
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-09-30 18:25:31.000000000 Z
+    message: 'build: docker file'
+    url: https://github.com/amcpherson/remixt/commit/9f8762a4f39e69549ca614b286a52291ae67b140
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-09-30 18:08:37.000000000 Z
+    message: Update .travis.yml
+    url: https://github.com/amcpherson/remixt/commit/2529ccce60617db8266b30a7fbadf71732d20400
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
 - repo: gavinha/TitanCNA
   title: TitanCNA
   owner: gavinha
@@ -22,31 +57,124 @@
     avatar: https://avatars3.githubusercontent.com/u/2029097?v=4&s=50
     url: https://github.com/mrjc42
   commits:
-  - date: 2018-04-11 18:06:09.000000000 Z
-    message: version bump v1.17.2
-    url: https://github.com/gavinha/TitanCNA/commit/1b0d954293435c0fdd51fce769eba01b3164928c
+  - date: 2018-09-27 22:23:32.000000000 Z
+    message: |-
+      fix bugs for snakemake when using UCSC chr naming and hg38
+      Previously there were issues with using UCSC chromosome naming convention. This update contains changes that have been tested on hg38 which uses UCSC chr naming.
+      Also, the README for the snakemake now contains more detailed instructions for running the snakemake workflow and setting up the config.yaml and running on the cluster.
+      Fixes #35
+    url: https://github.com/gavinha/TitanCNA/commit/7a9fa7c14f196f8f5eb91e6dcaa6a1de85de065d
     author_login: gavinha
     author_url: https://github.com/gavinha
-  - date: 2018-04-11 18:04:34.000000000 Z
-    message: include function getHaplotypesFromVCF [ci skip]
-    url: https://github.com/gavinha/TitanCNA/commit/7fc4fcc3192aa975a480ed360db0db36d46a6ae6
+  - date: 2018-09-18 22:53:35.000000000 Z
+    message: |-
+      fixed typo prevalence
+      credit to @setgree
+    url: https://github.com/gavinha/TitanCNA/commit/0f0a065abf822e4d2aff6eed0076c3a5e7b72c5c
     author_login: gavinha
     author_url: https://github.com/gavinha
-  - date: 2018-04-05 16:57:06.000000000 Z
-    message: remove redundant ichorCNA options [ci skip]
-    url: https://github.com/gavinha/TitanCNA/commit/635e89acd2fa1b75adca3c7438aa71c8ef0e8586
+  - date: 2018-09-18 22:47:55.000000000 Z
+    message: |-
+      dev version bump (v1.19.1); fix bug for plotting - chr arg is NULL
+      For all plotting functions in titanCNA.R, when chr=NULL, this will give an error. A defeault value c(1:22) is provided. Also, the chr naming convention is handled automatically.
+      Version bump to be consistent with Bioconductor. Development versions are always odd numbered (v.1.19.1); current Bioconductor release is v1.18.0.
+      fixes #29
+      fixes #30
+      fixes #31
+      fixes #32
+      fixes #33
+    url: https://github.com/gavinha/TitanCNA/commit/090778876730edef498af9e1281d270dcd91c2a1
     author_login: gavinha
     author_url: https://github.com/gavinha
-  - date: 2018-04-03 16:27:42.000000000 Z
-    message: updated cluster for Broad qsub settings [ci skip]
-    url: https://github.com/gavinha/TitanCNA/commit/a55b553e01884a42ea663abae83578ba149fc869
+  - date: 2018-09-18 00:18:44.000000000 Z
+    message: |-
+      fix plotting bug when chr arg is NULL
+      For all plotting functions in titanCNA.R, when chr=NULL, then will give an error. This should fixe #29 #30 #31 #32 #33.
+    url: https://github.com/gavinha/TitanCNA/commit/8e0ab4bdfee66ea406c2f1f07d95d27af6af26a0
     author_login: gavinha
     author_url: https://github.com/gavinha
-  - date: 2018-03-22 17:01:25.000000000 Z
-    message: licensing text
-    url: https://github.com/gavinha/TitanCNA/commit/f5b2181210f8ff40864d2107db4a853735d1f533
+  - date: 2018-09-17 23:08:38.000000000 Z
+    message: |-
+      correctInteger Corrected_Copy_Number column integer cast
+
+      For chrX, cast rounded logR copy number as integer to keep consistent with existing values in Corrected_Copy_Number column
+    url: https://github.com/gavinha/TitanCNA/commit/c88496b26cd4839d9b54b77482215e36e0ddc0a9
     author_login: gavinha
     author_url: https://github.com/gavinha
+- repo: shahcompbio/Epiclomal
+  title: Epiclomal
+  owner: shahcompbio
+  description: Epiclomal package, software for clustering of sparse DNA methylation
+    data
+  url: "/projects/Epiclomal/"
+  contributors:
+  - login: mandronescu
+    avatar: https://avatars2.githubusercontent.com/u/18557412?v=4&s=50
+    url: https://github.com/mandronescu
+  - login: camiladesouza
+    avatar: https://avatars2.githubusercontent.com/u/7397805?v=4&s=50
+    url: https://github.com/camiladesouza
+  commits:
+  - date: 2018-09-11 06:47:25.000000000 Z
+    message: Updated README.md
+    url: https://github.com/shahcompbio/Epiclomal/commit/b5885258d67d341df2946f05617dcd06d52d067e
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-09-11 06:43:04.000000000 Z
+    message: git commit old synthetic_data files into scripts
+    url: https://github.com/shahcompbio/Epiclomal/commit/d4f82720301b7a71c275c704827b83713f87a5de
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-09-11 06:34:09.000000000 Z
+    message: Updated README.md file
+    url: https://github.com/shahcompbio/Epiclomal/commit/63c4065b33046e0ad48faecdc62ace6b8e9cceea
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-09-11 06:21:44.000000000 Z
+    message: Removed unnecessary file from epiclomal cluster software
+    url: https://github.com/shahcompbio/Epiclomal/commit/251dfb027da21d0afd956eab98e242ce101fe936
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-09-11 01:13:41.000000000 Z
+    message: git commit old epiclomal files into epiclomal
+    url: https://github.com/shahcompbio/Epiclomal/commit/bfe2db59146748f6dd7928de606d797171471941
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+- repo: amcpherson/destruct
+  title: destruct
+  owner: amcpherson
+  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
+  url: "/projects/destruct/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  commits:
+  - date: 2018-08-10 13:38:25.000000000 Z
+    message: 'docs: minor fixes to testing installation'
+    url: https://github.com/amcpherson/destruct/commit/82767d884b0b8ab7e4d4177895b25e509c59a1f3
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-08-08 00:50:32.000000000 Z
+    message: 'docs: sample dataset generation instructions'
+    url: https://github.com/amcpherson/destruct/commit/583d260f398a1b968e4c9ece34f5ef21d23898e1
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-08-03 23:45:13.000000000 Z
+    message: 'build: conda version bump'
+    url: https://github.com/amcpherson/destruct/commit/0de5d6fe50e1d59ad2e82560053e7bb60566be69
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-08-03 23:35:48.000000000 Z
+    message: 'minor: git module using ssh'
+    url: https://github.com/amcpherson/destruct/commit/53625872070b56e0875113345e3ed27d361be2ff
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-08-03 04:27:53.000000000 Z
+    message: 'test: generate a bam file for testing'
+    url: https://github.com/amcpherson/destruct/commit/65883ac0e13f227cb0433c6ff1d0fec266dfc5ab
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
 - repo: shahcompbio/scvis
   title: scvis
   owner: shahcompbio
@@ -61,28 +189,28 @@
   - date: 2018-02-04 20:56:59.000000000 Z
     message: bug fix
     url: https://github.com/shahcompbio/scvis/commit/af73849679e8f84d80e4418d0badf5ea9d9a87af
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
   - date: 2018-02-03 01:39:57.000000000 Z
     message: v0.1.0
     url: https://github.com/shahcompbio/scvis/commit/a05c4ce1c480f5ef253b89ada67197c369db3bae
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
   - date: 2017-12-17 19:25:24.000000000 Z
     message: normalization
     url: https://github.com/shahcompbio/scvis/commit/c4d759f062a8d0a49663c3b5928f13b878f8e6f1
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
   - date: 2017-10-23 02:26:21.000000000 Z
     message: revised README.md and init file added
     url: https://github.com/shahcompbio/scvis/commit/ff7fd7f1b22d0bc4629bd5b41016ef1abdc185b2
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
   - date: 2017-08-28 00:33:57.000000000 Z
     message: fixing small bugs
     url: https://github.com/shahcompbio/scvis/commit/fe42d424714c6b65c9f6e22981749439f43202fb
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
 - repo: aroth85/pyclone
   title: pyclone
   owner: aroth85
@@ -219,8 +347,8 @@
   - date: 2016-04-26 19:45:11.000000000 Z
     message: initial commit
     url: https://github.com/shahcompbio/snvmix/commit/99d9fecbc52b52ea5ed9c4124e07632af58c8bfb
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
 - repo: shahcompbio/mutationseq
   title: mutationseq
   owner: shahcompbio
@@ -243,13 +371,13 @@
   - date: 2017-03-15 18:35:20.000000000 Z
     message: updated README
     url: https://github.com/shahcompbio/mutationseq/commit/e743fb28dc195558c4f9c88621e0509f39f4b4a4
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
   - date: 2017-03-15 18:16:50.000000000 Z
     message: updated to v4.3.8
     url: https://github.com/shahcompbio/mutationseq/commit/7bf5e00a84bd6d0f8422f11725f20dbb93aff7f0
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
   - date: 2016-03-04 20:27:35.000000000 Z
     message: readme.txt edited online with Bitbucket
     url: https://github.com/shahcompbio/mutationseq/commit/9cff87f73f9e54f0258217cfde416ddc041167f1
@@ -258,43 +386,8 @@
   - date: 2016-03-04 20:22:17.000000000 Z
     message: museq commit
     url: https://github.com/shahcompbio/mutationseq/commit/3436a0614a8618f91129fe57d73c146a08712dee
-    author_login:
-    author_url:
-- repo: amcpherson/destruct
-  title: destruct
-  owner: amcpherson
-  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
-  url: "/projects/destruct/"
-  contributors:
-  - login: amcpherson
-    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
-    url: https://github.com/amcpherson
-  commits:
-  - date: 2017-08-01 23:55:09.000000000 Z
-    message: 'build: conda version bump'
-    url: https://github.com/amcpherson/destruct/commit/506d1d11e9ffb5285528bc7b8d4c2b01de28e8cc
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2017-08-01 23:52:57.000000000 Z
-    message: 'minor: pandas sort is deprecated, sort -> sort_values'
-    url: https://github.com/amcpherson/destruct/commit/6ff0b9a516b57914ffd6c2770ea5c15a0c1c63d9
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2017-05-04 22:44:23.000000000 Z
-    message: 'config: updated to latest dgv'
-    url: https://github.com/amcpherson/destruct/commit/62b573bdf3b7d27b19e6067f3fa759874fd91b2a
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2017-03-20 19:51:46.000000000 Z
-    message: 'minor: sim setup'
-    url: https://github.com/amcpherson/destruct/commit/698dc3ec274629d303896c681b2dd01acac01746
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2017-03-20 19:47:41.000000000 Z
-    message: 'build: added dependency'
-    url: https://github.com/amcpherson/destruct/commit/12e3aec02322358382c53bca3b0fe6fec0a2ebfd
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
+    author_login: 
+    author_url: 
 - repo: amcpherson/defuse
   title: defuse
   owner: amcpherson
@@ -376,41 +469,6 @@
   - date: 2017-07-18 19:05:10.000000000 Z
     message: markdown readme
     url: https://github.com/shahcompbio/hmmcopy_utils/commit/c9785fc97b06c0099e4e8c3b9b0ac500cef547f0
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-- repo: amcpherson/remixt
-  title: remixt
-  owner: amcpherson
-  description: Clone-specific genomic structure estimation in cancer
-  url: "/projects/remixt/"
-  contributors:
-  - login: amcpherson
-    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
-    url: https://github.com/amcpherson
-  commits:
-  - date: 2017-06-26 18:33:29.000000000 Z
-    message: 'meta: added license to conda, bumped version'
-    url: https://github.com/amcpherson/remixt/commit/2867efa73c7217ad9262381cb6ed8488e608a1ea
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2017-06-26 18:28:58.000000000 Z
-    message: 'meta: MIT License'
-    url: https://github.com/amcpherson/remixt/commit/8b34d5a60ea95b9cb4f4535ed51b47396de09f8a
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2017-06-01 19:32:13.000000000 Z
-    message: 'build: conda version bump'
-    url: https://github.com/amcpherson/remixt/commit/8939ba87f94e6f4717e9046cc5f353ba0b5e3fb9
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2017-05-19 22:07:45.000000000 Z
-    message: 'minor: optionally dont update h'
-    url: https://github.com/amcpherson/remixt/commit/6310e6aaf88e2e49b423e149ffac00617b8e71c0
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2017-05-19 22:07:15.000000000 Z
-    message: 'minor: plot label'
-    url: https://github.com/amcpherson/remixt/commit/6402986372a239f118e72d6476c4205dbadb9097
     author_login: amcpherson
     author_url: https://github.com/amcpherson
 - repo: shahcompbio/timescape
@@ -554,18 +612,18 @@
   - date: 2012-01-27 00:06:35.000000000 Z
     message: Trying to merge dev and 0.8
     url: https://github.com/aroth85/JointSNVMix/commit/1344e5f467ced6264a840ad1c26d294d1b0e8fe9
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
   - date: 2012-01-27 00:06:09.000000000 Z
     message: Merge with a4068a9f19ab5d29dd014518885c7d1a1d3568b3
     url: https://github.com/aroth85/JointSNVMix/commit/4cb70b971f807e87202806cb4533304dff35be18
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
   - date: 2012-01-27 00:04:28.000000000 Z
     message: Merge with 62570e0a43eaf7b42323fe0a41c632b5be56bf75
     url: https://github.com/aroth85/JointSNVMix/commit/98f43a205740ae668f4f6d8c63e2e64ec673b85c
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
 - repo: sohrabsa/ddclone
   title: ddclone
   owner: sohrabsa
@@ -579,28 +637,28 @@
   - date: 2016-12-23 20:22:44.000000000 Z
     message: SS adds modified Jaccard distance.
     url: https://github.com/sohrabsa/ddclone/commit/19fb2f6aa7c9554f4414c20942df739830c89342
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
   - date: 2016-12-19 03:14:29.000000000 Z
     message: SS adds missing file.
     url: https://github.com/sohrabsa/ddclone/commit/ea67e097cf5cec11a8ce1b4240976cacf085d890
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
   - date: 2016-12-19 03:12:08.000000000 Z
     message: SS adds missing file.
     url: https://github.com/sohrabsa/ddclone/commit/c143c25003c77f17ae79e150e30225004f9af919
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
   - date: 2016-12-19 02:58:57.000000000 Z
     message: SS adds missing file.
     url: https://github.com/sohrabsa/ddclone/commit/afc1857e5c4b78a951e345747539aaaf5159a00f
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
   - date: 2016-12-19 02:50:03.000000000 Z
     message: SS adds missing file.
     url: https://github.com/sohrabsa/ddclone/commit/7a9964a7450613c51b0f3f4675b8fef5bc2435a6
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
 - repo: jtaghiyar/kronos
   title: kronos
   owner: jtaghiyar
@@ -694,8 +752,8 @@
   - date: 2016-03-04 20:29:19.000000000 Z
     message: postpy
     url: https://github.com/shahcompbio/postpy/commit/40faa759137fcec578353bf1cf207c419af293a1
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
 - repo: shahcompbio/drivernet
   title: drivernet
   owner: shahcompbio
@@ -715,8 +773,8 @@
   - date: 2016-03-04 19:30:02.000000000 Z
     message: DriverNet
     url: https://github.com/shahcompbio/drivernet/commit/c36afbb06e09f15f22e90a74d568b4f136f4a099
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
 - repo: shahcompbio/apolloh
   title: apolloh
   owner: shahcompbio
@@ -736,5 +794,5 @@
   - date: 2016-03-04 18:39:14.000000000 Z
     message: APOLLOH
     url: https://github.com/shahcompbio/apolloh/commit/8c77facde7f8c7cde2414d34a2c665ecce5fd701
-    author_login:
-    author_url:
+    author_login: 
+    author_url: 
