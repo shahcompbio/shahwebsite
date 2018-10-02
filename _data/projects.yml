@@ -101,6 +101,42 @@
     url: https://github.com/gavinha/TitanCNA/commit/c88496b26cd4839d9b54b77482215e36e0ddc0a9
     author_login: gavinha
     author_url: https://github.com/gavinha
+- repo: kieranrcampbell/clonealign
+  title: clonealign
+  owner: kieranrcampbell
+  description: Inference of clone-specific gene expression estimates by assigning
+    single-cell RNA-seq to clones
+  url: "/projects/clonealign/"
+  contributors:
+  - login: kieranrcampbell
+    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
+    url: https://github.com/kieranrcampbell
+  commits:
+  - date: 2018-09-11 23:37:25.000000000 Z
+    message: Change default K value
+    url: https://github.com/kieranrcampbell/clonealign/commit/b9d4e62ca78edaece549b706d80b6527c392d841
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-08-31 00:44:13.000000000 Z
+    message: Passes R CMD CHECK
+    url: https://github.com/kieranrcampbell/clonealign/commit/5e5667cc29d731edb5536098c582588b311ed003
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-08-30 22:56:45.000000000 Z
+    message: Remove any reference to phi; sort out priors
+    url: https://github.com/kieranrcampbell/clonealign/commit/bc9c882d427615027bc46b23fa494894ed97a95a
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-08-10 00:31:24.000000000 Z
+    message: Add spline dispersion-mean relationship
+    url: https://github.com/kieranrcampbell/clonealign/commit/4795095e1223ca61cb59378e4fa72722ea91e2ee
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-08-08 22:35:41.000000000 Z
+    message: About to branch for splines
+    url: https://github.com/kieranrcampbell/clonealign/commit/b408d1d6b7fad37f854da2f49542c9c0e6aed4ca
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
 - repo: shahcompbio/Epiclomal
   title: Epiclomal
   owner: shahcompbio
