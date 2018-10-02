@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Britanny Hewitson
+title: Brittany Hewitson
 position: Co-op Student
 email: bhewitson@bccrc.ca
 image: /assets/images/team/default-member.png
