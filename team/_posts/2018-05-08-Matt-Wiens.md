@@ -5,7 +5,7 @@ position: Co-op Student
 email: mwiens@bccrc.ca
 github: mwiens91
 scholar: GfUzqwwAAAAJ
-image: /assets/images/team/Wiens-Matt.jpg
+image: /assets/images/team/Wiens-Matt.png
 alum: false
 ---
 
