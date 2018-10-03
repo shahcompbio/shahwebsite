@@ -1,4 +1,39 @@
 ---
+- repo: amcpherson/destruct
+  title: destruct
+  owner: amcpherson
+  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
+  url: "/projects/destruct/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  commits:
+  - date: 2018-10-03 15:09:13.000000000 Z
+    message: 'build: conda fix'
+    url: https://github.com/amcpherson/destruct/commit/503ca62c749e9d53e6ce19118aeda5e6191f7447
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-03 15:00:42.000000000 Z
+    message: 'build: conda version bump'
+    url: https://github.com/amcpherson/destruct/commit/8630c7e4cdeb2447695c1b683ce670d18ec8ea54
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-03 14:50:43.000000000 Z
+    message: 'build: git modules fix'
+    url: https://github.com/amcpherson/destruct/commit/8b06836432940f3a0b8e80765b941c3bfc955090
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-03 14:48:19.000000000 Z
+    message: 'build: travis config'
+    url: https://github.com/amcpherson/destruct/commit/fd33409e425ac5ef33195f09a4f621146332e371
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-08-10 13:38:25.000000000 Z
+    message: 'docs: minor fixes to testing installation'
+    url: https://github.com/amcpherson/destruct/commit/82767d884b0b8ab7e4d4177895b25e509c59a1f3
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
 - repo: amcpherson/remixt
   title: remixt
   owner: amcpherson
@@ -9,29 +44,29 @@
     avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
     url: https://github.com/amcpherson
   commits:
-  - date: 2018-10-01 23:12:17.000000000 Z
-    message: 'build: deploy script'
-    url: https://github.com/amcpherson/remixt/commit/3deb9e5f967bfae967d09283c692d26529ad3db7
+  - date: 2018-10-02 21:12:25.000000000 Z
+    message: 'build: conda build version'
+    url: https://github.com/amcpherson/remixt/commit/97da7ec08f21361e69829807de8cbd622818bd3f
     author_login: amcpherson
     author_url: https://github.com/amcpherson
-  - date: 2018-10-01 21:59:06.000000000 Z
-    message: 'minor: optional bwa indexing'
-    url: https://github.com/amcpherson/remixt/commit/32dddd4574242f818271c2fa1675e5b850749afa
+  - date: 2018-10-02 20:28:03.000000000 Z
+    message: 'build: conda build version'
+    url: https://github.com/amcpherson/remixt/commit/3bc8b872c1fe5d9e947554e520eae437dc16c46f
     author_login: amcpherson
     author_url: https://github.com/amcpherson
-  - date: 2018-10-01 21:52:55.000000000 Z
-    message: 'build: conda token'
-    url: https://github.com/amcpherson/remixt/commit/c09577faa7c81bc58ef235fe943dfcd8579ff75f
+  - date: 2018-10-02 20:21:58.000000000 Z
+    message: 'build: conda build version'
+    url: https://github.com/amcpherson/remixt/commit/cc10f8bab7a2593713c22278fbebc91c1d3933a5
     author_login: amcpherson
     author_url: https://github.com/amcpherson
-  - date: 2018-09-30 18:25:31.000000000 Z
-    message: 'build: docker file'
-    url: https://github.com/amcpherson/remixt/commit/9f8762a4f39e69549ca614b286a52291ae67b140
+  - date: 2018-10-02 20:12:35.000000000 Z
+    message: 'build: conda build version'
+    url: https://github.com/amcpherson/remixt/commit/abf100d6464c4c8f921086a8cc07c90139b76954
     author_login: amcpherson
     author_url: https://github.com/amcpherson
-  - date: 2018-09-30 18:08:37.000000000 Z
-    message: Update .travis.yml
-    url: https://github.com/amcpherson/remixt/commit/2529ccce60617db8266b30a7fbadf71732d20400
+  - date: 2018-10-02 18:51:33.000000000 Z
+    message: 'build: conda build version'
+    url: https://github.com/amcpherson/remixt/commit/e818c8e79e7959ef9d28bd50f6669fc9e3c5a50e
     author_login: amcpherson
     author_url: https://github.com/amcpherson
 - repo: gavinha/TitanCNA
@@ -176,41 +211,6 @@
     url: https://github.com/shahcompbio/Epiclomal/commit/bfe2db59146748f6dd7928de606d797171471941
     author_login: mandronescu
     author_url: https://github.com/mandronescu
-- repo: amcpherson/destruct
-  title: destruct
-  owner: amcpherson
-  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
-  url: "/projects/destruct/"
-  contributors:
-  - login: amcpherson
-    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
-    url: https://github.com/amcpherson
-  commits:
-  - date: 2018-08-10 13:38:25.000000000 Z
-    message: 'docs: minor fixes to testing installation'
-    url: https://github.com/amcpherson/destruct/commit/82767d884b0b8ab7e4d4177895b25e509c59a1f3
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-08-08 00:50:32.000000000 Z
-    message: 'docs: sample dataset generation instructions'
-    url: https://github.com/amcpherson/destruct/commit/583d260f398a1b968e4c9ece34f5ef21d23898e1
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-08-03 23:45:13.000000000 Z
-    message: 'build: conda version bump'
-    url: https://github.com/amcpherson/destruct/commit/0de5d6fe50e1d59ad2e82560053e7bb60566be69
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-08-03 23:35:48.000000000 Z
-    message: 'minor: git module using ssh'
-    url: https://github.com/amcpherson/destruct/commit/53625872070b56e0875113345e3ed27d361be2ff
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-08-03 04:27:53.000000000 Z
-    message: 'test: generate a bam file for testing'
-    url: https://github.com/amcpherson/destruct/commit/65883ac0e13f227cb0433c6ff1d0fec266dfc5ab
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
 - repo: shahcompbio/scvis
   title: scvis
   owner: shahcompbio
