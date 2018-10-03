@@ -40346,4 +40346,433 @@
     </PubmedData>
 </PubmedArticle>
 
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">30275490</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>10</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2041-1723</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>9</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Oct</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Nature communications</Title>
+                <ISOAbbreviation>Nat Commun</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Genome-wide discovery of somatic regulatory variants in diffuse large B-cell lymphoma.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>4001</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1038/s41467-018-06354-3</ELocationID>
+            <Abstract>
+                <AbstractText>Diffuse large B-cell lymphoma (DLBCL) is an aggressive cancer originating from mature B-cells. Prognosis is strongly associated with molecular subgroup, although the driver mutations that distinguish the two main subgroups remain poorly defined. Through an integrative analysis of whole genomes, exomes, and transcriptomes, we have uncovered genes and non-coding loci that are commonly mutated in DLBCL. Our analysis has identified novel cis-regulatory sites, and implicates recurrent mutations in the 3' UTR of NFKBIZ as a novel mechanism of oncogene deregulation and NF-κB pathway activation in the activated B-cell (ABC) subgroup. Small amplifications associated with over-expression of FCGR2B (the Fcγ receptor protein IIB), primarily in the germinal centre B-cell (GCB) subgroup, correlate with poor patient outcomes suggestive of a novel oncogene. These results expand the list of subgroup driver mutations that may facilitate implementation of improved diagnostic assays and could offer new avenues for the development of targeted therapeutics.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Arthur</LastName>
+                    <ForeName>Sarah E</ForeName>
+                    <Initials>SE</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-5341-7868</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jiang</LastName>
+                    <ForeName>Aixiang</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Canada's Michael Smith Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Grande</LastName>
+                    <ForeName>Bruno M</ForeName>
+                    <Initials>BM</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-4621-1589</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Alcaide</LastName>
+                    <ForeName>Miguel</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cojocaru</LastName>
+                    <ForeName>Razvan</ForeName>
+                    <Initials>R</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-7804-4981</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rushton</LastName>
+                    <ForeName>Christopher K</ForeName>
+                    <Initials>CK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mottok</LastName>
+                    <ForeName>Anja</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hilton</LastName>
+                    <ForeName>Laura K</ForeName>
+                    <Initials>LK</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-6413-6586</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lat</LastName>
+                    <ForeName>Prince Kumar</ForeName>
+                    <Initials>PK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhao</LastName>
+                    <ForeName>Eric Y</ForeName>
+                    <Initials>EY</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-1277-6335</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Culibrk</LastName>
+                    <ForeName>Luka</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ennishi</LastName>
+                    <ForeName>Daisuke</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jessa</LastName>
+                    <ForeName>Selin</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chong</LastName>
+                    <ForeName>Lauren</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Thomas</LastName>
+                    <ForeName>Nicole</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pararajalingam</LastName>
+                    <ForeName>Prasath</ForeName>
+                    <Initials>P</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-3945-3552</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Meissner</LastName>
+                    <ForeName>Barbara</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Boyle</LastName>
+                    <ForeName>Merrill</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Davidson</LastName>
+                    <ForeName>Jordan</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bushell</LastName>
+                    <ForeName>Kevin R</ForeName>
+                    <Initials>KR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lai</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-9203-6323</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Farinha</LastName>
+                    <ForeName>Pedro</ForeName>
+                    <Initials>P</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-9364-9391</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Slack</LastName>
+                    <ForeName>Graham W</ForeName>
+                    <Initials>GW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Morin</LastName>
+                    <ForeName>Gregg B</ForeName>
+                    <Initials>GB</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-8949-4374</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Canada's Michael Smith Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Genetics, University of British Columbia, Vancouver, BC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Sohrab</ForeName>
+                    <Initials>S</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-6402-523X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sen</LastName>
+                    <ForeName>Dipankar</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jones</LastName>
+                    <ForeName>Steven J M</ForeName>
+                    <Initials>SJM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Canada's Michael Smith Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mungall</LastName>
+                    <ForeName>Andrew J</ForeName>
+                    <Initials>AJ</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-0905-2742</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Canada's Michael Smith Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gascoyne</LastName>
+                    <ForeName>Randy D</ForeName>
+                    <Initials>RD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Audas</LastName>
+                    <ForeName>Timothy E</ForeName>
+                    <Initials>TE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Unrau</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Marra</LastName>
+                    <ForeName>Marco A</ForeName>
+                    <Initials>MA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Canada's Michael Smith Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Connors</LastName>
+                    <ForeName>Joseph M</ForeName>
+                    <Initials>JM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Steidl</LastName>
+                    <ForeName>Christian</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Scott</LastName>
+                    <ForeName>David W</ForeName>
+                    <Initials>DW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lymphoid Cancer Research, British Columbia Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Morin</LastName>
+                    <ForeName>Ryan D</ForeName>
+                    <Initials>RD</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-2932-7800</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada. rdmorin@sfu.ca.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Canada's Michael Smith Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, BC, V5Z 1L3, Canada. rdmorin@sfu.ca.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>1021</GrantID>
+                    <Agency>Terry Fox Research Institute (Institut de Recherche Terry Fox)</Agency>
+                    <Country/>
+                </Grant>
+                <Grant>
+                    <GrantID>300738</GrantID>
+                    <Agency>Gouvernement du Canada | Canadian Institutes of Health Research (Instituts de Recherche en Santé du Canada)</Agency>
+                    <Country/>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2018</Year>
+                <Month>10</Month>
+                <Day>01</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Nat Commun</MedlineTA>
+            <NlmUniqueID>101528555</NlmUniqueID>
+            <ISSNLinking>2041-1723</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2018</Year>
+                <Month>06</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2018</Year>
+                <Month>08</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>10</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>10</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>10</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30275490</ArticleId>
+            <ArticleId IdType="doi">10.1038/s41467-018-06354-3</ArticleId>
+            <ArticleId IdType="pii">10.1038/s41467-018-06354-3</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
 </PubmedArticleSet>
