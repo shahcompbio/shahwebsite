@@ -1,4 +1,70 @@
 ---
+- repo: gavinha/TitanCNA
+  title: TitanCNA
+  owner: gavinha
+  description: Analysis of subclonal copy number alterations (CNA) and loss of heterozygosity
+    (LOH) in cancer
+  url: "/projects/TitanCNA/"
+  contributors:
+  - login: gavinha
+    avatar: https://avatars1.githubusercontent.com/u/9221688?v=4&s=50
+    url: https://github.com/gavinha
+  - login: lbeltrame
+    avatar: https://avatars0.githubusercontent.com/u/25192?v=4&s=50
+    url: https://github.com/lbeltrame
+  - login: dtenenba
+    avatar: https://avatars0.githubusercontent.com/u/2286826?v=4&s=50
+    url: https://github.com/dtenenba
+  - login: hpages
+    avatar: https://avatars1.githubusercontent.com/u/8810451?v=4&s=50
+    url: https://github.com/hpages
+  - login: mrjc42
+    avatar: https://avatars3.githubusercontent.com/u/2029097?v=4&s=50
+    url: https://github.com/mrjc42
+  commits:
+  - date: 2018-10-04 04:09:56.000000000 Z
+    message: |-
+      fix bug for correcting integer copy number
+      There was a bug for correcting integer copy number for bins that have NA for the column CellularPrevalence. This has minimal effect the TitanCNA snakemake workflow but does for the TitanCNA_10X_snakemake workflow. The bins that are affected are those that are typically not included in the TitanCNA analysis but are for bins merged from ichorCNA results to fill in the gaps.
+    url: https://github.com/gavinha/TitanCNA/commit/8396703fcdad922e8b887b03650935b0afc79b0d
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-09-27 22:23:32.000000000 Z
+    message: |-
+      fix bugs for snakemake when using UCSC chr naming and hg38
+      Previously there were issues with using UCSC chromosome naming convention. This update contains changes that have been tested on hg38 which uses UCSC chr naming.
+      Also, the README for the snakemake now contains more detailed instructions for running the snakemake workflow and setting up the config.yaml and running on the cluster.
+      Fixes #35
+    url: https://github.com/gavinha/TitanCNA/commit/7a9fa7c14f196f8f5eb91e6dcaa6a1de85de065d
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-09-18 22:53:35.000000000 Z
+    message: |-
+      fixed typo prevalence
+      credit to @setgree
+    url: https://github.com/gavinha/TitanCNA/commit/0f0a065abf822e4d2aff6eed0076c3a5e7b72c5c
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-09-18 22:47:55.000000000 Z
+    message: |-
+      dev version bump (v1.19.1); fix bug for plotting - chr arg is NULL
+      For all plotting functions in titanCNA.R, when chr=NULL, this will give an error. A defeault value c(1:22) is provided. Also, the chr naming convention is handled automatically.
+      Version bump to be consistent with Bioconductor. Development versions are always odd numbered (v.1.19.1); current Bioconductor release is v1.18.0.
+      fixes #29
+      fixes #30
+      fixes #31
+      fixes #32
+      fixes #33
+    url: https://github.com/gavinha/TitanCNA/commit/090778876730edef498af9e1281d270dcd91c2a1
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-09-18 00:18:44.000000000 Z
+    message: |-
+      fix plotting bug when chr arg is NULL
+      For all plotting functions in titanCNA.R, when chr=NULL, then will give an error. This should fixe #29 #30 #31 #32 #33.
+    url: https://github.com/gavinha/TitanCNA/commit/8e0ab4bdfee66ea406c2f1f07d95d27af6af26a0
+    author_login: gavinha
+    author_url: https://github.com/gavinha
 - repo: amcpherson/destruct
   title: destruct
   owner: amcpherson
@@ -69,73 +135,6 @@
     url: https://github.com/amcpherson/remixt/commit/e818c8e79e7959ef9d28bd50f6669fc9e3c5a50e
     author_login: amcpherson
     author_url: https://github.com/amcpherson
-- repo: gavinha/TitanCNA
-  title: TitanCNA
-  owner: gavinha
-  description: Analysis of subclonal copy number alterations (CNA) and loss of heterozygosity
-    (LOH) in cancer
-  url: "/projects/TitanCNA/"
-  contributors:
-  - login: gavinha
-    avatar: https://avatars1.githubusercontent.com/u/9221688?v=4&s=50
-    url: https://github.com/gavinha
-  - login: lbeltrame
-    avatar: https://avatars0.githubusercontent.com/u/25192?v=4&s=50
-    url: https://github.com/lbeltrame
-  - login: dtenenba
-    avatar: https://avatars0.githubusercontent.com/u/2286826?v=4&s=50
-    url: https://github.com/dtenenba
-  - login: hpages
-    avatar: https://avatars1.githubusercontent.com/u/8810451?v=4&s=50
-    url: https://github.com/hpages
-  - login: mrjc42
-    avatar: https://avatars3.githubusercontent.com/u/2029097?v=4&s=50
-    url: https://github.com/mrjc42
-  commits:
-  - date: 2018-09-27 22:23:32.000000000 Z
-    message: |-
-      fix bugs for snakemake when using UCSC chr naming and hg38
-      Previously there were issues with using UCSC chromosome naming convention. This update contains changes that have been tested on hg38 which uses UCSC chr naming.
-      Also, the README for the snakemake now contains more detailed instructions for running the snakemake workflow and setting up the config.yaml and running on the cluster.
-      Fixes #35
-    url: https://github.com/gavinha/TitanCNA/commit/7a9fa7c14f196f8f5eb91e6dcaa6a1de85de065d
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-09-18 22:53:35.000000000 Z
-    message: |-
-      fixed typo prevalence
-      credit to @setgree
-    url: https://github.com/gavinha/TitanCNA/commit/0f0a065abf822e4d2aff6eed0076c3a5e7b72c5c
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-09-18 22:47:55.000000000 Z
-    message: |-
-      dev version bump (v1.19.1); fix bug for plotting - chr arg is NULL
-      For all plotting functions in titanCNA.R, when chr=NULL, this will give an error. A defeault value c(1:22) is provided. Also, the chr naming convention is handled automatically.
-      Version bump to be consistent with Bioconductor. Development versions are always odd numbered (v.1.19.1); current Bioconductor release is v1.18.0.
-      fixes #29
-      fixes #30
-      fixes #31
-      fixes #32
-      fixes #33
-    url: https://github.com/gavinha/TitanCNA/commit/090778876730edef498af9e1281d270dcd91c2a1
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-09-18 00:18:44.000000000 Z
-    message: |-
-      fix plotting bug when chr arg is NULL
-      For all plotting functions in titanCNA.R, when chr=NULL, then will give an error. This should fixe #29 #30 #31 #32 #33.
-    url: https://github.com/gavinha/TitanCNA/commit/8e0ab4bdfee66ea406c2f1f07d95d27af6af26a0
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-09-17 23:08:38.000000000 Z
-    message: |-
-      correctInteger Corrected_Copy_Number column integer cast
-
-      For chrX, cast rounded logR copy number as integer to keep consistent with existing values in Corrected_Copy_Number column
-    url: https://github.com/gavinha/TitanCNA/commit/c88496b26cd4839d9b54b77482215e36e0ddc0a9
-    author_login: gavinha
-    author_url: https://github.com/gavinha
 - repo: kieranrcampbell/clonealign
   title: clonealign
   owner: kieranrcampbell

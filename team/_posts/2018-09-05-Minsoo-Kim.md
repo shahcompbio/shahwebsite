@@ -3,7 +3,7 @@ layout: member
 title: Minsoo Kim
 position: Rotation Student
 email: mik2044@med.cornell.edu
-image: /assets/images/team/Kim-Minsoo.png
+image: /assets/images/team/Kim-Minsoo.jpg
 alum: false
 ---
 
