@@ -13,7 +13,7 @@ xml.xpath('//PubmedArticle').each do |article|
 	file.puts("---")
 	file.puts("layout: paper")
 	file.puts("title: " + "\"" + article.xpath('MedlineCitation/Article/ArticleTitle').text + "\"")
-	file.puts("image: /assets/images/papers/" + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="pubmed"]').text + ".png")
+	file.puts("image: /assets/images/papers/" + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="pubmed"]').text + ".jpg")
 
 	file.print("authors: ")
 	authors = article.xpath('MedlineCitation/Article/AuthorList/Author')
