@@ -1,4 +1,40 @@
 ---
+- repo: kieranrcampbell/clonealign
+  title: clonealign
+  owner: kieranrcampbell
+  description: Bayesian inference of clone-specific gene expression estimates by assigning
+    single-cell RNA-seq to clones
+  url: "/projects/clonealign/"
+  contributors:
+  - login: kieranrcampbell
+    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
+    url: https://github.com/kieranrcampbell
+  commits:
+  - date: 2018-10-23 22:44:50.000000000 Z
+    message: Reverted back - need to take a look at evaluate_clonealign at some point
+    url: https://github.com/kieranrcampbell/clonealign/commit/4d6c340dcb1aaa993e2ba5f6a5ec09b66940e09d
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-10-23 21:34:47.000000000 Z
+    message: Add allelic imbalance
+    url: https://github.com/kieranrcampbell/clonealign/commit/0fda0540274c8027c3aeb8c344b47f9afc60d85b
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-10-23 21:24:46.000000000 Z
+    message: typo
+    url: https://github.com/kieranrcampbell/clonealign/commit/cc9719f447df12228af371fe53d3ab7e5f2b5cdc
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-10-23 21:03:30.000000000 Z
+    message: Minor change to make validate_clonealign work
+    url: https://github.com/kieranrcampbell/clonealign/commit/ac469ebe82d991f1aba1cd4c04ca1f0427723aa9
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-10-17 23:47:41.000000000 Z
+    message: Update packagedown
+    url: https://github.com/kieranrcampbell/clonealign/commit/b27bc668e27386d1e568d361b950401a279d60e6
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
 - repo: gavinha/TitanCNA
   title: TitanCNA
   owner: gavinha
@@ -18,10 +54,36 @@
   - login: hpages
     avatar: https://avatars1.githubusercontent.com/u/8810451?v=4&s=50
     url: https://github.com/hpages
-  - login: mrjc42
-    avatar: https://avatars3.githubusercontent.com/u/2029097?v=4&s=50
-    url: https://github.com/mrjc42
+  - login: chapmanb
+    avatar: https://avatars1.githubusercontent.com/u/39391?v=4&s=50
+    url: https://github.com/chapmanb
   commits:
+  - date: 2018-10-23 19:18:06.000000000 Z
+    message: |-
+      fixed issue with copy number correction
+      There was an issue with the use of the cellular prevalence in the copy number correction post-processing step. The issue is now fixed and cellular prevalence is properly used in the computation of the new corrected copy number.
+    url: https://github.com/gavinha/TitanCNA/commit/eb288ea1c5a8116bdad3a6588b83fdb6a55548f0
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-10-19 18:21:03.000000000 Z
+    message: |-
+      Merge pull request #37 from chapmanb/nointernet-seqinfo
+
+      hg38: non-internet access and plot function export
+    url: https://github.com/gavinha/TitanCNA/commit/b39a30df62a97987cfe68f232fc43f287f3eacfa
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-10-19 09:23:23.000000000 Z
+    message: |-
+      hg38: non-internet access and plot function export
+
+      - Allow retrieval of Seqinfo from local BSgenome files if present. This
+        avoids needing an internet connection through Seqinfo, which uses
+        fetchExtendedChromInfoFromUCSC under the covers.
+      - Export plotIdiogram.hg38 for use in TitanCNA.R script
+    url: https://github.com/gavinha/TitanCNA/commit/840c9775a3704b385512396ec982f859cd9ad2bd
+    author_login: chapmanb
+    author_url: https://github.com/chapmanb
   - date: 2018-10-04 04:09:56.000000000 Z
     message: |-
       fix bug for correcting integer copy number
@@ -38,68 +100,6 @@
     url: https://github.com/gavinha/TitanCNA/commit/7a9fa7c14f196f8f5eb91e6dcaa6a1de85de065d
     author_login: gavinha
     author_url: https://github.com/gavinha
-  - date: 2018-09-18 22:53:35.000000000 Z
-    message: |-
-      fixed typo prevalence
-      credit to @setgree
-    url: https://github.com/gavinha/TitanCNA/commit/0f0a065abf822e4d2aff6eed0076c3a5e7b72c5c
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-09-18 22:47:55.000000000 Z
-    message: |-
-      dev version bump (v1.19.1); fix bug for plotting - chr arg is NULL
-      For all plotting functions in titanCNA.R, when chr=NULL, this will give an error. A defeault value c(1:22) is provided. Also, the chr naming convention is handled automatically.
-      Version bump to be consistent with Bioconductor. Development versions are always odd numbered (v.1.19.1); current Bioconductor release is v1.18.0.
-      fixes #29
-      fixes #30
-      fixes #31
-      fixes #32
-      fixes #33
-    url: https://github.com/gavinha/TitanCNA/commit/090778876730edef498af9e1281d270dcd91c2a1
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-09-18 00:18:44.000000000 Z
-    message: |-
-      fix plotting bug when chr arg is NULL
-      For all plotting functions in titanCNA.R, when chr=NULL, then will give an error. This should fixe #29 #30 #31 #32 #33.
-    url: https://github.com/gavinha/TitanCNA/commit/8e0ab4bdfee66ea406c2f1f07d95d27af6af26a0
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-- repo: amcpherson/destruct
-  title: destruct
-  owner: amcpherson
-  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
-  url: "/projects/destruct/"
-  contributors:
-  - login: amcpherson
-    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
-    url: https://github.com/amcpherson
-  commits:
-  - date: 2018-10-03 15:09:13.000000000 Z
-    message: 'build: conda fix'
-    url: https://github.com/amcpherson/destruct/commit/503ca62c749e9d53e6ce19118aeda5e6191f7447
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-03 15:00:42.000000000 Z
-    message: 'build: conda version bump'
-    url: https://github.com/amcpherson/destruct/commit/8630c7e4cdeb2447695c1b683ce670d18ec8ea54
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-03 14:50:43.000000000 Z
-    message: 'build: git modules fix'
-    url: https://github.com/amcpherson/destruct/commit/8b06836432940f3a0b8e80765b941c3bfc955090
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-03 14:48:19.000000000 Z
-    message: 'build: travis config'
-    url: https://github.com/amcpherson/destruct/commit/fd33409e425ac5ef33195f09a4f621146332e371
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-08-10 13:38:25.000000000 Z
-    message: 'docs: minor fixes to testing installation'
-    url: https://github.com/amcpherson/destruct/commit/82767d884b0b8ab7e4d4177895b25e509c59a1f3
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
 - repo: amcpherson/remixt
   title: remixt
   owner: amcpherson
@@ -110,6 +110,16 @@
     avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
     url: https://github.com/amcpherson
   commits:
+  - date: 2018-10-19 23:16:26.000000000 Z
+    message: 'minor: conda version'
+    url: https://github.com/amcpherson/remixt/commit/55ca3bd2a0ea1c8952578f7bd9e7ab79395b7189
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-19 21:48:57.000000000 Z
+    message: 'build: centos6 build of using docker'
+    url: https://github.com/amcpherson/remixt/commit/afa5995d59fa571fe2e8826f6dbf1a0a98bc0fc3
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
   - date: 2018-10-02 21:12:25.000000000 Z
     message: 'build: conda build version'
     url: https://github.com/amcpherson/remixt/commit/97da7ec08f21361e69829807de8cbd622818bd3f
@@ -125,52 +135,41 @@
     url: https://github.com/amcpherson/remixt/commit/cc10f8bab7a2593713c22278fbebc91c1d3933a5
     author_login: amcpherson
     author_url: https://github.com/amcpherson
-  - date: 2018-10-02 20:12:35.000000000 Z
-    message: 'build: conda build version'
-    url: https://github.com/amcpherson/remixt/commit/abf100d6464c4c8f921086a8cc07c90139b76954
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-02 18:51:33.000000000 Z
-    message: 'build: conda build version'
-    url: https://github.com/amcpherson/remixt/commit/e818c8e79e7959ef9d28bd50f6669fc9e3c5a50e
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-- repo: kieranrcampbell/clonealign
-  title: clonealign
-  owner: kieranrcampbell
-  description: Inference of clone-specific gene expression estimates by assigning
-    single-cell RNA-seq to clones
-  url: "/projects/clonealign/"
+- repo: amcpherson/destruct
+  title: destruct
+  owner: amcpherson
+  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
+  url: "/projects/destruct/"
   contributors:
-  - login: kieranrcampbell
-    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
-    url: https://github.com/kieranrcampbell
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
   commits:
-  - date: 2018-09-11 23:37:25.000000000 Z
-    message: Change default K value
-    url: https://github.com/kieranrcampbell/clonealign/commit/b9d4e62ca78edaece549b706d80b6527c392d841
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-08-31 00:44:13.000000000 Z
-    message: Passes R CMD CHECK
-    url: https://github.com/kieranrcampbell/clonealign/commit/5e5667cc29d731edb5536098c582588b311ed003
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-08-30 22:56:45.000000000 Z
-    message: Remove any reference to phi; sort out priors
-    url: https://github.com/kieranrcampbell/clonealign/commit/bc9c882d427615027bc46b23fa494894ed97a95a
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-08-10 00:31:24.000000000 Z
-    message: Add spline dispersion-mean relationship
-    url: https://github.com/kieranrcampbell/clonealign/commit/4795095e1223ca61cb59378e4fa72722ea91e2ee
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-08-08 22:35:41.000000000 Z
-    message: About to branch for splines
-    url: https://github.com/kieranrcampbell/clonealign/commit/b408d1d6b7fad37f854da2f49542c9c0e6aed4ca
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
+  - date: 2018-10-19 21:49:59.000000000 Z
+    message: 'build: centos build using docker'
+    url: https://github.com/amcpherson/destruct/commit/7868de4f929b9db3da14a1e4fd90c7574d295ddc
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-19 21:23:33.000000000 Z
+    message: 'build: conda recipe fix'
+    url: https://github.com/amcpherson/destruct/commit/f2be42f3c52251bf88f1725d45db8c5225a80172
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-03 15:09:13.000000000 Z
+    message: 'build: conda fix'
+    url: https://github.com/amcpherson/destruct/commit/503ca62c749e9d53e6ce19118aeda5e6191f7447
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-03 15:00:42.000000000 Z
+    message: 'build: conda version bump'
+    url: https://github.com/amcpherson/destruct/commit/8630c7e4cdeb2447695c1b683ce670d18ec8ea54
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-03 14:50:43.000000000 Z
+    message: 'build: git modules fix'
+    url: https://github.com/amcpherson/destruct/commit/8b06836432940f3a0b8e80765b941c3bfc955090
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
 - repo: shahcompbio/Epiclomal
   title: Epiclomal
   owner: shahcompbio
