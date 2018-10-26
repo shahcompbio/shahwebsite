@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Spencer Vatrt-Watts
-position: Junior Software Developer
+position: Software Engineer
 email: vatrtwaa@mskcc.org
 github: Spenca
 handle: Spenca

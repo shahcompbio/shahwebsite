@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Samantha Leung
-position: Junior Software Developer
+position: Software Engineer
 email: sleung@bccrc.ca
 image: /assets/images/team/Leung-Samantha.jpg
 alum: false
