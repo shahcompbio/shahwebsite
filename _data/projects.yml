@@ -1,4 +1,103 @@
 ---
+- repo: gavinha/TitanCNA
+  title: TitanCNA
+  owner: gavinha
+  description: Analysis of subclonal copy number alterations (CNA) and loss of heterozygosity
+    (LOH) in cancer
+  url: "/projects/TitanCNA/"
+  contributors:
+  - login: gavinha
+    avatar: https://avatars1.githubusercontent.com/u/9221688?v=4&s=50
+    url: https://github.com/gavinha
+  - login: lbeltrame
+    avatar: https://avatars0.githubusercontent.com/u/25192?v=4&s=50
+    url: https://github.com/lbeltrame
+  - login: dtenenba
+    avatar: https://avatars0.githubusercontent.com/u/2286826?v=4&s=50
+    url: https://github.com/dtenenba
+  - login: hpages
+    avatar: https://avatars1.githubusercontent.com/u/8810451?v=4&s=50
+    url: https://github.com/hpages
+  - login: chapmanb
+    avatar: https://avatars1.githubusercontent.com/u/39391?v=4&s=50
+    url: https://github.com/chapmanb
+  commits:
+  - date: 2018-11-05 17:18:06.000000000 Z
+    message: |-
+      removes missing reference to genes
+      When invoking some of the plotting functions, the argument "geneAnnot=genes" is used but "genes" is not assigned in the titanCNA.R script. Now, geneAnnot=NULL. Fixes #41.
+      Added some additional checks for cytoband: now sets the chromosome naming style of the input cytobands so should work for any combination of genomeStyle and genomeBuild.
+    url: https://github.com/gavinha/TitanCNA/commit/8fb529d6b9e19084a756da3917243ed6b53c13c6
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-11-05 17:10:57.000000000 Z
+    message: |-
+      fixed bug in correctIntegerCN
+      There was an issue with reporting the copy number state string (e.g. NEUT, GAIN, etc) for chrX in males since the baseline is 1 copy instead of 2 (like it is for the rest of the genome).
+      logRbasedCN() adjusts the log ratio by correcting for purity, ploidy and cellular prevalence and reports the corrected absolute copy number (as a continuous value). There was a bug when cellular prevelance is NA, such as when the call is diploid heterozygous. Changed it such that if cellular prev is NA, 1.0 is used instead.
+      logRbasedCN is important because it allows for assigning high-level copy number amplifications that can be higher than the maximum CN.
+    url: https://github.com/gavinha/TitanCNA/commit/0909fa096da2987cee769ee2707bbff407d10362
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-11-05 17:06:20.000000000 Z
+    message: |-
+      Merge pull request #40 from chapmanb/idiogram-hg19-fix
+
+      Fix plotIdiogram cytoband error with build 37 runs
+    url: https://github.com/gavinha/TitanCNA/commit/658c286a322ce7c17c204c20084eba192d9e6326
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-11-03 09:02:38.000000000 Z
+    message: |-
+      Fix plotIdiogram cytoband error with build 37 runs
+
+      The label.y input gets passed twice, once as a bare argument that gets
+      interpreted as the second argument, cytoband. Fixes gavinha/TitanCNA#39
+    url: https://github.com/gavinha/TitanCNA/commit/797a004d72e0b52f6d8b08af4b66ef7eb74d39b9
+    author_login: chapmanb
+    author_url: https://github.com/chapmanb
+  - date: 2018-10-23 19:18:06.000000000 Z
+    message: |-
+      fixed issue with copy number correction
+      There was an issue with the use of the cellular prevalence in the copy number correction post-processing step. The issue is now fixed and cellular prevalence is properly used in the computation of the new corrected copy number.
+    url: https://github.com/gavinha/TitanCNA/commit/eb288ea1c5a8116bdad3a6588b83fdb6a55548f0
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+- repo: amcpherson/destruct
+  title: destruct
+  owner: amcpherson
+  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
+  url: "/projects/destruct/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  commits:
+  - date: 2018-10-28 18:31:31.000000000 Z
+    message: 'build: conda version bump'
+    url: https://github.com/amcpherson/destruct/commit/6dd514eedca42200aaa94385f9c95f9f716bfaaf
+    author_login: 
+    author_url: 
+  - date: 2018-10-28 18:29:28.000000000 Z
+    message: 'compatibility: networkx interface'
+    url: https://github.com/amcpherson/destruct/commit/a4aa9f6b5f85fbcf9f3200d9dc2ea9c3c8121bc6
+    author_login: 
+    author_url: 
+  - date: 2018-10-19 21:49:59.000000000 Z
+    message: 'build: centos build using docker'
+    url: https://github.com/amcpherson/destruct/commit/7868de4f929b9db3da14a1e4fd90c7574d295ddc
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-19 21:23:33.000000000 Z
+    message: 'build: conda recipe fix'
+    url: https://github.com/amcpherson/destruct/commit/f2be42f3c52251bf88f1725d45db8c5225a80172
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-03 15:09:13.000000000 Z
+    message: 'build: conda fix'
+    url: https://github.com/amcpherson/destruct/commit/503ca62c749e9d53e6ce19118aeda5e6191f7447
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
 - repo: kieranrcampbell/clonealign
   title: clonealign
   owner: kieranrcampbell
@@ -35,71 +134,6 @@
     url: https://github.com/kieranrcampbell/clonealign/commit/b27bc668e27386d1e568d361b950401a279d60e6
     author_login: kieranrcampbell
     author_url: https://github.com/kieranrcampbell
-- repo: gavinha/TitanCNA
-  title: TitanCNA
-  owner: gavinha
-  description: Analysis of subclonal copy number alterations (CNA) and loss of heterozygosity
-    (LOH) in cancer
-  url: "/projects/TitanCNA/"
-  contributors:
-  - login: gavinha
-    avatar: https://avatars1.githubusercontent.com/u/9221688?v=4&s=50
-    url: https://github.com/gavinha
-  - login: lbeltrame
-    avatar: https://avatars0.githubusercontent.com/u/25192?v=4&s=50
-    url: https://github.com/lbeltrame
-  - login: dtenenba
-    avatar: https://avatars0.githubusercontent.com/u/2286826?v=4&s=50
-    url: https://github.com/dtenenba
-  - login: hpages
-    avatar: https://avatars1.githubusercontent.com/u/8810451?v=4&s=50
-    url: https://github.com/hpages
-  - login: chapmanb
-    avatar: https://avatars1.githubusercontent.com/u/39391?v=4&s=50
-    url: https://github.com/chapmanb
-  commits:
-  - date: 2018-10-23 19:18:06.000000000 Z
-    message: |-
-      fixed issue with copy number correction
-      There was an issue with the use of the cellular prevalence in the copy number correction post-processing step. The issue is now fixed and cellular prevalence is properly used in the computation of the new corrected copy number.
-    url: https://github.com/gavinha/TitanCNA/commit/eb288ea1c5a8116bdad3a6588b83fdb6a55548f0
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-10-19 18:21:03.000000000 Z
-    message: |-
-      Merge pull request #37 from chapmanb/nointernet-seqinfo
-
-      hg38: non-internet access and plot function export
-    url: https://github.com/gavinha/TitanCNA/commit/b39a30df62a97987cfe68f232fc43f287f3eacfa
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-10-19 09:23:23.000000000 Z
-    message: |-
-      hg38: non-internet access and plot function export
-
-      - Allow retrieval of Seqinfo from local BSgenome files if present. This
-        avoids needing an internet connection through Seqinfo, which uses
-        fetchExtendedChromInfoFromUCSC under the covers.
-      - Export plotIdiogram.hg38 for use in TitanCNA.R script
-    url: https://github.com/gavinha/TitanCNA/commit/840c9775a3704b385512396ec982f859cd9ad2bd
-    author_login: chapmanb
-    author_url: https://github.com/chapmanb
-  - date: 2018-10-04 04:09:56.000000000 Z
-    message: |-
-      fix bug for correcting integer copy number
-      There was a bug for correcting integer copy number for bins that have NA for the column CellularPrevalence. This has minimal effect the TitanCNA snakemake workflow but does for the TitanCNA_10X_snakemake workflow. The bins that are affected are those that are typically not included in the TitanCNA analysis but are for bins merged from ichorCNA results to fill in the gaps.
-    url: https://github.com/gavinha/TitanCNA/commit/8396703fcdad922e8b887b03650935b0afc79b0d
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-09-27 22:23:32.000000000 Z
-    message: |-
-      fix bugs for snakemake when using UCSC chr naming and hg38
-      Previously there were issues with using UCSC chromosome naming convention. This update contains changes that have been tested on hg38 which uses UCSC chr naming.
-      Also, the README for the snakemake now contains more detailed instructions for running the snakemake workflow and setting up the config.yaml and running on the cluster.
-      Fixes #35
-    url: https://github.com/gavinha/TitanCNA/commit/7a9fa7c14f196f8f5eb91e6dcaa6a1de85de065d
-    author_login: gavinha
-    author_url: https://github.com/gavinha
 - repo: amcpherson/remixt
   title: remixt
   owner: amcpherson
@@ -133,41 +167,6 @@
   - date: 2018-10-02 20:21:58.000000000 Z
     message: 'build: conda build version'
     url: https://github.com/amcpherson/remixt/commit/cc10f8bab7a2593713c22278fbebc91c1d3933a5
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-- repo: amcpherson/destruct
-  title: destruct
-  owner: amcpherson
-  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
-  url: "/projects/destruct/"
-  contributors:
-  - login: amcpherson
-    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
-    url: https://github.com/amcpherson
-  commits:
-  - date: 2018-10-19 21:49:59.000000000 Z
-    message: 'build: centos build using docker'
-    url: https://github.com/amcpherson/destruct/commit/7868de4f929b9db3da14a1e4fd90c7574d295ddc
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-19 21:23:33.000000000 Z
-    message: 'build: conda recipe fix'
-    url: https://github.com/amcpherson/destruct/commit/f2be42f3c52251bf88f1725d45db8c5225a80172
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-03 15:09:13.000000000 Z
-    message: 'build: conda fix'
-    url: https://github.com/amcpherson/destruct/commit/503ca62c749e9d53e6ce19118aeda5e6191f7447
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-03 15:00:42.000000000 Z
-    message: 'build: conda version bump'
-    url: https://github.com/amcpherson/destruct/commit/8630c7e4cdeb2447695c1b683ce670d18ec8ea54
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-03 14:50:43.000000000 Z
-    message: 'build: git modules fix'
-    url: https://github.com/amcpherson/destruct/commit/8b06836432940f3a0b8e80765b941c3bfc955090
     author_login: amcpherson
     author_url: https://github.com/amcpherson
 - repo: shahcompbio/Epiclomal
