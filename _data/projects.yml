@@ -22,6 +22,28 @@
     avatar: https://avatars1.githubusercontent.com/u/39391?v=4&s=50
     url: https://github.com/chapmanb
   commits:
+  - date: 2018-11-08 19:30:13.000000000 Z
+    message: "set CRAN repo\n\nHopefully fixes this error during Travis CI build of
+      R package:\r\nError in contrib.url(repos, type) : \r\n  trying to use CRAN without
+      setting a mirror\r\nCalls: install.packages -> grep -> contrib.url\r\nExecution
+      halted"
+    url: https://github.com/gavinha/TitanCNA/commit/8d0c38d583894a9bf1ecc77ae26cda7be6d1d499
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-11-08 19:09:27.000000000 Z
+    message: |-
+      plotSubcloneProfiles plotting per chr xlab arg
+      The commit 223415e removed xlab="" for plotting individual chromosomes. Now in the main script, xlab="" is explicitly used when calling plotSubcloneProfiles. #42
+    url: https://github.com/gavinha/TitanCNA/commit/9b5b5c6fa5e5542de280d01581f1b84ab91fc864
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-11-08 18:57:13.000000000 Z
+    message: |-
+      removed internal hard-coded xlab arg
+      Using the "xlab" arg in plotSubcloneProfiles gave an error that xlab arg is given multiple times. This change preserves the ability for users to specify custom xlab values. Fixes #42
+    url: https://github.com/gavinha/TitanCNA/commit/223415e7e048ad2f57ab3f6cce0a5b1a2d8d1bf9
+    author_login: gavinha
+    author_url: https://github.com/gavinha
   - date: 2018-11-05 17:18:06.000000000 Z
     message: |-
       removes missing reference to genes
@@ -37,30 +59,6 @@
       logRbasedCN() adjusts the log ratio by correcting for purity, ploidy and cellular prevalence and reports the corrected absolute copy number (as a continuous value). There was a bug when cellular prevelance is NA, such as when the call is diploid heterozygous. Changed it such that if cellular prev is NA, 1.0 is used instead.
       logRbasedCN is important because it allows for assigning high-level copy number amplifications that can be higher than the maximum CN.
     url: https://github.com/gavinha/TitanCNA/commit/0909fa096da2987cee769ee2707bbff407d10362
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-11-05 17:06:20.000000000 Z
-    message: |-
-      Merge pull request #40 from chapmanb/idiogram-hg19-fix
-
-      Fix plotIdiogram cytoband error with build 37 runs
-    url: https://github.com/gavinha/TitanCNA/commit/658c286a322ce7c17c204c20084eba192d9e6326
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-11-03 09:02:38.000000000 Z
-    message: |-
-      Fix plotIdiogram cytoband error with build 37 runs
-
-      The label.y input gets passed twice, once as a bare argument that gets
-      interpreted as the second argument, cytoband. Fixes gavinha/TitanCNA#39
-    url: https://github.com/gavinha/TitanCNA/commit/797a004d72e0b52f6d8b08af4b66ef7eb74d39b9
-    author_login: chapmanb
-    author_url: https://github.com/chapmanb
-  - date: 2018-10-23 19:18:06.000000000 Z
-    message: |-
-      fixed issue with copy number correction
-      There was an issue with the use of the cellular prevalence in the copy number correction post-processing step. The issue is now fixed and cellular prevalence is properly used in the computation of the new corrected copy number.
-    url: https://github.com/gavinha/TitanCNA/commit/eb288ea1c5a8116bdad3a6588b83fdb6a55548f0
     author_login: gavinha
     author_url: https://github.com/gavinha
 - repo: amcpherson/destruct
