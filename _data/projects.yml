@@ -22,6 +22,38 @@
     avatar: https://avatars1.githubusercontent.com/u/39391?v=4&s=50
     url: https://github.com/chapmanb
   commits:
+  - date: 2018-11-15 17:46:47.000000000 Z
+    message: |-
+      libdir arg issue
+      fixes #44 where conditional to check for libdir used & instead of &&.
+      credit to @fpbarthel
+    url: https://github.com/gavinha/TitanCNA/commit/e214ca3f426f82939067b521fed9f7bf2a710dd8
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-11-15 17:43:58.000000000 Z
+    message: |-
+      Merge pull request #45 from chapmanb/cytoband-dataframe
+
+      hg38 plots: data frame fix for cytoband
+    url: https://github.com/gavinha/TitanCNA/commit/7c1a0e7ff478da9171e763eef7c3f5f0224c4d93
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-11-12 10:37:28.000000000 Z
+    message: |-
+      hg38 plots: data frame fix for cytoband
+
+      The fixes for genes and cytoband chromosome naming (https://github.com/gavinha/TitanCNA/commit/8fb529d6b9e19084a756da3917243ed6b53c13c6)
+      changed the conversion of the cytoband object into a data frame, which
+      causes plotIdiogram.hg38 to be unhappy:
+      ```
+      Error in ESC[38;5;5m[.data.tableESC[0m(cytoband, cytoband[, "chrom"] == chromosome, ) :
+        i is invalid type (matrix). Perhaps in future a 2 column matrix could return a list of elements of DT (in the spirit of A[B] in FAQ 2.14). Please report to data.table issue tracker if you'd like this, or add your comments to FR #657.
+      Calls: plotIdiogram.hg38 -> [ -> [.data.table
+      ```
+      This adds the conversion back in after the chromosome handling.
+    url: https://github.com/gavinha/TitanCNA/commit/5e029de933dc62209d577ca83426333cc899fbd6
+    author_login: chapmanb
+    author_url: https://github.com/chapmanb
   - date: 2018-11-08 19:30:13.000000000 Z
     message: "set CRAN repo\n\nHopefully fixes this error during Travis CI build of
       R package:\r\nError in contrib.url(repos, type) : \r\n  trying to use CRAN without
@@ -35,30 +67,6 @@
       plotSubcloneProfiles plotting per chr xlab arg
       The commit 223415e removed xlab="" for plotting individual chromosomes. Now in the main script, xlab="" is explicitly used when calling plotSubcloneProfiles. #42
     url: https://github.com/gavinha/TitanCNA/commit/9b5b5c6fa5e5542de280d01581f1b84ab91fc864
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-11-08 18:57:13.000000000 Z
-    message: |-
-      removed internal hard-coded xlab arg
-      Using the "xlab" arg in plotSubcloneProfiles gave an error that xlab arg is given multiple times. This change preserves the ability for users to specify custom xlab values. Fixes #42
-    url: https://github.com/gavinha/TitanCNA/commit/223415e7e048ad2f57ab3f6cce0a5b1a2d8d1bf9
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-11-05 17:18:06.000000000 Z
-    message: |-
-      removes missing reference to genes
-      When invoking some of the plotting functions, the argument "geneAnnot=genes" is used but "genes" is not assigned in the titanCNA.R script. Now, geneAnnot=NULL. Fixes #41.
-      Added some additional checks for cytoband: now sets the chromosome naming style of the input cytobands so should work for any combination of genomeStyle and genomeBuild.
-    url: https://github.com/gavinha/TitanCNA/commit/8fb529d6b9e19084a756da3917243ed6b53c13c6
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-11-05 17:10:57.000000000 Z
-    message: |-
-      fixed bug in correctIntegerCN
-      There was an issue with reporting the copy number state string (e.g. NEUT, GAIN, etc) for chrX in males since the baseline is 1 copy instead of 2 (like it is for the rest of the genome).
-      logRbasedCN() adjusts the log ratio by correcting for purity, ploidy and cellular prevalence and reports the corrected absolute copy number (as a continuous value). There was a bug when cellular prevelance is NA, such as when the call is diploid heterozygous. Changed it such that if cellular prev is NA, 1.0 is used instead.
-      logRbasedCN is important because it allows for assigning high-level copy number amplifications that can be higher than the maximum CN.
-    url: https://github.com/gavinha/TitanCNA/commit/0909fa096da2987cee769ee2707bbff407d10362
     author_login: gavinha
     author_url: https://github.com/gavinha
 - repo: amcpherson/destruct
