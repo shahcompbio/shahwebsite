@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Ignacio Vázquez-García
-position: Research Fellow
+position: Postdoctoral Fellow
 email: vazquezi@mskcc.org
 scholar: gXZbQ3cAAAAJ
 github: ivazquez
