@@ -1,4 +1,78 @@
 ---
+- repo: shahcompbio/Epiclomal
+  title: Epiclomal
+  owner: shahcompbio
+  description: Epiclomal package, software for clustering of sparse DNA methylation
+    data
+  url: "/projects/Epiclomal/"
+  contributors:
+  - login: mandronescu
+    avatar: https://avatars2.githubusercontent.com/u/18557412?v=4&s=50
+    url: https://github.com/mandronescu
+  - login: camiladesouza
+    avatar: https://avatars2.githubusercontent.com/u/7397805?v=4&s=50
+    url: https://github.com/camiladesouza
+  commits:
+  - date: 2018-11-26 19:32:12.000000000 Z
+    message: Fixed miss-error in Epiclomal
+    url: https://github.com/shahcompbio/Epiclomal/commit/1fcdac7fd998c933b0f9ccd11c54bec767390d04
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-09-11 06:47:25.000000000 Z
+    message: Updated README.md
+    url: https://github.com/shahcompbio/Epiclomal/commit/b5885258d67d341df2946f05617dcd06d52d067e
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-09-11 06:43:04.000000000 Z
+    message: git commit old synthetic_data files into scripts
+    url: https://github.com/shahcompbio/Epiclomal/commit/d4f82720301b7a71c275c704827b83713f87a5de
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-09-11 06:34:09.000000000 Z
+    message: Updated README.md file
+    url: https://github.com/shahcompbio/Epiclomal/commit/63c4065b33046e0ad48faecdc62ace6b8e9cceea
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-09-11 06:21:44.000000000 Z
+    message: Removed unnecessary file from epiclomal cluster software
+    url: https://github.com/shahcompbio/Epiclomal/commit/251dfb027da21d0afd956eab98e242ce101fe936
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+- repo: amcpherson/destruct
+  title: destruct
+  owner: amcpherson
+  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
+  url: "/projects/destruct/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  commits:
+  - date: 2018-11-23 21:28:05.000000000 Z
+    message: 'minor: version bump'
+    url: https://github.com/amcpherson/destruct/commit/763a782a9d47967c51cbc51a9e592460e2424868
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-11-23 21:26:25.000000000 Z
+    message: 'minor: warn on no concordant reads'
+    url: https://github.com/amcpherson/destruct/commit/0d70ed69f8c09a71d86f2a1444c733a44de50840
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-28 18:31:31.000000000 Z
+    message: 'build: conda version bump'
+    url: https://github.com/amcpherson/destruct/commit/6dd514eedca42200aaa94385f9c95f9f716bfaaf
+    author_login: 
+    author_url: 
+  - date: 2018-10-28 18:29:28.000000000 Z
+    message: 'compatibility: networkx interface'
+    url: https://github.com/amcpherson/destruct/commit/a4aa9f6b5f85fbcf9f3200d9dc2ea9c3c8121bc6
+    author_login: 
+    author_url: 
+  - date: 2018-10-19 21:49:59.000000000 Z
+    message: 'build: centos build using docker'
+    url: https://github.com/amcpherson/destruct/commit/7868de4f929b9db3da14a1e4fd90c7574d295ddc
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
 - repo: gavinha/TitanCNA
   title: TitanCNA
   owner: gavinha
@@ -69,41 +143,6 @@
     url: https://github.com/gavinha/TitanCNA/commit/9b5b5c6fa5e5542de280d01581f1b84ab91fc864
     author_login: gavinha
     author_url: https://github.com/gavinha
-- repo: amcpherson/destruct
-  title: destruct
-  owner: amcpherson
-  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
-  url: "/projects/destruct/"
-  contributors:
-  - login: amcpherson
-    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
-    url: https://github.com/amcpherson
-  commits:
-  - date: 2018-10-28 18:31:31.000000000 Z
-    message: 'build: conda version bump'
-    url: https://github.com/amcpherson/destruct/commit/6dd514eedca42200aaa94385f9c95f9f716bfaaf
-    author_login: 
-    author_url: 
-  - date: 2018-10-28 18:29:28.000000000 Z
-    message: 'compatibility: networkx interface'
-    url: https://github.com/amcpherson/destruct/commit/a4aa9f6b5f85fbcf9f3200d9dc2ea9c3c8121bc6
-    author_login: 
-    author_url: 
-  - date: 2018-10-19 21:49:59.000000000 Z
-    message: 'build: centos build using docker'
-    url: https://github.com/amcpherson/destruct/commit/7868de4f929b9db3da14a1e4fd90c7574d295ddc
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-19 21:23:33.000000000 Z
-    message: 'build: conda recipe fix'
-    url: https://github.com/amcpherson/destruct/commit/f2be42f3c52251bf88f1725d45db8c5225a80172
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-03 15:09:13.000000000 Z
-    message: 'build: conda fix'
-    url: https://github.com/amcpherson/destruct/commit/503ca62c749e9d53e6ce19118aeda5e6191f7447
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
 - repo: kieranrcampbell/clonealign
   title: clonealign
   owner: kieranrcampbell
@@ -175,45 +214,6 @@
     url: https://github.com/amcpherson/remixt/commit/cc10f8bab7a2593713c22278fbebc91c1d3933a5
     author_login: amcpherson
     author_url: https://github.com/amcpherson
-- repo: shahcompbio/Epiclomal
-  title: Epiclomal
-  owner: shahcompbio
-  description: Epiclomal package, software for clustering of sparse DNA methylation
-    data
-  url: "/projects/Epiclomal/"
-  contributors:
-  - login: mandronescu
-    avatar: https://avatars2.githubusercontent.com/u/18557412?v=4&s=50
-    url: https://github.com/mandronescu
-  - login: camiladesouza
-    avatar: https://avatars2.githubusercontent.com/u/7397805?v=4&s=50
-    url: https://github.com/camiladesouza
-  commits:
-  - date: 2018-09-11 06:47:25.000000000 Z
-    message: Updated README.md
-    url: https://github.com/shahcompbio/Epiclomal/commit/b5885258d67d341df2946f05617dcd06d52d067e
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-09-11 06:43:04.000000000 Z
-    message: git commit old synthetic_data files into scripts
-    url: https://github.com/shahcompbio/Epiclomal/commit/d4f82720301b7a71c275c704827b83713f87a5de
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-09-11 06:34:09.000000000 Z
-    message: Updated README.md file
-    url: https://github.com/shahcompbio/Epiclomal/commit/63c4065b33046e0ad48faecdc62ace6b8e9cceea
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-09-11 06:21:44.000000000 Z
-    message: Removed unnecessary file from epiclomal cluster software
-    url: https://github.com/shahcompbio/Epiclomal/commit/251dfb027da21d0afd956eab98e242ce101fe936
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-09-11 01:13:41.000000000 Z
-    message: git commit old epiclomal files into epiclomal
-    url: https://github.com/shahcompbio/Epiclomal/commit/bfe2db59146748f6dd7928de606d797171471941
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
 - repo: shahcompbio/scvis
   title: scvis
   owner: shahcompbio
