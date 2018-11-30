@@ -8,6 +8,7 @@ navorder: 5
 {% include JB/setup %}
 
 <div class="bigspacer"></div>
+<div>
 {% for member in site.categories.team reversed %}
 	{% if member.alum == false %}
 		{% cycle 'add rows': '<div class="row">', '', '' %}
@@ -27,21 +28,45 @@ navorder: 5
 		{% cycle 'close rows': '', '', '</div>' %}
 	{% endif %}
 {% endfor %}
+</div>
 
-<div class="bigspacer"></div>
-<img width="931" src="/assets/images/team/2018-DowntownNYC.jpg">
-<p class="note">2018 - A Night Out in New York City</p>
-<div class="bigspacer"></div>
-<img width="931" src="/assets/images/team/2017-SummerBBQ.jpg">
-<p class="note">2017 - Summer Barbecue</p>
-<div class="bigspacer"></div>
-<img width="931" src="/assets/images/team/2016-Rooftop.jpg">
-<p class="note">2016 - Lab Rooftop</p>
-<div class="bigspacer"></div>
-<img width="931" src="/assets/images/team/2014-AliceLakeHike.jpg">
-<p class="note">2014 - Alice Lake Hike</p>
-<div class="bigspacer"></div>
 <hr />
+
+<div class="bigtitle text-center">Social Outings</div>
+<div class="bigspacer"></div>
+
+<div style="max-width: 931px; margin: auto;">
+	<div>
+		<img width="931" src="/assets/images/team/2018-DowntownNYC.jpg">
+		<p class="note">2018 - A Night Out in New York City</p>
+	</div>
+
+	<div class="bigspacer"></div>
+
+	<div>
+		<img width="931" src="/assets/images/team/2017-SummerBBQ.jpg">
+		<p class="note">2017 - Summer Barbecue</p>
+	</div>
+
+	<div class="bigspacer"></div>
+
+	<div>
+		<img width="931" src="/assets/images/team/2016-Rooftop.jpg">
+		<p class="note">2016 - Lab Rooftop</p>
+	</div>
+
+	<div class="bigspacer"></div>
+
+	<div>
+		<img width="931" src="/assets/images/team/2014-AliceLakeHike.jpg">
+		<p class="note">2014 - Alice Lake Hike</p>
+	</div>
+
+	<div class="bigspacer"></div>
+</div>
+
+<hr />
+
 <div class="bigtitle text-center">Alumni</div>
 <div class="bigspacer"></div>
 
