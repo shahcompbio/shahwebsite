@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Minsoo Kim
-position: Rotation Student
+position: Graduate Student
 email: mik2044@med.cornell.edu
 image: /assets/images/team/Kim-Minsoo.jpg
 alum: false
