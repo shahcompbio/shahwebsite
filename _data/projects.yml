@@ -1,4 +1,79 @@
 ---
+- repo: kieranrcampbell/clonealign
+  title: clonealign
+  owner: kieranrcampbell
+  description: Bayesian inference of clone-specific gene expression estimates by assigning
+    single-cell RNA-seq to clones
+  url: "/projects/clonealign/"
+  contributors:
+  - login: kieranrcampbell
+    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
+    url: https://github.com/kieranrcampbell
+  commits:
+  - date: 2018-12-04 00:16:15.000000000 Z
+    message: Fix clonealign figure; update readme to require tflow version
+    url: https://github.com/kieranrcampbell/clonealign/commit/b5424e93e79833f593c9453e26e470fdb672537d
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-12-03 23:38:12.000000000 Z
+    message: Upgrade to tensorflow probability; add allele specific likelihood
+    url: https://github.com/kieranrcampbell/clonealign/commit/d1bac2f945638f1fb95b8ea14e040013bbf22540
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-12-03 21:04:52.000000000 Z
+    message: normalise -> normalize in scater
+    url: https://github.com/kieranrcampbell/clonealign/commit/9aaf922169e18d75f380ad6b8dbc751ac1ad3235
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-12-03 20:28:34.000000000 Z
+    message: Add zenodo ID
+    url: https://github.com/kieranrcampbell/clonealign/commit/ff483b4048ff943f925a3ee18a1e6515a49c8191
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-10-23 22:44:50.000000000 Z
+    message: Reverted back - need to take a look at evaluate_clonealign at some point
+    url: https://github.com/kieranrcampbell/clonealign/commit/4d6c340dcb1aaa993e2ba5f6a5ec09b66940e09d
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+- repo: shahcompbio/Epiclomal
+  title: Epiclomal
+  owner: shahcompbio
+  description: Epiclomal package, software for clustering of sparse DNA methylation
+    data
+  url: "/projects/Epiclomal/"
+  contributors:
+  - login: mandronescu
+    avatar: https://avatars2.githubusercontent.com/u/18557412?v=4&s=50
+    url: https://github.com/mandronescu
+  - login: camiladesouza
+    avatar: https://avatars2.githubusercontent.com/u/7397805?v=4&s=50
+    url: https://github.com/camiladesouza
+  commits:
+  - date: 2018-11-30 01:25:28.000000000 Z
+    message: updated scripts
+    url: https://github.com/shahcompbio/Epiclomal/commit/ab7c32778b2134321895445dd6cc5a71fb28f85d
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-11-26 19:32:12.000000000 Z
+    message: Fixed miss-error in Epiclomal
+    url: https://github.com/shahcompbio/Epiclomal/commit/1fcdac7fd998c933b0f9ccd11c54bec767390d04
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-09-11 06:47:25.000000000 Z
+    message: Updated README.md
+    url: https://github.com/shahcompbio/Epiclomal/commit/b5885258d67d341df2946f05617dcd06d52d067e
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-09-11 06:43:04.000000000 Z
+    message: git commit old synthetic_data files into scripts
+    url: https://github.com/shahcompbio/Epiclomal/commit/d4f82720301b7a71c275c704827b83713f87a5de
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-09-11 06:34:09.000000000 Z
+    message: Updated README.md file
+    url: https://github.com/shahcompbio/Epiclomal/commit/63c4065b33046e0ad48faecdc62ace6b8e9cceea
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
 - repo: gavinha/TitanCNA
   title: TitanCNA
   owner: gavinha
@@ -73,45 +148,6 @@
     url: https://github.com/gavinha/TitanCNA/commit/5e029de933dc62209d577ca83426333cc899fbd6
     author_login: chapmanb
     author_url: https://github.com/chapmanb
-- repo: shahcompbio/Epiclomal
-  title: Epiclomal
-  owner: shahcompbio
-  description: Epiclomal package, software for clustering of sparse DNA methylation
-    data
-  url: "/projects/Epiclomal/"
-  contributors:
-  - login: mandronescu
-    avatar: https://avatars2.githubusercontent.com/u/18557412?v=4&s=50
-    url: https://github.com/mandronescu
-  - login: camiladesouza
-    avatar: https://avatars2.githubusercontent.com/u/7397805?v=4&s=50
-    url: https://github.com/camiladesouza
-  commits:
-  - date: 2018-11-26 19:32:12.000000000 Z
-    message: Fixed miss-error in Epiclomal
-    url: https://github.com/shahcompbio/Epiclomal/commit/1fcdac7fd998c933b0f9ccd11c54bec767390d04
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-09-11 06:47:25.000000000 Z
-    message: Updated README.md
-    url: https://github.com/shahcompbio/Epiclomal/commit/b5885258d67d341df2946f05617dcd06d52d067e
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-09-11 06:43:04.000000000 Z
-    message: git commit old synthetic_data files into scripts
-    url: https://github.com/shahcompbio/Epiclomal/commit/d4f82720301b7a71c275c704827b83713f87a5de
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-09-11 06:34:09.000000000 Z
-    message: Updated README.md file
-    url: https://github.com/shahcompbio/Epiclomal/commit/63c4065b33046e0ad48faecdc62ace6b8e9cceea
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-09-11 06:21:44.000000000 Z
-    message: Removed unnecessary file from epiclomal cluster software
-    url: https://github.com/shahcompbio/Epiclomal/commit/251dfb027da21d0afd956eab98e242ce101fe936
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
 - repo: amcpherson/destruct
   title: destruct
   owner: amcpherson
@@ -147,42 +183,6 @@
     url: https://github.com/amcpherson/destruct/commit/7868de4f929b9db3da14a1e4fd90c7574d295ddc
     author_login: amcpherson
     author_url: https://github.com/amcpherson
-- repo: kieranrcampbell/clonealign
-  title: clonealign
-  owner: kieranrcampbell
-  description: Bayesian inference of clone-specific gene expression estimates by assigning
-    single-cell RNA-seq to clones
-  url: "/projects/clonealign/"
-  contributors:
-  - login: kieranrcampbell
-    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
-    url: https://github.com/kieranrcampbell
-  commits:
-  - date: 2018-10-23 22:44:50.000000000 Z
-    message: Reverted back - need to take a look at evaluate_clonealign at some point
-    url: https://github.com/kieranrcampbell/clonealign/commit/4d6c340dcb1aaa993e2ba5f6a5ec09b66940e09d
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-10-23 21:34:47.000000000 Z
-    message: Add allelic imbalance
-    url: https://github.com/kieranrcampbell/clonealign/commit/0fda0540274c8027c3aeb8c344b47f9afc60d85b
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-10-23 21:24:46.000000000 Z
-    message: typo
-    url: https://github.com/kieranrcampbell/clonealign/commit/cc9719f447df12228af371fe53d3ab7e5f2b5cdc
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-10-23 21:03:30.000000000 Z
-    message: Minor change to make validate_clonealign work
-    url: https://github.com/kieranrcampbell/clonealign/commit/ac469ebe82d991f1aba1cd4c04ca1f0427723aa9
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-10-17 23:47:41.000000000 Z
-    message: Update packagedown
-    url: https://github.com/kieranrcampbell/clonealign/commit/b27bc668e27386d1e568d361b950401a279d60e6
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
 - repo: amcpherson/remixt
   title: remixt
   owner: amcpherson
