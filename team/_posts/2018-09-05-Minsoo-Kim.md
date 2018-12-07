@@ -2,7 +2,7 @@
 layout: member
 title: Minsoo Kim
 position: Graduate Student
-email: mik2044@med.cornell.edu
+email: kimm@mskcc.org
 image: /assets/images/team/Kim-Minsoo.jpg
 alum: false
 ---
