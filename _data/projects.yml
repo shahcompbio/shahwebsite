@@ -1,4 +1,110 @@
 ---
+- repo: gavinha/TitanCNA
+  title: TitanCNA
+  owner: gavinha
+  description: Analysis of subclonal copy number alterations (CNA) and loss of heterozygosity
+    (LOH) in cancer
+  url: "/projects/TitanCNA/"
+  contributors:
+  - login: gavinha
+    avatar: https://avatars1.githubusercontent.com/u/9221688?v=4&s=50
+    url: https://github.com/gavinha
+  - login: lbeltrame
+    avatar: https://avatars0.githubusercontent.com/u/25192?v=4&s=50
+    url: https://github.com/lbeltrame
+  - login: dtenenba
+    avatar: https://avatars0.githubusercontent.com/u/2286826?v=4&s=50
+    url: https://github.com/dtenenba
+  - login: hpages
+    avatar: https://avatars1.githubusercontent.com/u/8810451?v=4&s=50
+    url: https://github.com/hpages
+  - login: chapmanb
+    avatar: https://avatars1.githubusercontent.com/u/39391?v=4&s=50
+    url: https://github.com/chapmanb
+  commits:
+  - date: 2018-12-07 22:40:40.000000000 Z
+    message: |-
+      corrected copy number string fix
+      Fixes #56 where the corrected_copy_number is accurate but the corrected_call is HLAMP by default - now the corrected_call will show the proper copy state string
+      Also modified setGenomeStyle so that there is an option to not exclude extra chromosomes that are not the major 1:22, X, Y chrs
+    url: https://github.com/gavinha/TitanCNA/commit/c3061eaa437785ec2ca8618c7d24603c4df9eb14
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-11-29 21:37:40.000000000 Z
+    message: |-
+      version bump and biocViews update
+      Added ImmunoOncology to biocViews per request by Bioconductor core team.
+      Bumped version to v1.21.1 development version to match Bioconductor versioning scheme
+    url: https://github.com/gavinha/TitanCNA/commit/60408ca0949fe1203844f549e35ffff1127eba00
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-11-29 21:10:09.000000000 Z
+    message: |-
+      fix scat (sdbw Tong version) and correct homd events
+      The scatter (scat* version) component of the Sdbw validity index was computed incorrectly - smaller clusters were given more favorable weighting. Now this is has changed to do the opposite:
+      scat.Ci[i] <- ((N-ni) / N) * (var.Ci/var.D)
+      Fixes #43. Thanks to @alashkov83 for pointing out this mistake.
+
+      correctIntegerCN now also readjusts HOMD calls based on tumor purity and ploidy corrected log ratios. The effect is similar to re-adjusting high-level amplification but for homozygous deletions.
+    url: https://github.com/gavinha/TitanCNA/commit/2a7e268352322c089cf092ff43cbc3a250f36e1b
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-11-15 17:46:47.000000000 Z
+    message: |-
+      libdir arg issue
+      fixes #44 where conditional to check for libdir used & instead of &&.
+      credit to @fpbarthel
+    url: https://github.com/gavinha/TitanCNA/commit/e214ca3f426f82939067b521fed9f7bf2a710dd8
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-11-15 17:43:58.000000000 Z
+    message: |-
+      Merge pull request #45 from chapmanb/cytoband-dataframe
+
+      hg38 plots: data frame fix for cytoband
+    url: https://github.com/gavinha/TitanCNA/commit/7c1a0e7ff478da9171e763eef7c3f5f0224c4d93
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+- repo: shahcompbio/Epiclomal
+  title: Epiclomal
+  owner: shahcompbio
+  description: Epiclomal package, software for clustering of sparse DNA methylation
+    data
+  url: "/projects/Epiclomal/"
+  contributors:
+  - login: mandronescu
+    avatar: https://avatars2.githubusercontent.com/u/18557412?v=4&s=50
+    url: https://github.com/mandronescu
+  - login: camiladesouza
+    avatar: https://avatars2.githubusercontent.com/u/7397805?v=4&s=50
+    url: https://github.com/camiladesouza
+  commits:
+  - date: 2018-12-07 00:16:34.000000000 Z
+    message: Updated readme, commented stats_methylation.R
+    url: https://github.com/shahcompbio/Epiclomal/commit/c2abb1a1a8eca8023cdb24cf4434bcf0faf36b7b
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-12-06 21:54:07.000000000 Z
+    message: Adding stats_methylation.R
+    url: https://github.com/shahcompbio/Epiclomal/commit/afc1d7c6e31077fe92faca24011c76330e4238f4
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-12-06 21:53:03.000000000 Z
+    message: Update readme
+    url: https://github.com/shahcompbio/Epiclomal/commit/625588a97ad867ca96bde95331f1973d12039626
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-12-06 21:51:37.000000000 Z
+    message: Updating process readme and stats_methylation.R, adding dirs for kronos
+      pipelines and components
+    url: https://github.com/shahcompbio/Epiclomal/commit/44b87e2cb690fd92ac59a9d4b4d0914140b9cc2b
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-12-06 21:33:25.000000000 Z
+    message: Adding the preprocessing files
+    url: https://github.com/shahcompbio/Epiclomal/commit/153a243aa278e9a38e0846fefda780ca47c707e6
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
 - repo: kieranrcampbell/clonealign
   title: clonealign
   owner: kieranrcampbell
@@ -35,119 +141,6 @@
     url: https://github.com/kieranrcampbell/clonealign/commit/4d6c340dcb1aaa993e2ba5f6a5ec09b66940e09d
     author_login: kieranrcampbell
     author_url: https://github.com/kieranrcampbell
-- repo: shahcompbio/Epiclomal
-  title: Epiclomal
-  owner: shahcompbio
-  description: Epiclomal package, software for clustering of sparse DNA methylation
-    data
-  url: "/projects/Epiclomal/"
-  contributors:
-  - login: mandronescu
-    avatar: https://avatars2.githubusercontent.com/u/18557412?v=4&s=50
-    url: https://github.com/mandronescu
-  - login: camiladesouza
-    avatar: https://avatars2.githubusercontent.com/u/7397805?v=4&s=50
-    url: https://github.com/camiladesouza
-  commits:
-  - date: 2018-11-30 01:25:28.000000000 Z
-    message: updated scripts
-    url: https://github.com/shahcompbio/Epiclomal/commit/ab7c32778b2134321895445dd6cc5a71fb28f85d
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-11-26 19:32:12.000000000 Z
-    message: Fixed miss-error in Epiclomal
-    url: https://github.com/shahcompbio/Epiclomal/commit/1fcdac7fd998c933b0f9ccd11c54bec767390d04
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-09-11 06:47:25.000000000 Z
-    message: Updated README.md
-    url: https://github.com/shahcompbio/Epiclomal/commit/b5885258d67d341df2946f05617dcd06d52d067e
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-09-11 06:43:04.000000000 Z
-    message: git commit old synthetic_data files into scripts
-    url: https://github.com/shahcompbio/Epiclomal/commit/d4f82720301b7a71c275c704827b83713f87a5de
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-09-11 06:34:09.000000000 Z
-    message: Updated README.md file
-    url: https://github.com/shahcompbio/Epiclomal/commit/63c4065b33046e0ad48faecdc62ace6b8e9cceea
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-- repo: gavinha/TitanCNA
-  title: TitanCNA
-  owner: gavinha
-  description: Analysis of subclonal copy number alterations (CNA) and loss of heterozygosity
-    (LOH) in cancer
-  url: "/projects/TitanCNA/"
-  contributors:
-  - login: gavinha
-    avatar: https://avatars1.githubusercontent.com/u/9221688?v=4&s=50
-    url: https://github.com/gavinha
-  - login: lbeltrame
-    avatar: https://avatars0.githubusercontent.com/u/25192?v=4&s=50
-    url: https://github.com/lbeltrame
-  - login: dtenenba
-    avatar: https://avatars0.githubusercontent.com/u/2286826?v=4&s=50
-    url: https://github.com/dtenenba
-  - login: hpages
-    avatar: https://avatars1.githubusercontent.com/u/8810451?v=4&s=50
-    url: https://github.com/hpages
-  - login: chapmanb
-    avatar: https://avatars1.githubusercontent.com/u/39391?v=4&s=50
-    url: https://github.com/chapmanb
-  commits:
-  - date: 2018-11-29 21:37:40.000000000 Z
-    message: |-
-      version bump and biocViews update
-      Added ImmunoOncology to biocViews per request by Bioconductor core team.
-      Bumped version to v1.21.1 development version to match Bioconductor versioning scheme
-    url: https://github.com/gavinha/TitanCNA/commit/60408ca0949fe1203844f549e35ffff1127eba00
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-11-29 21:10:09.000000000 Z
-    message: |-
-      fix scat (sdbw Tong version) and correct homd events
-      The scatter (scat* version) component of the Sdbw validity index was computed incorrectly - smaller clusters were given more favorable weighting. Now this is has changed to do the opposite:
-      scat.Ci[i] <- ((N-ni) / N) * (var.Ci/var.D)
-      Fixes #43. Thanks to @alashkov83 for pointing out this mistake.
-
-      correctIntegerCN now also readjusts HOMD calls based on tumor purity and ploidy corrected log ratios. The effect is similar to re-adjusting high-level amplification but for homozygous deletions.
-    url: https://github.com/gavinha/TitanCNA/commit/2a7e268352322c089cf092ff43cbc3a250f36e1b
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-11-15 17:46:47.000000000 Z
-    message: |-
-      libdir arg issue
-      fixes #44 where conditional to check for libdir used & instead of &&.
-      credit to @fpbarthel
-    url: https://github.com/gavinha/TitanCNA/commit/e214ca3f426f82939067b521fed9f7bf2a710dd8
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-11-15 17:43:58.000000000 Z
-    message: |-
-      Merge pull request #45 from chapmanb/cytoband-dataframe
-
-      hg38 plots: data frame fix for cytoband
-    url: https://github.com/gavinha/TitanCNA/commit/7c1a0e7ff478da9171e763eef7c3f5f0224c4d93
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-11-12 10:37:28.000000000 Z
-    message: |-
-      hg38 plots: data frame fix for cytoband
-
-      The fixes for genes and cytoband chromosome naming (https://github.com/gavinha/TitanCNA/commit/8fb529d6b9e19084a756da3917243ed6b53c13c6)
-      changed the conversion of the cytoband object into a data frame, which
-      causes plotIdiogram.hg38 to be unhappy:
-      ```
-      Error in ESC[38;5;5m[.data.tableESC[0m(cytoband, cytoband[, "chrom"] == chromosome, ) :
-        i is invalid type (matrix). Perhaps in future a 2 column matrix could return a list of elements of DT (in the spirit of A[B] in FAQ 2.14). Please report to data.table issue tracker if you'd like this, or add your comments to FR #657.
-      Calls: plotIdiogram.hg38 -> [ -> [.data.table
-      ```
-      This adds the conversion back in after the chromosome handling.
-    url: https://github.com/gavinha/TitanCNA/commit/5e029de933dc62209d577ca83426333cc899fbd6
-    author_login: chapmanb
-    author_url: https://github.com/chapmanb
 - repo: amcpherson/destruct
   title: destruct
   owner: amcpherson
