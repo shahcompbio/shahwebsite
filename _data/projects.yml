@@ -1,4 +1,201 @@
 ---
+- repo: shahcompbio/mutationseq
+  title: mutationseq
+  owner: shahcompbio
+  description: Software for somatic SNV detection using next generation sequencing
+    (NGS) data.
+  url: "/projects/mutationseq/"
+  contributors:
+  - login: jtaghiyar
+    avatar: https://avatars0.githubusercontent.com/u/1679815?v=4&s=50
+    url: https://github.com/jtaghiyar
+  commits:
+  - date: 2018-12-18 15:17:32.000000000 Z
+    message: |-
+      minor: removed pickle file
+
+      Former-commit-id: e57a2c20f6560c8661f187880427a2b07b06d176
+    url: https://github.com/shahcompbio/mutationseq/commit/22ee56c29fb87b4207f856f0022464d45cf19c48
+    author_login: 
+    author_url: 
+  - date: 2018-12-18 15:02:36.000000000 Z
+    message: |-
+      added install instructions
+
+
+      Former-commit-id: 5c4afe30845dfc89fcea6e0d8587d6eb9455acf9
+    url: https://github.com/shahcompbio/mutationseq/commit/dc0d24cadf768ee2d7c77df93be3f5e307297fd5
+    author_login: 
+    author_url: 
+  - date: 2018-12-18 14:39:47.000000000 Z
+    message: |-
+      minor: some stuff in setup was commented out
+
+      Former-commit-id: 6ec9864a6aa1faff69dca1a07b7d4ef5da17473d
+    url: https://github.com/shahcompbio/mutationseq/commit/7de3c385505197493a85067e0883669a54047e28
+    author_login: 
+    author_url: 
+  - date: 2018-11-08 16:41:14.000000000 Z
+    message: |-
+      fixes: added museq_het command for titan mode
+
+      Former-commit-id: c1f52ba12e9a777520d7faf14faef7db1f98306b
+    url: https://github.com/shahcompbio/mutationseq/commit/bbcbdca5708973254fdd693f18a5bcdcfb23d2a1
+    author_login: 
+    author_url: 
+  - date: 2018-10-23 20:20:00.000000000 Z
+    message: |-
+      fix: added missing filter to header
+
+      Former-commit-id: 9b636643bf99d8be7b7e84d21ce635e84580019d
+    url: https://github.com/shahcompbio/mutationseq/commit/c0d8d216376c0535eac3d386a9f9c31f76d94150
+    author_login: 
+    author_url: 
+- repo: kieranrcampbell/clonealign
+  title: clonealign
+  owner: kieranrcampbell
+  description: Bayesian inference of clone-specific gene expression estimates by assigning
+    single-cell RNA-seq to clones
+  url: "/projects/clonealign/"
+  contributors:
+  - login: kieranrcampbell
+    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
+    url: https://github.com/kieranrcampbell
+  commits:
+  - date: 2018-12-17 21:41:57.000000000 Z
+    message: Change default initialization of size factors as per reviewer suggestion
+    url: https://github.com/kieranrcampbell/clonealign/commit/b0888595acc01c13153009809565ac8501f5f5b5
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-12-04 00:16:15.000000000 Z
+    message: Fix clonealign figure; update readme to require tflow version
+    url: https://github.com/kieranrcampbell/clonealign/commit/b5424e93e79833f593c9453e26e470fdb672537d
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-12-03 23:38:12.000000000 Z
+    message: Upgrade to tensorflow probability; add allele specific likelihood
+    url: https://github.com/kieranrcampbell/clonealign/commit/d1bac2f945638f1fb95b8ea14e040013bbf22540
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-12-03 21:04:52.000000000 Z
+    message: normalise -> normalize in scater
+    url: https://github.com/kieranrcampbell/clonealign/commit/9aaf922169e18d75f380ad6b8dbc751ac1ad3235
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2018-12-03 20:28:34.000000000 Z
+    message: Add zenodo ID
+    url: https://github.com/kieranrcampbell/clonealign/commit/ff483b4048ff943f925a3ee18a1e6515a49c8191
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+- repo: amcpherson/remixt
+  title: remixt
+  owner: amcpherson
+  description: Clone-specific genomic structure estimation in cancer
+  url: "/projects/remixt/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  commits:
+  - date: 2018-12-15 01:08:50.000000000 Z
+    message: 'build: conda version bump'
+    url: https://github.com/amcpherson/remixt/commit/8615574ce24d3964845a360233e517af7586fd34
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-12-15 01:07:07.000000000 Z
+    message: 'bugfix: h update parameter needs to be set'
+    url: https://github.com/amcpherson/remixt/commit/a7a89ef5e2c0c2a577fc7bcf8f40900725ffd1ab
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-19 23:16:26.000000000 Z
+    message: 'minor: conda version'
+    url: https://github.com/amcpherson/remixt/commit/55ca3bd2a0ea1c8952578f7bd9e7ab79395b7189
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-19 21:48:57.000000000 Z
+    message: 'build: centos6 build of using docker'
+    url: https://github.com/amcpherson/remixt/commit/afa5995d59fa571fe2e8826f6dbf1a0a98bc0fc3
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-02 21:12:25.000000000 Z
+    message: 'build: conda build version'
+    url: https://github.com/amcpherson/remixt/commit/97da7ec08f21361e69829807de8cbd622818bd3f
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+- repo: amcpherson/destruct
+  title: destruct
+  owner: amcpherson
+  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
+  url: "/projects/destruct/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  commits:
+  - date: 2018-12-14 00:45:24.000000000 Z
+    message: 'feature: somatic breakpoints script'
+    url: https://github.com/amcpherson/destruct/commit/e1178df06fa91018f35783c614576b56ddc0f295
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-11-23 21:28:05.000000000 Z
+    message: 'minor: version bump'
+    url: https://github.com/amcpherson/destruct/commit/763a782a9d47967c51cbc51a9e592460e2424868
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-11-23 21:26:25.000000000 Z
+    message: 'minor: warn on no concordant reads'
+    url: https://github.com/amcpherson/destruct/commit/0d70ed69f8c09a71d86f2a1444c733a44de50840
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-28 18:31:31.000000000 Z
+    message: 'build: conda version bump'
+    url: https://github.com/amcpherson/destruct/commit/6dd514eedca42200aaa94385f9c95f9f716bfaaf
+    author_login: 
+    author_url: 
+  - date: 2018-10-28 18:29:28.000000000 Z
+    message: 'compatibility: networkx interface'
+    url: https://github.com/amcpherson/destruct/commit/a4aa9f6b5f85fbcf9f3200d9dc2ea9c3c8121bc6
+    author_login: 
+    author_url: 
+- repo: shahcompbio/Epiclomal
+  title: Epiclomal
+  owner: shahcompbio
+  description: Epiclomal package, software for clustering of sparse DNA methylation
+    data
+  url: "/projects/Epiclomal/"
+  contributors:
+  - login: mandronescu
+    avatar: https://avatars2.githubusercontent.com/u/18557412?v=4&s=50
+    url: https://github.com/mandronescu
+  - login: camiladesouza
+    avatar: https://avatars2.githubusercontent.com/u/7397805?v=4&s=50
+    url: https://github.com/camiladesouza
+  commits:
+  - date: 2018-12-13 17:56:07.000000000 Z
+    message: added new filter
+    url: https://github.com/shahcompbio/Epiclomal/commit/c9aa223ada6fe2921b7b6455b27b804dd151dc06
+    author_login: camiladesouza
+    author_url: https://github.com/camiladesouza
+  - date: 2018-12-11 21:38:27.000000000 Z
+    message: removed lib path from stats_methylation.R
+    url: https://github.com/shahcompbio/Epiclomal/commit/f4f6da11471775be7d11d8510b399c899975fdf7
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-12-07 00:16:34.000000000 Z
+    message: Updated readme, commented stats_methylation.R
+    url: https://github.com/shahcompbio/Epiclomal/commit/c2abb1a1a8eca8023cdb24cf4434bcf0faf36b7b
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-12-06 21:54:07.000000000 Z
+    message: Adding stats_methylation.R
+    url: https://github.com/shahcompbio/Epiclomal/commit/afc1d7c6e31077fe92faca24011c76330e4238f4
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-12-06 21:53:03.000000000 Z
+    message: Update readme
+    url: https://github.com/shahcompbio/Epiclomal/commit/625588a97ad867ca96bde95331f1973d12039626
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
 - repo: gavinha/TitanCNA
   title: TitanCNA
   owner: gavinha
@@ -65,152 +262,6 @@
     url: https://github.com/gavinha/TitanCNA/commit/7c1a0e7ff478da9171e763eef7c3f5f0224c4d93
     author_login: gavinha
     author_url: https://github.com/gavinha
-- repo: shahcompbio/Epiclomal
-  title: Epiclomal
-  owner: shahcompbio
-  description: Epiclomal package, software for clustering of sparse DNA methylation
-    data
-  url: "/projects/Epiclomal/"
-  contributors:
-  - login: mandronescu
-    avatar: https://avatars2.githubusercontent.com/u/18557412?v=4&s=50
-    url: https://github.com/mandronescu
-  - login: camiladesouza
-    avatar: https://avatars2.githubusercontent.com/u/7397805?v=4&s=50
-    url: https://github.com/camiladesouza
-  commits:
-  - date: 2018-12-07 00:16:34.000000000 Z
-    message: Updated readme, commented stats_methylation.R
-    url: https://github.com/shahcompbio/Epiclomal/commit/c2abb1a1a8eca8023cdb24cf4434bcf0faf36b7b
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-12-06 21:54:07.000000000 Z
-    message: Adding stats_methylation.R
-    url: https://github.com/shahcompbio/Epiclomal/commit/afc1d7c6e31077fe92faca24011c76330e4238f4
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-12-06 21:53:03.000000000 Z
-    message: Update readme
-    url: https://github.com/shahcompbio/Epiclomal/commit/625588a97ad867ca96bde95331f1973d12039626
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-12-06 21:51:37.000000000 Z
-    message: Updating process readme and stats_methylation.R, adding dirs for kronos
-      pipelines and components
-    url: https://github.com/shahcompbio/Epiclomal/commit/44b87e2cb690fd92ac59a9d4b4d0914140b9cc2b
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-12-06 21:33:25.000000000 Z
-    message: Adding the preprocessing files
-    url: https://github.com/shahcompbio/Epiclomal/commit/153a243aa278e9a38e0846fefda780ca47c707e6
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-- repo: kieranrcampbell/clonealign
-  title: clonealign
-  owner: kieranrcampbell
-  description: Bayesian inference of clone-specific gene expression estimates by assigning
-    single-cell RNA-seq to clones
-  url: "/projects/clonealign/"
-  contributors:
-  - login: kieranrcampbell
-    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
-    url: https://github.com/kieranrcampbell
-  commits:
-  - date: 2018-12-04 00:16:15.000000000 Z
-    message: Fix clonealign figure; update readme to require tflow version
-    url: https://github.com/kieranrcampbell/clonealign/commit/b5424e93e79833f593c9453e26e470fdb672537d
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-12-03 23:38:12.000000000 Z
-    message: Upgrade to tensorflow probability; add allele specific likelihood
-    url: https://github.com/kieranrcampbell/clonealign/commit/d1bac2f945638f1fb95b8ea14e040013bbf22540
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-12-03 21:04:52.000000000 Z
-    message: normalise -> normalize in scater
-    url: https://github.com/kieranrcampbell/clonealign/commit/9aaf922169e18d75f380ad6b8dbc751ac1ad3235
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-12-03 20:28:34.000000000 Z
-    message: Add zenodo ID
-    url: https://github.com/kieranrcampbell/clonealign/commit/ff483b4048ff943f925a3ee18a1e6515a49c8191
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-10-23 22:44:50.000000000 Z
-    message: Reverted back - need to take a look at evaluate_clonealign at some point
-    url: https://github.com/kieranrcampbell/clonealign/commit/4d6c340dcb1aaa993e2ba5f6a5ec09b66940e09d
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-- repo: amcpherson/destruct
-  title: destruct
-  owner: amcpherson
-  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
-  url: "/projects/destruct/"
-  contributors:
-  - login: amcpherson
-    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
-    url: https://github.com/amcpherson
-  commits:
-  - date: 2018-11-23 21:28:05.000000000 Z
-    message: 'minor: version bump'
-    url: https://github.com/amcpherson/destruct/commit/763a782a9d47967c51cbc51a9e592460e2424868
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-11-23 21:26:25.000000000 Z
-    message: 'minor: warn on no concordant reads'
-    url: https://github.com/amcpherson/destruct/commit/0d70ed69f8c09a71d86f2a1444c733a44de50840
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-28 18:31:31.000000000 Z
-    message: 'build: conda version bump'
-    url: https://github.com/amcpherson/destruct/commit/6dd514eedca42200aaa94385f9c95f9f716bfaaf
-    author_login: 
-    author_url: 
-  - date: 2018-10-28 18:29:28.000000000 Z
-    message: 'compatibility: networkx interface'
-    url: https://github.com/amcpherson/destruct/commit/a4aa9f6b5f85fbcf9f3200d9dc2ea9c3c8121bc6
-    author_login: 
-    author_url: 
-  - date: 2018-10-19 21:49:59.000000000 Z
-    message: 'build: centos build using docker'
-    url: https://github.com/amcpherson/destruct/commit/7868de4f929b9db3da14a1e4fd90c7574d295ddc
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-- repo: amcpherson/remixt
-  title: remixt
-  owner: amcpherson
-  description: Clone-specific genomic structure estimation in cancer
-  url: "/projects/remixt/"
-  contributors:
-  - login: amcpherson
-    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
-    url: https://github.com/amcpherson
-  commits:
-  - date: 2018-10-19 23:16:26.000000000 Z
-    message: 'minor: conda version'
-    url: https://github.com/amcpherson/remixt/commit/55ca3bd2a0ea1c8952578f7bd9e7ab79395b7189
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-19 21:48:57.000000000 Z
-    message: 'build: centos6 build of using docker'
-    url: https://github.com/amcpherson/remixt/commit/afa5995d59fa571fe2e8826f6dbf1a0a98bc0fc3
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-02 21:12:25.000000000 Z
-    message: 'build: conda build version'
-    url: https://github.com/amcpherson/remixt/commit/97da7ec08f21361e69829807de8cbd622818bd3f
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-02 20:28:03.000000000 Z
-    message: 'build: conda build version'
-    url: https://github.com/amcpherson/remixt/commit/3bc8b872c1fe5d9e947554e520eae437dc16c46f
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-02 20:21:58.000000000 Z
-    message: 'build: conda build version'
-    url: https://github.com/amcpherson/remixt/commit/cc10f8bab7a2593713c22278fbebc91c1d3933a5
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
 - repo: shahcompbio/scvis
   title: scvis
   owner: shahcompbio
@@ -383,45 +434,6 @@
   - date: 2016-04-26 19:45:11.000000000 Z
     message: initial commit
     url: https://github.com/shahcompbio/snvmix/commit/99d9fecbc52b52ea5ed9c4124e07632af58c8bfb
-    author_login: 
-    author_url: 
-- repo: shahcompbio/mutationseq
-  title: mutationseq
-  owner: shahcompbio
-  description: Software for somatic SNV detection using next generation sequencing
-    (NGS) data.
-  url: "/projects/mutationseq/"
-  contributors:
-  - login: MO-BCCRC
-    avatar: https://avatars1.githubusercontent.com/u/16584712?v=4&s=50
-    url: https://github.com/MO-BCCRC
-  - login: Spenca
-    avatar: https://avatars0.githubusercontent.com/u/16676440?v=4&s=50
-    url: https://github.com/Spenca
-  commits:
-  - date: 2017-09-13 18:31:23.000000000 Z
-    message: Update README
-    url: https://github.com/shahcompbio/mutationseq/commit/7833b030fa65dc1a49f8bb1fd2db99fb9f8ee4d3
-    author_login: Spenca
-    author_url: https://github.com/Spenca
-  - date: 2017-03-15 18:35:20.000000000 Z
-    message: updated README
-    url: https://github.com/shahcompbio/mutationseq/commit/e743fb28dc195558c4f9c88621e0509f39f4b4a4
-    author_login: 
-    author_url: 
-  - date: 2017-03-15 18:16:50.000000000 Z
-    message: updated to v4.3.8
-    url: https://github.com/shahcompbio/mutationseq/commit/7bf5e00a84bd6d0f8422f11725f20dbb93aff7f0
-    author_login: 
-    author_url: 
-  - date: 2016-03-04 20:27:35.000000000 Z
-    message: readme.txt edited online with Bitbucket
-    url: https://github.com/shahcompbio/mutationseq/commit/9cff87f73f9e54f0258217cfde416ddc041167f1
-    author_login: MO-BCCRC
-    author_url: https://github.com/MO-BCCRC
-  - date: 2016-03-04 20:22:17.000000000 Z
-    message: museq commit
-    url: https://github.com/shahcompbio/mutationseq/commit/3436a0614a8618f91129fe57d73c146a08712dee
     author_login: 
     author_url: 
 - repo: amcpherson/defuse
