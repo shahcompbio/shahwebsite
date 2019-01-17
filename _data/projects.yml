@@ -1,4 +1,142 @@
 ---
+- repo: irrationone/cellassign
+  title: cellassign
+  owner: Irrationone
+  description: Automated, probabilistic assignment of cell types in scRNA-seq data
+  url: "/projects/cellassign/"
+  contributors:
+  - login: Irrationone
+    avatar: https://avatars0.githubusercontent.com/u/2326632?v=4&s=50
+    url: https://github.com/Irrationone
+  - login: kieranrcampbell
+    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
+    url: https://github.com/kieranrcampbell
+  commits:
+  - date: 2019-01-17 19:52:58.000000000 Z
+    message: Add set of example TME markers
+    url: https://github.com/Irrationone/cellassign/commit/c8d40dee3149624412716282cc3911c50a1e679b
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-01-16 17:25:05.000000000 Z
+    message: Add preprint link
+    url: https://github.com/Irrationone/cellassign/commit/9d93998df8b30a08dc60a6fcd6d4e69ece63e3d3
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2018-12-13 19:00:33.000000000 Z
+    message: Update schematic
+    url: https://github.com/Irrationone/cellassign/commit/0f95d2caabcdc9790d16d993a03f6d07d2141746
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2018-12-12 22:36:37.000000000 Z
+    message: Update README.md
+    url: https://github.com/Irrationone/cellassign/commit/380180105a1798f22c2704bc82748535e5722f1a
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2018-11-30 22:27:22.000000000 Z
+    message: Change travis build to master branch
+    url: https://github.com/Irrationone/cellassign/commit/405913b13a04766f03474f9181bd780f3fd267ad
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+- repo: gavinha/TitanCNA
+  title: TitanCNA
+  owner: gavinha
+  description: Analysis of subclonal copy number alterations (CNA) and loss of heterozygosity
+    (LOH) in cancer
+  url: "/projects/TitanCNA/"
+  contributors:
+  - login: gavinha
+    avatar: https://avatars1.githubusercontent.com/u/9221688?v=4&s=50
+    url: https://github.com/gavinha
+  - login: lbeltrame
+    avatar: https://avatars0.githubusercontent.com/u/25192?v=4&s=50
+    url: https://github.com/lbeltrame
+  - login: dtenenba
+    avatar: https://avatars0.githubusercontent.com/u/2286826?v=4&s=50
+    url: https://github.com/dtenenba
+  - login: hpages
+    avatar: https://avatars1.githubusercontent.com/u/8810451?v=4&s=50
+    url: https://github.com/hpages
+  - login: chapmanb
+    avatar: https://avatars1.githubusercontent.com/u/39391?v=4&s=50
+    url: https://github.com/chapmanb
+  commits:
+  - date: 2019-01-03 02:05:40.000000000 Z
+    message: 'updated hmmcopy link. addresses issue #62'
+    url: https://github.com/gavinha/TitanCNA/commit/eeb577bac2b4f291ba95992c37991bbd5ffecf1f
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-12-21 18:47:24.000000000 Z
+    message: |-
+      recompute likelihood set to FALSE
+      Do not recompute likelihood after CN correction because this tends to decreae the likelihood significantly for diploid solutions. #61
+      Other minor changes including refractoring code for correctIntegerCN()
+    url: https://github.com/gavinha/TitanCNA/commit/705e437aa248543145c4934fef3c983a90e29f26
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-12-20 00:56:37.000000000 Z
+    message: fixing 048d49f which overwrote previous change
+    url: https://github.com/gavinha/TitanCNA/commit/2bec919b457c183657354f965051bb7809492f98
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-12-20 00:28:02.000000000 Z
+    message: |-
+      fix warning message when using seqlevelsStyle
+      This warning appears when trying to assign a genomeStyle using seqlevelsStyle
+
+      Error in .replace_seqlevels_style(x_seqlevels, value) :
+        found no sequence renaming map compatible with seqname style "NCBI" for this object
+
+      Changed to using mapSeqlevels() instead of seqlevelsStyle() for setting genomeStyle.
+    url: https://github.com/gavinha/TitanCNA/commit/b823c17bca211c67fbc6424134e1e2929a1b94a8
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2018-12-19 22:50:40.000000000 Z
+    message: |-
+      fix error for BioC 3.9
+      version bump to v1.21.2 and >= R-3.5.1
+      fixed documentation warnings for correctIntegerCN()
+    url: https://github.com/gavinha/TitanCNA/commit/ec77d1c73b4d763d25fce19279878b2de894e3a5
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+- repo: shahcompbio/Epiclomal
+  title: Epiclomal
+  owner: shahcompbio
+  description: Epiclomal package, software for clustering of sparse DNA methylation
+    data
+  url: "/projects/Epiclomal/"
+  contributors:
+  - login: mandronescu
+    avatar: https://avatars2.githubusercontent.com/u/18557412?v=4&s=50
+    url: https://github.com/mandronescu
+  - login: camiladesouza
+    avatar: https://avatars2.githubusercontent.com/u/7397805?v=4&s=50
+    url: https://github.com/camiladesouza
+  commits:
+  - date: 2018-12-20 21:22:00.000000000 Z
+    message: Removed hard Rscript path in scripts/hclust.R
+    url: https://github.com/shahcompbio/Epiclomal/commit/40431fedb438098f38f285cc2280f9fb4096a949
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-12-20 19:27:54.000000000 Z
+    message: Commented out the libpaths
+    url: https://github.com/shahcompbio/Epiclomal/commit/625285dbc34e6eab725fee631edc9c67672f7086
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-12-20 17:43:35.000000000 Z
+    message: Took out libPaths from stats_methylation.R
+    url: https://github.com/shahcompbio/Epiclomal/commit/86bfca79dc9f6447613fb1daf94352a940841e01
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2018-12-20 17:10:35.000000000 Z
+    message: working version new filter
+    url: https://github.com/shahcompbio/Epiclomal/commit/b74f2992c4326b6488176860004b349718715e5b
+    author_login: camiladesouza
+    author_url: https://github.com/camiladesouza
+  - date: 2018-12-20 03:15:10.000000000 Z
+    message: new version with new filter
+    url: https://github.com/shahcompbio/Epiclomal/commit/55c27c59a350290e5b4e616d236b876618f04a70
+    author_login: camiladesouza
+    author_url: https://github.com/camiladesouza
 - repo: shahcompbio/mutationseq
   title: mutationseq
   owner: shahcompbio
@@ -10,6 +148,11 @@
     avatar: https://avatars0.githubusercontent.com/u/1679815?v=4&s=50
     url: https://github.com/jtaghiyar
   commits:
+  - date: 2018-12-20 17:57:33.000000000 Z
+    message: 'bugfix: scikit-learn v0.20 deprecated cross_validation module'
+    url: https://github.com/shahcompbio/mutationseq/commit/c88c2c3c3e0aab7eb2007751d44c87c0a1e6586d
+    author_login: 
+    author_url: 
   - date: 2018-12-18 15:17:32.000000000 Z
     message: |-
       minor: removed pickle file
@@ -41,14 +184,6 @@
 
       Former-commit-id: c1f52ba12e9a777520d7faf14faef7db1f98306b
     url: https://github.com/shahcompbio/mutationseq/commit/bbcbdca5708973254fdd693f18a5bcdcfb23d2a1
-    author_login: 
-    author_url: 
-  - date: 2018-10-23 20:20:00.000000000 Z
-    message: |-
-      fix: added missing filter to header
-
-      Former-commit-id: 9b636643bf99d8be7b7e84d21ce635e84580019d
-    url: https://github.com/shahcompbio/mutationseq/commit/c0d8d216376c0535eac3d386a9f9c31f76d94150
     author_login: 
     author_url: 
 - repo: kieranrcampbell/clonealign
@@ -157,111 +292,6 @@
     url: https://github.com/amcpherson/destruct/commit/a4aa9f6b5f85fbcf9f3200d9dc2ea9c3c8121bc6
     author_login: 
     author_url: 
-- repo: shahcompbio/Epiclomal
-  title: Epiclomal
-  owner: shahcompbio
-  description: Epiclomal package, software for clustering of sparse DNA methylation
-    data
-  url: "/projects/Epiclomal/"
-  contributors:
-  - login: mandronescu
-    avatar: https://avatars2.githubusercontent.com/u/18557412?v=4&s=50
-    url: https://github.com/mandronescu
-  - login: camiladesouza
-    avatar: https://avatars2.githubusercontent.com/u/7397805?v=4&s=50
-    url: https://github.com/camiladesouza
-  commits:
-  - date: 2018-12-13 17:56:07.000000000 Z
-    message: added new filter
-    url: https://github.com/shahcompbio/Epiclomal/commit/c9aa223ada6fe2921b7b6455b27b804dd151dc06
-    author_login: camiladesouza
-    author_url: https://github.com/camiladesouza
-  - date: 2018-12-11 21:38:27.000000000 Z
-    message: removed lib path from stats_methylation.R
-    url: https://github.com/shahcompbio/Epiclomal/commit/f4f6da11471775be7d11d8510b399c899975fdf7
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-12-07 00:16:34.000000000 Z
-    message: Updated readme, commented stats_methylation.R
-    url: https://github.com/shahcompbio/Epiclomal/commit/c2abb1a1a8eca8023cdb24cf4434bcf0faf36b7b
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-12-06 21:54:07.000000000 Z
-    message: Adding stats_methylation.R
-    url: https://github.com/shahcompbio/Epiclomal/commit/afc1d7c6e31077fe92faca24011c76330e4238f4
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-12-06 21:53:03.000000000 Z
-    message: Update readme
-    url: https://github.com/shahcompbio/Epiclomal/commit/625588a97ad867ca96bde95331f1973d12039626
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-- repo: gavinha/TitanCNA
-  title: TitanCNA
-  owner: gavinha
-  description: Analysis of subclonal copy number alterations (CNA) and loss of heterozygosity
-    (LOH) in cancer
-  url: "/projects/TitanCNA/"
-  contributors:
-  - login: gavinha
-    avatar: https://avatars1.githubusercontent.com/u/9221688?v=4&s=50
-    url: https://github.com/gavinha
-  - login: lbeltrame
-    avatar: https://avatars0.githubusercontent.com/u/25192?v=4&s=50
-    url: https://github.com/lbeltrame
-  - login: dtenenba
-    avatar: https://avatars0.githubusercontent.com/u/2286826?v=4&s=50
-    url: https://github.com/dtenenba
-  - login: hpages
-    avatar: https://avatars1.githubusercontent.com/u/8810451?v=4&s=50
-    url: https://github.com/hpages
-  - login: chapmanb
-    avatar: https://avatars1.githubusercontent.com/u/39391?v=4&s=50
-    url: https://github.com/chapmanb
-  commits:
-  - date: 2018-12-07 22:40:40.000000000 Z
-    message: |-
-      corrected copy number string fix
-      Fixes #56 where the corrected_copy_number is accurate but the corrected_call is HLAMP by default - now the corrected_call will show the proper copy state string
-      Also modified setGenomeStyle so that there is an option to not exclude extra chromosomes that are not the major 1:22, X, Y chrs
-    url: https://github.com/gavinha/TitanCNA/commit/c3061eaa437785ec2ca8618c7d24603c4df9eb14
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-11-29 21:37:40.000000000 Z
-    message: |-
-      version bump and biocViews update
-      Added ImmunoOncology to biocViews per request by Bioconductor core team.
-      Bumped version to v1.21.1 development version to match Bioconductor versioning scheme
-    url: https://github.com/gavinha/TitanCNA/commit/60408ca0949fe1203844f549e35ffff1127eba00
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-11-29 21:10:09.000000000 Z
-    message: |-
-      fix scat (sdbw Tong version) and correct homd events
-      The scatter (scat* version) component of the Sdbw validity index was computed incorrectly - smaller clusters were given more favorable weighting. Now this is has changed to do the opposite:
-      scat.Ci[i] <- ((N-ni) / N) * (var.Ci/var.D)
-      Fixes #43. Thanks to @alashkov83 for pointing out this mistake.
-
-      correctIntegerCN now also readjusts HOMD calls based on tumor purity and ploidy corrected log ratios. The effect is similar to re-adjusting high-level amplification but for homozygous deletions.
-    url: https://github.com/gavinha/TitanCNA/commit/2a7e268352322c089cf092ff43cbc3a250f36e1b
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-11-15 17:46:47.000000000 Z
-    message: |-
-      libdir arg issue
-      fixes #44 where conditional to check for libdir used & instead of &&.
-      credit to @fpbarthel
-    url: https://github.com/gavinha/TitanCNA/commit/e214ca3f426f82939067b521fed9f7bf2a710dd8
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-11-15 17:43:58.000000000 Z
-    message: |-
-      Merge pull request #45 from chapmanb/cytoband-dataframe
-
-      hg38 plots: data frame fix for cytoband
-    url: https://github.com/gavinha/TitanCNA/commit/7c1a0e7ff478da9171e763eef7c3f5f0224c4d93
-    author_login: gavinha
-    author_url: https://github.com/gavinha
 - repo: shahcompbio/scvis
   title: scvis
   owner: shahcompbio
