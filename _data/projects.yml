@@ -1,42 +1,4 @@
 ---
-- repo: irrationone/cellassign
-  title: cellassign
-  owner: Irrationone
-  description: Automated, probabilistic assignment of cell types in scRNA-seq data
-  url: "/projects/cellassign/"
-  contributors:
-  - login: Irrationone
-    avatar: https://avatars0.githubusercontent.com/u/2326632?v=4&s=50
-    url: https://github.com/Irrationone
-  - login: kieranrcampbell
-    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
-    url: https://github.com/kieranrcampbell
-  commits:
-  - date: 2019-01-17 19:52:58.000000000 Z
-    message: Add set of example TME markers
-    url: https://github.com/Irrationone/cellassign/commit/c8d40dee3149624412716282cc3911c50a1e679b
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-01-16 17:25:05.000000000 Z
-    message: Add preprint link
-    url: https://github.com/Irrationone/cellassign/commit/9d93998df8b30a08dc60a6fcd6d4e69ece63e3d3
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
-  - date: 2018-12-13 19:00:33.000000000 Z
-    message: Update schematic
-    url: https://github.com/Irrationone/cellassign/commit/0f95d2caabcdc9790d16d993a03f6d07d2141746
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
-  - date: 2018-12-12 22:36:37.000000000 Z
-    message: Update README.md
-    url: https://github.com/Irrationone/cellassign/commit/380180105a1798f22c2704bc82748535e5722f1a
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
-  - date: 2018-11-30 22:27:22.000000000 Z
-    message: Change travis build to master branch
-    url: https://github.com/Irrationone/cellassign/commit/405913b13a04766f03474f9181bd780f3fd267ad
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
 - repo: gavinha/TitanCNA
   title: TitanCNA
   owner: gavinha
@@ -60,42 +22,41 @@
     avatar: https://avatars1.githubusercontent.com/u/39391?v=4&s=50
     url: https://github.com/chapmanb
   commits:
-  - date: 2019-01-03 02:05:40.000000000 Z
-    message: 'updated hmmcopy link. addresses issue #62'
-    url: https://github.com/gavinha/TitanCNA/commit/eeb577bac2b4f291ba95992c37991bbd5ffecf1f
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2018-12-21 18:47:24.000000000 Z
+  - date: 2019-02-07 00:42:57.000000000 Z
     message: |-
-      recompute likelihood set to FALSE
-      Do not recompute likelihood after CN correction because this tends to decreae the likelihood significantly for diploid solutions. #61
-      Other minor changes including refractoring code for correctIntegerCN()
-    url: https://github.com/gavinha/TitanCNA/commit/705e437aa248543145c4934fef3c983a90e29f26
+      ploidy2 path fix
+      Typo in ploidyRun2 path corrected. Fixes #65
+      Thanks to @aleighgreen for finding this typo
+    url: https://github.com/gavinha/TitanCNA/commit/8fbcab53dd4ade836c2229cd47e9c2968742ad49
     author_login: gavinha
     author_url: https://github.com/gavinha
-  - date: 2018-12-20 00:56:37.000000000 Z
-    message: fixing 048d49f which overwrote previous change
-    url: https://github.com/gavinha/TitanCNA/commit/2bec919b457c183657354f965051bb7809492f98
+  - date: 2019-01-30 19:28:58.000000000 Z
+    message: updated instructions for cluster usage
+    url: https://github.com/gavinha/TitanCNA/commit/ea4cdd678df2b6cdf26fd317e614c717b29c0d8d
     author_login: gavinha
     author_url: https://github.com/gavinha
-  - date: 2018-12-20 00:28:02.000000000 Z
+  - date: 2019-01-30 19:23:26.000000000 Z
     message: |-
-      fix warning message when using seqlevelsStyle
-      This warning appears when trying to assign a genomeStyle using seqlevelsStyle
-
-      Error in .replace_seqlevels_style(x_seqlevels, value) :
-        found no sequence renaming map compatible with seqname style "NCBI" for this object
-
-      Changed to using mapSeqlevels() instead of seqlevelsStyle() for setting genomeStyle.
-    url: https://github.com/gavinha/TitanCNA/commit/b823c17bca211c67fbc6424134e1e2929a1b94a8
+      changed cluster usage
+      Overhauled use of cluster:
+      - added support for slurm
+      - created yaml file for memory, runtime, # of cpus for specific tasks that decouples it from being hardcoded in the snakefiles
+      - removed hardcoded cluster resource specifications in the snakefiles
+      - updated README with instructions on using qsub and slurm
+    url: https://github.com/gavinha/TitanCNA/commit/5bd6f586c577f74fbafd655369a8ad09bc9ad75f
     author_login: gavinha
     author_url: https://github.com/gavinha
-  - date: 2018-12-19 22:50:40.000000000 Z
+  - date: 2019-01-17 23:51:27.000000000 Z
+    message: fixed minor bug in correctIntegerCN when low purity
+    url: https://github.com/gavinha/TitanCNA/commit/f47f11f21007806c1aa45c2930d696d85f57b7c1
+    author_login: gavinha
+    author_url: https://github.com/gavinha
+  - date: 2019-01-17 20:59:19.000000000 Z
     message: |-
-      fix error for BioC 3.9
-      version bump to v1.21.2 and >= R-3.5.1
-      fixed documentation warnings for correctIntegerCN()
-    url: https://github.com/gavinha/TitanCNA/commit/ec77d1c73b4d763d25fce19279878b2de894e3a5
+      allelic copy number correction
+      As part of the new feature described in #63, the correctIntegerCN function now also outputs additional columns: Corrected_MajorCN, Corrected_MinorCN, Corrected_Ratio
+      Minor plotting changes
+    url: https://github.com/gavinha/TitanCNA/commit/96e1c5bff8cf6f2793af40c3e463c85fe6fb3986
     author_login: gavinha
     author_url: https://github.com/gavinha
 - repo: shahcompbio/Epiclomal
@@ -112,31 +73,111 @@
     avatar: https://avatars2.githubusercontent.com/u/7397805?v=4&s=50
     url: https://github.com/camiladesouza
   commits:
+  - date: 2019-02-06 20:49:11.000000000 Z
+    message: new version with lines for number of clusters
+    url: https://github.com/shahcompbio/Epiclomal/commit/4ba5d3c8b06b8d0dd0da8d4e2df8b710444ac0d7
+    author_login: 
+    author_url: 
+  - date: 2019-02-05 19:11:16.000000000 Z
+    message: replotting the real data plots
+    url: https://github.com/shahcompbio/Epiclomal/commit/54953be521192443fdc6873a55c7ebe865364e2c
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2019-02-04 21:49:12.000000000 Z
+    message: Corrected the plotting of the real data
+    url: https://github.com/shahcompbio/Epiclomal/commit/ba606b7d3b17bea9fcb1b482df3d6d36b5dbd2b2
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2019-01-30 20:35:00.000000000 Z
+    message: Added imputation option in non-probabilistic methods
+    url: https://github.com/shahcompbio/Epiclomal/commit/eb3068de0da3a8cdcee71e00b5f652f115d6dbca
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
   - date: 2018-12-20 21:22:00.000000000 Z
     message: Removed hard Rscript path in scripts/hclust.R
     url: https://github.com/shahcompbio/Epiclomal/commit/40431fedb438098f38f285cc2280f9fb4096a949
     author_login: mandronescu
     author_url: https://github.com/mandronescu
-  - date: 2018-12-20 19:27:54.000000000 Z
-    message: Commented out the libpaths
-    url: https://github.com/shahcompbio/Epiclomal/commit/625285dbc34e6eab725fee631edc9c67672f7086
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-12-20 17:43:35.000000000 Z
-    message: Took out libPaths from stats_methylation.R
-    url: https://github.com/shahcompbio/Epiclomal/commit/86bfca79dc9f6447613fb1daf94352a940841e01
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-12-20 17:10:35.000000000 Z
-    message: working version new filter
-    url: https://github.com/shahcompbio/Epiclomal/commit/b74f2992c4326b6488176860004b349718715e5b
-    author_login: camiladesouza
-    author_url: https://github.com/camiladesouza
-  - date: 2018-12-20 03:15:10.000000000 Z
-    message: new version with new filter
-    url: https://github.com/shahcompbio/Epiclomal/commit/55c27c59a350290e5b4e616d236b876618f04a70
-    author_login: camiladesouza
-    author_url: https://github.com/camiladesouza
+- repo: kieranrcampbell/clonealign
+  title: clonealign
+  owner: kieranrcampbell
+  description: Bayesian inference of clone-specific gene expression estimates by assigning
+    single-cell RNA-seq to clones
+  url: "/projects/clonealign/"
+  contributors:
+  - login: kieranrcampbell
+    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
+    url: https://github.com/kieranrcampbell
+  commits:
+  - date: 2019-02-06 03:59:46.000000000 Z
+    message: Build error should be fixed
+    url: https://github.com/kieranrcampbell/clonealign/commit/9f8d6b54afb1deb8043d5306470b806c9b96e309
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-02-06 02:35:30.000000000 Z
+    message: Add vignette detailing copy number data preparation
+    url: https://github.com/kieranrcampbell/clonealign/commit/8502e1403ad8b54e00029ee84f01510103ac5e7c
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-02-06 00:33:50.000000000 Z
+    message: Added an index.html
+    url: https://github.com/kieranrcampbell/clonealign/commit/731afe2a08d370f3120d238ca18f3bcae99b023c
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-02-06 00:28:22.000000000 Z
+    message: Update to move vignettes as direct README links
+    url: https://github.com/kieranrcampbell/clonealign/commit/015f3992f01e3760df87f5b17a1cd992f358468e
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-01-30 19:04:00.000000000 Z
+    message: Add random seed checking
+    url: https://github.com/kieranrcampbell/clonealign/commit/28dce1c7fae1b4597271cd49f1a33ff7237e7d09
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+- repo: irrationone/cellassign
+  title: cellassign
+  owner: Irrationone
+  description: Automated, probabilistic assignment of cell types in scRNA-seq data
+  url: "/projects/cellassign/"
+  contributors:
+  - login: Irrationone
+    avatar: https://avatars0.githubusercontent.com/u/2326632?v=4&s=50
+    url: https://github.com/Irrationone
+  - login: kieranrcampbell
+    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
+    url: https://github.com/kieranrcampbell
+  - login: johanneskoester
+    avatar: https://avatars1.githubusercontent.com/u/1858646?v=4&s=50
+    url: https://github.com/johanneskoester
+  commits:
+  - date: 2019-01-21 16:08:50.000000000 Z
+    message: |-
+      Merge pull request #19 from johanneskoester/patch-1
+
+      Fix channels in conda install command
+    url: https://github.com/Irrationone/cellassign/commit/c6b88d20c7dcd41896313ca684c9c6a7c0ff377b
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2019-01-21 10:46:35.000000000 Z
+    message: Update README.md
+    url: https://github.com/Irrationone/cellassign/commit/a086d724e8836559dda72564348172192d3ecc26
+    author_login: johanneskoester
+    author_url: https://github.com/johanneskoester
+  - date: 2019-01-20 02:37:49.000000000 Z
+    message: Update readme to include bioconda install
+    url: https://github.com/Irrationone/cellassign/commit/ab9d32450d8a9ba4237a502c6eefc1661ea9091d
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2019-01-17 19:52:58.000000000 Z
+    message: Add set of example TME markers
+    url: https://github.com/Irrationone/cellassign/commit/c8d40dee3149624412716282cc3911c50a1e679b
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-01-16 17:25:05.000000000 Z
+    message: Add preprint link
+    url: https://github.com/Irrationone/cellassign/commit/9d93998df8b30a08dc60a6fcd6d4e69ece63e3d3
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
 - repo: shahcompbio/mutationseq
   title: mutationseq
   owner: shahcompbio
@@ -148,6 +189,11 @@
     avatar: https://avatars0.githubusercontent.com/u/1679815?v=4&s=50
     url: https://github.com/jtaghiyar
   commits:
+  - date: 2019-01-21 16:05:34.000000000 Z
+    message: 'minor: small issue with museq_het'
+    url: https://github.com/shahcompbio/mutationseq/commit/c3f87b09e841e31fd75dff5abd9d92c5dc3232b3
+    author_login: 
+    author_url: 
   - date: 2018-12-20 17:57:33.000000000 Z
     message: 'bugfix: scikit-learn v0.20 deprecated cross_validation module'
     url: https://github.com/shahcompbio/mutationseq/commit/c88c2c3c3e0aab7eb2007751d44c87c0a1e6586d
@@ -178,50 +224,6 @@
     url: https://github.com/shahcompbio/mutationseq/commit/7de3c385505197493a85067e0883669a54047e28
     author_login: 
     author_url: 
-  - date: 2018-11-08 16:41:14.000000000 Z
-    message: |-
-      fixes: added museq_het command for titan mode
-
-      Former-commit-id: c1f52ba12e9a777520d7faf14faef7db1f98306b
-    url: https://github.com/shahcompbio/mutationseq/commit/bbcbdca5708973254fdd693f18a5bcdcfb23d2a1
-    author_login: 
-    author_url: 
-- repo: kieranrcampbell/clonealign
-  title: clonealign
-  owner: kieranrcampbell
-  description: Bayesian inference of clone-specific gene expression estimates by assigning
-    single-cell RNA-seq to clones
-  url: "/projects/clonealign/"
-  contributors:
-  - login: kieranrcampbell
-    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
-    url: https://github.com/kieranrcampbell
-  commits:
-  - date: 2018-12-17 21:41:57.000000000 Z
-    message: Change default initialization of size factors as per reviewer suggestion
-    url: https://github.com/kieranrcampbell/clonealign/commit/b0888595acc01c13153009809565ac8501f5f5b5
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-12-04 00:16:15.000000000 Z
-    message: Fix clonealign figure; update readme to require tflow version
-    url: https://github.com/kieranrcampbell/clonealign/commit/b5424e93e79833f593c9453e26e470fdb672537d
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-12-03 23:38:12.000000000 Z
-    message: Upgrade to tensorflow probability; add allele specific likelihood
-    url: https://github.com/kieranrcampbell/clonealign/commit/d1bac2f945638f1fb95b8ea14e040013bbf22540
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-12-03 21:04:52.000000000 Z
-    message: normalise -> normalize in scater
-    url: https://github.com/kieranrcampbell/clonealign/commit/9aaf922169e18d75f380ad6b8dbc751ac1ad3235
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2018-12-03 20:28:34.000000000 Z
-    message: Add zenodo ID
-    url: https://github.com/kieranrcampbell/clonealign/commit/ff483b4048ff943f925a3ee18a1e6515a49c8191
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
 - repo: amcpherson/remixt
   title: remixt
   owner: amcpherson
