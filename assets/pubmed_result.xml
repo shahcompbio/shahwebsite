@@ -40775,4 +40775,145 @@
     </PubmedData>
 </PubmedArticle>
 
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">30729182</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>02</Month>
+            <Day>10</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">2399-3642</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>2</Volume>
+                    <PubDate>
+                        <Year>2019</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Communications biology</Title>
+                <ISOAbbreviation>Commun Biol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Somatic mutation detection and classification through probabilistic integration of clonal population information.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>44</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1038/s42003-019-0291-z</ELocationID>
+            <Abstract>
+                <AbstractText>Somatic mutations are a primary contributor to malignancy in human cells. Accurate detection of mutations is needed to define the clonal composition of tumours whereby clones may have distinct phenotypic properties. Although analysis of mutations over multiple tumour samples from the same patient has the potential to enhance identification of clones, few analytic methods exploit the correlation structure across samples. We posited that incorporating clonal information into joint analysis over multiple samples would improve mutation detection, particularly those with low prevalence. In this paper, we develop a new procedure called MuClone, for detection of mutations across multiple tumour samples of a patient from whole genome or exome sequencing data. In addition to mutation detection, MuClone classifies mutations into biologically meaningful groups and allows us to study clonal dynamics. We show that, on lung and ovarian cancer datasets, MuClone improves somatic mutation detection sensitivity over competing approaches without compromising specificity.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Dorri</LastName>
+                    <ForeName>Fatemeh</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1Department of Computer Science, University of British Columbia, 201- 2366 Main Mall, V6T 1Z4 Vancouver, Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2288 9830</Identifier>
+                        <Identifier Source="GRID">grid.17091.3e</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jewell</LastName>
+                    <ForeName>Sean</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>2Department of Statistics, University of Washington, B313 Padelford Hall, Northeast Stevens Way, Seattle, WA 24105 USA.</Affiliation>
+                        <Identifier Source="ISNI">0000000122986657</Identifier>
+                        <Identifier Source="GRID">grid.34477.33</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bouchard-Côté</LastName>
+                    <ForeName>Alexandre</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>3Department of Statistics, University of British Columbia, 3182 Earth Sciences Building, 2207 Main Mall, V6T 1Z4 Vancouver, Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2288 9830</Identifier>
+                        <Identifier Source="GRID">grid.17091.3e</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Sohrab P</ForeName>
+                    <Initials>SP</Initials>
+                    <Identifier Source="ORCID">0000-0001-6402-523X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>4Department of Molecular Oncology, University of British Columbia, 675 West 10th Avenue, V5Z 1L3 Vancouver, Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2288 9830</Identifier>
+                        <Identifier Source="GRID">grid.17091.3e</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>5Department of Pathology and Laboratory Medicine, University of British Columbia, Rm. G227 - 2211 Wesbrook Mall, 24105 Vancouver, Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2288 9830</Identifier>
+                        <Identifier Source="GRID">grid.17091.3e</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Oncology, Department of Epidemiology and Biostatistics, Memorial Sloan Kettering Cancer Center, Kettering Cancer Center, 417 E 68th Street, New York, NY 10065 USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>01</Month>
+                <Day>31</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Commun Biol</MedlineTA>
+            <NlmUniqueID>101719179</NlmUniqueID>
+            <ISSNLinking>2399-3642</ISSNLinking>
+        </MedlineJournalInfo>
+        <CoiStatement>S.P.S. is a founder, shareholder and consultant of Contextual Genomics Inc. The remaining authors declare that they have no competing interests.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2018</Year>
+                <Month>05</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2018</Year>
+                <Month>12</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>2</Month>
+                <Day>8</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>2</Month>
+                <Day>8</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>2</Month>
+                <Day>8</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30729182</ArticleId>
+            <ArticleId IdType="doi">10.1038/s42003-019-0291-z</ArticleId>
+            <ArticleId IdType="pii">291</ArticleId>
+            <ArticleId IdType="pmc">PMC6355807</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
 </PubmedArticleSet>

@@ -1,4 +1,40 @@
 ---
+- repo: kieranrcampbell/clonealign
+  title: clonealign
+  owner: kieranrcampbell
+  description: Bayesian inference of clone-specific gene expression estimates by assigning
+    single-cell RNA-seq to clones
+  url: "/projects/clonealign/"
+  contributors:
+  - login: kieranrcampbell
+    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
+    url: https://github.com/kieranrcampbell
+  commits:
+  - date: 2019-02-12 21:27:40.000000000 Z
+    message: Add some options to plotting
+    url: https://github.com/kieranrcampbell/clonealign/commit/289b9a255bc1a15524483a27b318426751d53fea
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-02-06 03:59:46.000000000 Z
+    message: Build error should be fixed
+    url: https://github.com/kieranrcampbell/clonealign/commit/9f8d6b54afb1deb8043d5306470b806c9b96e309
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-02-06 02:35:30.000000000 Z
+    message: Add vignette detailing copy number data preparation
+    url: https://github.com/kieranrcampbell/clonealign/commit/8502e1403ad8b54e00029ee84f01510103ac5e7c
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-02-06 00:33:50.000000000 Z
+    message: Added an index.html
+    url: https://github.com/kieranrcampbell/clonealign/commit/731afe2a08d370f3120d238ca18f3bcae99b023c
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-02-06 00:28:22.000000000 Z
+    message: Update to move vignettes as direct README links
+    url: https://github.com/kieranrcampbell/clonealign/commit/015f3992f01e3760df87f5b17a1cd992f358468e
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
 - repo: gavinha/TitanCNA
   title: TitanCNA
   owner: gavinha
@@ -22,6 +58,14 @@
     avatar: https://avatars1.githubusercontent.com/u/39391?v=4&s=50
     url: https://github.com/chapmanb
   commits:
+  - date: 2019-02-08 19:30:59.000000000 Z
+    message: |-
+      fix Corrected_Ratio column in output segs file
+      Corrected_Ratio contained all NAs because correctIntegerCN() was looking at the Median_HaplotypeRatio column.  Median_HaplotypeRatio should only be present in the segs and results objects/files for 10X Genomics WGS data. Now, Median_HaplotypeRatio will not be included in the output files if not using TitanCNA_10X_snakemake pipeline.
+      Fixes #67. Thanks to @aleighgreen for catching this bug.
+    url: https://github.com/gavinha/TitanCNA/commit/88a51c0a327c8a590563894b829539b538a95fa5
+    author_login: gavinha
+    author_url: https://github.com/gavinha
   - date: 2019-02-07 00:42:57.000000000 Z
     message: |-
       ploidy2 path fix
@@ -49,14 +93,6 @@
   - date: 2019-01-17 23:51:27.000000000 Z
     message: fixed minor bug in correctIntegerCN when low purity
     url: https://github.com/gavinha/TitanCNA/commit/f47f11f21007806c1aa45c2930d696d85f57b7c1
-    author_login: gavinha
-    author_url: https://github.com/gavinha
-  - date: 2019-01-17 20:59:19.000000000 Z
-    message: |-
-      allelic copy number correction
-      As part of the new feature described in #63, the correctIntegerCN function now also outputs additional columns: Corrected_MajorCN, Corrected_MinorCN, Corrected_Ratio
-      Minor plotting changes
-    url: https://github.com/gavinha/TitanCNA/commit/96e1c5bff8cf6f2793af40c3e463c85fe6fb3986
     author_login: gavinha
     author_url: https://github.com/gavinha
 - repo: shahcompbio/Epiclomal
@@ -98,42 +134,6 @@
     url: https://github.com/shahcompbio/Epiclomal/commit/40431fedb438098f38f285cc2280f9fb4096a949
     author_login: mandronescu
     author_url: https://github.com/mandronescu
-- repo: kieranrcampbell/clonealign
-  title: clonealign
-  owner: kieranrcampbell
-  description: Bayesian inference of clone-specific gene expression estimates by assigning
-    single-cell RNA-seq to clones
-  url: "/projects/clonealign/"
-  contributors:
-  - login: kieranrcampbell
-    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
-    url: https://github.com/kieranrcampbell
-  commits:
-  - date: 2019-02-06 03:59:46.000000000 Z
-    message: Build error should be fixed
-    url: https://github.com/kieranrcampbell/clonealign/commit/9f8d6b54afb1deb8043d5306470b806c9b96e309
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-02-06 02:35:30.000000000 Z
-    message: Add vignette detailing copy number data preparation
-    url: https://github.com/kieranrcampbell/clonealign/commit/8502e1403ad8b54e00029ee84f01510103ac5e7c
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-02-06 00:33:50.000000000 Z
-    message: Added an index.html
-    url: https://github.com/kieranrcampbell/clonealign/commit/731afe2a08d370f3120d238ca18f3bcae99b023c
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-02-06 00:28:22.000000000 Z
-    message: Update to move vignettes as direct README links
-    url: https://github.com/kieranrcampbell/clonealign/commit/015f3992f01e3760df87f5b17a1cd992f358468e
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-01-30 19:04:00.000000000 Z
-    message: Add random seed checking
-    url: https://github.com/kieranrcampbell/clonealign/commit/28dce1c7fae1b4597271cd49f1a33ff7237e7d09
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
 - repo: irrationone/cellassign
   title: cellassign
   owner: Irrationone
