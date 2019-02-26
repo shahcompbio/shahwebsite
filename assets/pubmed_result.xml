@@ -40916,4 +40916,294 @@
     </PubmedData>
 </PubmedArticle>
 
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">30794536</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>02</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1553-7358</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>15</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Feb</Month>
+                        <Day>22</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PLoS computational biology</Title>
+                <ISOAbbreviation>PLoS Comput. Biol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Integrated structural variation and point mutation signatures in cancer genomes using correlated topic models.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e1006799</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pcbi.1006799</ELocationID>
+            <Abstract>
+                <AbstractText>Mutation signatures in cancer genomes reflect endogenous and exogenous mutational processes, offering insights into tumour etiology, features for prognostic and biologic stratification and vulnerabilities to be exploited therapeutically. We present a novel machine learning formalism for improved signature inference, based on multi-modal correlated topic models (MMCTM) which can at once infer signatures from both single nucleotide and structural variation counts derived from cancer genome sequencing data. We exemplify the utility of our approach on two hormone driven, DNA repair deficient cancers: breast and ovary (n = 755 samples total). We show how introducing correlated structure both within and between modes of mutation can increase accuracy of signature discovery, particularly in the context of sparse data. Our study emphasizes the importance of integrating multiple mutation modes for signature discovery and patient stratification, and provides a statistical modeling framework to incorporate additional features of interest for future studies.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Funnell</LastName>
+                    <ForeName>Tyler</ForeName>
+                    <Initials>T</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-1612-5644</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology &amp; Biostatistics, Memorial Sloan Kettering Cancer Center, New York, New York, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Allen W</ForeName>
+                    <Initials>AW</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-7606-089X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer Agency, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Grewal</LastName>
+                    <ForeName>Diljot</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology &amp; Biostatistics, Memorial Sloan Kettering Cancer Center, New York, New York, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McKinney</LastName>
+                    <ForeName>Steven</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer Agency, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bashashati</LastName>
+                    <ForeName>Ali</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer Agency, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Yi Kan</ForeName>
+                    <Initials>YK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer Agency, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Sohrab P</ForeName>
+                    <Initials>SP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology &amp; Biostatistics, Memorial Sloan Kettering Cancer Center, New York, New York, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer Agency, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>02</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS Comput Biol</MedlineTA>
+            <NlmUniqueID>101238922</NlmUniqueID>
+            <ISSNLinking>1553-734X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CoiStatement>SPS and SA are shareholders and consultants of Contextual Genomics Inc.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2018</Year>
+                <Month>06</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>01</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>2</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>2</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>2</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30794536</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pcbi.1006799</ArticleId>
+            <ArticleId IdType="pii">PCOMPBIOL-D-18-00924</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">30768159</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>02</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1367-4811</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Feb</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Bioinformatics (Oxford, England)</Title>
+                <ISOAbbreviation>Bioinformatics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Dhaka: Variational Autoencoder for Unmasking Tumor Heterogeneity from Single Cell Genomic Data.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">btz095</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/bioinformatics/btz095</ELocationID>
+            <Abstract>
+                <AbstractText Label="MOTIVATION" NlmCategory="BACKGROUND">Intra-tumor heterogeneity is one of the key confounding factors in deciphering tumor evolution. Malignant cells exhibit variations in their gene expression, copy numbers, and mutation even when originating from a single progenitor cell. Single cell sequencing of tumor cells has recently emerged as a viable option for unmasking the underlying tumor heterogeneity. However, extracting features from single cell genomic data in order to infer their evolutionary trajectory remains computationally challenging due to the extremely noisy and sparse nature of the data.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Here we describe 'Dhaka', a variational autoencoder method which transforms single cell genomic data to a reduced dimension feature space that is more efficient in differentiating between (hidden) tumor subpopulations. Our method is general and can be applied to several different types of genomic data including copy number variation from scDNA-Seq and gene expression from scRNA-Seq experiments. We tested the method on synthetic and 6 single cell cancer datasets where the number of cells ranges from 250 to 6000 for each sample. Analysis of the resulting feature space revealed subpopulations of cells and their marker genes. The features are also able to infer the lineage and/or differentiation trajectory between cells greatly improving upon prior methods suggested for feature extraction and dimensionality reduction of such data.</AbstractText>
+                <AbstractText Label="AVAILABILITY AND IMPLEMENTATION" NlmCategory="METHODS">All the datasets used in the paper are publicly available and developed software package and supporting info is available on Github https://github.com/MicrosoftGenomics/Dhaka.</AbstractText>
+                <CopyrightInformation>© The Author(s) (2019). Published by Oxford University Press. All rights reserved. For Permissions, please email: journals.permissions@oup.com.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Rashid</LastName>
+                    <ForeName>Sabrina</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Biology Dept., Carnegie Mellon University, Pittsburgh, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Sohrab</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Dept. of Computer Science and Dept. of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Dept. of Molecular Oncology, BC Cancer Agency, Vancouver, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bar-Joseph</LastName>
+                    <ForeName>Ziv</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Machine Learning Dept. and Computational Biology Dept., Carnegie Mellon University, Pittsburgh, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pandya</LastName>
+                    <ForeName>Ravi</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Microsoft Research, Redmond, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>02</Month>
+                <Day>15</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Bioinformatics</MedlineTA>
+            <NlmUniqueID>9808944</NlmUniqueID>
+            <ISSNLinking>1367-4803</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2018</Year>
+                <Month>03</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>01</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>01</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>2</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>2</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>2</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30768159</ArticleId>
+            <ArticleId IdType="pii">5320558</ArticleId>
+            <ArticleId IdType="doi">10.1093/bioinformatics/btz095</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
 </PubmedArticleSet>

@@ -10,6 +10,11 @@
     avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
     url: https://github.com/kieranrcampbell
   commits:
+  - date: 2019-02-14 21:22:19.000000000 Z
+    message: Add option to set mu flat
+    url: https://github.com/kieranrcampbell/clonealign/commit/a5bdaeaa2d21352a398617398a4f2d496a9bd237
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
   - date: 2019-02-12 21:27:40.000000000 Z
     message: Add some options to plotting
     url: https://github.com/kieranrcampbell/clonealign/commit/289b9a255bc1a15524483a27b318426751d53fea
@@ -28,11 +33,6 @@
   - date: 2019-02-06 00:33:50.000000000 Z
     message: Added an index.html
     url: https://github.com/kieranrcampbell/clonealign/commit/731afe2a08d370f3120d238ca18f3bcae99b023c
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-02-06 00:28:22.000000000 Z
-    message: Update to move vignettes as direct README links
-    url: https://github.com/kieranrcampbell/clonealign/commit/015f3992f01e3760df87f5b17a1cd992f358468e
     author_login: kieranrcampbell
     author_url: https://github.com/kieranrcampbell
 - repo: gavinha/TitanCNA
