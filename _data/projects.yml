@@ -1,4 +1,124 @@
 ---
+- repo: amcpherson/remixt
+  title: remixt
+  owner: amcpherson
+  description: Clone-specific genomic structure estimation in cancer
+  url: "/projects/remixt/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  commits:
+  - date: 2019-03-12 22:19:52.000000000 Z
+    message: 'minor: docker build file'
+    url: https://github.com/amcpherson/remixt/commit/0509325cadf6590160699d9e49eb69b08bbf1477
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-12-15 01:08:50.000000000 Z
+    message: 'build: conda version bump'
+    url: https://github.com/amcpherson/remixt/commit/8615574ce24d3964845a360233e517af7586fd34
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-12-15 01:07:07.000000000 Z
+    message: 'bugfix: h update parameter needs to be set'
+    url: https://github.com/amcpherson/remixt/commit/a7a89ef5e2c0c2a577fc7bcf8f40900725ffd1ab
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-19 23:16:26.000000000 Z
+    message: 'minor: conda version'
+    url: https://github.com/amcpherson/remixt/commit/55ca3bd2a0ea1c8952578f7bd9e7ab79395b7189
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-19 21:48:57.000000000 Z
+    message: 'build: centos6 build of using docker'
+    url: https://github.com/amcpherson/remixt/commit/afa5995d59fa571fe2e8826f6dbf1a0a98bc0fc3
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+- repo: irrationone/cellassign
+  title: cellassign
+  owner: Irrationone
+  description: Automated, probabilistic assignment of cell types in scRNA-seq data
+  url: "/projects/cellassign/"
+  contributors:
+  - login: Irrationone
+    avatar: https://avatars0.githubusercontent.com/u/2326632?v=4&s=50
+    url: https://github.com/Irrationone
+  - login: kieranrcampbell
+    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
+    url: https://github.com/kieranrcampbell
+  - login: johanneskoester
+    avatar: https://avatars1.githubusercontent.com/u/1858646?v=4&s=50
+    url: https://github.com/johanneskoester
+  - login: nceglia
+    avatar: https://avatars0.githubusercontent.com/u/1920876?v=4&s=50
+    url: https://github.com/nceglia
+  commits:
+  - date: 2019-03-11 21:17:38.000000000 Z
+    message: |-
+      Merge pull request #25 from nceglia/master
+
+      removing known types
+    url: https://github.com/Irrationone/cellassign/commit/80fbdf8caf24ef3cfc1224a3589514171f03b10c
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2019-03-11 14:33:39.000000000 Z
+    message: removing known types
+    url: https://github.com/Irrationone/cellassign/commit/3a080938d1480abc0cbfd6320d0cdf284a686e90
+    author_login: nceglia
+    author_url: https://github.com/nceglia
+  - date: 2019-02-28 20:34:12.000000000 Z
+    message: |-
+      Merge pull request #24 from Irrationone/dev
+
+      Add more input validation
+    url: https://github.com/Irrationone/cellassign/commit/d1efb8e0a3bdac7e7ac247abbc9a0ee10d48af8a
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2019-02-28 19:42:42.000000000 Z
+    message: Add more input validation
+    url: https://github.com/Irrationone/cellassign/commit/5bebbd7d2c0a274bbfbdd15acd1401fb26ad2af4
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2019-02-28 19:00:21.000000000 Z
+    message: Update vignette -- clarify how to order genes in the input matrices
+    url: https://github.com/Irrationone/cellassign/commit/88fb4f919a6b227c74251e18f18ea8ee28e9e90a
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+- repo: amcpherson/destruct
+  title: destruct
+  owner: amcpherson
+  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
+  url: "/projects/destruct/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  commits:
+  - date: 2019-03-04 19:35:44.000000000 Z
+    message: 'build: docker file and small readme update'
+    url: https://github.com/amcpherson/destruct/commit/cf20128764e60925e3dc1722ec626b2fe3a9ee3b
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2019-03-04 19:34:47.000000000 Z
+    message: 'minor: build number bump'
+    url: https://github.com/amcpherson/destruct/commit/eeb5159485ef62253fffc456058f8e6bbc8a54af
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2019-03-04 19:34:30.000000000 Z
+    message: 'minor: fastq workflow allowing for fastq input'
+    url: https://github.com/amcpherson/destruct/commit/187039f05cea16dd15db07146a1e7359eb37fd04
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-12-14 00:45:24.000000000 Z
+    message: 'feature: somatic breakpoints script'
+    url: https://github.com/amcpherson/destruct/commit/e1178df06fa91018f35783c614576b56ddc0f295
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-11-23 21:28:05.000000000 Z
+    message: 'minor: version bump'
+    url: https://github.com/amcpherson/destruct/commit/763a782a9d47967c51cbc51a9e592460e2424868
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
 - repo: kieranrcampbell/clonealign
   title: clonealign
   owner: kieranrcampbell
@@ -134,50 +254,6 @@
     url: https://github.com/shahcompbio/Epiclomal/commit/40431fedb438098f38f285cc2280f9fb4096a949
     author_login: mandronescu
     author_url: https://github.com/mandronescu
-- repo: irrationone/cellassign
-  title: cellassign
-  owner: Irrationone
-  description: Automated, probabilistic assignment of cell types in scRNA-seq data
-  url: "/projects/cellassign/"
-  contributors:
-  - login: Irrationone
-    avatar: https://avatars0.githubusercontent.com/u/2326632?v=4&s=50
-    url: https://github.com/Irrationone
-  - login: kieranrcampbell
-    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
-    url: https://github.com/kieranrcampbell
-  - login: johanneskoester
-    avatar: https://avatars1.githubusercontent.com/u/1858646?v=4&s=50
-    url: https://github.com/johanneskoester
-  commits:
-  - date: 2019-01-21 16:08:50.000000000 Z
-    message: |-
-      Merge pull request #19 from johanneskoester/patch-1
-
-      Fix channels in conda install command
-    url: https://github.com/Irrationone/cellassign/commit/c6b88d20c7dcd41896313ca684c9c6a7c0ff377b
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
-  - date: 2019-01-21 10:46:35.000000000 Z
-    message: Update README.md
-    url: https://github.com/Irrationone/cellassign/commit/a086d724e8836559dda72564348172192d3ecc26
-    author_login: johanneskoester
-    author_url: https://github.com/johanneskoester
-  - date: 2019-01-20 02:37:49.000000000 Z
-    message: Update readme to include bioconda install
-    url: https://github.com/Irrationone/cellassign/commit/ab9d32450d8a9ba4237a502c6eefc1661ea9091d
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
-  - date: 2019-01-17 19:52:58.000000000 Z
-    message: Add set of example TME markers
-    url: https://github.com/Irrationone/cellassign/commit/c8d40dee3149624412716282cc3911c50a1e679b
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-01-16 17:25:05.000000000 Z
-    message: Add preprint link
-    url: https://github.com/Irrationone/cellassign/commit/9d93998df8b30a08dc60a6fcd6d4e69ece63e3d3
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
 - repo: shahcompbio/mutationseq
   title: mutationseq
   owner: shahcompbio
@@ -222,76 +298,6 @@
 
       Former-commit-id: 6ec9864a6aa1faff69dca1a07b7d4ef5da17473d
     url: https://github.com/shahcompbio/mutationseq/commit/7de3c385505197493a85067e0883669a54047e28
-    author_login: 
-    author_url: 
-- repo: amcpherson/remixt
-  title: remixt
-  owner: amcpherson
-  description: Clone-specific genomic structure estimation in cancer
-  url: "/projects/remixt/"
-  contributors:
-  - login: amcpherson
-    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
-    url: https://github.com/amcpherson
-  commits:
-  - date: 2018-12-15 01:08:50.000000000 Z
-    message: 'build: conda version bump'
-    url: https://github.com/amcpherson/remixt/commit/8615574ce24d3964845a360233e517af7586fd34
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-12-15 01:07:07.000000000 Z
-    message: 'bugfix: h update parameter needs to be set'
-    url: https://github.com/amcpherson/remixt/commit/a7a89ef5e2c0c2a577fc7bcf8f40900725ffd1ab
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-19 23:16:26.000000000 Z
-    message: 'minor: conda version'
-    url: https://github.com/amcpherson/remixt/commit/55ca3bd2a0ea1c8952578f7bd9e7ab79395b7189
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-19 21:48:57.000000000 Z
-    message: 'build: centos6 build of using docker'
-    url: https://github.com/amcpherson/remixt/commit/afa5995d59fa571fe2e8826f6dbf1a0a98bc0fc3
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-02 21:12:25.000000000 Z
-    message: 'build: conda build version'
-    url: https://github.com/amcpherson/remixt/commit/97da7ec08f21361e69829807de8cbd622818bd3f
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-- repo: amcpherson/destruct
-  title: destruct
-  owner: amcpherson
-  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
-  url: "/projects/destruct/"
-  contributors:
-  - login: amcpherson
-    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
-    url: https://github.com/amcpherson
-  commits:
-  - date: 2018-12-14 00:45:24.000000000 Z
-    message: 'feature: somatic breakpoints script'
-    url: https://github.com/amcpherson/destruct/commit/e1178df06fa91018f35783c614576b56ddc0f295
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-11-23 21:28:05.000000000 Z
-    message: 'minor: version bump'
-    url: https://github.com/amcpherson/destruct/commit/763a782a9d47967c51cbc51a9e592460e2424868
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-11-23 21:26:25.000000000 Z
-    message: 'minor: warn on no concordant reads'
-    url: https://github.com/amcpherson/destruct/commit/0d70ed69f8c09a71d86f2a1444c733a44de50840
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-28 18:31:31.000000000 Z
-    message: 'build: conda version bump'
-    url: https://github.com/amcpherson/destruct/commit/6dd514eedca42200aaa94385f9c95f9f716bfaaf
-    author_login: 
-    author_url: 
-  - date: 2018-10-28 18:29:28.000000000 Z
-    message: 'compatibility: networkx interface'
-    url: https://github.com/amcpherson/destruct/commit/a4aa9f6b5f85fbcf9f3200d9dc2ea9c3c8121bc6
     author_login: 
     author_url: 
 - repo: shahcompbio/scvis

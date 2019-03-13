@@ -36959,125 +36959,6 @@
 
 <PubmedArticle>
     <MedlineCitation Status="Publisher" Owner="NLM">
-        <PMID Version="1">28630229</PMID>
-        <DateCreated>
-            <Year>2017</Year>
-            <Month>06</Month>
-            <Day>20</Day>
-        </DateCreated>
-        <DateRevised>
-            <Year>2017</Year>
-            <Month>06</Month>
-            <Day>20</Day>
-        </DateRevised>
-        <Article PubModel="Print-Electronic">
-            <Journal>
-                <ISSN IssnType="Electronic">2157-1422</ISSN>
-                <JournalIssue CitedMedium="Internet">
-                    <PubDate>
-                        <Year>2017</Year>
-                        <Month>Jun</Month>
-                        <Day>19</Day>
-                    </PubDate>
-                </JournalIssue>
-                <Title>Cold Spring Harbor perspectives in medicine</Title>
-                <ISOAbbreviation>Cold Spring Harb Perspect Med</ISOAbbreviation>
-            </Journal>
-            <ArticleTitle>Observing Clonal Dynamics Across Spatiotemporal Axes: A Prelude to Quantitative Fitness Models for Cancer.</ArticleTitle>
-            <ELocationID EIdType="pii" ValidYN="Y">a029603</ELocationID>
-            <ELocationID EIdType="doi" ValidYN="Y">10.1101/cshperspect.a029603</ELocationID>
-            <Abstract>
-                <AbstractText>The ability to accurately model evolutionary dynamics in cancer would allow for prediction of progression and response to therapy. As a prelude to quantitative understanding of evolutionary dynamics, researchers must gather observations of in vivo tumor evolution. High-throughput genome sequencing now provides the means to profile the mutational content of evolving tumor clones from patient biopsies. Together with the development of models of tumor evolution, reconstructing evolutionary histories of individual tumors generates hypotheses about the dynamics of evolution that produced the observed clones. In this review, we provide a brief overview of the concepts involved in predicting evolutionary histories, and provide a workflow based on bulk and targeted-genome sequencing. We then describe the application of this workflow to time series data obtained for transformed and progressed follicular lymphomas (FL), and contrast the observed evolutionary dynamics between these two subtypes. We next describe results from a spatial sampling study of high-grade serous (HGS) ovarian cancer, propose mechanisms of disease spread based on the observed clonal mixtures, and provide examples of diversification through subclonal acquisition of driver mutations and convergent evolution. Finally, we state implications of the techniques discussed in this review as a necessary but insufficient step on the path to predictive modelling of disease dynamics.</AbstractText>
-                <CopyrightInformation>Copyright © 2017 Cold Spring Harbor Laboratory Press; all rights reserved.</CopyrightInformation>
-            </Abstract>
-            <AuthorList CompleteYN="Y">
-                <Author ValidYN="Y">
-                    <LastName>McPherson</LastName>
-                    <ForeName>Andrew W</ForeName>
-                    <Initials>AW</Initials>
-                    <AffiliationInfo>
-                        <Affiliation>Department of Molecular Oncology, BC Cancer Agency, Vancouver V5Z 1L3, Canada.</Affiliation>
-                    </AffiliationInfo>
-                    <AffiliationInfo>
-                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver V6T 2B5, Canada.</Affiliation>
-                    </AffiliationInfo>
-                </Author>
-                <Author ValidYN="Y">
-                    <LastName>Chan</LastName>
-                    <ForeName>Fong Chun</ForeName>
-                    <Initials>FC</Initials>
-                    <AffiliationInfo>
-                        <Affiliation>Department of Molecular Oncology, BC Cancer Agency, Vancouver V5Z 1L3, Canada.</Affiliation>
-                    </AffiliationInfo>
-                    <AffiliationInfo>
-                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver V6T 2B5, Canada.</Affiliation>
-                    </AffiliationInfo>
-                </Author>
-                <Author ValidYN="Y">
-                    <LastName>Shah</LastName>
-                    <ForeName>Sohrab P</ForeName>
-                    <Initials>SP</Initials>
-                    <AffiliationInfo>
-                        <Affiliation>Department of Molecular Oncology, BC Cancer Agency, Vancouver V5Z 1L3, Canada.</Affiliation>
-                    </AffiliationInfo>
-                    <AffiliationInfo>
-                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver V6T 2B5, Canada.</Affiliation>
-                    </AffiliationInfo>
-                </Author>
-            </AuthorList>
-            <Language>eng</Language>
-            <PublicationTypeList>
-                <PublicationType UI="D016428">Journal Article</PublicationType>
-            </PublicationTypeList>
-            <ArticleDate DateType="Electronic">
-                <Year>2017</Year>
-                <Month>06</Month>
-                <Day>19</Day>
-            </ArticleDate>
-        </Article>
-        <MedlineJournalInfo>
-            <Country>United States</Country>
-            <MedlineTA>Cold Spring Harb Perspect Med</MedlineTA>
-            <NlmUniqueID>101571139</NlmUniqueID>
-            <ISSNLinking>2157-1422</ISSNLinking>
-        </MedlineJournalInfo>
-    </MedlineCitation>
-    <PubmedData>
-        <History>
-            <PubMedPubDate PubStatus="entrez">
-                <Year>2017</Year>
-                <Month>6</Month>
-                <Day>21</Day>
-                <Hour>6</Hour>
-                <Minute>0</Minute>
-            </PubMedPubDate>
-            <PubMedPubDate PubStatus="pubmed">
-                <Year>2017</Year>
-                <Month>6</Month>
-                <Day>21</Day>
-                <Hour>6</Hour>
-                <Minute>0</Minute>
-            </PubMedPubDate>
-            <PubMedPubDate PubStatus="medline">
-                <Year>2017</Year>
-                <Month>6</Month>
-                <Day>21</Day>
-                <Hour>6</Hour>
-                <Minute>0</Minute>
-            </PubMedPubDate>
-        </History>
-        <PublicationStatus>aheadofprint</PublicationStatus>
-        <ArticleIdList>
-            <ArticleId IdType="pubmed">28630229</ArticleId>
-            <ArticleId IdType="pii">cshperspect.a029603</ArticleId>
-            <ArticleId IdType="doi">10.1101/cshperspect.a029603</ArticleId>
-        </ArticleIdList>
-    </PubmedData>
-</PubmedArticle>
-
-
-<PubmedArticle>
-    <MedlineCitation Status="Publisher" Owner="NLM">
         <PMID Version="1">28655203</PMID>
         <DateCreated>
             <Year>2017</Year>
@@ -41202,6 +41083,162 @@
             <ArticleId IdType="pubmed">30768159</ArticleId>
             <ArticleId IdType="pii">5320558</ArticleId>
             <ArticleId IdType="doi">10.1093/bioinformatics/btz095</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28630229</PMID>
+        <DateCompleted>
+            <Year>2019</Year>
+            <Month>03</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>03</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2157-1422</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>8</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>02</Month>
+                        <Day>01</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Cold Spring Harbor perspectives in medicine</Title>
+                <ISOAbbreviation>Cold Spring Harb Perspect Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Observing Clonal Dynamics across Spatiotemporal Axes: A Prelude to Quantitative Fitness Models for Cancer.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">a029603</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1101/cshperspect.a029603</ELocationID>
+            <Abstract>
+                <AbstractText>The ability to accurately model evolutionary dynamics in cancer would allow for prediction of progression and response to therapy. As a prelude to quantitative understanding of evolutionary dynamics, researchers must gather observations of in vivo tumor evolution. High-throughput genome sequencing now provides the means to profile the mutational content of evolving tumor clones from patient biopsies. Together with the development of models of tumor evolution, reconstructing evolutionary histories of individual tumors generates hypotheses about the dynamics of evolution that produced the observed clones. In this review, we provide a brief overview of the concepts involved in predicting evolutionary histories, and provide a workflow based on bulk and targeted-genome sequencing. We then describe the application of this workflow to time series data obtained for transformed and progressed follicular lymphomas (FL), and contrast the observed evolutionary dynamics between these two subtypes. We next describe results from a spatial sampling study of high-grade serous (HGS) ovarian cancer, propose mechanisms of disease spread based on the observed clonal mixtures, and provide examples of diversification through subclonal acquisition of driver mutations and convergent evolution. Finally, we state implications of the techniques discussed in this review as a necessary but insufficient step on the path to predictive modelling of disease dynamics.</AbstractText>
+                <CopyrightInformation>Copyright © 2018 Cold Spring Harbor Laboratory Press; all rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>McPherson</LastName>
+                    <ForeName>Andrew W</ForeName>
+                    <Initials>AW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer Agency, Vancouver V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver V6T 2B5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chan</LastName>
+                    <ForeName>Fong Chun</ForeName>
+                    <Initials>FC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer Agency, Vancouver V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver V6T 2B5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Sohrab P</ForeName>
+                    <Initials>SP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer Agency, Vancouver V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver V6T 2B5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2018</Year>
+                <Month>02</Month>
+                <Day>01</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Cold Spring Harb Perspect Med</MedlineTA>
+            <NlmUniqueID>101571139</NlmUniqueID>
+            <ISSNLinking>2157-1422</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D060965" MajorTopicYN="Y">Clonal Evolution</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018450" MajorTopicYN="N">Disease Progression</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D059014" MajorTopicYN="N">High-Throughput Nucleotide Sequencing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008224" MajorTopicYN="N">Lymphoma, Follicular</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010051" MajorTopicYN="N">Ovarian Neoplasms</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D062211" MajorTopicYN="Y">Spatio-Temporal Analysis</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>6</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>3</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>6</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28630229</ArticleId>
+            <ArticleId IdType="pii">cshperspect.a029603</ArticleId>
+            <ArticleId IdType="doi">10.1101/cshperspect.a029603</ArticleId>
         </ArticleIdList>
     </PubmedData>
 </PubmedArticle>
