@@ -41247,4 +41247,267 @@
     </PubmedData>
 </PubmedArticle>
 
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">30866997</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>03</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1474-760X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>20</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Mar</Month>
+                        <Day>12</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Genome biology</Title>
+                <ISOAbbreviation>Genome Biol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>clonealign: statistical integration of independent single-cell RNA and DNA sequencing data from human cancers.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>54</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s13059-019-1645-z</ELocationID>
+            <Abstract>
+                <AbstractText>Measuring gene expression of tumor clones at single-cell resolution links functional consequences to somatic alterations. Without scalable methods to simultaneously assay DNA and RNA from the same single cell, parallel single-cell DNA and RNA measurements from independent cell populations must be mapped for genome-transcriptome association. We present clonealign, which assigns gene expression states to cancer clones using single-cell RNA and DNA sequencing independently sampled from a heterogeneous population. We apply clonealign to triple-negative breast cancer patient-derived xenografts and high-grade serous ovarian cancer cell lines and discover clone-specific dysregulated biological pathways not visible using either sequencing method alone.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Campbell</LastName>
+                    <ForeName>Kieran R</ForeName>
+                    <Initials>KR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics, University of British Columbia, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>UBC Data Science Institute, University of British Columbia, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Steif</LastName>
+                    <ForeName>Adi</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Genome Science and Technology Graduate Program, University of British Columbia, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Laks</LastName>
+                    <ForeName>Emma</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Genome Science and Technology Graduate Program, University of British Columbia, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zahn</LastName>
+                    <ForeName>Hans</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Michael Smith Laboratories, University of British Columbia, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lai</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McPherson</LastName>
+                    <ForeName>Andrew</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Farahani</LastName>
+                    <ForeName>Hossein</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kabeer</LastName>
+                    <ForeName>Farhia</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>O'Flanagan</LastName>
+                    <ForeName>Ciara</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Biele</LastName>
+                    <ForeName>Justina</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Brimhall</LastName>
+                    <ForeName>Jazmine</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Beixi</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Walters</LastName>
+                    <ForeName>Pascale</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Consortium</LastName>
+                    <ForeName>Imaxt</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CRUK IMAXT Grand Challenge Consortium, Cambridge, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bouchard-Côté</LastName>
+                    <ForeName>Alexandre</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Statistics, University of British Columbia, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Aparicio</LastName>
+                    <ForeName>Samuel</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, British Columbia, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Sohrab P</ForeName>
+                    <Initials>SP</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-6402-523X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, British Columbia Cancer Research Centre, Vancouver, British Columbia, Canada. shahs3@mskcc.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Computational Oncology, Dept. of Epidemiology and Biostatistics, Memorial Sloan Kettering Cancer Center, New York, NY, USA. shahs3@mskcc.org.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, British Columbia, Canada. shahs3@mskcc.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>03</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Genome Biol</MedlineTA>
+            <NlmUniqueID>100960660</NlmUniqueID>
+            <ISSNLinking>1474-7596</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2018</Year>
+                <Month>11</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>01</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>3</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>3</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>3</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30866997</ArticleId>
+            <ArticleId IdType="doi">10.1186/s13059-019-1645-z</ArticleId>
+            <ArticleId IdType="pii">10.1186/s13059-019-1645-z</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
 </PubmedArticleSet>

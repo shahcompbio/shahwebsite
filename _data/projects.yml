@@ -1,4 +1,90 @@
 ---
+- repo: kieranrcampbell/clonealign
+  title: clonealign
+  owner: kieranrcampbell
+  description: Bayesian inference of clone-specific gene expression estimates by integrating
+    single-cell RNA-seq and single-cell DNA-seq data
+  url: "/projects/clonealign/"
+  contributors:
+  - login: kieranrcampbell
+    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
+    url: https://github.com/kieranrcampbell
+  commits:
+  - date: 2019-03-15 16:37:06.000000000 Z
+    message: Update readme to reflect publication
+    url: https://github.com/kieranrcampbell/clonealign/commit/e819439ba5ab579f994ce0f3d8a603d32683cb14
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-02-14 21:22:19.000000000 Z
+    message: Add option to set mu flat
+    url: https://github.com/kieranrcampbell/clonealign/commit/a5bdaeaa2d21352a398617398a4f2d496a9bd237
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-02-12 21:27:40.000000000 Z
+    message: Add some options to plotting
+    url: https://github.com/kieranrcampbell/clonealign/commit/289b9a255bc1a15524483a27b318426751d53fea
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-02-06 03:59:46.000000000 Z
+    message: Build error should be fixed
+    url: https://github.com/kieranrcampbell/clonealign/commit/9f8d6b54afb1deb8043d5306470b806c9b96e309
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-02-06 02:35:30.000000000 Z
+    message: Add vignette detailing copy number data preparation
+    url: https://github.com/kieranrcampbell/clonealign/commit/8502e1403ad8b54e00029ee84f01510103ac5e7c
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+- repo: irrationone/cellassign
+  title: cellassign
+  owner: Irrationone
+  description: Automated, probabilistic assignment of cell types in scRNA-seq data
+  url: "/projects/cellassign/"
+  contributors:
+  - login: Irrationone
+    avatar: https://avatars0.githubusercontent.com/u/2326632?v=4&s=50
+    url: https://github.com/Irrationone
+  - login: kieranrcampbell
+    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
+    url: https://github.com/kieranrcampbell
+  - login: johanneskoester
+    avatar: https://avatars1.githubusercontent.com/u/1858646?v=4&s=50
+    url: https://github.com/johanneskoester
+  - login: nceglia
+    avatar: https://avatars0.githubusercontent.com/u/1920876?v=4&s=50
+    url: https://github.com/nceglia
+  commits:
+  - date: 2019-03-14 18:58:21.000000000 Z
+    message: |-
+      Merge pull request #26 from Irrationone/dev
+
+      v0.99.1 -- improvements to analysis with nonexistant and rare cell types
+    url: https://github.com/Irrationone/cellassign/commit/3ce592327d254dc35ee06856802727da67f2da28
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2019-03-11 22:02:03.000000000 Z
+    message: Bump version
+    url: https://github.com/Irrationone/cellassign/commit/ca4a93b863475a397958700bbd07c6a55362dd8e
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2019-03-11 21:22:30.000000000 Z
+    message: Remove unneeded gene subsetting
+    url: https://github.com/Irrationone/cellassign/commit/e01bcd7064b2b42422472c7feabcc9ec8c4f5f03
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2019-03-11 21:17:38.000000000 Z
+    message: |-
+      Merge pull request #25 from nceglia/master
+
+      removing known types
+    url: https://github.com/Irrationone/cellassign/commit/80fbdf8caf24ef3cfc1224a3589514171f03b10c
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2019-03-11 21:13:48.000000000 Z
+    message: Actually change min_delta to 2 in main cellassign function
+    url: https://github.com/Irrationone/cellassign/commit/5537867fcac230d93945ba1b06914d901c0b03b3
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
 - repo: amcpherson/remixt
   title: remixt
   owner: amcpherson
@@ -34,56 +120,6 @@
     url: https://github.com/amcpherson/remixt/commit/afa5995d59fa571fe2e8826f6dbf1a0a98bc0fc3
     author_login: amcpherson
     author_url: https://github.com/amcpherson
-- repo: irrationone/cellassign
-  title: cellassign
-  owner: Irrationone
-  description: Automated, probabilistic assignment of cell types in scRNA-seq data
-  url: "/projects/cellassign/"
-  contributors:
-  - login: Irrationone
-    avatar: https://avatars0.githubusercontent.com/u/2326632?v=4&s=50
-    url: https://github.com/Irrationone
-  - login: kieranrcampbell
-    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
-    url: https://github.com/kieranrcampbell
-  - login: johanneskoester
-    avatar: https://avatars1.githubusercontent.com/u/1858646?v=4&s=50
-    url: https://github.com/johanneskoester
-  - login: nceglia
-    avatar: https://avatars0.githubusercontent.com/u/1920876?v=4&s=50
-    url: https://github.com/nceglia
-  commits:
-  - date: 2019-03-11 21:17:38.000000000 Z
-    message: |-
-      Merge pull request #25 from nceglia/master
-
-      removing known types
-    url: https://github.com/Irrationone/cellassign/commit/80fbdf8caf24ef3cfc1224a3589514171f03b10c
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
-  - date: 2019-03-11 14:33:39.000000000 Z
-    message: removing known types
-    url: https://github.com/Irrationone/cellassign/commit/3a080938d1480abc0cbfd6320d0cdf284a686e90
-    author_login: nceglia
-    author_url: https://github.com/nceglia
-  - date: 2019-02-28 20:34:12.000000000 Z
-    message: |-
-      Merge pull request #24 from Irrationone/dev
-
-      Add more input validation
-    url: https://github.com/Irrationone/cellassign/commit/d1efb8e0a3bdac7e7ac247abbc9a0ee10d48af8a
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
-  - date: 2019-02-28 19:42:42.000000000 Z
-    message: Add more input validation
-    url: https://github.com/Irrationone/cellassign/commit/5bebbd7d2c0a274bbfbdd15acd1401fb26ad2af4
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
-  - date: 2019-02-28 19:00:21.000000000 Z
-    message: Update vignette -- clarify how to order genes in the input matrices
-    url: https://github.com/Irrationone/cellassign/commit/88fb4f919a6b227c74251e18f18ea8ee28e9e90a
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
 - repo: amcpherson/destruct
   title: destruct
   owner: amcpherson
@@ -119,42 +155,6 @@
     url: https://github.com/amcpherson/destruct/commit/763a782a9d47967c51cbc51a9e592460e2424868
     author_login: amcpherson
     author_url: https://github.com/amcpherson
-- repo: kieranrcampbell/clonealign
-  title: clonealign
-  owner: kieranrcampbell
-  description: Bayesian inference of clone-specific gene expression estimates by assigning
-    single-cell RNA-seq to clones
-  url: "/projects/clonealign/"
-  contributors:
-  - login: kieranrcampbell
-    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
-    url: https://github.com/kieranrcampbell
-  commits:
-  - date: 2019-02-14 21:22:19.000000000 Z
-    message: Add option to set mu flat
-    url: https://github.com/kieranrcampbell/clonealign/commit/a5bdaeaa2d21352a398617398a4f2d496a9bd237
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-02-12 21:27:40.000000000 Z
-    message: Add some options to plotting
-    url: https://github.com/kieranrcampbell/clonealign/commit/289b9a255bc1a15524483a27b318426751d53fea
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-02-06 03:59:46.000000000 Z
-    message: Build error should be fixed
-    url: https://github.com/kieranrcampbell/clonealign/commit/9f8d6b54afb1deb8043d5306470b806c9b96e309
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-02-06 02:35:30.000000000 Z
-    message: Add vignette detailing copy number data preparation
-    url: https://github.com/kieranrcampbell/clonealign/commit/8502e1403ad8b54e00029ee84f01510103ac5e7c
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-02-06 00:33:50.000000000 Z
-    message: Added an index.html
-    url: https://github.com/kieranrcampbell/clonealign/commit/731afe2a08d370f3120d238ca18f3bcae99b023c
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
 - repo: gavinha/TitanCNA
   title: TitanCNA
   owner: gavinha
