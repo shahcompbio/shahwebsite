@@ -192,3 +192,4 @@ projects:
   - shahcompbio/Epiclomal
   - kieranrcampbell/clonealign
   - irrationone/cellassign
+  - shahcompbio/MultiModalMuSig.jl
