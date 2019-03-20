@@ -1,4 +1,42 @@
 ---
+- repo: amcpherson/destruct
+  title: destruct
+  owner: amcpherson
+  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
+  url: "/projects/destruct/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  - login: diljotgrewal
+    avatar: https://avatars0.githubusercontent.com/u/4531704?v=4&s=50
+    url: https://github.com/diljotgrewal
+  commits:
+  - date: 2019-03-15 22:18:07.000000000 Z
+    message: 'minor: all functions are now strings (#3)'
+    url: https://github.com/amcpherson/destruct/commit/86c07c6bf4ab396236083242ca6f74dfc36d5d2e
+    author_login: diljotgrewal
+    author_url: https://github.com/diljotgrewal
+  - date: 2019-03-04 19:35:44.000000000 Z
+    message: 'build: docker file and small readme update'
+    url: https://github.com/amcpherson/destruct/commit/cf20128764e60925e3dc1722ec626b2fe3a9ee3b
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2019-03-04 19:34:47.000000000 Z
+    message: 'minor: build number bump'
+    url: https://github.com/amcpherson/destruct/commit/eeb5159485ef62253fffc456058f8e6bbc8a54af
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2019-03-04 19:34:30.000000000 Z
+    message: 'minor: fastq workflow allowing for fastq input'
+    url: https://github.com/amcpherson/destruct/commit/187039f05cea16dd15db07146a1e7359eb37fd04
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-12-14 00:45:24.000000000 Z
+    message: 'feature: somatic breakpoints script'
+    url: https://github.com/amcpherson/destruct/commit/e1178df06fa91018f35783c614576b56ddc0f295
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
 - repo: kieranrcampbell/clonealign
   title: clonealign
   owner: kieranrcampbell
@@ -118,41 +156,6 @@
   - date: 2018-10-19 21:48:57.000000000 Z
     message: 'build: centos6 build of using docker'
     url: https://github.com/amcpherson/remixt/commit/afa5995d59fa571fe2e8826f6dbf1a0a98bc0fc3
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-- repo: amcpherson/destruct
-  title: destruct
-  owner: amcpherson
-  description: Accurate Rearrangement Detection using Breakpoint Specific Realignment
-  url: "/projects/destruct/"
-  contributors:
-  - login: amcpherson
-    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
-    url: https://github.com/amcpherson
-  commits:
-  - date: 2019-03-04 19:35:44.000000000 Z
-    message: 'build: docker file and small readme update'
-    url: https://github.com/amcpherson/destruct/commit/cf20128764e60925e3dc1722ec626b2fe3a9ee3b
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2019-03-04 19:34:47.000000000 Z
-    message: 'minor: build number bump'
-    url: https://github.com/amcpherson/destruct/commit/eeb5159485ef62253fffc456058f8e6bbc8a54af
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2019-03-04 19:34:30.000000000 Z
-    message: 'minor: fastq workflow allowing for fastq input'
-    url: https://github.com/amcpherson/destruct/commit/187039f05cea16dd15db07146a1e7359eb37fd04
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-12-14 00:45:24.000000000 Z
-    message: 'feature: somatic breakpoints script'
-    url: https://github.com/amcpherson/destruct/commit/e1178df06fa91018f35783c614576b56ddc0f295
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-11-23 21:28:05.000000000 Z
-    message: 'minor: version bump'
-    url: https://github.com/amcpherson/destruct/commit/763a782a9d47967c51cbc51a9e592460e2424868
     author_login: amcpherson
     author_url: https://github.com/amcpherson
 - repo: gavinha/TitanCNA
