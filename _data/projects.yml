@@ -1,4 +1,46 @@
 ---
+- repo: kieranrcampbell/clonealign
+  title: clonealign
+  owner: kieranrcampbell
+  description: Bayesian inference of clone-specific gene expression estimates by integrating
+    single-cell RNA-seq and single-cell DNA-seq data
+  url: "/projects/clonealign/"
+  contributors:
+  - login: kieranrcampbell
+    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
+    url: https://github.com/kieranrcampbell
+  commits:
+  - date: 2019-03-29 19:09:03.000000000 Z
+    message: |-
+      Merge pull request #6 from nceglia/master
+
+      Size Factor Fixes
+    url: https://github.com/kieranrcampbell/clonealign/commit/b6120cdccbb5a143fddd39455f52a6b2bd8cf23f
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
+  - date: 2019-03-29 18:54:49.000000000 Z
+    message: size factor argument doesn't propgate to inference method and if statments
+      formed incorrectly
+    url: https://github.com/kieranrcampbell/clonealign/commit/773e59e5a64e5b42a94ef8703c999e5ba62e7e27
+    author_login: 
+    author_url: 
+  - date: 2019-03-29 18:52:44.000000000 Z
+    message: size factor argument doesn't propgate to inference method and if statments
+      formed incorrectly
+    url: https://github.com/kieranrcampbell/clonealign/commit/1ddb5b11ab02695cb839c881c858909acc615399
+    author_login: 
+    author_url: 
+  - date: 2019-03-29 18:49:27.000000000 Z
+    message: size factor argument doesn't propgate to inference method and if statments
+      formed incorrectly
+    url: https://github.com/kieranrcampbell/clonealign/commit/a004ca9a9c5be1d87d597d2808a2473df2394e11
+    author_login: 
+    author_url: 
+  - date: 2019-03-15 16:37:06.000000000 Z
+    message: Update readme to reflect publication
+    url: https://github.com/kieranrcampbell/clonealign/commit/e819439ba5ab579f994ce0f3d8a603d32683cb14
+    author_login: kieranrcampbell
+    author_url: https://github.com/kieranrcampbell
 - repo: amcpherson/destruct
   title: destruct
   owner: amcpherson
@@ -37,42 +79,6 @@
     url: https://github.com/amcpherson/destruct/commit/e1178df06fa91018f35783c614576b56ddc0f295
     author_login: amcpherson
     author_url: https://github.com/amcpherson
-- repo: kieranrcampbell/clonealign
-  title: clonealign
-  owner: kieranrcampbell
-  description: Bayesian inference of clone-specific gene expression estimates by integrating
-    single-cell RNA-seq and single-cell DNA-seq data
-  url: "/projects/clonealign/"
-  contributors:
-  - login: kieranrcampbell
-    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
-    url: https://github.com/kieranrcampbell
-  commits:
-  - date: 2019-03-15 16:37:06.000000000 Z
-    message: Update readme to reflect publication
-    url: https://github.com/kieranrcampbell/clonealign/commit/e819439ba5ab579f994ce0f3d8a603d32683cb14
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-02-14 21:22:19.000000000 Z
-    message: Add option to set mu flat
-    url: https://github.com/kieranrcampbell/clonealign/commit/a5bdaeaa2d21352a398617398a4f2d496a9bd237
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-02-12 21:27:40.000000000 Z
-    message: Add some options to plotting
-    url: https://github.com/kieranrcampbell/clonealign/commit/289b9a255bc1a15524483a27b318426751d53fea
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-02-06 03:59:46.000000000 Z
-    message: Build error should be fixed
-    url: https://github.com/kieranrcampbell/clonealign/commit/9f8d6b54afb1deb8043d5306470b806c9b96e309
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
-  - date: 2019-02-06 02:35:30.000000000 Z
-    message: Add vignette detailing copy number data preparation
-    url: https://github.com/kieranrcampbell/clonealign/commit/8502e1403ad8b54e00029ee84f01510103ac5e7c
-    author_login: kieranrcampbell
-    author_url: https://github.com/kieranrcampbell
 - repo: irrationone/cellassign
   title: cellassign
   owner: Irrationone

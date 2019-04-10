@@ -41086,12 +41086,17 @@
 </PubmedArticle>
 
 <PubmedArticle>
-    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
         <PMID Version="1">30794536</PMID>
+        <DateCompleted>
+            <Year>2019</Year>
+            <Month>03</Month>
+            <Day>28</Day>
+        </DateCompleted>
         <DateRevised>
             <Year>2019</Year>
             <Month>03</Month>
-            <Day>06</Day>
+            <Day>29</Day>
         </DateRevised>
         <Article PubModel="Electronic-eCollection">
             <Journal>
@@ -41101,7 +41106,7 @@
                     <Issue>2</Issue>
                     <PubDate>
                         <Year>2019</Year>
-                        <Month>Feb</Month>
+                        <Month>02</Month>
                     </PubDate>
                 </JournalIssue>
                 <Title>PLoS computational biology</Title>
@@ -41120,7 +41125,7 @@
                     <LastName>Funnell</LastName>
                     <ForeName>Tyler</ForeName>
                     <Initials>T</Initials>
-                    <Identifier Source="ORCID">http://orcid.org/0000-0003-1612-5644</Identifier>
+                    <Identifier Source="ORCID">0000-0003-1612-5644</Identifier>
                     <AffiliationInfo>
                         <Affiliation>Department of Epidemiology &amp; Biostatistics, Memorial Sloan Kettering Cancer Center, New York, New York, United States of America.</Affiliation>
                     </AffiliationInfo>
@@ -41129,7 +41134,7 @@
                     <LastName>Zhang</LastName>
                     <ForeName>Allen W</ForeName>
                     <Initials>AW</Initials>
-                    <Identifier Source="ORCID">http://orcid.org/0000-0002-7606-089X</Identifier>
+                    <Identifier Source="ORCID">0000-0002-7606-089X</Identifier>
                     <AffiliationInfo>
                         <Affiliation>Department of Molecular Oncology, BC Cancer Agency, Vancouver, British Columbia, Canada.</Affiliation>
                     </AffiliationInfo>
@@ -41182,8 +41187,16 @@
                 </Author>
             </AuthorList>
             <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID> FDN-143246</GrantID>
+                    <Agency>Canadian Institutes for Health Research </Agency>
+                    <Country>International</Country>
+                </Grant>
+            </GrantList>
             <PublicationTypeList>
                 <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
             </PublicationTypeList>
             <ArticleDate DateType="Electronic">
                 <Year>2019</Year>
@@ -41197,6 +41210,51 @@
             <NlmUniqueID>101238922</NlmUniqueID>
             <ISSNLinking>1553-734X</ISSNLinking>
         </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D019295" MajorTopicYN="N">Computational Biology</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014644" MajorTopicYN="N">Genetic Variation</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016678" MajorTopicYN="N">Genome</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000069550" MajorTopicYN="N">Machine Learning</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015233" MajorTopicYN="N">Models, Statistical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009154" MajorTopicYN="N">Mutation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009369" MajorTopicYN="N">Neoplasms</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017354" MajorTopicYN="N">Point Mutation</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011379" MajorTopicYN="N">Prognosis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017422" MajorTopicYN="N">Sequence Analysis, DNA</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D059467" MajorTopicYN="N">Transcriptome</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
         <CoiStatement>SPS and SA are shareholders and consultants of Contextual Genomics Inc.</CoiStatement>
     </MedlineCitation>
     <PubmedData>
@@ -41225,8 +41283,8 @@
             </PubMedPubDate>
             <PubMedPubDate PubStatus="medline">
                 <Year>2019</Year>
-                <Month>2</Month>
-                <Day>23</Day>
+                <Month>3</Month>
+                <Day>29</Day>
                 <Hour>6</Hour>
                 <Minute>0</Minute>
             </PubMedPubDate>
@@ -41243,6 +41301,7 @@
             <ArticleId IdType="pubmed">30794536</ArticleId>
             <ArticleId IdType="doi">10.1371/journal.pcbi.1006799</ArticleId>
             <ArticleId IdType="pii">PCOMPBIOL-D-18-00924</ArticleId>
+            <ArticleId IdType="pmc">PMC6402697</ArticleId>
         </ArticleIdList>
     </PubmedData>
 </PubmedArticle>
