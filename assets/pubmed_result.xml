@@ -40146,12 +40146,17 @@
 </PubmedArticle>
 
 <PubmedArticle>
-    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+    <MedlineCitation Status="MEDLINE" IndexingMethod="Automated" Owner="NLM">
         <PMID Version="1">30158680</PMID>
+        <DateCompleted>
+            <Year>2019</Year>
+            <Month>04</Month>
+            <Day>16</Day>
+        </DateCompleted>
         <DateRevised>
-            <Year>2018</Year>
-            <Month>08</Month>
-            <Day>31</Day>
+            <Year>2019</Year>
+            <Month>04</Month>
+            <Day>16</Day>
         </DateRevised>
         <Article PubModel="Print">
             <Journal>
@@ -40161,7 +40166,7 @@
                     <Issue>9</Issue>
                     <PubDate>
                         <Year>2018</Year>
-                        <Month>Sep</Month>
+                        <Month>09</Month>
                     </PubDate>
                 </JournalIssue>
                 <Title>Nature genetics</Title>
@@ -40185,6 +40190,7 @@
             <Language>eng</Language>
             <PublicationTypeList>
                 <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016420">Comment</PublicationType>
             </PublicationTypeList>
         </Article>
         <MedlineJournalInfo>
@@ -40193,6 +40199,27 @@
             <NlmUniqueID>9216904</NlmUniqueID>
             <ISSNLinking>1061-4036</ISSNLinking>
         </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="CommentOn">
+                <RefSource>Nat Genet. 2018 Sep;50(9):1262-1270</RefSource>
+                <PMID Version="1">30104763</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009154" MajorTopicYN="N">Mutation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010051" MajorTopicYN="Y">Ovarian Neoplasms</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
     </MedlineCitation>
     <PubmedData>
         <History>
@@ -40204,9 +40231,9 @@
                 <Minute>0</Minute>
             </PubMedPubDate>
             <PubMedPubDate PubStatus="medline">
-                <Year>2018</Year>
-                <Month>8</Month>
-                <Day>31</Day>
+                <Year>2019</Year>
+                <Month>4</Month>
+                <Day>17</Day>
                 <Hour>6</Hour>
                 <Minute>0</Minute>
             </PubMedPubDate>

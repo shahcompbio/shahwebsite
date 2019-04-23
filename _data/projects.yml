@@ -1,4 +1,213 @@
 ---
+- repo: shahcompbio/MultiModalMuSig.jl
+  title: MultiModalMuSig.jl
+  owner: shahcompbio
+  description: A Julia package for extracting mutation signatures using topic models
+  url: "/projects/MultiModalMuSig.jl/"
+  contributors:
+  - login: funnell
+    avatar: https://avatars0.githubusercontent.com/u/381464?v=4&s=50
+    url: https://github.com/funnell
+  commits:
+  - date: 2019-04-22 22:45:37.000000000 Z
+    message: improvements to README
+    url: https://github.com/shahcompbio/MultiModalMuSig.jl/commit/08b4ac222018e41db268ef1262ada821c09e4e3e
+    author_login: funnell
+    author_url: https://github.com/funnell
+  - date: 2019-04-22 22:45:26.000000000 Z
+    message: bug fix to format_counts_lda
+    url: https://github.com/shahcompbio/MultiModalMuSig.jl/commit/1740245efdcc7a83877b84f71bd4285174ec9fba
+    author_login: funnell
+    author_url: https://github.com/funnell
+  - date: 2019-04-22 20:11:35.000000000 Z
+    message: re-add absolute xtol condition to mmctm update lambda function
+    url: https://github.com/shahcompbio/MultiModalMuSig.jl/commit/efc7a57fd463f310fdca907dbabdbef4af4060e4
+    author_login: funnell
+    author_url: https://github.com/funnell
+  - date: 2018-11-06 23:01:02.000000000 Z
+    message: adding fit! parameter to MMCTM allowing covariance to be fixed
+    url: https://github.com/shahcompbio/MultiModalMuSig.jl/commit/e6fc605ecd773f0dfe83a9d2e5fb19c2ea3e1f05
+    author_login: funnell
+    author_url: https://github.com/funnell
+  - date: 2018-11-02 19:21:45.000000000 Z
+    message: fixing image embedding in README
+    url: https://github.com/shahcompbio/MultiModalMuSig.jl/commit/5e5933efa5f90b44cbb764626480bad96107aca7
+    author_login: funnell
+    author_url: https://github.com/funnell
+- repo: irrationone/cellassign
+  title: cellassign
+  owner: Irrationone
+  description: Automated, probabilistic assignment of cell types in scRNA-seq data
+  url: "/projects/cellassign/"
+  contributors:
+  - login: Irrationone
+    avatar: https://avatars0.githubusercontent.com/u/2326632?v=4&s=50
+    url: https://github.com/Irrationone
+  - login: kieranrcampbell
+    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
+    url: https://github.com/kieranrcampbell
+  - login: johanneskoester
+    avatar: https://avatars1.githubusercontent.com/u/1858646?v=4&s=50
+    url: https://github.com/johanneskoester
+  - login: nceglia
+    avatar: https://avatars0.githubusercontent.com/u/1920876?v=4&s=50
+    url: https://github.com/nceglia
+  commits:
+  - date: 2019-04-21 06:49:12.000000000 Z
+    message: |-
+      Merge pull request #31 from Irrationone/convergence_fix
+
+      Underflow fix
+    url: https://github.com/Irrationone/cellassign/commit/01676a42888e4c2cb393393f3dc8cda3589f2e78
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2019-04-21 06:12:45.000000000 Z
+    message: Delete unused line
+    url: https://github.com/Irrationone/cellassign/commit/575d6bcd06baec43fcd33691d38399bd51f7cc72
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2019-04-21 06:11:40.000000000 Z
+    message: Bound theta to prevent underflow
+    url: https://github.com/Irrationone/cellassign/commit/232a7fe54e539c60c79d9d17b1329965750dce82
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2019-03-14 18:58:21.000000000 Z
+    message: |-
+      Merge pull request #26 from Irrationone/dev
+
+      v0.99.1 -- improvements to analysis with nonexistant and rare cell types
+    url: https://github.com/Irrationone/cellassign/commit/3ce592327d254dc35ee06856802727da67f2da28
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+  - date: 2019-03-11 22:02:03.000000000 Z
+    message: Bump version
+    url: https://github.com/Irrationone/cellassign/commit/ca4a93b863475a397958700bbd07c6a55362dd8e
+    author_login: Irrationone
+    author_url: https://github.com/Irrationone
+- repo: amcpherson/remixt
+  title: remixt
+  owner: amcpherson
+  description: Clone-specific genomic structure estimation in cancer
+  url: "/projects/remixt/"
+  contributors:
+  - login: amcpherson
+    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
+    url: https://github.com/amcpherson
+  - login: diljotgrewal
+    avatar: https://avatars0.githubusercontent.com/u/4531704?v=4&s=50
+    url: https://github.com/diljotgrewal
+  commits:
+  - date: 2019-04-18 18:49:51.000000000 Z
+    message: 'minor: functions are now strings, snp_positions shouldnt be wrapped
+      as input file(local to node on azure), added bai extension (#3)'
+    url: https://github.com/amcpherson/remixt/commit/a5e310a53dd305cbb2bcd5e398c0fe65e83cbbf7
+    author_login: diljotgrewal
+    author_url: https://github.com/diljotgrewal
+  - date: 2019-03-12 22:19:52.000000000 Z
+    message: 'minor: docker build file'
+    url: https://github.com/amcpherson/remixt/commit/0509325cadf6590160699d9e49eb69b08bbf1477
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-12-15 01:08:50.000000000 Z
+    message: 'build: conda version bump'
+    url: https://github.com/amcpherson/remixt/commit/8615574ce24d3964845a360233e517af7586fd34
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-12-15 01:07:07.000000000 Z
+    message: 'bugfix: h update parameter needs to be set'
+    url: https://github.com/amcpherson/remixt/commit/a7a89ef5e2c0c2a577fc7bcf8f40900725ffd1ab
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+  - date: 2018-10-19 23:16:26.000000000 Z
+    message: 'minor: conda version'
+    url: https://github.com/amcpherson/remixt/commit/55ca3bd2a0ea1c8952578f7bd9e7ab79395b7189
+    author_login: amcpherson
+    author_url: https://github.com/amcpherson
+- repo: shahcompbio/Epiclomal
+  title: Epiclomal
+  owner: shahcompbio
+  description: Epiclomal package, software for clustering of sparse DNA methylation
+    data
+  url: "/projects/Epiclomal/"
+  contributors:
+  - login: mandronescu
+    avatar: https://avatars2.githubusercontent.com/u/18557412?v=4&s=50
+    url: https://github.com/mandronescu
+  - login: camiladesouza
+    avatar: https://avatars2.githubusercontent.com/u/7397805?v=4&s=50
+    url: https://github.com/camiladesouza
+  commits:
+  - date: 2019-04-16 22:23:10.000000000 Z
+    message: Saving Excel files from scripts
+    url: https://github.com/shahcompbio/Epiclomal/commit/734ce1b70daaf46c72b377371f420410f03c15c9
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2019-04-11 22:59:09.000000000 Z
+    message: Updated readme
+    url: https://github.com/shahcompbio/Epiclomal/commit/4b369731cebd01d809fdcb6812e5678fc23c650f
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2019-04-11 22:41:15.000000000 Z
+    message: Removed unnecessary kronos scripts
+    url: https://github.com/shahcompbio/Epiclomal/commit/759e289eacd10449bfaee202ea65621997bcbba0
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2019-04-11 22:32:06.000000000 Z
+    message: Wrote readme files for kronos pipelines
+    url: https://github.com/shahcompbio/Epiclomal/commit/f39159a8a2038aa40a6b762fe6a9ebfb11f3790a
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+  - date: 2019-04-11 21:53:10.000000000 Z
+    message: Added the kronos scripts
+    url: https://github.com/shahcompbio/Epiclomal/commit/d1b0cbe94cab00d689452c7ac929c07cb93dab44
+    author_login: mandronescu
+    author_url: https://github.com/mandronescu
+- repo: shahcompbio/mutationseq
+  title: mutationseq
+  owner: shahcompbio
+  description: Software for somatic SNV detection using next generation sequencing
+    (NGS) data.
+  url: "/projects/mutationseq/"
+  contributors:
+  - login: jtaghiyar
+    avatar: https://avatars0.githubusercontent.com/u/1679815?v=4&s=50
+    url: https://github.com/jtaghiyar
+  - login: diljotgrewal
+    avatar: https://avatars0.githubusercontent.com/u/4531704?v=4&s=50
+    url: https://github.com/diljotgrewal
+  commits:
+  - date: 2019-04-12 21:49:07.000000000 Z
+    message: 'minor: make sure that boost path is absolute when installing'
+    url: https://github.com/shahcompbio/mutationseq/commit/6c6d87edd149ef574e4b55b6b6fc909072e570ba
+    author_login: diljotgrewal
+    author_url: https://github.com/diljotgrewal
+  - date: 2019-01-21 16:05:34.000000000 Z
+    message: 'minor: small issue with museq_het'
+    url: https://github.com/shahcompbio/mutationseq/commit/c3f87b09e841e31fd75dff5abd9d92c5dc3232b3
+    author_login: 
+    author_url: 
+  - date: 2018-12-20 17:57:33.000000000 Z
+    message: 'bugfix: scikit-learn v0.20 deprecated cross_validation module'
+    url: https://github.com/shahcompbio/mutationseq/commit/c88c2c3c3e0aab7eb2007751d44c87c0a1e6586d
+    author_login: 
+    author_url: 
+  - date: 2018-12-18 15:17:32.000000000 Z
+    message: |-
+      minor: removed pickle file
+
+      Former-commit-id: e57a2c20f6560c8661f187880427a2b07b06d176
+    url: https://github.com/shahcompbio/mutationseq/commit/22ee56c29fb87b4207f856f0022464d45cf19c48
+    author_login: 
+    author_url: 
+  - date: 2018-12-18 15:02:36.000000000 Z
+    message: |-
+      added install instructions
+
+
+      Former-commit-id: 5c4afe30845dfc89fcea6e0d8587d6eb9455acf9
+    url: https://github.com/shahcompbio/mutationseq/commit/dc0d24cadf768ee2d7c77df93be3f5e307297fd5
+    author_login: 
+    author_url: 
 - repo: kieranrcampbell/clonealign
   title: clonealign
   owner: kieranrcampbell
@@ -79,91 +288,6 @@
     url: https://github.com/amcpherson/destruct/commit/e1178df06fa91018f35783c614576b56ddc0f295
     author_login: amcpherson
     author_url: https://github.com/amcpherson
-- repo: irrationone/cellassign
-  title: cellassign
-  owner: Irrationone
-  description: Automated, probabilistic assignment of cell types in scRNA-seq data
-  url: "/projects/cellassign/"
-  contributors:
-  - login: Irrationone
-    avatar: https://avatars0.githubusercontent.com/u/2326632?v=4&s=50
-    url: https://github.com/Irrationone
-  - login: kieranrcampbell
-    avatar: https://avatars3.githubusercontent.com/u/2039489?v=4&s=50
-    url: https://github.com/kieranrcampbell
-  - login: johanneskoester
-    avatar: https://avatars1.githubusercontent.com/u/1858646?v=4&s=50
-    url: https://github.com/johanneskoester
-  - login: nceglia
-    avatar: https://avatars0.githubusercontent.com/u/1920876?v=4&s=50
-    url: https://github.com/nceglia
-  commits:
-  - date: 2019-03-14 18:58:21.000000000 Z
-    message: |-
-      Merge pull request #26 from Irrationone/dev
-
-      v0.99.1 -- improvements to analysis with nonexistant and rare cell types
-    url: https://github.com/Irrationone/cellassign/commit/3ce592327d254dc35ee06856802727da67f2da28
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
-  - date: 2019-03-11 22:02:03.000000000 Z
-    message: Bump version
-    url: https://github.com/Irrationone/cellassign/commit/ca4a93b863475a397958700bbd07c6a55362dd8e
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
-  - date: 2019-03-11 21:22:30.000000000 Z
-    message: Remove unneeded gene subsetting
-    url: https://github.com/Irrationone/cellassign/commit/e01bcd7064b2b42422472c7feabcc9ec8c4f5f03
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
-  - date: 2019-03-11 21:17:38.000000000 Z
-    message: |-
-      Merge pull request #25 from nceglia/master
-
-      removing known types
-    url: https://github.com/Irrationone/cellassign/commit/80fbdf8caf24ef3cfc1224a3589514171f03b10c
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
-  - date: 2019-03-11 21:13:48.000000000 Z
-    message: Actually change min_delta to 2 in main cellassign function
-    url: https://github.com/Irrationone/cellassign/commit/5537867fcac230d93945ba1b06914d901c0b03b3
-    author_login: Irrationone
-    author_url: https://github.com/Irrationone
-- repo: amcpherson/remixt
-  title: remixt
-  owner: amcpherson
-  description: Clone-specific genomic structure estimation in cancer
-  url: "/projects/remixt/"
-  contributors:
-  - login: amcpherson
-    avatar: https://avatars3.githubusercontent.com/u/1170234?v=4&s=50
-    url: https://github.com/amcpherson
-  commits:
-  - date: 2019-03-12 22:19:52.000000000 Z
-    message: 'minor: docker build file'
-    url: https://github.com/amcpherson/remixt/commit/0509325cadf6590160699d9e49eb69b08bbf1477
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-12-15 01:08:50.000000000 Z
-    message: 'build: conda version bump'
-    url: https://github.com/amcpherson/remixt/commit/8615574ce24d3964845a360233e517af7586fd34
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-12-15 01:07:07.000000000 Z
-    message: 'bugfix: h update parameter needs to be set'
-    url: https://github.com/amcpherson/remixt/commit/a7a89ef5e2c0c2a577fc7bcf8f40900725ffd1ab
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-19 23:16:26.000000000 Z
-    message: 'minor: conda version'
-    url: https://github.com/amcpherson/remixt/commit/55ca3bd2a0ea1c8952578f7bd9e7ab79395b7189
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
-  - date: 2018-10-19 21:48:57.000000000 Z
-    message: 'build: centos6 build of using docker'
-    url: https://github.com/amcpherson/remixt/commit/afa5995d59fa571fe2e8826f6dbf1a0a98bc0fc3
-    author_login: amcpherson
-    author_url: https://github.com/amcpherson
 - repo: gavinha/TitanCNA
   title: TitanCNA
   owner: gavinha
@@ -224,126 +348,6 @@
     url: https://github.com/gavinha/TitanCNA/commit/f47f11f21007806c1aa45c2930d696d85f57b7c1
     author_login: gavinha
     author_url: https://github.com/gavinha
-- repo: shahcompbio/Epiclomal
-  title: Epiclomal
-  owner: shahcompbio
-  description: Epiclomal package, software for clustering of sparse DNA methylation
-    data
-  url: "/projects/Epiclomal/"
-  contributors:
-  - login: mandronescu
-    avatar: https://avatars2.githubusercontent.com/u/18557412?v=4&s=50
-    url: https://github.com/mandronescu
-  - login: camiladesouza
-    avatar: https://avatars2.githubusercontent.com/u/7397805?v=4&s=50
-    url: https://github.com/camiladesouza
-  commits:
-  - date: 2019-02-06 20:49:11.000000000 Z
-    message: new version with lines for number of clusters
-    url: https://github.com/shahcompbio/Epiclomal/commit/4ba5d3c8b06b8d0dd0da8d4e2df8b710444ac0d7
-    author_login: 
-    author_url: 
-  - date: 2019-02-05 19:11:16.000000000 Z
-    message: replotting the real data plots
-    url: https://github.com/shahcompbio/Epiclomal/commit/54953be521192443fdc6873a55c7ebe865364e2c
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2019-02-04 21:49:12.000000000 Z
-    message: Corrected the plotting of the real data
-    url: https://github.com/shahcompbio/Epiclomal/commit/ba606b7d3b17bea9fcb1b482df3d6d36b5dbd2b2
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2019-01-30 20:35:00.000000000 Z
-    message: Added imputation option in non-probabilistic methods
-    url: https://github.com/shahcompbio/Epiclomal/commit/eb3068de0da3a8cdcee71e00b5f652f115d6dbca
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-  - date: 2018-12-20 21:22:00.000000000 Z
-    message: Removed hard Rscript path in scripts/hclust.R
-    url: https://github.com/shahcompbio/Epiclomal/commit/40431fedb438098f38f285cc2280f9fb4096a949
-    author_login: mandronescu
-    author_url: https://github.com/mandronescu
-- repo: shahcompbio/mutationseq
-  title: mutationseq
-  owner: shahcompbio
-  description: Software for somatic SNV detection using next generation sequencing
-    (NGS) data.
-  url: "/projects/mutationseq/"
-  contributors:
-  - login: jtaghiyar
-    avatar: https://avatars0.githubusercontent.com/u/1679815?v=4&s=50
-    url: https://github.com/jtaghiyar
-  commits:
-  - date: 2019-01-21 16:05:34.000000000 Z
-    message: 'minor: small issue with museq_het'
-    url: https://github.com/shahcompbio/mutationseq/commit/c3f87b09e841e31fd75dff5abd9d92c5dc3232b3
-    author_login: 
-    author_url: 
-  - date: 2018-12-20 17:57:33.000000000 Z
-    message: 'bugfix: scikit-learn v0.20 deprecated cross_validation module'
-    url: https://github.com/shahcompbio/mutationseq/commit/c88c2c3c3e0aab7eb2007751d44c87c0a1e6586d
-    author_login: 
-    author_url: 
-  - date: 2018-12-18 15:17:32.000000000 Z
-    message: |-
-      minor: removed pickle file
-
-      Former-commit-id: e57a2c20f6560c8661f187880427a2b07b06d176
-    url: https://github.com/shahcompbio/mutationseq/commit/22ee56c29fb87b4207f856f0022464d45cf19c48
-    author_login: 
-    author_url: 
-  - date: 2018-12-18 15:02:36.000000000 Z
-    message: |-
-      added install instructions
-
-
-      Former-commit-id: 5c4afe30845dfc89fcea6e0d8587d6eb9455acf9
-    url: https://github.com/shahcompbio/mutationseq/commit/dc0d24cadf768ee2d7c77df93be3f5e307297fd5
-    author_login: 
-    author_url: 
-  - date: 2018-12-18 14:39:47.000000000 Z
-    message: |-
-      minor: some stuff in setup was commented out
-
-      Former-commit-id: 6ec9864a6aa1faff69dca1a07b7d4ef5da17473d
-    url: https://github.com/shahcompbio/mutationseq/commit/7de3c385505197493a85067e0883669a54047e28
-    author_login: 
-    author_url: 
-- repo: shahcompbio/MultiModalMuSig.jl
-  title: MultiModalMuSig.jl
-  owner: shahcompbio
-  description: A Julia package for extracting mutation signatures using topic models
-  url: "/projects/MultiModalMuSig.jl/"
-  contributors:
-  - login: funnell
-    avatar: https://avatars0.githubusercontent.com/u/381464?v=4&s=50
-    url: https://github.com/funnell
-  commits:
-  - date: 2018-11-06 23:01:02.000000000 Z
-    message: adding fit! parameter to MMCTM allowing covariance to be fixed
-    url: https://github.com/shahcompbio/MultiModalMuSig.jl/commit/e6fc605ecd773f0dfe83a9d2e5fb19c2ea3e1f05
-    author_login: funnell
-    author_url: https://github.com/funnell
-  - date: 2018-11-02 19:21:45.000000000 Z
-    message: fixing image embedding in README
-    url: https://github.com/shahcompbio/MultiModalMuSig.jl/commit/5e5933efa5f90b44cbb764626480bad96107aca7
-    author_login: funnell
-    author_url: https://github.com/funnell
-  - date: 2018-11-02 19:19:52.000000000 Z
-    message: updating README with example
-    url: https://github.com/shahcompbio/MultiModalMuSig.jl/commit/f595e2379c701337c24de5c2f0506ff5253377f4
-    author_login: funnell
-    author_url: https://github.com/funnell
-  - date: 2018-11-01 20:47:19.000000000 Z
-    message: README formatting
-    url: https://github.com/shahcompbio/MultiModalMuSig.jl/commit/2757f44cc6c8af62c2f68b67d56807de5c567f2a
-    author_login: funnell
-    author_url: https://github.com/funnell
-  - date: 2018-11-01 17:56:22.000000000 Z
-    message: travis
-    url: https://github.com/shahcompbio/MultiModalMuSig.jl/commit/acb8c45a6ce157bd4cf1cf35e34f1f05c06cf093
-    author_login: funnell
-    author_url: https://github.com/funnell
 - repo: shahcompbio/scvis
   title: scvis
   owner: shahcompbio
