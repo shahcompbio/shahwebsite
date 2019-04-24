@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/shahcompbio/shahwebsite.svg?branch=master)](https://travis-ci.org/shahcompbio/shahwebsite)
 # Shah Lab research website
 
 The Shah Lab website is a Jekyll website based on the Bedford Lab's website ([bedford.io](http://bedford.io)). The Bedford Jekyll website contains a few nice features, one of which is a front page summarizing recent blog posts, papers, and projects. Projects are auto populated using a Ruby script from metadata extracted from the lab's Github repositories, and thus refer to software projects exclusively.
