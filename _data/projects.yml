@@ -9,6 +9,11 @@
     avatar: https://avatars0.githubusercontent.com/u/381464?v=4&s=50
     url: https://github.com/funnell
   commits:
+  - date: 2019-04-23 21:28:00.000000000 Z
+    message: improvements to README
+    url: https://github.com/shahcompbio/MultiModalMuSig.jl/commit/99857d9197e63343650b8a5a3290809f3aba94b9
+    author_login: funnell
+    author_url: https://github.com/funnell
   - date: 2019-04-22 22:45:37.000000000 Z
     message: improvements to README
     url: https://github.com/shahcompbio/MultiModalMuSig.jl/commit/08b4ac222018e41db268ef1262ada821c09e4e3e
@@ -27,11 +32,6 @@
   - date: 2018-11-06 23:01:02.000000000 Z
     message: adding fit! parameter to MMCTM allowing covariance to be fixed
     url: https://github.com/shahcompbio/MultiModalMuSig.jl/commit/e6fc605ecd773f0dfe83a9d2e5fb19c2ea3e1f05
-    author_login: funnell
-    author_url: https://github.com/funnell
-  - date: 2018-11-02 19:21:45.000000000 Z
-    message: fixing image embedding in README
-    url: https://github.com/shahcompbio/MultiModalMuSig.jl/commit/5e5933efa5f90b44cbb764626480bad96107aca7
     author_login: funnell
     author_url: https://github.com/funnell
 - repo: irrationone/cellassign
