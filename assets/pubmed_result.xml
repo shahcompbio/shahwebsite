@@ -41596,4 +41596,527 @@
     </PubmedData>
 </PubmedArticle>
 
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">31069274</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>05</Month>
+            <Day>12</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">2399-3642</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>2</Volume>
+                    <PubDate>
+                        <Year>2019</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Communications biology</Title>
+                <ISOAbbreviation>Commun Biol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Pharmacological systems analysis defines EIF4A3 functions in cell-cycle and RNA stress granule formation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>165</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1038/s42003-019-0391-9</ELocationID>
+            <Abstract>
+                <AbstractText>The RNA helicase EIF4A3 regulates the exon junction complex and nonsense-mediated mRNA decay functions in RNA transcript processing. However, a transcriptome-wide network definition of these functions has been lacking, in part due to the lack of suitable pharmacological inhibitors. Here we employ short-duration graded EIF4A3 inhibition using small molecule allosteric inhibitors to define the transcriptome-wide dependencies of EIF4A3. We thus define conserved cellular functions, such as cell cycle control, that are EIF4A3 dependent. We show that EIF4A3-dependent splicing reactions have a distinct genome-wide pattern of associated RNA-binding protein motifs. We also uncover an unanticipated role of EIF4A3 in the biology of RNA stress granules, which sequester and silence the translation of most mRNAs under stress conditions and are implicated in cell survival and tumour progression. We show that stress granule induction and maintenance is suppressed on the inhibition of EIF4A3, in part through EIF4A3-associated regulation of G3BP1 and TIA1 scaffold protein expression.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Mazloomian</LastName>
+                    <ForeName>Alborz</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1Department of Molecular Oncology, BC Cancer, part of the Provincial Health Services Authority, 675 West 10th Avenue, Vancouver, BC V5Z 1L3 Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0476 9255</Identifier>
+                        <Identifier Source="GRID">grid.451204.6</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>2Department of Pathology and Laboratory Medicine, G227-2211 Wesbrook Mall, University of British Columbia, Vancouver, BC V6T 2B5 Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2288 9830</Identifier>
+                        <Identifier Source="GRID">grid.17091.3e</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Araki</LastName>
+                    <ForeName>Shinsuke</ForeName>
+                    <Initials>S</Initials>
+                    <Identifier Source="ORCID">0000-0002-9936-1417</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>3Research Department, Takeda Pharmaceutical Company Limited, 26-1, Muraoka-Higashi 2-chome, Fujisawa, Kanagawa 251-8555 Japan.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 0673 6017</Identifier>
+                        <Identifier Source="GRID">grid.419841.1</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ohori</LastName>
+                    <ForeName>Momoko</ForeName>
+                    <Initials>M</Initials>
+                    <Identifier Source="ORCID">0000-0002-4504-6032</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>3Research Department, Takeda Pharmaceutical Company Limited, 26-1, Muraoka-Higashi 2-chome, Fujisawa, Kanagawa 251-8555 Japan.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 0673 6017</Identifier>
+                        <Identifier Source="GRID">grid.419841.1</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>El-Naggar</LastName>
+                    <ForeName>Amal M</ForeName>
+                    <Initials>AM</Initials>
+                    <Identifier Source="ORCID">0000-0002-3202-6171</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>1Department of Molecular Oncology, BC Cancer, part of the Provincial Health Services Authority, 675 West 10th Avenue, Vancouver, BC V5Z 1L3 Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0476 9255</Identifier>
+                        <Identifier Source="GRID">grid.451204.6</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>2Department of Pathology and Laboratory Medicine, G227-2211 Wesbrook Mall, University of British Columbia, Vancouver, BC V6T 2B5 Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2288 9830</Identifier>
+                        <Identifier Source="GRID">grid.17091.3e</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>4Department of Pathology, Faculty of Medicine, Menoufia University, Menoufia Governorate, Egypt.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0621 4712</Identifier>
+                        <Identifier Source="GRID">grid.411775.1</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yap</LastName>
+                    <ForeName>Damian</ForeName>
+                    <Initials>D</Initials>
+                    <Identifier Source="ORCID">0000-0002-5370-4592</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>1Department of Molecular Oncology, BC Cancer, part of the Provincial Health Services Authority, 675 West 10th Avenue, Vancouver, BC V5Z 1L3 Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0476 9255</Identifier>
+                        <Identifier Source="GRID">grid.451204.6</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>2Department of Pathology and Laboratory Medicine, G227-2211 Wesbrook Mall, University of British Columbia, Vancouver, BC V6T 2B5 Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2288 9830</Identifier>
+                        <Identifier Source="GRID">grid.17091.3e</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bashashati</LastName>
+                    <ForeName>Ali</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1Department of Molecular Oncology, BC Cancer, part of the Provincial Health Services Authority, 675 West 10th Avenue, Vancouver, BC V5Z 1L3 Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0476 9255</Identifier>
+                        <Identifier Source="GRID">grid.451204.6</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>2Department of Pathology and Laboratory Medicine, G227-2211 Wesbrook Mall, University of British Columbia, Vancouver, BC V6T 2B5 Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2288 9830</Identifier>
+                        <Identifier Source="GRID">grid.17091.3e</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakao</LastName>
+                    <ForeName>Shoichi</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>3Research Department, Takeda Pharmaceutical Company Limited, 26-1, Muraoka-Higashi 2-chome, Fujisawa, Kanagawa 251-8555 Japan.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 0673 6017</Identifier>
+                        <Identifier Source="GRID">grid.419841.1</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sorensen</LastName>
+                    <ForeName>Poul H</ForeName>
+                    <Initials>PH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1Department of Molecular Oncology, BC Cancer, part of the Provincial Health Services Authority, 675 West 10th Avenue, Vancouver, BC V5Z 1L3 Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0476 9255</Identifier>
+                        <Identifier Source="GRID">grid.451204.6</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>2Department of Pathology and Laboratory Medicine, G227-2211 Wesbrook Mall, University of British Columbia, Vancouver, BC V6T 2B5 Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2288 9830</Identifier>
+                        <Identifier Source="GRID">grid.17091.3e</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakanishi</LastName>
+                    <ForeName>Atsushi</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>3Research Department, Takeda Pharmaceutical Company Limited, 26-1, Muraoka-Higashi 2-chome, Fujisawa, Kanagawa 251-8555 Japan.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 0673 6017</Identifier>
+                        <Identifier Source="GRID">grid.419841.1</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Sohrab</ForeName>
+                    <Initials>S</Initials>
+                    <Identifier Source="ORCID">0000-0001-6402-523X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>1Department of Molecular Oncology, BC Cancer, part of the Provincial Health Services Authority, 675 West 10th Avenue, Vancouver, BC V5Z 1L3 Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0476 9255</Identifier>
+                        <Identifier Source="GRID">grid.451204.6</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>2Department of Pathology and Laboratory Medicine, G227-2211 Wesbrook Mall, University of British Columbia, Vancouver, BC V6T 2B5 Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2288 9830</Identifier>
+                        <Identifier Source="GRID">grid.17091.3e</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>5Department of Epidemiology &amp; Biostatistics, Memorial Sloan Kettering Cancer Center, 417 E68th St, New York, NY 10065 USA.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2171 9952</Identifier>
+                        <Identifier Source="GRID">grid.51462.34</Identifier>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Aparicio</LastName>
+                    <ForeName>Samuel</ForeName>
+                    <Initials>S</Initials>
+                    <Identifier Source="ORCID">0000-0002-0487-9599</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>1Department of Molecular Oncology, BC Cancer, part of the Provincial Health Services Authority, 675 West 10th Avenue, Vancouver, BC V5Z 1L3 Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0004 0476 9255</Identifier>
+                        <Identifier Source="GRID">grid.451204.6</Identifier>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>2Department of Pathology and Laboratory Medicine, G227-2211 Wesbrook Mall, University of British Columbia, Vancouver, BC V6T 2B5 Canada.</Affiliation>
+                        <Identifier Source="ISNI">0000 0001 2288 9830</Identifier>
+                        <Identifier Source="GRID">grid.17091.3e</Identifier>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>05</Month>
+                <Day>03</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Commun Biol</MedlineTA>
+            <NlmUniqueID>101719179</NlmUniqueID>
+            <ISSNLinking>2399-3642</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Checkpoints</Keyword>
+            <Keyword MajorTopicYN="N">Networks and systems biology</Keyword>
+            <Keyword MajorTopicYN="N">Stress granules</Keyword>
+            <Keyword MajorTopicYN="N">Systems analysis</Keyword>
+        </KeywordList>
+        <CoiStatement>The respective authors listed declare Competing Financial Interests: S. Araki, M.O., S.N. and A.N. are employees of Takeda Pharmaceutical Company. Takeda Pharmaceutical Company also provided partial funding support for the project and A.M. and gave access to chemical probes for this study. S. S. and S. Aparicio are founders and shareholders of Contextual Genomics Inc. S. Aparicio is a scientific advisor to Repare Therapeutics and Sangamo Pharmaceuticals. The remaining authors declare no competing interests.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2018</Year>
+                <Month>12</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>03</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>5</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>5</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>5</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31069274</ArticleId>
+            <ArticleId IdType="doi">10.1038/s42003-019-0391-9</ArticleId>
+            <ArticleId IdType="pii">391</ArticleId>
+            <ArticleId IdType="pmc">PMC6499833</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">31078621</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>05</Month>
+            <Day>12</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1528-0012</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>May</Month>
+                        <Day>09</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Gastroenterology</Title>
+                <ISOAbbreviation>Gastroenterology</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Regulation of pH by Carbonic Anhydrase 9 Mediates Survival of Pancreatic Cancer Cells With Activated KRAS in Response to Hypoxia.</ArticleTitle>
+            <ELocationID EIdType="pii" ValidYN="Y">S0016-5085(19)40862-7</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1053/j.gastro.2019.05.004</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND &amp; AIMS" NlmCategory="OBJECTIVE">Most pancreatic ductal adenocarcinomas (PDACs) express an activated form of KRAS, become hypoxic and dysplastic, and are refractory to chemo- and radiation-therapies. To survive in the hypoxic environment, PDAC cells upregulate enzymes and transporters involved in pH regulation, including the extracellular facing carbonic anhydrase 9 (CA9). We evaluated the effect of blocking CA9, in combination with administration of gemcitabine, in mouse models of pancreatic cancer.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We knocked down expression of KRAS in human (PK-8 and PK-1) PDAC cells with small hairpin RNAs. Human and mouse (Kras<sup>G12D</sup>/Pdx1-Cre/Tp53/Rosa<sup>YFP</sup>) PDAC cells were incubated with inhibitors of MEK (trametinib) or ERK and some cells were cultured under hypoxic conditions. We measured levels and stability of the hypoxia inducible factor 1 subunit alpha (HIF1A), endothelial PAS domain 1 protein (EPAS1, also called HIF2A), CA9, solute carrier family 16 member 4 (SLC16A4, also called MCT4), and SLC2A1 (also called GLUT1) by immunoblot analyses. We analyzed intracellular pH (pHi) and extracellular metabolic flux. We knocked down expression of CA9 in PDAC cells, or inhibited CA9 with SLC-0111, incubated them with gemcitabine, and assessed pHi, metabolic flux, and cytotoxicity under normoxic and hypoxic conditions. Cells were also injected into either immune-compromised or immune-competent mice and growth of xenograft tumors was assessed. Tumor fragments derived from PDAC patients were surgically ligated to the pancreas of mice and the growth of tumors was assessed. We performed tissue microarray analyses of 205 human PCAC samples to measure levels of CA9 and associated expression of genes that regulate hypoxia with outcomes of patients using the Cancer Genome Atlas database.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Under hypoxic conditions, PDAC cells had increased levels of HIF1A and endothelial PAS domain 1 protein (EPAS1, also called HIF2A), upregulated expression of CA9, and activated glycolysis. Knockdown of KRAS in PDAC cells, or incubation with trametinib, reduced the post-transcriptional stabilization of HIF1A and HIF2A, upregulation of CA9, pHi, and glycolysis in response to hypoxia. CA9 was expressed by 66% of PDAC samples analyzed; high expression of genes associated with metabolic adaptation to hypoxia, including CA9, correlated with significantly reduced survival times of patients. Knockdown or pharmacologic inhibition of CA9 in PDAC cells significantly reduced pHi in cells under hypoxic conditions, decreased gemcitabine-induced glycolysis, and increased their sensitivity to gemcitabine. PDAC cells with knockdown of CA9 formed smaller xenograft tumors in mice, and injection of gemcitabine inhibited tumor growth and significantly increased survival times of mice. In mice with xenograft tumors grown from human PDAC cells, oral administration of SLC-0111 and injection of gemcitabine increased intra-tumor acidosis and increased cell death. These tumors, and tumors grown from PDAC patient-derived tumor fragments, grew more slowly than xenograft tumors in mice given control agents, resulting in longer survival times. In Kras<sup>G12D</sup>/Pdx1-Cre/Tp53/Rosa<sup>YFP</sup> genetically modified mice, oral administration of SLC-0111 and injection of gemcitabine reduced numbers of B cells in tumors.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">In response to hypoxia, PDAC cells that express activated KRAS increase expression of CA9, via stabilization of HIF1A and HIF2A, to regulate pH and glycolysis. Disruption of this pathway slows growth of PDAC xenograft tumors in mice and might be developed for treatment of pancreatic cancer.</AbstractText>
+                <CopyrightInformation>Copyright © 2019 AGA Institute. Published by Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>McDonald</LastName>
+                    <ForeName>Paul C</ForeName>
+                    <Initials>PC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Integrative Oncology, BC Cancer Research Centre, Vancouver, British Columbia, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chafe</LastName>
+                    <ForeName>Shawn C</ForeName>
+                    <Initials>SC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Integrative Oncology, BC Cancer Research Centre, Vancouver, British Columbia, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Brown</LastName>
+                    <ForeName>Wells S</ForeName>
+                    <Initials>WS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Integrative Oncology, BC Cancer Research Centre, Vancouver, British Columbia, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Saberi</LastName>
+                    <ForeName>Saeed</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Oncology, BC Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Swayampakula</LastName>
+                    <ForeName>Mridula</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Integrative Oncology, BC Cancer Research Centre, Vancouver, British Columbia, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Venkateswaran</LastName>
+                    <ForeName>Geetha</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Integrative Oncology, BC Cancer Research Centre, Vancouver, British Columbia, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nemirovsky</LastName>
+                    <ForeName>Oksana</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Integrative Oncology, BC Cancer Research Centre, Vancouver, British Columbia, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gillespie</LastName>
+                    <ForeName>Jordan A</ForeName>
+                    <Initials>JA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Integrative Oncology, BC Cancer Research Centre, Vancouver, British Columbia, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Karasinska</LastName>
+                    <ForeName>Joanna M</ForeName>
+                    <Initials>JM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pancreas Centre BC, Vancouver General Hospital, Vancouver, BC, V3Z 1M9, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kalloger</LastName>
+                    <ForeName>Steven E</ForeName>
+                    <Initials>SE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pancreas Centre BC, Vancouver General Hospital, Vancouver, BC, V3Z 1M9, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Supuran</LastName>
+                    <ForeName>Claudiu T</ForeName>
+                    <Initials>CT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemistry, University of Florence, Florence, 50019, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schaeffer</LastName>
+                    <ForeName>David F</ForeName>
+                    <Initials>DF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pancreas Centre BC, Vancouver General Hospital, Vancouver, BC, V3Z 1M9, Canada; Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver BC, V6T 2B5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bashashati</LastName>
+                    <ForeName>Ali</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver BC, V6T 2B5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shah</LastName>
+                    <ForeName>Sohrab P</ForeName>
+                    <Initials>SP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver BC, V6T 2B5, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Topham</LastName>
+                    <ForeName>James T</ForeName>
+                    <Initials>JT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pancreas Centre BC, Vancouver General Hospital, Vancouver, BC, V3Z 1M9, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yapp</LastName>
+                    <ForeName>Donald T</ForeName>
+                    <Initials>DT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Experimental Therapeutics, BC Cancer Research Centre, Vancouver, BC, V5Z 1L3, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Jinyang</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Gastroenterology Division, Department of Medicine and Abramson Family Cancer Research Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Renouf</LastName>
+                    <ForeName>Daniel J</ForeName>
+                    <Initials>DJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Oncology, BC Cancer Agency, Vancouver, BC, V5Z 4E6, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stanger</LastName>
+                    <ForeName>Ben Z</ForeName>
+                    <Initials>BZ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Gastroenterology Division, Department of Medicine and Abramson Family Cancer Research Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, 19104, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dedhar</LastName>
+                    <ForeName>Shoukat</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Integrative Oncology, BC Cancer Research Centre, Vancouver, British Columbia, V5Z 1L3, Canada; Department of Biochemistry and Molecular Biology, University of British Columbia, Vancouver, BC, V6T 1Z3, Canada. Electronic address: sdedhar@bccrc.ca.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>05</Month>
+                <Day>09</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Gastroenterology</MedlineTA>
+            <NlmUniqueID>0374630</NlmUniqueID>
+            <ISSNLinking>0016-5085</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">KPCY</Keyword>
+            <Keyword MajorTopicYN="N">metabolism</Keyword>
+            <Keyword MajorTopicYN="N">signal transduction</Keyword>
+            <Keyword MajorTopicYN="N">transcriptional regulation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2018</Year>
+                <Month>11</Month>
+                <Day>07</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>05</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>05</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>5</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>5</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>5</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31078621</ArticleId>
+            <ArticleId IdType="pii">S0016-5085(19)40862-7</ArticleId>
+            <ArticleId IdType="doi">10.1053/j.gastro.2019.05.004</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
 </PubmedArticleSet>
