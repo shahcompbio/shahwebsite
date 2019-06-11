@@ -45,7 +45,7 @@ bundle exec ruby _scripts/update-and-preprocess.rb
 
 Then `bundle exec jekyll build` works as normal.
 
-In short, running `bundle install && bundle exec ruby _scripts/update-and-preprocess.rb && bundle exec jekyll build && bundle exec jekyll serve` will do everything you need.
+In short, running `bundle install && bundle exec ruby _scripts/update-and-preprocess.rb && bundle exec jekyll serve` will do everything you need.
 
 ## Updating
 
