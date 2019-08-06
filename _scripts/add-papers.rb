@@ -51,7 +51,11 @@ xml.xpath('//PubmedArticle').each do |article|
 	file.puts("")
 
 	file.puts("<br />")
-	file.puts("<div data-badge-popover=\"right\" data-badge-type=\"donut\" data-pmid=\"" + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="pubmed"]').text + "\" data-hide-no-mentions=\"true\" class=\"altmetric-embed\"></div>")
+	if article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="pubmed"]').text == "30794536"
+		file.puts("<div data-badge-popover=\"right\" data-badge-type=\"donut\" data-doi=\"10.1371/journal.pcbi.1006799\" data-hide-no-mentions=\"true\" class=\"altmetric-embed\"></div>")
+	else
+		file.puts("<div data-badge-popover=\"right\" data-badge-type=\"donut\" data-pmid=\"" + article.xpath('PubmedData/ArticleIdList/ArticleId[@IdType="pubmed"]').text + "\" data-hide-no-mentions=\"true\" class=\"altmetric-embed\"></div>")
+	end
 	file.puts("")
 	
 	if article.at_xpath('MedlineCitation/Article/Abstract/AbstractText') then
