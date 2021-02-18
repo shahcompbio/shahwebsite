@@ -1,0 +1,1328 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2019//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_190101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">23945592</PMID>
+        <DateCompleted>
+            <Year>2013</Year>
+            <Month>10</Month>
+            <Day>29</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2021</Year>
+            <Month>01</Month>
+            <Day>05</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1476-4687</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>500</Volume>
+                    <Issue>7463</Issue>
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Aug</Month>
+                        <Day>22</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Nature</Title>
+                <ISOAbbreviation>Nature</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Signatures of mutational processes in human cancer.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>415-21</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1038/nature12477</ELocationID>
+            <Abstract>
+                <AbstractText>All cancers are caused by somatic mutations; however, understanding of the biological processes generating these mutations is limited. The catalogue of somatic mutations from a cancer genome bears the signatures of the mutational processes that have been operative. Here we analysed 4,938,362 mutations from 7,042 cancers and extracted more than 20 distinct mutational signatures. Some are present in many cancer types, notably a signature attributed to the APOBEC family of cytidine deaminases, whereas others are confined to a single cancer class. Certain signatures are associated with age of the patient at cancer diagnosis, known mutagenic exposures or defects in DNA maintenance, but many are of cryptic origin. In addition to these genome-wide mutational signatures, hypermutation localized to small genomic regions, 'kataegis', is found in many cancer types. The results reveal the diversity of mutational processes underlying the development of cancer, with potential implications for understanding of cancer aetiology, prevention and therapy. </AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Alexandrov</LastName>
+                    <ForeName>Ludmil B</ForeName>
+                    <Initials>LB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Cancer Genome Project, Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nik-Zainal</LastName>
+                    <ForeName>Serena</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wedge</LastName>
+                    <ForeName>David C</ForeName>
+                    <Initials>DC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Aparicio</LastName>
+                    <ForeName>Samuel A J R</ForeName>
+                    <Initials>SA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Behjati</LastName>
+                    <ForeName>Sam</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Biankin</LastName>
+                    <ForeName>Andrew V</ForeName>
+                    <Initials>AV</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bignell</LastName>
+                    <ForeName>Graham R</ForeName>
+                    <Initials>GR</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bolli</LastName>
+                    <ForeName>Niccolò</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Borg</LastName>
+                    <ForeName>Ake</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Børresen-Dale</LastName>
+                    <ForeName>Anne-Lise</ForeName>
+                    <Initials>AL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Boyault</LastName>
+                    <ForeName>Sandrine</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Burkhardt</LastName>
+                    <ForeName>Birgit</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Butler</LastName>
+                    <ForeName>Adam P</ForeName>
+                    <Initials>AP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Caldas</LastName>
+                    <ForeName>Carlos</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Davies</LastName>
+                    <ForeName>Helen R</ForeName>
+                    <Initials>HR</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Desmedt</LastName>
+                    <ForeName>Christine</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Eils</LastName>
+                    <ForeName>Roland</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Eyfjörd</LastName>
+                    <ForeName>Jórunn Erla</ForeName>
+                    <Initials>JE</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Foekens</LastName>
+                    <ForeName>John A</ForeName>
+                    <Initials>JA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Greaves</LastName>
+                    <ForeName>Mel</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hosoda</LastName>
+                    <ForeName>Fumie</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hutter</LastName>
+                    <ForeName>Barbara</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ilicic</LastName>
+                    <ForeName>Tomislav</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Imbeaud</LastName>
+                    <ForeName>Sandrine</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Imielinski</LastName>
+                    <ForeName>Marcin</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="N">
+                    <LastName>Imielinsk</LastName>
+                    <ForeName>Marcin</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jäger</LastName>
+                    <ForeName>Natalie</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jones</LastName>
+                    <ForeName>David T W</ForeName>
+                    <Initials>DT</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jones</LastName>
+                    <ForeName>David</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Knappskog</LastName>
+                    <ForeName>Stian</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kool</LastName>
+                    <ForeName>Marcel</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lakhani</LastName>
+                    <ForeName>Sunil R</ForeName>
+                    <Initials>SR</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>López-Otín</LastName>
+                    <ForeName>Carlos</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Martin</LastName>
+                    <ForeName>Sancha</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Munshi</LastName>
+                    <ForeName>Nikhil C</ForeName>
+                    <Initials>NC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Hiromi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Northcott</LastName>
+                    <ForeName>Paul A</ForeName>
+                    <Initials>PA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pajic</LastName>
+                    <ForeName>Marina</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Papaemmanuil</LastName>
+                    <ForeName>Elli</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Paradiso</LastName>
+                    <ForeName>Angelo</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pearson</LastName>
+                    <ForeName>John V</ForeName>
+                    <Initials>JV</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Puente</LastName>
+                    <ForeName>Xose S</ForeName>
+                    <Initials>XS</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Raine</LastName>
+                    <ForeName>Keiran</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ramakrishna</LastName>
+                    <ForeName>Manasa</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Richardson</LastName>
+                    <ForeName>Andrea L</ForeName>
+                    <Initials>AL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Richter</LastName>
+                    <ForeName>Julia</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rosenstiel</LastName>
+                    <ForeName>Philip</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schlesner</LastName>
+                    <ForeName>Matthias</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schumacher</LastName>
+                    <ForeName>Ton N</ForeName>
+                    <Initials>TN</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Span</LastName>
+                    <ForeName>Paul N</ForeName>
+                    <Initials>PN</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Teague</LastName>
+                    <ForeName>Jon W</ForeName>
+                    <Initials>JW</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Totoki</LastName>
+                    <ForeName>Yasushi</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tutt</LastName>
+                    <ForeName>Andrew N J</ForeName>
+                    <Initials>AN</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Valdés-Mas</LastName>
+                    <ForeName>Rafael</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>van Buuren</LastName>
+                    <ForeName>Marit M</ForeName>
+                    <Initials>MM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>van 't Veer</LastName>
+                    <ForeName>Laura</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vincent-Salomon</LastName>
+                    <ForeName>Anne</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Waddell</LastName>
+                    <ForeName>Nicola</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yates</LastName>
+                    <ForeName>Lucy R</ForeName>
+                    <Initials>LR</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <CollectiveName>Australian Pancreatic Cancer Genome Initiative</CollectiveName>
+                </Author>
+                <Author ValidYN="Y">
+                    <CollectiveName>ICGC Breast Cancer Consortium</CollectiveName>
+                </Author>
+                <Author ValidYN="Y">
+                    <CollectiveName>ICGC MMML-Seq Consortium</CollectiveName>
+                </Author>
+                <Author ValidYN="Y">
+                    <CollectiveName>ICGC PedBrain</CollectiveName>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zucman-Rossi</LastName>
+                    <ForeName>Jessica</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Futreal</LastName>
+                    <ForeName>P Andrew</ForeName>
+                    <Initials>PA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McDermott</LastName>
+                    <ForeName>Ultan</ForeName>
+                    <Initials>U</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lichter</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Meyerson</LastName>
+                    <ForeName>Matthew</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Grimmond</LastName>
+                    <ForeName>Sean M</ForeName>
+                    <Initials>SM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Siebert</LastName>
+                    <ForeName>Reiner</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Campo</LastName>
+                    <ForeName>Elías</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shibata</LastName>
+                    <ForeName>Tatsuhiro</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pfister</LastName>
+                    <ForeName>Stefan M</ForeName>
+                    <Initials>SM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Campbell</LastName>
+                    <ForeName>Peter J</ForeName>
+                    <Initials>PJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stratton</LastName>
+                    <ForeName>Michael R</ForeName>
+                    <Initials>MR</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>088340</GrantID>
+                    <Agency>Wellcome Trust</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>093867</GrantID>
+                    <Agency>Wellcome Trust</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>T32 CA009216</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>098051</GrantID>
+                    <Agency>Wellcome Trust</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>08</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Nature</MedlineTA>
+            <NlmUniqueID>0410462</NlmUniqueID>
+            <ISSNLinking>0028-0836</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D009153">Mutagens</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>9007-49-2</RegistryNumber>
+                <NameOfSubstance UI="D004247">DNA</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 3.5.4.5</RegistryNumber>
+                <NameOfSubstance UI="D003564">Cytidine Deaminase</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="ErratumIn">
+                <RefSource>Nature. 2013 Oct 10;502(7470):258</RefSource>
+                <Note>Imielinsk, Marcin [corrected to Imielinski, Marcin]</Note>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="CommentIn">
+                <RefSource>Nat Rev Genet. 2013 Oct;14(10):677</RefSource>
+                <PMID Version="1">23982625</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="CommentIn">
+                <RefSource>Nat Rev Clin Oncol. 2013 Oct;10(10):545</RefSource>
+                <PMID Version="1">23999215</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="CommentIn">
+                <RefSource>Nat Rev Cancer. 2013 Oct;13(10):681</RefSource>
+                <PMID Version="1">24060860</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000375" MajorTopicYN="N">Aging</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002471" MajorTopicYN="N">Cell Transformation, Neoplastic</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003564" MajorTopicYN="N">Cytidine Deaminase</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004247" MajorTopicYN="N">DNA</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004252" MajorTopicYN="N">DNA Mutational Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008957" MajorTopicYN="N">Models, Genetic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016296" MajorTopicYN="N">Mutagenesis</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016254" MajorTopicYN="N">Mutagenesis, Insertional</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009153" MajorTopicYN="N">Mutagens</DescriptorName>
+                <QualifierName UI="Q000494" MajorTopicYN="N">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009154" MajorTopicYN="N">Mutation</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009369" MajorTopicYN="N">Neoplasms</DescriptorName>
+                <QualifierName UI="Q000201" MajorTopicYN="N">enzymology</QualifierName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009928" MajorTopicYN="N">Organ Specificity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017384" MajorTopicYN="N">Sequence Deletion</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014158" MajorTopicYN="N">Transcription, Genetic</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">EMS54099</OtherID>
+        <InvestigatorList>
+            <Investigator ValidYN="Y">
+                <LastName>Claviez</LastName>
+                <ForeName>Alexander</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rosenwald</LastName>
+                <ForeName>Andreas</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rosenwald</LastName>
+                <ForeName>Andreas</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Borkhardt</LastName>
+                <ForeName>Arndt</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Brors</LastName>
+                <ForeName>Benedikt</ForeName>
+                <Initials>B</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Radlwimmer</LastName>
+                <ForeName>Bernhard</ForeName>
+                <Initials>B</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lawerenz</LastName>
+                <ForeName>Chris</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lopez</LastName>
+                <ForeName>Cristina</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Langenberger</LastName>
+                <ForeName>David</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Karsch</LastName>
+                <ForeName>Dennis</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lenze</LastName>
+                <ForeName>Dido</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kube</LastName>
+                <ForeName>Dieter</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Leich</LastName>
+                <ForeName>Ellen</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Richter</LastName>
+                <ForeName>Gesine</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Korbel</LastName>
+                <ForeName>Jan</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hoell</LastName>
+                <ForeName>Jessica</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Eils</LastName>
+                <ForeName>Jürgen</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hezaveh</LastName>
+                <ForeName>Kebriah</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Trümper</LastName>
+                <ForeName>Lorenz</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rosolowski</LastName>
+                <ForeName>Maciej</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Weniger</LastName>
+                <ForeName>Marc</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rohde</LastName>
+                <ForeName>Marius</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kreuz</LastName>
+                <ForeName>Markus</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Loeffler</LastName>
+                <ForeName>Markus</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Schilhabel</LastName>
+                <ForeName>Markus</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Dreyling</LastName>
+                <ForeName>Martin</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hansmann</LastName>
+                <ForeName>Martin-Leo</ForeName>
+                <Initials>ML</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hummel</LastName>
+                <ForeName>Michael</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Szczepanowski</LastName>
+                <ForeName>Monika</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ammerpohl</LastName>
+                <ForeName>Ole</ForeName>
+                <Initials>O</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Stadler</LastName>
+                <ForeName>Peter F</ForeName>
+                <Initials>PF</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Möller</LastName>
+                <ForeName>Peter</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Küppers</LastName>
+                <ForeName>Ralf</ForeName>
+                <Initials>R</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Haas</LastName>
+                <ForeName>Siegfried</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Eberth</LastName>
+                <ForeName>Sonja</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Schreiber</LastName>
+                <ForeName>Stefan</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bernhart</LastName>
+                <ForeName>Stephan H</ForeName>
+                <Initials>SH</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hoffmann</LastName>
+                <ForeName>Steve</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Radomski</LastName>
+                <ForeName>Sylwester</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kostezka</LastName>
+                <ForeName>Ulrike</ForeName>
+                <Initials>U</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Klapper</LastName>
+                <ForeName>Wolfram</ForeName>
+                <Initials>W</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sotiriou</LastName>
+                <ForeName>Christos</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Larsimont</LastName>
+                <ForeName>Denis</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Vincent</LastName>
+                <ForeName>Delphine</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Maetens</LastName>
+                <ForeName>Marion</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Mariani</LastName>
+                <ForeName>Odette</ForeName>
+                <Initials>O</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sieuwerts</LastName>
+                <ForeName>Anieta M</ForeName>
+                <Initials>AM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Martens</LastName>
+                <ForeName>John W M</ForeName>
+                <Initials>JW</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Jonasson</LastName>
+                <ForeName>Jon G</ForeName>
+                <Initials>JG</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Treilleux</LastName>
+                <ForeName>Isabelle</ForeName>
+                <Initials>I</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Thomas</LastName>
+                <ForeName>Emilie</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Mac Grogan</LastName>
+                <ForeName>Gaëtan</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Mannina</LastName>
+                <ForeName>Cécile</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Arnould</LastName>
+                <ForeName>Laurent</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Burillier</LastName>
+                <ForeName>Laura</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Merlin</LastName>
+                <ForeName>Jean-Louis</ForeName>
+                <Initials>JL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lefebvre</LastName>
+                <ForeName>Magali</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bibeau</LastName>
+                <ForeName>Frédéric</ForeName>
+                <Initials>F</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Massemin</LastName>
+                <ForeName>Blandine</ForeName>
+                <Initials>B</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Penault-Llorca</LastName>
+                <ForeName>Frédérique</ForeName>
+                <Initials>F</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lopez</LastName>
+                <ForeName>Qian</ForeName>
+                <Initials>Q</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Mathieu</LastName>
+                <ForeName>Marie-Christine</ForeName>
+                <Initials>MC</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lonning</LastName>
+                <ForeName>Per Eystein</ForeName>
+                <Initials>PE</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Schlooz-Vries</LastName>
+                <ForeName>Margrete</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Tol</LastName>
+                <ForeName>Jolien</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>van Laarhoven</LastName>
+                <ForeName>Hanneke</ForeName>
+                <Initials>H</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sweep</LastName>
+                <ForeName>Fred</ForeName>
+                <Initials>F</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bult</LastName>
+                <ForeName>Peter</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+        </InvestigatorList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2013</Year>
+                <Month>03</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2013</Year>
+                <Month>07</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>8</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>8</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>10</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">23945592</ArticleId>
+            <ArticleId IdType="pii">nature12477</ArticleId>
+            <ArticleId IdType="doi">10.1038/nature12477</ArticleId>
+            <ArticleId IdType="pmc">PMC3776390</ArticleId>
+            <ArticleId IdType="mid">EMS54099</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Science. 2010 Oct 8;330(6001):228-31</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20826764</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cell. 2012 Sep 14;150(6):1107-20</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22980975</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2011 Feb 10;470(7333):214-20</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21307934</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2009 Apr 9;458(7239):719-24</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19360079</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2013 Feb 21;494(7437):366-70</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23389445</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2013 Jan 10;493(7431):216-20</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23201682</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Annu Rev Biochem. 2007;76:1-22</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17328676</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2012 Jan;44(1):17-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22138691</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Elife. 2013;2:e00534</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23599896</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2012 Jul;44(7):751-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22683710</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2012 Nov 1;491(7422):56-65</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23128226</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2012 Oct;44(10):1104-10</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22941188</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cold Spring Harb Perspect Biol. 2010 Jan;2(1):a001008</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20182602</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cancer Res. 2006 Apr 15;66(8):3987-91</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16618716</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2011 Dec;43(12):1219-23</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22037554</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Rev Mol Cell Biol. 2008 Dec;9(12):958-70</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19023283</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2010 Apr 15;464(7291):993-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20393554</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2012 Jun 21;486(7403):400-4</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22722201</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nucleic Acids Res. 2001 Jan 1;29(1):308-11</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11125122</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cell. 2012 Jul 20;150(2):264-78</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22817890</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Mol Cell. 2012 Sep 14;47(5):669-80</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22864113</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cell. 2012 May 25;149(5):994-1007</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22608083</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Proc Natl Acad Sci U S A. 2011 Dec 27;108(52):21188-93</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22158988</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Mutat Res. 2000 May 30;450(1-2):125-38</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10838138</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2012 May;44(5):570-4</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22484628</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Genome Med. 2010 Aug 16;2(8):54</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20707934</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2013 May;45(5):478-86</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23525077</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2012 Jan 12;481(7380):157-63</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22237106</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2011 Jul 7;475(7354):101-5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21642962</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2012 Feb;44(2):165-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22197930</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2013 Jul 11;499(7457):214-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23770567</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Science. 2011 Mar 4;331(6021):1199-203</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21252315</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cell. 2012 Jul 20;150(2):251-63</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22817889</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Bioinformatics. 2011 Aug 1;27(15):2144-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21690102</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cell Rep. 2013 Jan 31;3(1):246-59</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23318258</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2012 Jul 12;487(7406):239-43</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22722839</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2012 May 24;485(7399):502-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22622578</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Front Microbiol. 2013 Feb 20;4:28</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23431045</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2013 Mar;45(3):279-84</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23334666</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2012 Jan 26;481(7382):506-10</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22237025</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2012 Jun;44(6):685-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22610119</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Science. 2011 Aug 26;333(6046):1154-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21798897</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Mutat Res. 2012 Oct-Dec;751(2):158-246</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22743550</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2008 Oct 23;455(7216):1069-75</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18948947</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2012 Aug 30;488(7413):660-4</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22895193</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2013 Jun;45(6):602-12</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23583981</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cell. 2012 May 25;149(5):979-93</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22608084</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2011 Aug 18;476(7360):298-303</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21796119</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2012 Jan;44(1):47-52</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22158541</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2013 May 2;497(7447):67-73</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23636398</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2013 Feb;45(2):186-90</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23263491</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Oncogene. 2002 Oct 21;21(48):7435-51</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12379884</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gastroenterology. 2010 Jun;138(6):2073-2087.e3</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20420947</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2012 Dec;44(12):1321-5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23143597</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Curr Top Microbiol Immunol. 2006;301:259-81</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16570852</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Genome Res. 2012 Nov;22(11):2109-19</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22975805</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Mol Cell. 2002 Nov;10(5):1247-53</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12453430</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Mutat Res. 2005 Apr 1;571(1-2):19-31</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15748635</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2013 Mar;45(3):242-52</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23334668</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2013 Jan;45(1):12-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23202128</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Science. 2011 Aug 26;333(6046):1157-60</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21798893</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Genomics. 2008;9:379</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18691401</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nature. 2012 Jul 19;487(7407):330-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22810696</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Genet. 2012 Oct;44(10):1111-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22941189</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

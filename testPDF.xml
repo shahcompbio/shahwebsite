@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    
+    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!-- AppResources meta begin -->
+        <script type="text/javascript">var ncbi_startTime = new Date();</script>
+        <!-- AppResources meta end -->
+        
+        <!-- TemplateResources meta begin -->
+        <meta name="paf_template" content="error" />
+
+        <!-- TemplateResources meta end -->
+        
+        <!-- Logger begin -->
+        <meta name="ncbi_app" content="pmc" /><meta name="ncbi_pdid" content="error" />
+        <!-- Logger end -->
+        
+        <title>Page not available</title>
+        
+        <!-- AppResources external_resources begin -->
+        <link rel="stylesheet" href="/core/jig/1.14.8/css/jig.min.css" /><script type="text/javascript" src="/core/jig/1.14.8/js/jig.min.js"></script>
+
+        <!-- AppResources external_resources end -->
+        
+        <!-- Page meta begin -->
+        <meta xmlns:ncbi-portal="http://ncbi.gov/portal/XSLT/namespace" xmlns:np="http://ncbi.gov/portal/XSLT/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="robots" content="NOINDEX,NOFOLLOW,NOARCHIVE" /><link xmlns:ncbi-portal="http://ncbi.gov/portal/XSLT/namespace" xmlns:np="http://ncbi.gov/portal/XSLT/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rel="stylesheet" href="/corehtml/pmc/css/3.15.7/pmc.min.css" type="text/css" /><style xmlns:ncbi-portal="http://ncbi.gov/portal/XSLT/namespace" xmlns:np="http://ncbi.gov/portal/XSLT/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="text/css">.pmc-wm {background:transparent repeat-y top left;background-image:url(/corehtml/pmc/pmcgifs/wm-nobrand.png);background-size: auto, contain}</style><style xmlns:ncbi-portal="http://ncbi.gov/portal/XSLT/namespace" xmlns:np="http://ncbi.gov/portal/XSLT/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="text/css">.print-view{display:block}</style><script xmlns:ncbi-portal="http://ncbi.gov/portal/XSLT/namespace" xmlns:np="http://ncbi.gov/portal/XSLT/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="text/javascript" src="/corehtml/pmc/js/common.js">//</script><script xmlns:ncbi-portal="http://ncbi.gov/portal/XSLT/namespace" xmlns:np="http://ncbi.gov/portal/XSLT/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="text/javascript" src="/corehtml/pmc/js/NcbiTagServer.min.js">//</script><script xmlns:ncbi-portal="http://ncbi.gov/portal/XSLT/namespace" xmlns:np="http://ncbi.gov/portal/XSLT/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="text/javascript">window.name="mainwindow";</script>
+        <!-- Page meta end -->
+    <link rel="shortcut icon" href="//www.ncbi.nlm.nih.gov/favicon.ico" /><meta name="ncbi_phid" content="8A1BC9D002C18EF10000000006050603.m_5" />
+<meta name='referrer' content='origin-when-cross-origin'/><link type="text/css" rel="stylesheet" href="//static.pubmed.gov/portal/portal3rc.fcgi/4160049/css/3852956/3985586/3808861/4121862/3974050/3917732/251717/4048120/3846471/14534/3861632/3881636/3579733/4062871/12930/3964959/4033350.css" /><link type="text/css" rel="stylesheet" href="//static.pubmed.gov/portal/portal3rc.fcgi/4160049/css/3411343/3882866.css" media="print" /></head>
+    <body class="">
+        <div class="grid">
+            <div class="col twelve_col nomargin shadow">
+                <!-- System messages like service outage or JS required; this is handled by the TemplateResources portlet -->
+                <div class="sysmessages">
+                    <noscript>
+	<p class="nojs">
+	<strong>Warning:</strong>
+	The NCBI web site requires JavaScript to function. 
+	<a href="/guide/browsers/#enablejs" title="Learn how to enable JavaScript" target="_blank">more...</a>
+	</p>
+	</noscript>
+                </div>
+                <!--/.sysmessage-->
+                <div class="wrap">
+                    <div class="page">
+                        <div class="top">
+                            <div class="universal_header" id="universal_header"><ul class="inline_list jig-ncbimenu ui-ncbimenu resources_list" id="navcontent"><li class="ui-ncbimenu-item-leaf ui-ncbimenu-item-first ui-helper-reset ui-ncbimenu-item-no-hlt"><a class="ui-ncbimenu-link-first" href="/" role="banner" title="NCBI Home" id="ncbihome" accesskey="1"><span class="offscreen_noflow">NCBI</span><img src="//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/28977" class="ncbi_logo" title="NCBI" alt="NCBI Logo" /></a></li><li class="offscreen_noflow ui-ncbimenu-item-skip access"><a href="#maincontent" title="Skip to the content" tabindex="0" accesskey="3">Skip to main
+                        content</a></li><li class="offscreen_noflow ui-ncbimenu-item-skip access"><a href="#navcontent" title="Skip to the navigation" tabindex="0" accesskey="4">Skip to
+                        navigation</a></li><li id="resource-menu" class="topmenu ui-helper-reset ui-ncbimenu-item-first ui-helper-reset"><a class="ui-ncbimenu-first-link-has-submenu ui-ncbimenu-link-first topanchor expandDown" href="/static/header_footer_ajax/submenu/#resources">Resources</a></li><li id="all-howtos-menu" class="topmenu ui-helper-reset ui-ncbimenu-item-first"><a class="ui-ncbimenu-first-link-has-submenu ui-ncbimenu-link-first topanchor expandDown" href="/static/header_footer_ajax/submenu/#howto">How To</a></li><li class="offscreen_noflow ui-ncbimenu-item-skip access"><a href="/guide/browsers/#accesskeys" title="About My NCBI Accesskeys" tabindex="0" accesskey="0">About NCBI Accesskeys</a></li></ul><div class="myncbi"><span id="myncbiusername" style="display:none"><a href="/account/settings/" id="mnu" title="Edit account settings"></a></span><a accesskey="2" href="/myncbi/" id="myncbi" style="display:none">My NCBI</a><a href="/account/" id="sign_in">Sign in to NCBI</a><a href="/account/signout/" id="sign_out" style="display:none">Sign Out</a></div></div>
+                            <div class="header">
+    <div class="res_logo">
+  <h1 class="img_logo"><a href="/pmc/" class="pmc_logo offscreen">PMC</a></h1>
+  <div class="NLMLogo">
+    <a href="https://www.nlm.nih.gov/" title="US National Library of Medicine">US National Library of Medicine</a>
+    <br />
+    <a href="https://www.nih.gov/" title="National Institutes of Health">National Institutes of Health</a>
+  </div>
+</div>
+    <div class="search"><form method="get" action="/pmc/"><div class="search_form"><label for="database" class="offscreen_noflow">Search database</label><select id="database"><optgroup label="Recent"><option value="pmc" selected="selected" class="last" data-ac_dict="pmc-search-autocomplete">PMC</option></optgroup><optgroup label="All"><option value="gquery">All Databases</option><option value="assembly">Assembly</option><option value="biocollections">Biocollections</option><option value="bioproject">BioProject</option><option value="biosample">BioSample</option><option value="biosystems">BioSystems</option><option value="books">Books</option><option value="clinvar">ClinVar</option><option value="cdd">Conserved Domains</option><option value="gap">dbGaP</option><option value="dbvar">dbVar</option><option value="gene">Gene</option><option value="genome">Genome</option><option value="gds">GEO DataSets</option><option value="geoprofiles">GEO Profiles</option><option value="gtr">GTR</option><option value="homologene">HomoloGene</option><option value="ipg">Identical Protein Groups</option><option value="medgen">MedGen</option><option value="mesh">MeSH</option><option value="ncbisearch">NCBI Web Site</option><option value="nlmcatalog">NLM Catalog</option><option value="nuccore">Nucleotide</option><option value="omim">OMIM</option><option value="pmc" data-ac_dict="pmc-search-autocomplete">PMC</option><option value="popset">PopSet</option><option value="protein">Protein</option><option value="proteinclusters">Protein Clusters</option><option value="protfam">Protein Family Models</option><option value="pcassay">PubChem BioAssay</option><option value="pccompound">PubChem Compound</option><option value="pcsubstance">PubChem Substance</option><option value="pubmed">PubMed</option><option value="snp">SNP</option><option value="sra">SRA</option><option value="structure">Structure</option><option value="taxonomy">Taxonomy</option><option value="toolkit">ToolKit</option><option value="toolkitall">ToolKitAll</option><option value="toolkitbookgh">ToolKitBookgh</option></optgroup></select><div class="nowrap"><label for="term" class="offscreen_noflow" accesskey="/">Search term</label><div class="nowrap"><input type="text" name="term" id="term" title="Search PMC. Use up and down arrows to choose an item from the autocomplete." value="" class="jig-ncbiclearbutton jig-ncbiautocomplete" data-jigconfig="dictionary:'pmc-search-autocomplete',disableUrl:'NcbiSearchBarAutoComplCtrl'" autocomplete="off" data-sbconfig="ds:'no',pjs:'no',afs:'yes'" /></div><button id="search" type="submit" class="button_search nowrap" cmd="go">Search</button></div></div></form><ul class="searchlinks inline_list"><li>
+                        <a href="/pmc/advanced/">Advanced</a>
+                    </li><li>
+                        <a href="/pmc/journals/">Journal list</a>
+                    </li><li class="help">
+                        <a target="_blank" href="/books/NBK3825/">Help</a>
+                    </li></ul></div>
+</div>
+
+                            
+                            
+                        <!--<component id="Page" label="headcontent"/>-->
+                            
+                        </div>
+                        <div class="content">
+                            <!-- site messages -->
+                            <div class="container">
+    <div id="maincontent" class="twelve_col col">
+        <div class="col1">
+            <div>
+  <div class="pmc-page-banner whole_rhythm">
+    <h1 class="banner-color1 banner-text banner-title">Page not available</h1>
+  </div>
+  <div class="main-exception-content">
+    <p>
+      <em>Your access to PubMed Central has been blocked because you are using an automated process to retrieve content from PMC, in violation of the terms of the PMC Copyright Notice.</em>
+    </p>
+    <div class="pmc-warning-box el-exception-box whole_rhythm">
+      <div class="details">
+<div class="el-exception-reason"><span style="font-weight: bold;">Reason: </span>Automated retrieval by user agent "python-requests/2.22.0".</div>
+<div class="el-exception-url"><span style="font-weight: bold;">URL: </span>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3382171/pdf/pone.0039653.pdf</div>
+<div class="el-exception-id"><span style="font-weight: bold;">Message ID: </span>1062459024 (ipmc12)</div>
+<div class="el-exception-time"><span style="font-weight: bold;">Time: </span>2021/02/16 15:13:01</div></div>
+    </div>
+    <p>Use of PMC is free, but must comply with the terms of the <a href="/pmc/about/copyright/">Copyright Notice</a> on the PMC site. For additional information, or to request that your IP address be unblocked, <span class="el-contact-help">please send an <a href="mailto:pubmedcentral@nih.gov?subject=%5BPMC%20Exception%20Feedback%5D%3A%20Blocked%20request.%20Reason%3A%20Automated%20retrieval%20by%20user%20agent%20%22python-requests%2F2.22.0%22.&amp;body=%3E%20%0A%3E%20Reason%3A%20Automated%20retrieval%20by%20user%20agent%20%22python-requests%2F2.22.0%22.%0A%3E%20URL%3A%20https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC3382171%2Fpdf%2Fpone.0039653.pdf%0A%3E%20Message%20ID%3A%201062459024%20(ipmc12)%0A%3E%20Time%3A%202021%2F02%2F16%2015%3A13%3A01">email to PMC</a>.</span> For requests to be unblocked, you <em>must</em> include all of the information in the box above in your message.</p>
+  </div>
+</div>
+
+        </div>
+        <div class="col2">
+            
+        </div>
+        <div class="col3">
+            
+        </div>
+        <div class="col4">
+            
+        </div>
+        <div class="col5">
+            
+        </div>
+        <div class="col6">
+            
+        </div>
+        <div class="col7">
+            
+        </div>
+        <div class="col8">
+            
+        </div>
+        <div class="col9">
+            
+        </div>
+    </div>
+</div>
+                        </div>
+                        <div class="bottom">
+                            
+                            <div id="NCBIFooter_dynamic">
+    <a id="help-desk-link" class="help_desk" href="" target="_blank">Support Center</a>
+    <a id="help-desk-link" class="help_desk" href="https://support.ncbi.nlm.nih.gov/ics/support/KBList.asp?Time=2021-02-16T15:13:01-05:00&amp;Snapshot=%2Fprojects%2FPMC%2FPMCViewer@4.46&amp;Host=ptpmc102&amp;ncbi_phid=8A1BC9D002C18EF10000000006050603&amp;ncbi_session=8A1BC9D002C274D1_1541SID&amp;from=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC3382171%2Fpdf%2Fpone.0039653.pdf&amp;Db=pmc&amp;folderID=132&amp;Ncbi_App=pmc&amp;Page=error&amp;style=classic&amp;deptID=28049" target="_blank">Support Center</a>
+    
+</div>
+
+                            <div class="footer" id="footer">
+    
+    <div class="subfooter"> </div><script type="text/javascript" src="/portal/portal3rc.fcgi/static/js/preloaderWidget.js"> </script>
+    <div id="external-disclaimer" class="offscreen_noflow">
+        External link. Please review our <a href="https://www.nlm.nih.gov/privacy.html">privacy policy</a>.
+    </div>    
+    <div id="ncbifooter" class="contact_info">      
+        <div id="footer-contents-right">
+            <div id="nlm_thumb_logo">
+                <a href="https://www.nlm.nih.gov" title="NLM">NLM</a>
+            </div>
+            <div id="nih_thumb_logo">
+                <a href="https://www.nih.gov" title="NIH">NIH</a>
+            </div>
+            <div id="hhs_thumb_logo">
+                <a href="https://www.hhs.gov" title="DHHS">DHHS</a>
+            </div>
+            <div id="usagov_thumb_logo">
+                <a href="https://www.usa.gov" title="USA.gov">USA.gov</a>
+            </div>         
+        </div>
+        
+        <div id="footer-contents-left">
+            <p class="address vcard">
+                <span class="url">
+                    <a class="fn url newdomain" href="https://www.ncbi.nlm.nih.gov">National Center for
+                        Biotechnology Information</a>,
+                </span> <span class="org url newdomain"><a href="https://www.nlm.nih.gov/">U.S. National Library of Medicine</a></span>
+                <span class="adr">
+                    <span class="street-address">8600 Rockville Pike</span>, <span class="locality">Bethesda</span>
+                    <span class="region">MD</span>, <span class="postal-code">20894</span>
+                    <span class="country-name">USA</span>
+                </span>
+            </p>
+            
+            <a href="/home/about/policies.shtml">Policies and Guidelines</a> | <a href="/home/about/contact.shtml">Contact</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="/portal/portal3rc.fcgi/rlib/js/InstrumentOmnitureBaseJS/InstrumentNCBIConfigJS/InstrumentNCBIBaseJS/InstrumentPageStarterJS.js?v=1"> </script>    
+    <script type="text/javascript" src="/portal/portal3rc.fcgi/static/js/hfjs2.js"> </script>
+</div>
+                        </div>
+                    </div>
+                    <!--/.page-->
+                </div>
+                <!--/.wrap-->
+            </div><!-- /.twelve_col -->
+        </div>
+        <!-- /.grid -->
+
+        <span class="PAFAppResources"></span>
+        
+        <!-- BESelector tab -->
+        
+        
+        
+        <noscript><img alt="statistics" src="/stat?jsdisabled=true&amp;ncbi_app=pmc&amp;ncbi_pdid=error" /></noscript>
+        
+        
+        <!-- usually for JS scripts at page bottom -->
+        <!--<component id="PageFixtures" label="styles"></component>-->
+    
+
+<!-- 8A1BC9D002C274D1_1541SID /projects/PMC/PMCViewer@4.46 ptpmc102 v4.1.r621975 Fri, Dec 18 2020 02:56:50 -->
+
+<script type="text/javascript" src="//static.pubmed.gov/portal/portal3rc.fcgi/4160049/js/3879255/4121861/3818874/4168176/4087685.js" snapshot="pmc"></script></body>
+</html>
